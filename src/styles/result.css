@@ -13,9 +13,13 @@ body{
 
 .result-container{
   min-height:100vh;
-  padding:110px 40px 40px;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding:120px 30px 30px 30px;
   position:relative;
   overflow:hidden;
+
   background:linear-gradient(135deg,#2b6cb0 0%, #3b82f6 50%, #60a5fa 100%);
 }
 
@@ -29,28 +33,42 @@ body{
   opacity:.5;
 }
 
+.result-container::after{
+  content:'';
+  position:absolute;
+  width:280px;
+  height:280px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.08);
+  top:-70px;
+  right:-70px;
+}
+
 .top-banner{
   position:absolute;
   top:0;
   left:0;
   width:100%;
+
   background:#2b6cb0;
   color:white;
-  padding:20px 40px;
+  padding:14px;
   z-index:3;
+
   display:flex;
   justify-content:space-between;
   align-items:center;
+
   box-shadow:0 4px 16px rgba(0,0,0,.08);
 }
 
 .banner-left h2{
-  font-size:26px;
+  font-size:22px;
   font-weight:700;
 }
 
 .banner-left p{
-  font-size:14px;
+  font-size:13px;
   margin-top:4px;
 }
 
@@ -58,15 +76,25 @@ body{
   text-align:right;
 }
 
+.banner-right h4{
+  font-size:16px;
+}
+
+.banner-right p{
+  font-size:13px;
+  margin-top:4px;
+}
+
 .result-card{
+  width:100%;
+  max-width:1500px;
   position:relative;
   z-index:2;
-  width:100%;
-  max-width:1600px;
-  margin:auto;
+
   background:white;
   border-radius:24px;
-  padding:40px;
+  padding:35px 40px;
+
   box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
@@ -90,7 +118,7 @@ body{
 }
 
 .result-title{
-  font-size:38px;
+  font-size:32px;
   font-weight:700;
   color:#1e293b;
 }
@@ -172,25 +200,23 @@ body{
   margin-top:30px;
   display:flex;
   justify-content:center;
-  align-items:center; /* penting */
+  align-items:center;
   gap:20px;
 }
 
 .back-btn,
 .retry-btn{
-  width:180px !important;
-  height:64px !important;
-  margin:0;
-  padding:0;
+  width:150px;
+  height:50px;
   border:none;
   border-radius:14px;
   cursor:pointer;
   font-weight:600;
   font-size:15px;
 
-  display:flex;              /* penting */
-  justify-content:center;    /* penting */
-  align-items:center;        /* penting */
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .back-btn{
@@ -199,6 +225,7 @@ body{
 }
 
 .retry-btn{
+  margin-top:30px;
   background:#2563eb;
   color:white;
 }
@@ -217,7 +244,7 @@ body{
   }
 
   .result-title{
-    font-size:28px;
+    font-size:26px;
   }
 
   .top-banner{
@@ -232,6 +259,5 @@ body{
 
   .result-footer{
     flex-direction:column;
-    align-items:center;
   }
 }
