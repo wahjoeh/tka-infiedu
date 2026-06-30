@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#f4f6fb;
+}
+
+.practice-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding:120px 30px 30px 30px;
+  position:relative;
+  overflow:hidden;
+
+  background:linear-gradient(135deg,#2b6cb0 0%, #3b82f6 50%, #60a5fa 100%);
+}
+
+.practice-container::before{
+  content:'';
+  position:absolute;
+  inset:0;
+
+  background-image:
+    radial-gradient(rgba(255,255,255,0.15) 2px, transparent 2px);
+
+  background-size:40px 40px;
+  opacity:.5;
+}
+
+.practice-container::after{
+  content:'';
+  position:absolute;
+  width:280px;
+  height:280px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.08);
+  top:-70px;
+  right:-70px;
+}
+
+.top-banner{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+
+  background:#2b6cb0;
+  color:white;
+  text-align:center;
+  padding:14px;
+  z-index:3;
+
+  box-shadow:0 4px 16px rgba(0,0,0,.08);
+}
+
+.top-banner h2{
+  font-size:22px;
+  font-weight:700;
+}
+
+.top-banner p{
+  font-size:13px;
+  margin-top:4px;
+}
+
+.practice-card{
+  width:100%;
+  max-width:800px;
+  position:relative;
+  z-index:2;
+
+  background:white;
+  padding:36px 40px;
+  border-radius:24px;
+  text-align:center;
+
+  box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.page-title{
+  font-size:28px;
+  color:#1e293b;
+  font-weight:700;
+}
+
+.page-subtitle{
+  margin-top:10px;
+  color:#64748b;
+  font-size:15px;
+  line-height:1.6;
+}
+
+.subject-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  margin-top:30px;
+}
+
+.subject-card{
+  border:none;
+  background:white;
+  border:1px solid #dbeafe;
+  border-radius:18px;
+  padding:24px;
+  min-height:135px;
+  cursor:pointer;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+
+  transition:.25s;
+}
+
+.subject-card:hover{
+  transform:translateY(-4px);
+  border-color:#2563eb;
+  box-shadow:0 8px 20px rgba(37,99,235,.12);
+}
+
+.subject-icon{
+  font-size:34px;
+  margin-bottom:4px;
+}
+
+.subject-card h3{
+  color:#111827;
+  font-size:18px;
+  font-weight:600;
+}
+
+.subject-card p{
+  color:#64748b;
+  font-size:13px;
+  line-height:1.5;
+}
+
+.back-btn{
+  margin-top:28px;
+  padding:11px 22px;
+  border:none;
+  border-radius:12px;
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+  font-weight:600;
+  font-size:14px;
+  transition:.2s;
+}
+
+.back-btn:hover{
+  background:#1d4ed8;
+}
+
+.disabled-card{
+  background:#f3f4f6 !important;
+  border:1px solid #d1d5db !important;
+  cursor:not-allowed;
+  opacity:.75;
+  pointer-events:none;
+}
+
+.disabled-card:hover{
+  transform:none !important;
+  box-shadow:none !important;
+}
+
+.disabled-card .subject-icon{
+  opacity:.7;
+}
+
+.disabled-card h3{
+  color:#6b7280;
+}
+
+.disabled-card p{
+  margin-top:8px;
+  font-size:13px;
+  color:#9ca3af;
+}
+
+@media (max-width:768px){
+  .subject-grid{
+    grid-template-columns:1fr;
+  }
+
+  .practice-card{
+    padding:28px;
+  }
+
+  .page-title{
+    font-size:24px;
+  }
+}
