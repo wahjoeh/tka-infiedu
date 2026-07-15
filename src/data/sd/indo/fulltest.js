@@ -634,7 +634,7 @@ export default [
   },
   {
     "id": 25,
-    "type": "truefalse",
+    "type": "suitable",
     "stimulus": {
       "instruction": "Amatilah poster berikut untuk menjawab soal nomor 22–25",
       "title": null,
