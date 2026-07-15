@@ -159,6 +159,38 @@ body{
   transition:.2s;
 }
 
+.question-image{
+
+  width:100%;
+
+  max-width:450px;
+
+  display:block;
+
+  margin:18px auto;
+
+  border-radius:14px;
+
+  border:1px solid #dbeafe;
+
+  object-fit:contain;
+
+}
+
+.question-source{
+
+  margin-top:14px;
+
+  font-size:12px;
+
+  color:#64748b;
+
+  font-style:italic;
+
+  line-height:1.6;
+
+}
+
 .back-btn:hover{
   background:#1d4ed8;
 }

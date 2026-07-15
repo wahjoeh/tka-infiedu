@@ -2,11 +2,11 @@
   <div class="smp-container">
     <div class="top-banner">
       <h2>TKA InfiEdu</h2>
-      <p>TKA SMA Simulation</p>
+      <p>TKA SD Simulation</p>
     </div>
 
     <div class="smp-card">
-      <h1 class="page-title">TKA SMA</h1>
+      <h1 class="page-title">TKA SD</h1>
       <p class="page-subtitle">
         Pilih mode pembelajaran yang ingin kamu gunakan
       </p>
@@ -34,16 +34,16 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import '../../styles/sma.css'
+import '../../styles/smp.css'
 
 const router = useRouter()
 
 const goToPractice = () => {
-  router.push('/sma/practice')
+  router.push('/sd/practice')
 }
 
 const goToTest = () => {
-  router.push('/sma/test')
+  router.push('/sd/test')
 }
 
 const goBack = () => {

@@ -3,7 +3,7 @@
     <div class="top-banner">
       <div class="banner-left">
         <h2>TKA InfiEdu</h2>
-        <p>TKA SMP Simulation Result</p>
+        <p>TKA Simulation Result</p>
       </div>
 
       <div class="banner-right">
@@ -19,7 +19,7 @@
         <h1 class="result-title">Reviu Hasil Simulasi</h1>
 
         <div class="result-subtitle">
-          Bahasa Indonesia - TKA SMP
+          Bahasa Indonesia - TKA
         </div>
       </div>
 
@@ -88,7 +88,7 @@ onMounted(() => {
 })
 
 const goBack = () => {
-  router.push('/smp/practice/indo')
+  router.push('/sd/practice/indo')
 }
 
 const retryTest = () => {

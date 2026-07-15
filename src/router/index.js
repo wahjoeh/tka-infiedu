@@ -3,6 +3,16 @@ import { createRouter, createWebHistory } from 'vue-router'
 // Home
 import HomeView from '../views/home/HomeView.vue'
 
+// SD
+import SDView from '../views/sd/SDView.vue'
+import SDPracticeView from '../views/sd/SDPracticeView.vue'
+
+import SDMathView from '../views/sd/math/SDMathView.vue'
+import SDMathTestView from '../views/sd/math/SDMathTestView.vue'
+
+import SDIndoView from '../views/sd/indo/SDIndoView.vue'
+import SDIndoTestView from '../views/sd/indo/SDIndoTestView.vue'
+
 // SMP
 import SMPView from '../views/smp/SMPView.vue'
 import SMPPracticeView from '../views/smp/SMPPracticeView.vue'
@@ -16,12 +26,26 @@ import SMPIndoView from '../views/smp/indo/SMPIndoView.vue'
 import SMPEnglishView from '../views/smp/english/SMPEnglishView.vue'
 import SMPScienceView from '../views/smp/science/SMPScienceView.vue'
 
-// Math Test
+// SMP Math Test
 import SMPMathTestView from '../views/smp/math/SMPMathTestView.vue'
 import SMPIndoTestView from '../views/smp/indo/SMPIndoTestView.vue'
 
 // SMA
 import SMAView from '../views/sma/SMAView.vue'
+import SMAPracticeView from '../views/sma/SMAPracticeView.vue'
+
+//SMA Package
+import SMAIndoPackageView from '../views/sma/indo/SMAIndoPackageView.vue'
+
+// SMA Subjects
+import SMAMathView from '../views/sma/math/SMAMathView.vue'
+import SMAIndoView from '../views/sma/indo/SMAIndoView.vue'
+import SMAEnglishView from '../views/sma/english/SMAEnglishView.vue'
+import SMAScienceView from '../views/sma/science/SMAScienceView.vue'
+
+// SMA Math Test
+import SMAMathTestView from '../views/sma/math/SMAMathTestView.vue'
+import SMAIndoTestView from '../views/sma/indo/SMAIndoTestView.vue'
 
 // Result
 import ResultView from '../views/ResultView.vue'
@@ -31,6 +55,24 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+
+  // SD Main
+  {
+    path: '/sd',
+    component: SDView
+  },
+  {
+    path: '/sd/practice',
+    component: SDPracticeView
+  },
+  {
+    path: '/sd/practice/indo',
+    component: SDIndoView
+  },
+  {
+    path: '/sd/practice/indo/test',
+    component: SDIndoTestView
   },
 
   // SMP Main
@@ -86,11 +128,57 @@ const routes = [
   component: SMPIndoTestView
   },
 
-  // SMA
+  // SMP Main
   {
     path: '/sma',
     name: 'sma',
     component: SMAView
+  },
+  {
+    path: '/sma/practice',
+    name: 'sma-practice',
+    component: SMAPracticeView
+  },
+
+  // SMA Subjects
+  {
+    path: '/sma/practice/math',
+    name: 'sma-math',
+    component: SMAMathView
+  },
+  {
+    path: '/sma/practice/indo',
+    name: 'sma-indo',
+    component: SMAIndoView
+  },
+  {
+    path: '/sma/practice/english',
+    name: 'sma-english',
+    component: SMAEnglishView
+  },
+  {
+    path: '/sma/practice/science',
+    name: 'sma-science',
+    component: SMAScienceView
+  },
+
+  //PackageView
+  {
+  path: '/sma/practice/indo/packages',
+  name: 'sma-indo-packages',
+  component: SMAIndoPackageView
+  },
+
+  // Test
+  {
+    path: '/sma/practice/math/test',
+    name: 'sma-math-test',
+    component: SMAMathTestView
+  },
+  {
+  path: '/sma/practice/indo/test',
+  name: 'sma-indo-test',
+  component: SMAIndoTestView
   },
 
   // Result
