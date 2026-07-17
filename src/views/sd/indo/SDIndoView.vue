@@ -9,40 +9,33 @@
       <h1 class="page-title">Latihan Bahasa Indonesia</h1>
 
       <p class="page-subtitle">
-        Pilih aspek materi berdasarkan kisi-kisi TKA SMP 2026
+        Pilih aspek materi berdasarkan kisi-kisi TKA SD 2026
       </p>
 
       <div class="package-grid">
         <button class="package-card" @click="goToTest('idepokok')">
-          <h3>Ide Pokok & Simpulan</h3>
+          <h3>Pemahaman Tekstual</h3>
           <p>
-            Menentukan inti paragraf dan simpulan tersurat maupun tersirat.
+            Memahami informasi yang dikemukakan secara eksplisit, mengelompokkan, menyusun ulang, dan menyajikan kembali informasi secara eksplisit dari teks..
           </p>
         </button>
 
         <button class="package-card" @click="goToTest('evaluasi')">
-          <h3>Evaluasi Kualitas Informasi</h3>
+          <h3>Pemahaman inferensial</h3>
           <p>
-            Membedakan fakta dan opini serta mengevaluasi data dan informasi.
+            Menarik kesimpulan berdasarkan informasi yang tersirat dalam teks.
           </p>
         </button>
 
         <button class="package-card" @click="goToTest('kebahasaan')">
-          <h3>Kebahasaan & Struktur</h3>
+          <h3>Evaluasi dan Apresiasi</h3>
           <p>
-            Ejaan, tanda baca, kalimat efektif, dan susunan paragraf.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('sastra')">
-          <h3>Literasi Sastra</h3>
-          <p>
-            Watak tokoh, latar, konflik, dan pesan moral.
+            Membuat penilaian terhadap ide, menanggapi teks secara emosional dan estetis dengan mempertimbangkan dampaknya terhadap perasaan, imajinasi, serta penggunaan bahasa oleh penulis.
           </p>
         </button>
 
         <button class="package-card full-test" @click="goToTest('fulltest')">
-          <h3>Full Test Simulation</h3>
+          <h3>Simulasi Tes</h3>
           <p>
             Simulasi lengkap seluruh materi Bahasa Indonesia TKA SD.
           </p>
@@ -58,7 +51,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import '../../../styles/smp-indo.css'
+import '../../../styles/sd-indo.css'
 
 const router = useRouter()
 

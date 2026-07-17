@@ -71,6 +71,14 @@ const routes = [
     component: SDIndoView
   },
   {
+    path: '/sd/practice/math/test',
+    component: SDMathTestView
+  },
+    {
+    path: '/sd/practice/math',
+    component: SDMathView
+  },
+  {
     path: '/sd/practice/indo/test',
     component: SDIndoTestView
   },

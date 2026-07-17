@@ -31,7 +31,7 @@
     >
 
       <h2>
-        Soal Nomor {{ currentQuestion + 1 }}
+        Soal Nomor {{ currentQuestion + 1 }} dari {{ questions.length }}
       </h2>
 
       <div class="question-box split-layout">
@@ -48,15 +48,15 @@
           <div
             v-if="questions[currentQuestion].stimulus.instruction"
             class="reading-title"
+            v-html="formatFraction(questions[currentQuestion].stimulus.instruction)"
           >
-            {{ questions[currentQuestion].stimulus.instruction }}
           </div>
 
           <div
             v-if="questions[currentQuestion].stimulus.title"
             class="reading-subtitle"
+            v-html="formatFraction(questions[currentQuestion].stimulus.title)"
           >
-            {{ questions[currentQuestion].stimulus.title }}
           </div>
 
           <img
@@ -69,14 +69,14 @@
             v-for="(paragraph,index) in questions[currentQuestion].stimulus.paragraphs || []"
             :key="index"
             class="reading-paragraph"
-            v-html="formatParagraph(paragraph)">
+            v-html="formatFraction(paragraph)">
           </div>
 
           <div
             v-if="questions[currentQuestion].stimulus.source"
             class="question-source"
+            v-html="formatFraction(questions[currentQuestion].stimulus.source)"
           >
-            {{ questions[currentQuestion].stimulus.source }}
           </div>
 
         </div>
@@ -87,8 +87,7 @@
 
         <div class="question-right">
 
-          <p class="question-text">
-            {{ questions[currentQuestion]?.question }}
+          <p class="question-text" v-html="formatFraction(questions[currentQuestion]?.question)">
           </p>
 
           <!-- ========================= -->
@@ -112,7 +111,7 @@
                 v-model="answers[currentQuestion]"
               />
 
-              {{ option }}
+              <span v-html="formatFraction(option)"></span>
 
             </label>
 
@@ -139,13 +138,13 @@
                 v-model="answers[currentQuestion]"
               />
 
-              {{ option }}
+              <span v-html="formatFraction(option)"></span>
 
             </label>
 
           </div>
 
-                    <!-- ========================= -->
+          <!-- ========================= -->
           <!-- TRUE / FALSE -->
           <!-- ========================= -->
 
@@ -179,8 +178,7 @@
                   :key="index"
                 >
 
-                  <td class="statement-cell">
-                    {{ statement }}
+                  <td class="statement-cell" v-html="formatFraction(statement)">
                   </td>
 
                   <td class="choice-cell">
@@ -245,8 +243,7 @@
                   :key="index"
                 >
 
-                  <td class="statement-cell">
-                    {{ statement }}
+                  <td class="statement-cell" v-html="formatFraction(statement)">
                   </td>
 
                   <td class="choice-cell">
@@ -311,8 +308,7 @@
                   :key="index"
                 >
 
-                  <td class="statement-cell">
-                    {{ statement }}
+                  <td class="statement-cell" v-html="formatFraction(statement)">
                   </td>
 
                   <td class="choice-cell">
@@ -377,8 +373,7 @@
                   :key="index"
                 >
 
-                  <td class="statement-cell">
-                    {{ statement }}
+                  <td class="statement-cell" v-html="formatFraction(statement)">
                   </td>
 
                   <td class="choice-cell">
@@ -404,6 +399,29 @@
               </tbody>
 
             </table>
+
+          </div>
+
+          <!-- ========================= -->
+          <!-- SHORT ANSWER (JAWABAN PENDEK) -->
+          <!-- ========================= -->
+
+          <div
+            v-else-if="questions[currentQuestion]?.type === 'short'"
+            class="short-answer-container"
+          >
+
+            <div class="short-answer-wrapper">
+              <label class="short-answer-label">
+                Jawaban:
+                <input
+                  type="text"
+                  class="short-answer-input"
+                  v-model="answers[currentQuestion]"
+                  placeholder="Tulis jawabanmu di sini..."
+                />
+              </label>
+            </div>
 
           </div>
 
@@ -471,7 +489,7 @@
           }"
           @click="goToQuestion(index)"
         >
-          {{ q.id }}
+          {{ q.displayId || q.id }}
         </div>
 
       </div>
@@ -535,16 +553,43 @@ const router = useRouter()
 
 const type = route.query.type
 
+// =========================
+// FUNGSI RANDOM - MENGAMBIL 30 SOAL
+// =========================
+
+function getRandomQuestions(allQuestions, count = 30) {
+  // Buat salinan array agar tidak mengubah array asli
+  const shuffled = [...allQuestions]
+  
+  // Fisher-Yates shuffle algorithm
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  
+  // Ambil sebanyak 'count' soal pertama dari hasil shuffle
+  const selected = shuffled.slice(0, count)
+  
+  // Simpan ID asli untuk referensi dan beri displayId baru (1-30)
+  return selected.map((q, index) => ({
+    ...q,
+    displayId: index + 1,
+    originalId: q.id
+  }))
+}
+
 let questions = []
 
 switch (type) {
 
   case 'fulltest':
-    questions = fulltestQuestions
+    // Ambil 30 soal random dari bank soal
+    questions = getRandomQuestions(fulltestQuestions, 30)
     break
 
   default:
-    questions = fulltestQuestions
+    // Default juga ambil 30 soal random
+    questions = getRandomQuestions(fulltestQuestions, 30)
 
 }
 
@@ -554,6 +599,7 @@ const showSidebar = ref(false)
 const answers = ref({})
 const flagged = ref({})
 
+// Inisialisasi answers untuk setiap soal
 questions.forEach((q, index) => {
 
   if (
@@ -565,6 +611,14 @@ questions.forEach((q, index) => {
   ) {
 
     answers.value[index] = []
+
+  } else if (q.type === 'short') {
+
+    answers.value[index] = ''
+
+  } else if (q.type === 'single') {
+
+    answers.value[index] = null
 
   }
 
@@ -639,7 +693,7 @@ const isAnswered = (index) => {
 
   if (q.type === 'single') {
 
-    return !!ans
+    return ans !== null && ans !== undefined && ans !== ''
 
   }
 
@@ -670,9 +724,15 @@ const isAnswered = (index) => {
 
       ans.length === q.statements.length &&
 
-      ans.every(item => item !== undefined)
+      ans.every(item => item !== undefined && item !== null)
 
     )
+
+  }
+
+  if (q.type === 'short') {
+
+    return ans && ans.trim().length > 0
 
   }
 
@@ -683,6 +743,23 @@ const isAnswered = (index) => {
 const formatParagraph = (text) => {
   if (!text) return ''
   return text.replace(/\n/g, '<br>')
+}
+
+// =========================
+// FRACTION FORMATTER
+// =========================
+
+const formatFraction = (text) => {
+  if (!text) return ''
+  
+  // Konversi pecahan seperti 1/2, 3/4, 12/25 menjadi format vertikal
+  return text.replace(
+    /(\d+)\s*\/\s*(\d+)/g,
+    (_, top, bottom) => `<span class="fraction">
+      <span class="top">${top}</span>
+      <span class="bottom">${bottom}</span>
+    </span>`
+  )
 }
 
 const submitTest = () => {
@@ -732,9 +809,20 @@ const submitTest = () => {
 
     }
 
+    else if (q.type === 'short') {
+
+      // Untuk jawaban pendek, kita bandingkan dengan case-insensitive
+      // dan trim spasi
+      correct = answers.value[index]?.trim().toLowerCase() === 
+                q.answer?.trim().toLowerCase()
+
+    }
+
     return {
 
-      no: q.id,
+      no: q.displayId || q.id,
+
+      originalId: q.originalId || q.id,
 
       type: q.type,
 

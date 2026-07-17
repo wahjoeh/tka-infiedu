@@ -2,7 +2,7 @@
   <div class="math-container">
     <div class="top-banner">
       <h2>TKA InfiEdu</h2>
-      <p>TKA SMP - Matematika</p>
+      <p>TKA SD - Matematika</p>
     </div>
 
     <div class="math-card">
@@ -15,5 +15,5 @@
 </template>
 
 <script setup>
-import '../../../styles/smp-math.css'
+import '../../../styles/sd-math.css'
 </script>
