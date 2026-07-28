@@ -1,9 +1,10 @@
 <template>
-  <div class="test-container">
+  <div class="test-container smp-math-test exam-math-theme">
 
     <header class="test-header">
 
       <div class="header-title">
+        <img src="/logo.png" alt="InfiEdu" class="brand-logo" />
         <h2>TKA SMP InfiEdu</h2>
         <p>TKA SMP - Matematika</p>
       </div>
@@ -34,73 +35,11 @@
         Soal Nomor {{ currentQuestion + 1 }} dari {{ questions.length }}
       </h2>
 
-      <!-- ========================= -->
-      <!-- MOBILE: INFO / SOAL / DAFTAR -->
-      <!-- ========================= -->
-
-      <div class="mobile-soal-title">
-        Soal nomor {{ currentQuestion + 1 }}
-      </div>
-
-      <div class="mobile-soal-bar">
-
-        <button
-          type="button"
-          class="icon-circle-btn info-circle-btn"
-          aria-label="Informasi soal"
-        >
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none">
-            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
-            <line x1="12" y1="11" x2="12" y2="16.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="12" cy="7.5" r="1.1" fill="currentColor"/>
-          </svg>
-        </button>
-
-        <div class="timer mobile-timer">
-          Sisa Waktu : {{ formattedTime }}
-        </div>
-
-        <button
-          type="button"
-          class="icon-circle-btn list-circle-btn"
-          @click="toggleSidebar"
-          aria-label="Daftar soal"
-        >
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-            <rect x="3" y="3" width="7" height="7" rx="1.5"/>
-            <rect x="14" y="3" width="7" height="7" rx="1.5"/>
-            <rect x="3" y="14" width="7" height="7" rx="1.5"/>
-            <rect x="14" y="14" width="7" height="7" rx="1.5"/>
-          </svg>
-        </button>
-
-      </div>
-
-      <div class="mobile-fontsize-bar">
-
-        <span class="fontsize-label">Ukuran font soal:</span>
-
-        <button
-          v-for="level in [0, 1, 2]"
-          :key="level"
-          type="button"
-          class="fontsize-btn"
-          :class="{ active: fontSizeLevel === level }"
-          :style="{ fontSize: (12 + level * 3) + 'px' }"
-          @click="setFontSize(level)"
-        >
-          A
-        </button>
-
-      </div>
-
-      <div class="mobile-subject-label">
-        Matematika
-      </div>
-
       <div
         class="question-box split-layout"
-        :style="{ '--question-font-scale': fontScaleValue }"
+        :class="{
+          'no-stimulus': !questions[currentQuestion]?.stimulus
+        }"
       >
 
         <!-- ========================= -->
@@ -130,6 +69,7 @@
             v-if="questions[currentQuestion].stimulus.image"
             :src="questions[currentQuestion].stimulus.image"
             class="question-image"
+            alt="Gambar pendukung soal"
           />
 
           <div
@@ -679,19 +619,6 @@ switch (type) {
 const currentQuestion = ref(0)
 const showSidebar = ref(false)
 
-// =========================
-// UKURAN FONT SOAL (MOBILE)
-// =========================
-
-const fontSizeLevel = ref(1) // 0 = kecil, 1 = sedang, 2 = besar
-const fontScaleMap = [0.88, 1, 1.18]
-
-const fontScaleValue = computed(() => fontScaleMap[fontSizeLevel.value])
-
-const setFontSize = (level) => {
-  fontSizeLevel.value = level
-}
-
 const answers = ref({})
 const flagged = ref({})
 
@@ -847,9 +774,14 @@ const formatParagraph = (text) => {
 
 const formatFraction = (text) => {
   if (!text) return ''
-  
-  // Konversi pecahan seperti 1/2, 3/4, 12/25 menjadi format vertikal
-  return text.replace(
+
+  // Konversi pangkat, misalnya x^2 dan 2^{-3}, menjadi superscript.
+  const withExponents = text
+    .replace(/([a-zA-Z0-9)\]])\^\{([^{}]+)\}/g, '$1<span class="math-sup">$2</span>')
+    .replace(/([a-zA-Z0-9)\]])\^(-?\d+|[a-zA-Z])/g, '$1<span class="math-sup">$2</span>')
+
+  // Konversi pecahan seperti 1/2, 3/4, 12/25 menjadi format vertikal.
+  return withExponents.replace(
     /(\d+)\s*\/\s*(\d+)/g,
     (_, top, bottom) => `<span class="fraction">
       <span class="top">${top}</span>

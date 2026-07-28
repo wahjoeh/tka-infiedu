@@ -1,9 +1,10 @@
 <template>
-  <div class="test-container">
+  <div class="test-container sd-indo-test exam-math-theme">
 
     <header class="test-header">
 
-      <div>
+      <div class="header-title">
+        <img src="/logo.png" alt="InfiEdu" class="brand-logo" />
         <h2>TKA SD InfiEdu</h2>
         <p>TKA SD - Bahasa Indonesia</p>
       </div>
@@ -34,7 +35,10 @@
         Soal Nomor {{ currentQuestion + 1 }} dari {{ questions.length }}
       </h2>
 
-      <div class="question-box split-layout">
+      <div
+        class="question-box split-layout"
+        :class="{ 'no-stimulus': !questions[currentQuestion]?.stimulus }"
+      >
 
         <!-- ========================= -->
         <!-- STIMULUS -->
@@ -431,19 +435,35 @@
 
       <div class="navigation">
 
-        <button @click="prevQuestion">
-          ← Sebelumnya
+        <button
+          class="nav-btn prev-btn"
+          @click="prevQuestion"
+        >
+          <span class="btn-text">← Sebelumnya</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="none">
+            <path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </button>
 
         <button
-          class="flag-btn"
+          class="nav-btn flag-btn"
+          :class="{ active: flagged[currentQuestion] }"
           @click="toggleFlag"
         >
-          Ragu-ragu
+          <span class="btn-text">Ragu-ragu</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <rect x="4" y="4" width="16" height="16" rx="3"/>
+          </svg>
         </button>
 
-        <button @click="nextQuestion">
-          Berikutnya →
+        <button
+          class="nav-btn next-btn"
+          @click="nextQuestion"
+        >
+          <span class="btn-text">Berikutnya →</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="none">
+            <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </button>
 
       </div>

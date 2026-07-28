@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Tema visual bersama untuk seluruh halaman ujian. */
+.exam-math-theme{
+  min-height:100vh;
+  padding-top:0 !important;
+  background:linear-gradient(135deg,#2b6cb0 0%,#3b82f6 50%,#60a5fa 100%);
+  font-family:'Poppins',sans-serif;
+}
+
+.exam-math-theme .test-header{
+  position:relative !important;
+  top:auto !important;
+  left:auto !important;
+  width:100%;
+  padding:14px 30px;
+  background:#2b6cb0;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  z-index:10;
+}
+
+.exam-math-theme .test-header h2{ font-size:22px; color:#fff; }
+.exam-math-theme .test-header p{ font-size:13px; margin-top:4px; }
+.exam-math-theme .header-right{ display:flex; align-items:center; gap:14px; }
+.exam-math-theme .timer,
+.exam-math-theme .question-list-btn{
+  background:#fff;
+  color:#1d4ed8;
+  border:0;
+  border-radius:12px;
+  padding:10px 16px;
+  font:600 14px 'Poppins',sans-serif;
+  white-space:nowrap;
+}
+
+.exam-math-theme .test-card{
+  /* Use the available desktop canvas instead of a narrow fixed card. */
+  width:calc(100% - 48px);
+  max-width:none;
+  min-height:calc(100vh - 121px);
+  margin:22px 24px;
+  padding:24px;
+  border-radius:24px;
+  background:#fff;
+  box-shadow:0 15px 35px rgba(0,0,0,.12);
+  display:flex;
+  flex-direction:column;
+}
+
+.exam-math-theme .test-card > h2{
+  color:#1e293b;
+  font-size:24px;
+}
+
+.exam-math-theme .split-layout{
+  display:grid !important;
+  grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr) !important;
+  gap:18px;
+  margin-top:20px;
+  flex:1;
+}
+
+.exam-math-theme .question-left,
+.exam-math-theme .question-right{
+  min-width:0;
+  height:auto;
+  max-height:none;
+  overflow:visible;
+  padding:20px;
+  border:1px solid #d1d5db;
+  border-radius:14px;
+  background:#fff;
+}
+
+.exam-math-theme .no-stimulus .question-right{ grid-column:2; }
+.exam-math-theme .no-stimulus::before{
+  content:'';
+  grid-column:1;
+  grid-row:1;
+  border:1px solid #d1d5db;
+  border-radius:14px;
+  background:#fff;
+}
+
+/* SD Matematika: tanpa stimulus berarti soal menggunakan seluruh lebar kartu. */
+.sd-math-test .no-stimulus{
+  grid-template-columns:minmax(0,1fr) !important;
+}
+
+.sd-math-test .no-stimulus .question-right{
+  grid-column:1 !important;
+}
+
+.sd-math-test .no-stimulus::before{
+  display:none !important;
+}
+
+.exam-math-theme .question-text{ font-size:17px; line-height:1.7; }
+.exam-math-theme .option{ border-color:#d1d5db; border-radius:12px; }
+.exam-math-theme .option:hover{ border-color:#2563eb; background:#eff6ff; }
+
+.exam-math-theme .navigation{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  margin-top:24px;
+}
+
+/* Keep the compact card treatment on tablet and mobile. */
+@media screen and (max-width:1024px){
+  .exam-math-theme .test-card{
+    width:95%;
+    min-height:0;
+    margin:22px auto;
+    display:block;
+  }
+
+  .exam-math-theme .split-layout{
+    flex:none;
+  }
+}
+
+.exam-math-theme .navigation button{
+  border:0;
+  border-radius:12px;
+  padding:12px 20px;
+  color:#fff;
+  font:600 14px 'Poppins',sans-serif;
+}
+
+.exam-math-theme .navigation button:first-child{ background:#ef4444; }
+.exam-math-theme .navigation .flag-btn{ background:#facc15; color:#1e293b; }
+.exam-math-theme .navigation button:last-child{ background:#2563eb; }
+
+@media screen and (max-width:768px){
+  .exam-math-theme .test-header{
+    padding:12px 16px;
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .exam-math-theme .header-right{
+    width:100%;
+    justify-content:space-between;
+  }
+
+  .exam-math-theme .timer,
+  .exam-math-theme .question-list-btn{ padding:8px 12px; font-size:12px; }
+
+  .exam-math-theme .test-card{ margin:12px auto; padding:16px; border-radius:18px; }
+  .exam-math-theme .test-card > h2{ font-size:18px; text-align:center; }
+
+  .exam-math-theme .split-layout{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:20px;
+  }
+
+  .exam-math-theme .question-left,
+  .exam-math-theme .question-right{
+    width:100%;
+    padding:14px;
+  }
+
+  .exam-math-theme .question-left{ order:1; }
+  .exam-math-theme .question-right{ order:2; }
+  .exam-math-theme .no-stimulus .question-right{ grid-column:auto; }
+  .exam-math-theme .no-stimulus::before{ display:none; }
+  .exam-math-theme .navigation button{ flex:1; padding:10px 12px; font-size:13px; }
+}
