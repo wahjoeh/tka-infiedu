@@ -154,10 +154,16 @@ body{
   line-height:1.7;
 }
 
-.options{
+.option{
+  padding:14px 16px;
+  border:1px solid #d1d5db;
+  border-radius:12px;
+  cursor:pointer;
+  transition:.2s;
+
   display:flex;
-  flex-direction:column;
-  gap:14px;
+  align-items:center;
+  gap:12px;
 }
 
 .option{

@@ -77,6 +77,42 @@ body{
   align-items:center;
 }
 
+.header-title{
+  min-width:0;
+}
+
+/* =========================
+   MOBILE-ONLY HEADER ELEMENTS
+   (hidden by default on desktop)
+========================= */
+
+.mobile-soal-bar,
+.mobile-timer-row,
+.mobile-fontsize-bar,
+.mobile-subject-label{
+  display:none;
+}
+
+.icon-circle-btn{
+  width:34px;
+  height:34px;
+  min-width:34px;
+  border-radius:50%;
+  border:none;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#2563eb;
+  color:white;
+  transition:.2s;
+  flex-shrink:0;
+}
+
+.icon-circle-btn:hover{
+  background:#1d4ed8;
+}
+
 .timer{
   background:white;
   color:#111827;
@@ -121,7 +157,7 @@ body{
 
 .split-layout{
   display:grid;
-  grid-template-columns:1.05fr 0.95fr;
+  grid-template-columns:1fr;
   gap:18px;
   margin-top:20px;
 }
@@ -131,8 +167,9 @@ body{
   border:1px solid #d1d5db;
   border-radius:14px;
   padding:20px;
-  height:480px;
-  overflow-y:auto;
+  height:auto;
+  max-height:none;
+  overflow-y:visible;
   background:white;
 }
 
@@ -148,7 +185,7 @@ body{
 }
 
 .question-text{
-  font-size:17px;
+  font-size:calc(17px * var(--question-font-scale, 1));
   font-weight:500;
   margin-bottom:18px;
   line-height:1.7;
@@ -166,6 +203,20 @@ body{
   border-radius:12px;
   cursor:pointer;
   transition:.2s;
+
+  display:flex;
+  align-items:center;
+  gap:12px;
+
+  font-size:calc(15px * var(--question-font-scale, 1));
+}
+
+.option input[type="radio"]{
+  width:18px;
+  height:18px;
+  flex-shrink:0;
+  accent-color:#2563eb;
+  cursor:pointer;
 }
 
 .option:hover{
@@ -189,6 +240,19 @@ body{
 
 .flag-btn{
   background:#facc15;
+}
+
+.nav-btn .btn-icon{
+  display:none;
+}
+
+.nav-btn.flag-btn.active{
+  background:#f59e0b;
+  color:white;
+}
+
+.desktop-only-heading{
+  display:block;
 }
 
 .sidebar{
@@ -234,7 +298,7 @@ body{
 
 .question-number{
   width:45px;
-  height:35px;
+  height:45px;
   border-radius:14px;
   background:#e5e7eb;
   display:flex;
@@ -260,7 +324,7 @@ body{
 
 .reading-title{
 
-    font-size:17px;
+    font-size:calc(17px * var(--question-font-scale, 1));
 
     font-weight:600;
 
@@ -274,7 +338,7 @@ body{
 
 .reading-subtitle{
 
-    font-size:17px;
+    font-size:calc(17px * var(--question-font-scale, 1));
 
     font-weight:700;
 
@@ -288,7 +352,7 @@ body{
 
 .reading-paragraph{
 
-    font-size:17px;
+    font-size:calc(17px * var(--question-font-scale, 1));
 
     line-height:2;
 
@@ -396,6 +460,8 @@ body{
 
     line-height:1.7;
 
+    font-size:calc(15px * var(--question-font-scale, 1));
+
 }
 
 .choice-cell{
@@ -453,7 +519,7 @@ body{
   border-radius:14px;
   background:linear-gradient(135deg,#2563eb,#3b82f6);
   color:white;
-  font-size:17px;
+  font-size:calc(17px * var(--question-font-scale, 1));
   font-weight:700;
   cursor:pointer;
 }
@@ -463,4 +529,520 @@ body{
   inset:0;
   background:rgba(0,0,0,.3);
   z-index:999;
+}
+
+/* =========================
+   FRACTION STYLES
+========================= */
+
+.fraction{
+    display:inline-flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    vertical-align:middle;
+    margin:0 2px;
+    line-height:1;
+    font-weight:600;
+}
+
+.fraction .top{
+    border-bottom:2px solid #222;
+    padding:0 4px 2px;
+    min-width:20px;
+    text-align:center;
+}
+
+.fraction .bottom{
+    padding-top:2px;
+    min-width:20px;
+    text-align:center;
+}
+
+/* Tambahan untuk memastikan pecahan terlihat rapi di dalam teks */
+.question-text .fraction,
+.reading-paragraph .fraction,
+.reading-title .fraction,
+.reading-subtitle .fraction,
+.option .fraction,
+.statement-cell .fraction {
+  font-size: inherit;
+}
+
+/* Pastikan pecahan tetap terbaca di ukuran font yang lebih kecil */
+.fraction .top,
+.fraction .bottom {
+  font-size: 0.9em;
+}
+
+/* =========================
+   SHORT ANSWER STYLES
+========================= */
+
+.short-answer-container {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.short-answer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.short-answer-label {
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.short-answer-input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #ced4da;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.short-answer-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.short-answer-input::placeholder {
+  color: #adb5bd;
+  font-size: 14px;
+}
+
+/* Gaya untuk jawaban pendek yang sudah diisi */
+.short-answer-input.answered {
+  border-color: #22c55e;
+  background: #f0fdf4;
+}
+
+/* =========================
+   RESPONSIVE STYLES
+========================= */
+
+/* Untuk tablet */
+@media screen and (max-width: 1024px) {
+  .test-header {
+    padding: 12px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .header-right {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .timer {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+
+  .question-list-btn {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+}
+
+/* Untuk mobile */
+@media screen and (max-width: 768px) {
+
+  /* ---- Header jadi strip biru tipis, cuma judul ---- */
+
+  .test-container {
+    padding-top: 64px;
+  }
+
+  .test-header {
+    padding: 12px 18px;
+  }
+
+  .test-header h2 {
+    font-size: 16px;
+  }
+
+  .test-header p {
+    font-size: 11px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  /* ---- Kartu putih memuat semua info soal ---- */
+
+  .test-card {
+    padding: 18px 16px 16px;
+    margin: 14px auto;
+    border-radius: 18px;
+  }
+
+  .desktop-only-heading {
+    display: none;
+  }
+
+  .mobile-soal-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e293b;
+  }
+
+  .mobile-soal-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 12px;
+  }
+
+  .mobile-timer {
+    border: 1px solid #e2e8f0;
+    box-shadow: none;
+    font-size: 13px;
+  }
+
+  .mobile-fontsize-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .fontsize-label {
+    font-size: 12px;
+    color: #64748b;
+  }
+
+  .fontsize-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #94a3b8;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px;
+  }
+
+  .fontsize-btn.active {
+    color: #1e293b;
+  }
+
+  .mobile-subject-label {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-top: 14px;
+  }
+
+  /* ---- Konten soal: satu alur, tanpa kotak terpisah ---- */
+
+  .split-layout {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .question-left,
+  .question-right {
+    border: none;
+    padding: 0;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    background: transparent;
+  }
+
+  .question-text {
+    font-size: calc(15px * var(--question-font-scale, 1));
+  }
+
+  .option {
+    padding: 10px 14px;
+    font-size: calc(14px * var(--question-font-scale, 1));
+  }
+
+  .tf-table th,
+  .tf-table td {
+    padding: 10px 8px;
+    font-size: calc(13px * var(--question-font-scale, 1));
+  }
+
+  .choice-cell input {
+    width: 18px;
+    height: 18px;
+  }
+
+  .reading-paragraph {
+    font-size: calc(15px * var(--question-font-scale, 1));
+    text-indent: 30px;
+    line-height: 1.8;
+  }
+
+  .reading-title {
+    font-size: calc(15px * var(--question-font-scale, 1));
+  }
+
+  .reading-subtitle {
+    font-size: calc(15px * var(--question-font-scale, 1));
+  }
+
+  .question-image {
+    max-width: 100%;
+  }
+
+  .short-answer-input {
+    font-size: 14px;
+    padding: 10px 14px;
+    max-width: 100%;
+  }
+
+  .submit-btn {
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  /* ---- Navigasi jadi tombol bulat berwarna ---- */
+
+  .navigation {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    margin-top: 22px;
+    padding-top: 18px;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .nav-btn {
+    flex: none;
+    min-width: 0;
+    width: 54px;
+    height: 54px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 6px 14px rgba(0,0,0,.12);
+  }
+
+  .nav-btn .btn-text {
+    display: none;
+  }
+
+  .nav-btn .btn-icon {
+    display: inline-flex;
+  }
+
+  .prev-btn {
+    background: #ef4444;
+  }
+
+  .next-btn {
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+  }
+
+  .nav-btn.flag-btn {
+    width: 46px;
+    height: 46px;
+    background: #facc15;
+  }
+
+  .nav-btn.flag-btn.active {
+    background: #f59e0b;
+  }
+
+  .sidebar {
+    width: 280px;
+    right: -300px;
+    padding: 20px;
+  }
+
+  .sidebar.open {
+    right: 0;
+  }
+
+  .question-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+  }
+
+  .question-number {
+    width: 38px;
+    height: 32px;
+    font-size: 13px;
+  }
+}
+
+/* Untuk mobile sangat kecil */
+@media screen and (max-width: 480px) {
+  .test-container {
+    padding-top: 56px;
+  }
+
+  .test-header h2 {
+    font-size: 15px;
+  }
+
+  .test-card {
+    padding: 14px 12px;
+  }
+
+  .mobile-soal-title {
+    font-size: 15px;
+  }
+
+  .question-left,
+  .question-right {
+    padding: 0;
+  }
+
+  .question-text {
+    font-size: calc(14px * var(--question-font-scale, 1));
+  }
+
+  .tf-table th,
+  .tf-table td {
+    padding: 8px 6px;
+    font-size: calc(12px * var(--question-font-scale, 1));
+  }
+
+  .statement-col {
+    width: 60%;
+  }
+
+  .choice-col {
+    width: 20%;
+  }
+
+  .sidebar {
+    width: 260px;
+    right: -280px;
+    padding: 16px;
+  }
+
+  .question-number {
+    width: 34px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  .navigation {
+    gap: 18px;
+  }
+
+  .nav-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .nav-btn.flag-btn {
+    width: 42px;
+    height: 42px;
+  }
+
+  .short-answer-container {
+    padding: 10px;
+  }
+
+  .short-answer-input {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
+
+/* =========================
+   CATEGORY BADGE (Aljabar / Bilangan / Geometri / Peluang)
+========================= */
+
+.category-badge{
+  display:inline-block;
+  background:#eff6ff;
+  color:#2563eb;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.03em;
+  text-transform:uppercase;
+  padding:6px 14px;
+  border-radius:999px;
+  margin-top:8px;
+  margin-bottom:6px;
+}
+
+/* =========================
+   OPTION LETTER (A. / B. / C. / D.)
+========================= */
+
+.option-letter{
+  font-weight:700;
+  color:#2563eb;
+  margin-right:4px;
+}
+
+/* =========================
+   SUPERSCRIPT / SUBSCRIPT (pangkat & indeks)
+   x^2, 2^{-3}, U_1, dsb.
+========================= */
+
+.math-sup{
+  vertical-align:super;
+  font-size:.72em;
+}
+
+.math-sub{
+  vertical-align:sub;
+  font-size:.72em;
+}
+
+/* =========================
+   DATA TABLE (tabel di dalam stimulus soal)
+========================= */
+
+.data-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+  margin:14px 0;
+  background:white;
+}
+
+.data-table th,
+.data-table td{
+  border:1px solid #dbe3ee;
+  padding:10px 12px;
+  text-align:center;
+}
+
+.data-table th{
+  background:#f8fafc;
+  font-weight:600;
+}
+
+@media screen and (max-width: 768px){
+  .data-table th,
+  .data-table td{
+    padding:8px;
+    font-size:12px;
+  }
+
+  .category-badge{
+    font-size:11px;
+    padding:4px 10px;
+  }
 }

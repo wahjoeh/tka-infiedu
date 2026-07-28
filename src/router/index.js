@@ -13,6 +13,10 @@ import SDMathTestView from '../views/sd/math/SDMathTestView.vue'
 import SDIndoView from '../views/sd/indo/SDIndoView.vue'
 import SDIndoTestView from '../views/sd/indo/SDIndoTestView.vue'
 
+// SD Full Test (Indo + Matematika)
+import SDFullTestView from '../views/sd/SDFullTestView.vue'
+import SDFullTestResultView from '../views/sd/SDFullTestResultView.vue'
+
 // SMP
 import SMPView from '../views/smp/SMPView.vue'
 import SMPPracticeView from '../views/smp/SMPPracticeView.vue'
@@ -81,6 +85,18 @@ const routes = [
   {
     path: '/sd/practice/indo/test',
     component: SDIndoTestView
+  },
+
+  // SD Full Test (gabungan Bahasa Indonesia + Matematika)
+  {
+    path: '/sd/test',
+    name: 'sd-fulltest',
+    component: SDFullTestView
+  },
+  {
+    path: '/sd/test/result',
+    name: 'sd-fulltest-result',
+    component: SDFullTestResultView
   },
 
   // SMP Main

@@ -815,3 +815,115 @@ body{
     padding: 8px 12px;
   }
 }
+/* =========================
+   SESSION BADGE (FULLTEST SD)
+========================= */
+
+.session-badge{
+  display:inline-block;
+  margin-top:6px;
+  padding:4px 14px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.3px;
+
+  background:rgba(255,255,255,0.18);
+  color:#ffffff;
+  border:1px solid rgba(255,255,255,0.4);
+}
+
+.session-progress{
+  display:flex;
+  gap:8px;
+  margin-top:10px;
+}
+
+.session-dot{
+  padding:4px 10px;
+  border-radius:8px;
+  font-size:11px;
+  font-weight:600;
+  background:#e2e8f0;
+  color:#64748b;
+}
+
+.session-dot.active{
+  background:#2563eb;
+  color:#ffffff;
+}
+
+.session-dot.done{
+  background:#22c55e;
+  color:#ffffff;
+}
+
+/* =========================
+   SESSION BADGE (FULLTEST SD)
+========================= */
+
+.session-badge{
+  display:inline-block;
+  margin-top:6px;
+  padding:4px 14px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.3px;
+
+  background:rgba(255,255,255,0.18);
+  color:#ffffff;
+  border:1px solid rgba(255,255,255,0.4);
+}
+
+.session-progress{
+  display:flex;
+  gap:8px;
+  margin-top:10px;
+}
+
+.session-dot{
+  padding:4px 10px;
+  border-radius:8px;
+  font-size:11px;
+  font-weight:600;
+  background:#e2e8f0;
+  color:#64748b;
+}
+
+.session-dot.active{
+  background:#2563eb;
+  color:#ffffff;
+}
+
+.session-dot.done{
+  background:#22c55e;
+  color:#ffffff;
+}
+
+/* Submit button dipindah ke dalam bar navigasi soal */
+.navigation .nav-submit-btn{
+  width:auto;
+  margin-top:0;
+  padding:12px 20px;
+  font-size:15px;
+  border-radius:12px;
+}
+
+@media (max-width:768px){
+  .navigation .nav-submit-btn{
+    flex:1;
+    width:100%;
+  }
+}
+
+/* Submit button ditaruh di dalam sidebar Daftar Soal */
+.sidebar{
+  overflow-y:auto;
+  display:flex;
+  flex-direction:column;
+}
+
+.sidebar-submit-btn{
+  margin-top:24px;
+}
