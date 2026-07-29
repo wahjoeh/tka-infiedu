@@ -572,35 +572,24 @@ const route = useRoute()
 const router = useRouter()
 
 const type = route.query.type
-
-// =========================
-// FUNGSI RANDOM - MENGAMBIL 30 SOAL
-// =========================
-
-function getRandomQuestions(allQuestions, count = 70) {
-  // Buat salinan array agar tidak mengubah array asli
-  const shuffled = [...allQuestions]
-  
-  // Fisher-Yates shuffle algorithm
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-  }
-  
-  // Ambil sebanyak 'count' soal pertama dari hasil shuffle
-  const selected = shuffled.slice(0, count)
-  
-  // Simpan ID asli untuk referensi dan beri displayId baru (1-30)
-  return selected.map((q, index) => ({
-    ...q,
-    displayId: index + 1,
-    originalId: q.id
-  }))
-}
+const selectedPackage = Number(route.query.package)
 
 let questions = []
 
-switch (type) {
+if (selectedPackage === 1 || selectedPackage === 2) {
+  const startId = selectedPackage === 1 ? 1 : 36
+  const endId = selectedPackage === 1 ? 35 : 70
+
+  // Nomor soal tetap berurutan sesuai paket yang diterima siswa.
+  questions = fulltestQuestions
+    .filter((question) => question.id >= startId && question.id <= endId)
+    .map((q, index) => ({
+      ...q,
+      displayId: index + 1,
+      originalId: q.id
+    }))
+} else {
+  switch (type) {
 
   case 'fulltest':
   questions = fulltestQuestions.map((q, index) => ({
@@ -610,13 +599,14 @@ switch (type) {
   }))
   break
 
-default:
+  default:
   questions = fulltestQuestions.map((q, index) => ({
     ...q,
     displayId: index + 1,
     originalId: q.id
   }))
 
+  }
 }
 
 const currentQuestion = ref(0)

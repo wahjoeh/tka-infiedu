@@ -276,8 +276,8 @@ export default [
       paragraphs: [
         "Lebah adalah serangga kecil dari famili Apidae yang sering dipandang sebelah mata. Padahal, makhluk mungil ini menyimpan begitu banyak manfaat bagi manusia. Dari sarang dan cairan yang dihasilkannya, lebah memberi sumbangan besar bagi kesehatan tubuh sekaligus bagi perekonomian masyarakat.",
         "Manfaat lebah bisa didapat dari sarang, dan cairan yang dihasilkannya, yaitu madu. Madu mengandung banyak vitamin, mineral, dan enzim yang baik bagi kesehatan tubuh.",
-        "Selain madu, lebah juga menghasilkan bee pollen, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. Bee pollen dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga bee pollen di pasaran pun cenderung mahal, tetapi tetap banyak diminati.",
-        "Produk lain yang tidak kalah berharga adalah royal jelly, makanan khusus bagi ratu lebah. Royal jelly dipercaya mampu memulihkan energi serta mencukupi kebutuhan vitamin dan mineral tubuh.",
+        "Selain madu, lebah juga menghasilkan <i>bee pollen</i>, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. <i>Bee pollen</i> dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga <i>bee pollen</i> di pasaran pun cenderung mahal, tetapi tetap banyak diminati.",
+        "Produk lain yang tidak kalah berharga adalah <i>royal jelly</i>, makanan khusus bagi ratu lebah. <i>Royal jelly</i> dipercaya mampu memulihkan energi serta mencukupi kebutuhan vitamin dan mineral tubuh.",
         "Dengan beragam kandungan baik yang dimilikinya, lebah kini dipandang sebagai sumber berbagai khasiat yang menguntungkan bagi kehidupan manusia."
       ],
       image: null,
@@ -285,12 +285,12 @@ export default [
     },
     question: "Simpulan yang paling tepat menggambarkan gagasan utama teks tersebut adalah...",
     options: [
-      "Produk-produk yang dihasilkan lebah, seperti madu, bee pollen, dan royal jelly memberikan berbagai manfaat bagi kesehatan manusia.",
+      "Produk-produk yang dihasilkan lebah, seperti madu, <i>bee pollen</i>, dan <i>royal jelly</i> memberikan berbagai manfaat bagi kesehatan manusia.",
       "Lebah adalah serangga yang berasal dari famili Apidae dan biasa hidup berkoloni di alam.",
-      "Harga bee pollen di pasaran cukup mahal karena kandungan dan khasiatnya yang beragam bagi tubuh.",
-      "Royal jelly merupakan makanan khusus yang dikonsumsi oleh ratu lebah setiap hari."
+      "Harga <i>bee pollen</i> di pasaran cukup mahal karena kandungan dan khasiatnya yang beragam bagi tubuh.",
+      " <i>Royal jelly</i> merupakan makanan khusus yang dikonsumsi oleh ratu lebah setiap hari."
     ],
-    answer: "Produk-produk yang dihasilkan lebah, seperti madu, bee pollen, dan royal jelly memberikan berbagai manfaat bagi kesehatan manusia."
+    answer: "Produk-produk yang dihasilkan lebah, seperti madu, <i>bee pollen</i>, dan <i>royal jelly</i> memberikan berbagai manfaat bagi kesehatan manusia."
   },
 
   {
@@ -300,29 +300,37 @@ export default [
       instruction: "Bacalah teks berikut untuk menjawab soal!",
       title: "Manfaat Lebah",
       paragraphs: [
-        "Selain madu, lebah juga menghasilkan bee pollen, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. Bee pollen dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga bee pollen di pasaran pun cenderung mahal, tetapi tetap banyak diminati."
+        "Lebah adalah serangga kecil dari famili Apidae yang sering dipandang sebelah mata. Padahal, makhluk mungil ini menyimpan begitu banyak manfaat bagi manusia. Dari sarang dan cairan yang dihasilkannya, lebah memberi sumbangan besar bagi kesehatan tubuh sekaligus bagi perekonomian masyarakat.",
+        "Manfaat lebah bisa didapat dari sarang, dan cairan yang dihasilkannya, yaitu madu. Madu mengandung banyak vitamin, mineral, dan enzim yang baik bagi kesehatan tubuh.",
+        "Selain madu, lebah juga menghasilkan <i>bee pollen</i>, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. <i>Bee pollen</i> dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga <i>bee pollen</i> di pasaran pun cenderung mahal, tetapi tetap banyak diminati.",
+        "Produk lain yang tidak kalah berharga adalah <i>royal jelly</i>, makanan khusus bagi ratu lebah. <i>Royal jelly</i> dipercaya mampu memulihkan energi serta mencukupi kebutuhan vitamin dan mineral tubuh.",
+        "Dengan beragam kandungan baik yang dimilikinya, lebah kini dipandang sebagai sumber berbagai khasiat yang menguntungkan bagi kehidupan manusia."
       ],
       image: null,
       source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
     },
     question: "Ide pokok paragraf ketiga pada teks tersebut adalah...",
     options: [
-      "Manfaat bee pollen yang beragam membuat produk ini tetap diburu meski harganya tergolong mahal.",
-      "Bee pollen adalah serbuk sari yang dikumpulkan oleh lebah pekerja dari bunga-bunga di sekitar sarang.",
-      "Lebah pekerja memiliki tugas khusus untuk mengumpulkan serbuk sari dan mengolahnya menjadi bee pollen.",
-      "Harga bee pollen di pasaran jauh lebih mahal jika dibandingkan dengan harga madu pada umumnya."
+      "Manfaat <i>bee pollen</i> yang beragam membuat produk ini tetap diburu meski harganya tergolong mahal.",
+      "<i>Bee pollen</i> adalah serbuk sari yang dikumpulkan oleh lebah pekerja dari bunga-bunga di sekitar sarang.",
+      "Lebah pekerja memiliki tugas khusus untuk mengumpulkan serbuk sari dan mengolahnya menjadi <i>bee pollen</i>.",
+      "Harga <i>bee pollen</i> di pasaran jauh lebih mahal jika dibandingkan dengan harga madu pada umumnya."
     ],
-    answer: "Manfaat bee pollen yang beragam membuat produk ini tetap diburu meski harganya tergolong mahal."
+    answer: "Manfaat <i>bee pollen</i> yang beragam membuat produk ini tetap diburu meski harganya tergolong mahal."
   },
 
   {
     id: 13,
     type: "truefalse",
     stimulus: {
-      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      instruction: "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan isi teks.",
       title: "Manfaat Lebah",
       paragraphs: [
-        "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan isi teks."
+        "Lebah adalah serangga kecil dari famili Apidae yang sering dipandang sebelah mata. Padahal, makhluk mungil ini menyimpan begitu banyak manfaat bagi manusia. Dari sarang dan cairan yang dihasilkannya, lebah memberi sumbangan besar bagi kesehatan tubuh sekaligus bagi perekonomian masyarakat.",
+        "Manfaat lebah bisa didapat dari sarang, dan cairan yang dihasilkannya, yaitu madu. Madu mengandung banyak vitamin, mineral, dan enzim yang baik bagi kesehatan tubuh.",
+        "Selain madu, lebah juga menghasilkan <i>bee pollen</i>, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. <i>Bee pollen</i> dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga <i>bee pollen</i> di pasaran pun cenderung mahal, tetapi tetap banyak diminati.",
+        "Produk lain yang tidak kalah berharga adalah <i>royal jelly</i>, makanan khusus bagi ratu lebah. <i>Royal jelly</i> dipercaya mampu memulihkan energi serta mencukupi kebutuhan vitamin dan mineral tubuh.",
+        "Dengan beragam kandungan baik yang dimilikinya, lebah kini dipandang sebagai sumber berbagai khasiat yang menguntungkan bagi kehidupan manusia."
       ],
       image: null,
       source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
@@ -330,7 +338,7 @@ export default [
     question: "Tentukan benar atau salah.",
     statements: [
       "Meski berukuran kecil, lebah memberi banyak manfaat bagi manusia.",
-      "Royal jelly hanya boleh dikonsumsi oleh lebah pekerja yang sedang sakit.",
+      " <i>Royal jelly</i> hanya boleh dikonsumsi oleh lebah pekerja yang sedang sakit.",
       "Pandangan masyarakat berubah karena manfaat yang dimiliki lebah.",
       "Madu hanya bermanfaat bagi orang yang menderita penyakit kronis."
     ],
@@ -375,7 +383,11 @@ export default [
       instruction: "Bacalah teks berikut untuk menjawab soal!",
       title: "Pengaruh Seni terhadap Kesehatan Mental",
       paragraphs: [
-        "Karya seni yang dihargai, baik oleh diri sendiri maupun orang lain, juga dapat meningkatkan rasa percaya diri. Meskipun ada pandangan bahwa manfaat seni hanya dirasakan oleh orang yang berbakat, berbagai penelitian justru menunjukkan bahwa hampir semua orang dapat merasakan manfaat tersebut, terlepas dari bakat yang dimilikinya."
+        "Seni, dalam berbagai bentuknya, telah lama menjadi bagian dari kehidupan manusia. Lebih dari sekadar hiburan, seni ternyata memberikan dampak positif yang cukup signifikan bagi kesehatan mental penggunanya.",
+        "Melalui kegiatan seperti melukis, bermusik, atau berkarya secara visual, seseorang dapat menyalurkan emosinya dengan cara yang sehat dan kreatif. Proses ini membantu meredakan stres serta kecemasan yang dirasakan.",
+        "Selain itu, kegiatan berkesenian menuntut fokus dan konsentrasi yang tinggi. Ketika seseorang tenggelam dalam proses berkarya, perhatiannya teralihkan dari pikiran-pikiran negatif yang kerap memicu gangguan mental seperti depresi.",
+        "Karya seni yang dihargai, baik oleh diri sendiri maupun orang lain, juga dapat meningkatkan rasa percaya diri. Meskipun ada pandangan bahwa manfaat seni hanya dirasakan oleh orang yang berbakat, berbagai penelitian justru menunjukkan bahwa hampir semua orang dapat merasakan manfaat tersebut.",
+        "Dengan demikian, seni dapat dikatakan sebagai sarana yang ampuh untuk menjaga kesehatan mental."
       ],
       image: null,
       source: "Brain Academy, 31 Maret 2026 (dengan modifikasi)"
@@ -425,7 +437,10 @@ export default [
       instruction: "Bacalah teks berikut untuk menjawab soal!",
       title: "Mutiara di Balik Randegan",
       paragraphs: [
-        "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan isi cerita."
+        "Silir tinggal di Desa Randegan, sebuah desa kecil di ujung timur Banjarnegara yang terkenal sebagai penghasil batu bata. Sejak kecil, gadis itu sangat menyukai kesenian lengger, tarian tradisional khas daerahnya. Setiap senja, ia sering duduk sendirian di tepi Sungai Serayu sambil melatih gerakan-gerakan tari yang ia pelajari secara diam-diam.",
+        "Sayangnya, tidak semua orang di desanya mendukung kegemarannya itu. Bapaknya justru sering menegur dan menganggap menari lengger bukan kegiatan yang pantas bagi anak perempuannya. Bahkan beberapa tetangga turut mencela, membuat Silir kerap menahan air mata setiap kali pulang ke rumah.",
+        "Meski hatinya terluka oleh cemoohan orang-orang di sekitarnya, Silir tidak pernah benar-benar berhenti menari. Ia memilih tetap berlatih bersama Paguyuban Lengger Wala Budaya. Bersama kelompok itu, ia mengikuti lomba kesenian tingkat daerah.",
+        "Kelompoknya berhasil menjadi juara sehingga sikap warga berubah. Bapak yang dahulu menentang pun akhirnya meminta maaf dan mendukung penuh langkah Silir untuk terus melestarikan kesenian lengger."
       ],
       image: null,
       source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
@@ -452,7 +467,10 @@ export default [
       instruction: "Bacalah teks berikut untuk menjawab soal!",
       title: "Mutiara di Balik Randegan",
       paragraphs: [
-        "Silir tetap berlatih tari lengger meskipun sering dicela oleh ayah dan warga desa. Ia mengikuti lomba bersama Paguyuban Lengger Wala Budaya hingga akhirnya meraih juara dan memperoleh dukungan masyarakat."
+        "Silir tinggal di Desa Randegan, sebuah desa kecil di ujung timur Banjarnegara yang terkenal sebagai penghasil batu bata. Sejak kecil, gadis itu sangat menyukai kesenian lengger, tarian tradisional khas daerahnya. Setiap senja, ia sering duduk sendirian di tepi Sungai Serayu sambil melatih gerakan-gerakan tari yang ia pelajari secara diam-diam.",
+        "Sayangnya, tidak semua orang di desanya mendukung kegemarannya itu. Bapaknya justru sering menegur dan menganggap menari lengger bukan kegiatan yang pantas bagi anak perempuannya. Bahkan beberapa tetangga turut mencela, membuat Silir kerap menahan air mata setiap kali pulang ke rumah.",
+        "Meski hatinya terluka oleh cemoohan orang-orang di sekitarnya, Silir tidak pernah benar-benar berhenti menari. Ia memilih tetap berlatih bersama Paguyuban Lengger Wala Budaya. Bersama kelompok itu, ia mengikuti lomba kesenian tingkat daerah.",
+        "Kelompoknya berhasil menjadi juara sehingga sikap warga berubah. Bapak yang dahulu menentang pun akhirnya meminta maaf dan mendukung penuh langkah Silir untuk terus melestarikan kesenian lengger."
       ],
       image: null,
       source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
@@ -467,55 +485,6 @@ export default [
     answer: [
       "Silir tetap berlatih meskipun sering mendapat tentangan dari lingkungan sekitar.",
       "Keberhasilan Silir membuat masyarakat mulai menghargai kesenian lengger."
-    ]
-  },
-
-  {
-    id: 19,
-    type: "single",
-    stimulus: {
-      instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Pohon Mangrove Penjaga Pesisir",
-      paragraphs: [
-        "Hutan mangrove merupakan ekosistem yang tumbuh di wilayah pesisir. Akar-akarnya yang rapat mampu menahan abrasi akibat gelombang laut serta menjadi tempat hidup berbagai jenis ikan, kepiting, dan burung. Selain menjaga garis pantai, mangrove juga berperan menyerap karbon sehingga membantu mengurangi dampak perubahan iklim."
-      ],
-      image: null,
-      source: null
-    },
-    question: "Gagasan utama paragraf tersebut adalah...",
-    options: [
-      "Mangrove menjadi tempat hidup berbagai jenis burung.",
-      "Mangrove memiliki berbagai manfaat bagi lingkungan pesisir.",
-      "Abrasi hanya terjadi di wilayah pantai berpasir.",
-      "Mangrove hanya tumbuh di daerah rawa."
-    ],
-    answer: "Mangrove memiliki berbagai manfaat bagi lingkungan pesisir."
-  },
-
-  {
-    id: 20,
-    type: "truefalse",
-    stimulus: {
-      instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Pohon Mangrove Penjaga Pesisir",
-      paragraphs: [
-        "Tentukan apakah pernyataan berikut sesuai dengan isi teks."
-      ],
-      image: null,
-      source: null
-    },
-    question: "Tentukan benar atau salah.",
-    statements: [
-      "Akar mangrove membantu menahan abrasi pantai.",
-      "Mangrove hanya bermanfaat sebagai tanaman hias.",
-      "Mangrove menjadi habitat berbagai jenis hewan.",
-      "Mangrove tidak memiliki peran dalam menyerap karbon."
-    ],
-    answer: [
-      true,
-      false,
-      true,
-      false
     ]
   },
 
@@ -551,7 +520,13 @@ export default [
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
       title: "Kenali Rhabdomyolysis untuk Mengurangi Risiko Kerusakan Ginjal",
-      paragraphs: null,
+      paragraphs: [
+        "Tren berlari semakin diminati banyak orang, mulai dari lomba 5K, half marathon, hingga marathon penuh. Meski bermanfaat untuk kebugaran, olahraga ini tetap perlu dilakukan sesuai kemampuan tubuh masing-masing, karena memaksakan diri berlari terlalu berat dapat memicu gangguan serius bernama rhabdomiolisis.",
+        "Rhabdomiolisis terjadi ketika otot rangka mengalami kerusakan berat akibat aktivitas fisik yang berlebihan. Saat itu terjadi, protein bernama mioglobin beserta sejumlah elektrolit keluar dari sel otot dan masuk ke aliran darah. Jika jumlah mioglobin yang beredar terlalu banyak, kerja ginjal dapat terganggu hingga berisiko memicu cedera ginjal akut apabila tidak segera ditangani.",
+        "Menurut dokter spesialis ginjal dan hipertensi, Tunggul Situmorang, kondisi ini umumnya muncul ketika seseorang tetap memaksakan tubuhnya berlari meski sudah merasa sangat lelah. Gejalanya pun tidak selalu langsung terasa; tanda-tanda seperti tubuh sangat lelah, nyeri otot, mual, hingga urine berwarna lebih gelap baru bisa muncul satu sampai tiga hari setelah otot mengalami kerusakan.",
+        "Tunggul menjelaskan bahwa salah satu penyebab utama rhabdomiolisis adalah pemanasan yang tidak dilakukan secara bertahap sebelum berolahraga berat. Pelari pemula yang langsung berlari dengan intensitas tinggi tanpa memberi waktu bagi tubuh untuk beradaptasi menjadi kelompok yang paling rentan mengalaminya. Meski begitu, pelari berpengalaman pun tetap berisiko apabila memaksakan diri secara berlebihan dan mendadak.",
+        "Kabar baiknya, rhabdomiolisis yang ditangani secara cepat umumnya masih dapat disembuhkan tanpa harus menjalani cuci darah, terutama jika cedera ginjal yang terjadi masih tergolong ringan. Karena itu, mengenali gejala sejak awal dan segera memeriksakan diri ke dokter menjadi langkah penting bagi siapa pun yang gemar berlari jarak jauh."
+      ],
       image: null,
       source: "CNN Indonesia, 27 Juni 2026 (dengan modifikasi)"
     },
@@ -574,7 +549,13 @@ export default [
     stimulus: {
       instruction: "Berdasarkan isi teks, tentukan apakah pernyataan berikut Benar atau Salah!",
       title: null,
-      paragraphs: null,
+      paragraphs: [
+        "Tren berlari semakin diminati banyak orang, mulai dari lomba 5K, half marathon, hingga marathon penuh. Meski bermanfaat untuk kebugaran, olahraga ini tetap perlu dilakukan sesuai kemampuan tubuh masing-masing, karena memaksakan diri berlari terlalu berat dapat memicu gangguan serius bernama rhabdomiolisis.",
+        "Rhabdomiolisis terjadi ketika otot rangka mengalami kerusakan berat akibat aktivitas fisik yang berlebihan. Saat itu terjadi, protein bernama mioglobin beserta sejumlah elektrolit keluar dari sel otot dan masuk ke aliran darah. Jika jumlah mioglobin yang beredar terlalu banyak, kerja ginjal dapat terganggu hingga berisiko memicu cedera ginjal akut apabila tidak segera ditangani.",
+        "Menurut dokter spesialis ginjal dan hipertensi, Tunggul Situmorang, kondisi ini umumnya muncul ketika seseorang tetap memaksakan tubuhnya berlari meski sudah merasa sangat lelah. Gejalanya pun tidak selalu langsung terasa; tanda-tanda seperti tubuh sangat lelah, nyeri otot, mual, hingga urine berwarna lebih gelap baru bisa muncul satu sampai tiga hari setelah otot mengalami kerusakan.",
+        "Tunggul menjelaskan bahwa salah satu penyebab utama rhabdomiolisis adalah pemanasan yang tidak dilakukan secara bertahap sebelum berolahraga berat. Pelari pemula yang langsung berlari dengan intensitas tinggi tanpa memberi waktu bagi tubuh untuk beradaptasi menjadi kelompok yang paling rentan mengalaminya. Meski begitu, pelari berpengalaman pun tetap berisiko apabila memaksakan diri secara berlebihan dan mendadak.",
+        "Kabar baiknya, rhabdomiolisis yang ditangani secara cepat umumnya masih dapat disembuhkan tanpa harus menjalani cuci darah, terutama jika cedera ginjal yang terjadi masih tergolong ringan. Karena itu, mengenali gejala sejak awal dan segera memeriksakan diri ke dokter menjadi langkah penting bagi siapa pun yang gemar berlari jarak jauh."
+      ],
       image: null,
       source: "CNN Indonesia, 27 Juni 2026 (dengan modifikasi)"
     },
@@ -599,7 +580,13 @@ export default [
     stimulus: {
       instruction: "Bacalah kembali teks tersebut!",
       title: null,
-      paragraphs: null,
+      paragraphs: [
+        "Tren berlari semakin diminati banyak orang, mulai dari lomba 5K, half marathon, hingga marathon penuh. Meski bermanfaat untuk kebugaran, olahraga ini tetap perlu dilakukan sesuai kemampuan tubuh masing-masing, karena memaksakan diri berlari terlalu berat dapat memicu gangguan serius bernama rhabdomiolisis.",
+        "Rhabdomiolisis terjadi ketika otot rangka mengalami kerusakan berat akibat aktivitas fisik yang berlebihan. Saat itu terjadi, protein bernama mioglobin beserta sejumlah elektrolit keluar dari sel otot dan masuk ke aliran darah. Jika jumlah mioglobin yang beredar terlalu banyak, kerja ginjal dapat terganggu hingga berisiko memicu cedera ginjal akut apabila tidak segera ditangani.",
+        "Menurut dokter spesialis ginjal dan hipertensi, Tunggul Situmorang, kondisi ini umumnya muncul ketika seseorang tetap memaksakan tubuhnya berlari meski sudah merasa sangat lelah. Gejalanya pun tidak selalu langsung terasa; tanda-tanda seperti tubuh sangat lelah, nyeri otot, mual, hingga urine berwarna lebih gelap baru bisa muncul satu sampai tiga hari setelah otot mengalami kerusakan.",
+        "Tunggul menjelaskan bahwa salah satu penyebab utama rhabdomiolisis adalah pemanasan yang tidak dilakukan secara bertahap sebelum berolahraga berat. Pelari pemula yang langsung berlari dengan intensitas tinggi tanpa memberi waktu bagi tubuh untuk beradaptasi menjadi kelompok yang paling rentan mengalaminya. Meski begitu, pelari berpengalaman pun tetap berisiko apabila memaksakan diri secara berlebihan dan mendadak.",
+        "Kabar baiknya, rhabdomiolisis yang ditangani secara cepat umumnya masih dapat disembuhkan tanpa harus menjalani cuci darah, terutama jika cedera ginjal yang terjadi masih tergolong ringan. Karena itu, mengenali gejala sejak awal dan segera memeriksakan diri ke dokter menjadi langkah penting bagi siapa pun yang gemar berlari jarak jauh."
+      ],
       image: null,
       source: "CNN Indonesia, 27 Juni 2026 (dengan modifikasi)"
     },
@@ -663,7 +650,25 @@ export default [
       instruction: "Bacalah puisi berikut untuk menjawab soal!",
       title: "Cita-Cita Sederhana",
       paragraphs: [
-        "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan isi puisi."
+        "Setelah kerja sehari penuh,",
+        "apa lagi yang kuinginkan?",
+        "Hanya ingin pulang sebelum gelap,",
+        "duduk bersama senja di teras rumah.",
+        "",
+        "Tapi jalanan selalu sesak,",
+        "waktu berlari lebih cepat dari langkahku.",
+        "Senja sering pulang lebih dulu,",
+        "meninggalkan jejak jingga yang dingin di jendela.",
+        "",
+        "Aku menabung detik demi detik,",
+        "berharap suatu hari nanti",
+        "waktu mau singgah sebentar saja,",
+        "menemaniku menyesap teh di senja yang sama.",
+        "",
+        "Sampai kapan aku harus menunggu?",
+        "Mungkin cita-cita yang sederhana ini",
+        "justru yang paling sulit kuraih",
+        "di tengah kota yang tak pernah benar-benar diam."
       ],
       image: null,
       source: "Adaptasi puisi 'Cita-cita' karya Joko Pinurbo"
@@ -714,7 +719,12 @@ export default [
     stimulus: {
       instruction: "Bacalah cerpen berikut untuk menjawab soal!",
       title: "Aku Yang Lain",
-      paragraphs: [],
+      paragraphs: [
+        "Ratna, gadis berusia lima belas tahun, sering merasa lelah mendengar kedua orang tuanya bertengkar soal hal-hal sepele, dan pikirannya pun mudah melayang ke berita konflik di Gaza yang entah mengapa selalu mengusik hatinya. Suatu hari, gurunya memberinya tugas mencari informasi tentang lambang palang merah—tugas yang terasa aneh, sebab beberapa teman menyebut Ratna baru saja berpidato dengan percaya diri di depan kelas, padahal ia sama sekali tidak mengingatnya dan sangat tidak suka tampil di depan umum.",
+        "Kejadian aneh semacam itu terus berulang: Ratna kerap merasa kehilangan waktu, mendengar bisikan dalam pikirannya, dan ditanyai tentang hal yang tidak pernah ia alami. Karena khawatir, Mama membawanya menemui psikiater remaja bernama Dokter Hendri, yang setelah beberapa pertemuan menyimpulkan bahwa Ratna mengalami gangguan kepribadian ganda (Multiple Personality Disorder)—di dalam dirinya ada sosok lain bernama Nabilah, pribadi yang berani, percaya diri, dan pandai berpidato, kebalikan dari Ratna yang pendiam dan penurut.",
+        "Melalui proses terapi, terungkap latar belakang kelam Ratna: nama aslinya adalah Amaliah, anak dari sepasang warga Palestina yang dititipkan kepada kerabat di Indonesia sejak kecil, sementara orang tua kandungnya gugur dalam konflik di kampung halaman mereka. Trauma berat itulah yang membuat pikiran kecil Amaliah menciptakan sosok Nabilah untuk melindunginya dari kenangan yang terlalu menyakitkan. Dengan bimbingan Dokter Hendri, Ratna pun bersedia menyatukan dirinya dengan Nabilah secara damai, hingga keduanya melebur menjadi satu jiwa yang utuh.",
+        "Lima tahun kemudian, gadis itu—kini dikenal dengan nama Amaliah Jamal—tumbuh menjadi duta muda Indonesia untuk Palestina. Dengan keberanian yang dulu dimiliki Nabilah dan kepekaan yang dimiliki Ratna, ia berdiri tegak di forum kemanusiaan internasional, menyuarakan pembelaan bagi korban perang dengan argumen tegas tentang pelanggaran terhadap lambang palang merah yang seharusnya dilindungi oleh Konvensi Jenewa."
+      ],
       image: null,
       source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
     },
@@ -734,7 +744,12 @@ export default [
     stimulus: {
       instruction: "Bacalah cerpen berikut untuk menjawab soal!",
       title: "Aku Yang Lain",
-      paragraphs: [],
+      paragraphs: [
+        "Ratna, gadis berusia lima belas tahun, sering merasa lelah mendengar kedua orang tuanya bertengkar soal hal-hal sepele, dan pikirannya pun mudah melayang ke berita konflik di Gaza yang entah mengapa selalu mengusik hatinya. Suatu hari, gurunya memberinya tugas mencari informasi tentang lambang palang merah—tugas yang terasa aneh, sebab beberapa teman menyebut Ratna baru saja berpidato dengan percaya diri di depan kelas, padahal ia sama sekali tidak mengingatnya dan sangat tidak suka tampil di depan umum.",
+        "Kejadian aneh semacam itu terus berulang: Ratna kerap merasa kehilangan waktu, mendengar bisikan dalam pikirannya, dan ditanyai tentang hal yang tidak pernah ia alami. Karena khawatir, Mama membawanya menemui psikiater remaja bernama Dokter Hendri, yang setelah beberapa pertemuan menyimpulkan bahwa Ratna mengalami gangguan kepribadian ganda (Multiple Personality Disorder)—di dalam dirinya ada sosok lain bernama Nabilah, pribadi yang berani, percaya diri, dan pandai berpidato, kebalikan dari Ratna yang pendiam dan penurut.",
+        "Melalui proses terapi, terungkap latar belakang kelam Ratna: nama aslinya adalah Amaliah, anak dari sepasang warga Palestina yang dititipkan kepada kerabat di Indonesia sejak kecil, sementara orang tua kandungnya gugur dalam konflik di kampung halaman mereka. Trauma berat itulah yang membuat pikiran kecil Amaliah menciptakan sosok Nabilah untuk melindunginya dari kenangan yang terlalu menyakitkan. Dengan bimbingan Dokter Hendri, Ratna pun bersedia menyatukan dirinya dengan Nabilah secara damai, hingga keduanya melebur menjadi satu jiwa yang utuh.",
+        "Lima tahun kemudian, gadis itu—kini dikenal dengan nama Amaliah Jamal—tumbuh menjadi duta muda Indonesia untuk Palestina. Dengan keberanian yang dulu dimiliki Nabilah dan kepekaan yang dimiliki Ratna, ia berdiri tegak di forum kemanusiaan internasional, menyuarakan pembelaan bagi korban perang dengan argumen tegas tentang pelanggaran terhadap lambang palang merah yang seharusnya dilindungi oleh Konvensi Jenewa."
+      ],
       image: null,
       source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
     },
@@ -759,7 +774,12 @@ export default [
     stimulus: {
       instruction: "Bacalah cerpen berikut untuk menjawab soal!",
       title: "Aku Yang Lain",
-      paragraphs: [],
+      paragraphs: [
+        "Ratna, gadis berusia lima belas tahun, sering merasa lelah mendengar kedua orang tuanya bertengkar soal hal-hal sepele, dan pikirannya pun mudah melayang ke berita konflik di Gaza yang entah mengapa selalu mengusik hatinya. Suatu hari, gurunya memberinya tugas mencari informasi tentang lambang palang merah—tugas yang terasa aneh, sebab beberapa teman menyebut Ratna baru saja berpidato dengan percaya diri di depan kelas, padahal ia sama sekali tidak mengingatnya dan sangat tidak suka tampil di depan umum.",
+        "Kejadian aneh semacam itu terus berulang: Ratna kerap merasa kehilangan waktu, mendengar bisikan dalam pikirannya, dan ditanyai tentang hal yang tidak pernah ia alami. Karena khawatir, Mama membawanya menemui psikiater remaja bernama Dokter Hendri, yang setelah beberapa pertemuan menyimpulkan bahwa Ratna mengalami gangguan kepribadian ganda (Multiple Personality Disorder)—di dalam dirinya ada sosok lain bernama Nabilah, pribadi yang berani, percaya diri, dan pandai berpidato, kebalikan dari Ratna yang pendiam dan penurut.",
+        "Melalui proses terapi, terungkap latar belakang kelam Ratna: nama aslinya adalah Amaliah, anak dari sepasang warga Palestina yang dititipkan kepada kerabat di Indonesia sejak kecil, sementara orang tua kandungnya gugur dalam konflik di kampung halaman mereka. Trauma berat itulah yang membuat pikiran kecil Amaliah menciptakan sosok Nabilah untuk melindunginya dari kenangan yang terlalu menyakitkan. Dengan bimbingan Dokter Hendri, Ratna pun bersedia menyatukan dirinya dengan Nabilah secara damai, hingga keduanya melebur menjadi satu jiwa yang utuh.",
+        "Lima tahun kemudian, gadis itu—kini dikenal dengan nama Amaliah Jamal—tumbuh menjadi duta muda Indonesia untuk Palestina. Dengan keberanian yang dulu dimiliki Nabilah dan kepekaan yang dimiliki Ratna, ia berdiri tegak di forum kemanusiaan internasional, menyuarakan pembelaan bagi korban perang dengan argumen tegas tentang pelanggaran terhadap lambang palang merah yang seharusnya dilindungi oleh Konvensi Jenewa."
+      ],
       image: null,
       source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
     },
@@ -780,8 +800,10 @@ export default [
       instruction: "Bacalah kedua teks berikut untuk menjawab soal!",
       title: "Perbandingan Tari Jaipong dan Tari Saman",
       paragraphs: [
-        "Teks 1\n\nTari Jaipong merupakan tarian tradisional khas masyarakat Sunda yang tumbuh dan berkembang di wilayah Karawang dan Bandung, Jawa Barat. Tarian ini lahir dari perpaduan beberapa kesenian rakyat, seperti Tari Ketuk Tilu, Pencak Silat, dan Wayang Golek. Karena keunikannya, Tari Jaipong sering ditampilkan dalam acara penyambutan tamu penting, termasuk tamu dari luar negeri.\n\nTarian ini dapat dibawakan secara tunggal, berpasangan, atau berkelompok, baik oleh penari laki-laki maupun perempuan. Perlengkapan yang digunakan antara lain selendang (sampur), baju atasan (apok), serta kain panjang (sinjang). Gerakannya diiringi musik tradisional seperti kendang, gong, dan rebab, ditambah nyanyian seorang sinden.\n\nCiri khas Tari Jaipong terletak pada gerakan yang enerjik dengan tempo musik yang cenderung cepat, terutama pada hentakan pinggul, ayunan tangan, dan sorot mata penarinya yang tajam. Hingga kini, Tari Jaipong tetap digemari berbagai kalangan dan beberapa kali tampil di mancanegara.",
-        "Teks 2\n\nTari Saman adalah tarian tradisional dari Aceh yang sejak tahun 2011 telah diakui UNESCO sebagai Warisan Budaya Takbenda dunia. Pada mulanya, tarian ini digunakan sebagai sarana dakwah dan hanya dibawakan oleh penari laki-laki, dengan kandungan nilai pendidikan agama, kepahlawanan, serta kekompakan.\n\nJumlah penari Saman selalu ganjil. Selain melantunkan syair berbahasa Gayo bercampur bahasa Arab, gerakan tari ini juga dipadukan dengan suara tepuk tangan, tepuk dada, dan tepuk paha para penari sendiri, tanpa menggunakan alat musik apa pun.\n\nBusana penari Saman terdiri atas tiga bagian, yaitu hiasan kepala, pakaian badan berupa baju kantong dan sarung, serta hiasan tangan seperti gelang dan sapu tangan. Melalui gerak dan kostumnya, Tari Saman menonjolkan nilai kekompakan dan kebersamaan yang sangat dijaga oleh masyarakat Gayo, Aceh."
+        "<b>Teks 1</b>",
+        "\n\nTari Jaipong merupakan tarian tradisional khas masyarakat Sunda yang tumbuh dan berkembang di wilayah Karawang dan Bandung, Jawa Barat. Tarian ini lahir dari perpaduan beberapa kesenian rakyat, seperti Tari Ketuk Tilu, Pencak Silat, dan Wayang Golek. Karena keunikannya, Tari Jaipong sering ditampilkan dalam acara penyambutan tamu penting, termasuk tamu dari luar negeri.\n\nTarian ini dapat dibawakan secara tunggal, berpasangan, atau berkelompok, baik oleh penari laki-laki maupun perempuan. Perlengkapan yang digunakan antara lain selendang (sampur), baju atasan (apok), serta kain panjang (sinjang). Gerakannya diiringi musik tradisional seperti kendang, gong, dan rebab, ditambah nyanyian seorang sinden.\n\nCiri khas Tari Jaipong terletak pada gerakan yang enerjik dengan tempo musik yang cenderung cepat, terutama pada hentakan pinggul, ayunan tangan, dan sorot mata penarinya yang tajam. Hingga kini, Tari Jaipong tetap digemari berbagai kalangan dan beberapa kali tampil di mancanegara.",
+        "<b>Teks 2</b>",
+        "\n\nTari Saman adalah tarian tradisional dari Aceh yang sejak tahun 2011 telah diakui UNESCO sebagai Warisan Budaya Takbenda dunia. Pada mulanya, tarian ini digunakan sebagai sarana dakwah dan hanya dibawakan oleh penari laki-laki, dengan kandungan nilai pendidikan agama, kepahlawanan, serta kekompakan.\n\nJumlah penari Saman selalu ganjil. Selain melantunkan syair berbahasa Gayo bercampur bahasa Arab, gerakan tari ini juga dipadukan dengan suara tepuk tangan, tepuk dada, dan tepuk paha para penari sendiri, tanpa menggunakan alat musik apa pun.\n\nBusana penari Saman terdiri atas tiga bagian, yaitu hiasan kepala, pakaian badan berupa baju kantong dan sarung, serta hiasan tangan seperti gelang dan sapu tangan. Melalui gerak dan kostumnya, Tari Saman menonjolkan nilai kekompakan dan kebersamaan yang sangat dijaga oleh masyarakat Gayo, Aceh."
       ],
       image: null,
       source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
@@ -803,7 +825,10 @@ export default [
       instruction: "Bacalah kedua teks berikut untuk menjawab soal!",
       title: "Perbandingan Tari Jaipong dan Tari Saman",
       paragraphs: [
-        "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan kedua teks."
+        "<b>Teks 1</b>",
+        "\n\nTari Jaipong merupakan tarian tradisional khas masyarakat Sunda yang tumbuh dan berkembang di wilayah Karawang dan Bandung, Jawa Barat. Tarian ini lahir dari perpaduan beberapa kesenian rakyat, seperti Tari Ketuk Tilu, Pencak Silat, dan Wayang Golek. Karena keunikannya, Tari Jaipong sering ditampilkan dalam acara penyambutan tamu penting, termasuk tamu dari luar negeri.\n\nTarian ini dapat dibawakan secara tunggal, berpasangan, atau berkelompok, baik oleh penari laki-laki maupun perempuan. Perlengkapan yang digunakan antara lain selendang (sampur), baju atasan (apok), serta kain panjang (sinjang). Gerakannya diiringi musik tradisional seperti kendang, gong, dan rebab, ditambah nyanyian seorang sinden.\n\nCiri khas Tari Jaipong terletak pada gerakan yang enerjik dengan tempo musik yang cenderung cepat, terutama pada hentakan pinggul, ayunan tangan, dan sorot mata penarinya yang tajam. Hingga kini, Tari Jaipong tetap digemari berbagai kalangan dan beberapa kali tampil di mancanegara.",
+        "<b>Teks 2</b>",
+        "\n\nTari Saman adalah tarian tradisional dari Aceh yang sejak tahun 2011 telah diakui UNESCO sebagai Warisan Budaya Takbenda dunia. Pada mulanya, tarian ini digunakan sebagai sarana dakwah dan hanya dibawakan oleh penari laki-laki, dengan kandungan nilai pendidikan agama, kepahlawanan, serta kekompakan.\n\nJumlah penari Saman selalu ganjil. Selain melantunkan syair berbahasa Gayo bercampur bahasa Arab, gerakan tari ini juga dipadukan dengan suara tepuk tangan, tepuk dada, dan tepuk paha para penari sendiri, tanpa menggunakan alat musik apa pun.\n\nBusana penari Saman terdiri atas tiga bagian, yaitu hiasan kepala, pakaian badan berupa baju kantong dan sarung, serta hiasan tangan seperti gelang dan sapu tangan. Melalui gerak dan kostumnya, Tari Saman menonjolkan nilai kekompakan dan kebersamaan yang sangat dijaga oleh masyarakat Gayo, Aceh."
       ],
       image: null,
       source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
@@ -853,7 +878,13 @@ export default [
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
       title: null,
-      paragraphs: [],
+      paragraphs: [
+        "(1) Pada Minggu pagi, warga Kompleks Melati mengadakan kegiatan kerja bakti membersihkan selokan yang tersumbat sampah plastik.",
+        "(2) Menurut Bu RT, kegiatan tersebut sangat penting sekali untuk mencegah terjadinya banjir pada saat musim penghujan tiba.",
+        "(3) Anak-anak ikut serta membantu para orang tua menyapu halaman rumah masing-masing dan mengumpulkan sampah-sampah ke dalam karung.",
+        "(4) Setelah kerja bakti selesai dilaksanakan, seluruh warga kompleks tersebut kemudian berkumpul bersama-sama untuk makan bersama dengan menu sayur dan ikan asin yang sudah disiapkan secara bergotong royong oleh ibu-ibu sebelumnya.",
+        "(5) Bu RT berharap kegiatan positif seperti ini dapat terus dilaksanakan secara rutin setiap bulan agar lingkungan tetap bersih dan sehat."
+      ],
       image: null,
       source: null
     },
@@ -914,7 +945,28 @@ export default [
     stimulus: {
       instruction: "Bacalah puisi berikut untuk menjawab soal!",
       title: "Suara dari Tanah yang Terbakar",
-      paragraphs: [],
+      paragraphs: [
+        "Aku dengar derap langkah di kejauhan,",
+        "bukan langkah pawai, bukan pula langkah pulang,",
+        "melainkan langkah yang menyeret luka",
+        "ke arah esok yang masih samar.",
+        "",
+        "Anak-anak menutup telinga dari dentum,",
+        "tapi mata mereka tak bisa menutup mimpi:",
+        "sebuah rumah yang berdiri tegak,",
+        "sebuah pagi tanpa asap dan tangis.",
+        "",
+        "Kita yang jauh hanya bisa berdoa,",
+        "mengirim kata lewat angin dan layar kaca,",
+        "tapi doa pun adalah bentuk perlawanan",
+        "ketika tangan tak sampai menjangkau.",
+        "",
+        "Maka mari kita rapatkan barisan harapan,",
+        "bukan dengan senjata, tapi dengan suara,",
+        "sebab perang ini bukan hanya milik mereka,",
+        "ini adalah perang kita semua—",
+        "melawan diam, melawan lupa."
+      ],
       image: null,
       source: null
     },
@@ -934,7 +986,28 @@ export default [
     stimulus: {
       instruction: "Bacalah puisi berikut untuk menjawab soal!",
       title: "Suara dari Tanah yang Terbakar",
-      paragraphs: [],
+      paragraphs: [
+        "Aku dengar derap langkah di kejauhan,",
+        "bukan langkah pawai, bukan pula langkah pulang,",
+        "melainkan langkah yang menyeret luka",
+        "ke arah esok yang masih samar.",
+        "",
+        "Anak-anak menutup telinga dari dentum,",
+        "tapi mata mereka tak bisa menutup mimpi:",
+        "sebuah rumah yang berdiri tegak,",
+        "sebuah pagi tanpa asap dan tangis.",
+        "",
+        "Kita yang jauh hanya bisa berdoa,",
+        "mengirim kata lewat angin dan layar kaca,",
+        "tapi doa pun adalah bentuk perlawanan",
+        "ketika tangan tak sampai menjangkau.",
+        "",
+        "Maka mari kita rapatkan barisan harapan,",
+        "bukan dengan senjata, tapi dengan suara,",
+        "sebab perang ini bukan hanya milik mereka,",
+        "ini adalah perang kita semua—",
+        "melawan diam, melawan lupa."
+      ],
       image: null,
       source: null
     },
@@ -981,7 +1054,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks eksposisi berikut untuk menjawab Soal 1 sampai Soal 5!",
     title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
+      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
+      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
+      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
+      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
+      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+    ],
     image: null,
     source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
   },
@@ -1001,7 +1081,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks eksposisi berikut untuk menjawab Soal 1 sampai Soal 5!",
     title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
+      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
+      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
+      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
+      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
+      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+    ],
     image: null,
     source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
   },
@@ -1021,7 +1108,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks eksposisi berikut untuk menjawab Soal 1 sampai Soal 5!",
     title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
+      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
+      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
+      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
+      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
+      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+    ],
     image: null,
     source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
   },
@@ -1041,7 +1135,14 @@ export default [
   stimulus: {
     instruction: "Bacalah kembali teks 'Mengubah Sampah Menjadi Berkah'!",
     title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
+      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
+      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
+      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
+      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
+      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+    ],
     image: null,
     source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
   },
@@ -1093,7 +1194,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Taman Nasional Baluran",
-    paragraphs: [],
+    paragraphs: [
+      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
+      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
+      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
+      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
+      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
+      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+    ],
     image: null,
     source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
   },
@@ -1113,7 +1221,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Taman Nasional Baluran",
-    paragraphs: [],
+    paragraphs: [
+      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
+      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
+      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
+      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
+      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
+      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+    ],
     image: null,
     source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
   },
@@ -1133,7 +1248,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Taman Nasional Baluran",
-    paragraphs: [],
+    paragraphs: [
+      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
+      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
+      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
+      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
+      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
+      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+    ],
     image: null,
     source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
   },
@@ -1158,7 +1280,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Taman Nasional Baluran",
-    paragraphs: [],
+    paragraphs: [
+      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
+      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
+      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
+      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
+      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
+      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+    ],
     image: null,
     source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
   },
@@ -1204,7 +1333,13 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Olahraga Yang Tepat bagi Tubuh Masing-masing",
-    paragraphs: [],
+    paragraphs: [
+      "Olahraga memang menyimpan segudang manfaat bagi kesehatan tubuh, tetapi bukan berarti semua orang boleh memilih jenis olahraga yang sama tanpa pertimbangan. Kekuatan jantung, misalnya, berbeda pada setiap individu, sehingga porsi dan bentuk latihan fisik yang cocok bagi seseorang belum tentu aman bagi orang lain. Itulah sebabnya mengenali kondisi tubuh sendiri menjadi langkah penting sebelum menentukan jenis olahraga yang akan dijalani.",
+      "Sebagai kegiatan yang menyenangkan, olahraga dapat dilakukan siapa saja, mulai dari lari, sepak bola, bulu tangkis, hingga berenang. Selain menyegarkan tubuh, aktivitas ini juga mampu memperbaiki suasana hati karena berfungsi sebagai pelepas ketegangan pikiran. Tidak hanya itu, olahraga yang dilakukan secara rutin turut menjaga metabolisme tubuh sehingga risiko gangguan fungsi otak, seperti menurunnya daya ingat di usia lanjut, dapat ditekan.",
+      "Bagi penderita tekanan darah tinggi, olahraga bahkan sangat dianjurkan. Pembuluh darah yang menyempit akibat hipertensi dapat kembali melebar apabila tubuh rutin bergerak, sehingga aliran darah menjadi lebih lancar. Kesehatan jantung pun turut terjaga selama olahraga dilakukan sesuai kemampuan tubuh masing-masing.",
+      "Sayangnya, tidak sedikit orang yang memaksakan diri berolahraga berat tanpa mengetahui kondisi jantungnya terlebih dahulu. Penderita gangguan jantung yang nekat berlari atau berenang dalam waktu lama, misalnya, berisiko mengalami kelelahan ekstrem, bahkan pingsan mendadak akibat serangan jantung. Kasus semacam ini kerap terjadi karena niat menyehatkan tubuh justru berujung pada kondisi yang lebih buruk.",
+      "Oleh karena itu, sebelum memutuskan jenis dan intensitas olahraga, setiap orang perlu memastikan dahulu kesanggupan tubuhnya. Dengan begitu, olahraga benar-benar mendatangkan manfaat, bukan malah menimbulkan masalah kesehatan yang baru."
+    ],
     image: null,
     source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
   },
@@ -1224,7 +1359,13 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Olahraga Yang Tepat bagi Tubuh Masing-masing",
-    paragraphs: [],
+    paragraphs: [
+      "Olahraga memang menyimpan segudang manfaat bagi kesehatan tubuh, tetapi bukan berarti semua orang boleh memilih jenis olahraga yang sama tanpa pertimbangan. Kekuatan jantung, misalnya, berbeda pada setiap individu, sehingga porsi dan bentuk latihan fisik yang cocok bagi seseorang belum tentu aman bagi orang lain. Itulah sebabnya mengenali kondisi tubuh sendiri menjadi langkah penting sebelum menentukan jenis olahraga yang akan dijalani.",
+      "Sebagai kegiatan yang menyenangkan, olahraga dapat dilakukan siapa saja, mulai dari lari, sepak bola, bulu tangkis, hingga berenang. Selain menyegarkan tubuh, aktivitas ini juga mampu memperbaiki suasana hati karena berfungsi sebagai pelepas ketegangan pikiran. Tidak hanya itu, olahraga yang dilakukan secara rutin turut menjaga metabolisme tubuh sehingga risiko gangguan fungsi otak, seperti menurunnya daya ingat di usia lanjut, dapat ditekan.",
+      "Bagi penderita tekanan darah tinggi, olahraga bahkan sangat dianjurkan. Pembuluh darah yang menyempit akibat hipertensi dapat kembali melebar apabila tubuh rutin bergerak, sehingga aliran darah menjadi lebih lancar. Kesehatan jantung pun turut terjaga selama olahraga dilakukan sesuai kemampuan tubuh masing-masing.",
+      "Sayangnya, tidak sedikit orang yang memaksakan diri berolahraga berat tanpa mengetahui kondisi jantungnya terlebih dahulu. Penderita gangguan jantung yang nekat berlari atau berenang dalam waktu lama, misalnya, berisiko mengalami kelelahan ekstrem, bahkan pingsan mendadak akibat serangan jantung. Kasus semacam ini kerap terjadi karena niat menyehatkan tubuh justru berujung pada kondisi yang lebih buruk.",
+      "Oleh karena itu, sebelum memutuskan jenis dan intensitas olahraga, setiap orang perlu memastikan dahulu kesanggupan tubuhnya. Dengan begitu, olahraga benar-benar mendatangkan manfaat, bukan malah menimbulkan masalah kesehatan yang baru."
+    ],
     image: null,
     source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
   },
@@ -1275,7 +1416,13 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Pentingnya Penguasaan Bahasa Inggris",
-    paragraphs: [],
+    paragraphs: [
+      "Di tengah arus globalisasi, bahasa Inggris telah menjadi bahasa pengantar yang dipakai hampir di seluruh penjuru dunia. Kedudukannya sebagai bahasa internasional membuat penguasaannya kian penting, baik untuk keperluan akademik maupun pergaulan lintas negara.",
+      "Data yang pernah dipublikasikan oleh lembaga riset Statista pada tahun 2021 menunjukkan bahwa bahasa Inggris masih menempati posisi teratas sebagai bahasa yang paling banyak digunakan secara global, dengan perkiraan sekitar 1,5 miliar penutur di seluruh dunia. Angka ini menegaskan betapa luasnya jangkauan komunikasi yang dapat dibuka oleh seseorang jika ia menguasai bahasa tersebut.",
+      "Selain mempermudah komunikasi lintas negara, penguasaan bahasa Inggris juga membuka akses terhadap sumber ilmu pengetahuan yang jauh lebih luas. Sebagian besar jurnal, artikel, dan referensi ilmiah dunia diterbitkan dalam bahasa Inggris. Sebagai gambaran, pada tahun 2012 jumlah artikel berbahasa Inggris di Wikipedia sudah mencapai sekitar 4 juta, sementara versi berbahasa Indonesia baru memiliki sekitar 200 ribu artikel. Kesenjangan ini menunjukkan besarnya peluang belajar yang hanya dapat diakses secara maksimal oleh mereka yang memahami bahasa Inggris.",
+      "Di sisi lain, dunia kerja pun kian menuntut kemampuan berbahasa Inggris sebagai salah satu syarat penting. Banyak perusahaan, baik berskala nasional maupun multinasional, mempertimbangkan kecakapan berbahasa asing ini sebagai nilai tambah bagi pelamar kerja, sehingga peluang karier seseorang menjadi lebih terbuka.",
+      "Dengan demikian, dapat disimpulkan bahwa penguasaan bahasa Inggris bukan sekadar pelengkap, melainkan bekal penting yang mendukung seseorang untuk berkomunikasi secara luas, memperoleh ilmu pengetahuan terbaru, dan meraih peluang kerja yang lebih baik di era global ini."
+    ],
     image: null,
     source: "Brain Academy, 31 Maret 2026 (dengan modifikasi)"
   },
@@ -1326,7 +1473,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Suntiang",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap kali ada baralek atau pesta pernikahan di kampung, Rangga selalu menjadi orang yang paling sibuk. Di usianya yang baru lima belas tahun, ia adalah satu-satunya tukang suntiang yang tersisa di kampungnya, mewarisi keterampilan merangkai dan memasangkan mahkota pengantin khas Minangkabau itu dari mendiang abaknya. Sejak abak meninggal setahun lalu, Rangga-lah yang meneruskan pekerjaan itu, dibantu amak yang mengajarinya sedikit demi sedikit di sela kesibukan menjahit.",
+      "Penghasilan dari merias suntiang tidak banyak, tetapi cukup untuk menyambung hidup, apalagi setelah amak jatuh sakit dan tidak bisa lagi bekerja seperti dulu. Rangga tahu, kalau ia berhenti, tidak ada lagi yang bisa membiayai obat amak maupun keperluan sekolahnya sendiri.",
+      "Namun, membawa kotak peralatan suntiang melewati warung tempat teman-temannya biasa berkumpul selalu menjadi ujian tersendiri. 'Kerja perempuan tuh, mendandani orang,' begitu ejekan yang paling sering ia dengar. Wajahnya memanas setiap kali harus menahan diri, pura-pura tidak mendengar, sambil mempercepat langkah menuju rumah client.",
+      "Suatu malam, sepulang dari sebuah pesta, Rangga tidak tahan lagi. Ia melempar sebuah foto dirinya sedang memasangkan suntiang ke lantai kamar, kesal dan lelah dengan cemoohan yang tak kunjung berhenti. Dalam hati ia bertanya-tanya, apakah lebih baik ia berhenti saja dan ikut bekerja di bengkel motor seperti teman-teman sebayanya, pekerjaan yang menurutnya lebih 'pantas' bagi anak laki-laki.",
+      "Keesokan harinya, seorang nenek calon pengantin yang akan dirias memanggilnya bicara empat mata. 'Dulu, hanya perempuan tua sepertiku yang bisa memasang suntiang dengan benar. Abakmu belajar susah payah supaya tradisi ini tidak hilang. Sekarang tinggal kau yang bisa,' katanya pelan sambil menepuk pundak Rangga. Kata-kata itu membuat Rangga terdiam lama, memikirkan kembali semua yang telah ia lalui bersama abaknya.",
+      "Sejak hari itu, Rangga tidak lagi menunduk ketika melewati warung. Ia tetap mendengar bisik-bisik ejekan sesekali, tetapi kini langkahnya lebih mantap. Kotak suntiang yang dulu terasa memalukan, perlahan menjadi sesuatu yang ia bawa dengan bangga, sebagai bukti bahwa ia sedang menjaga sesuatu yang lebih besar daripada dirinya sendiri."
+    ],
     image: null,
     source: "Adaptasi dari Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015"
   },
@@ -1349,7 +1503,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Suntiang",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap kali ada baralek atau pesta pernikahan di kampung, Rangga selalu menjadi orang yang paling sibuk. Di usianya yang baru lima belas tahun, ia adalah satu-satunya tukang suntiang yang tersisa di kampungnya, mewarisi keterampilan merangkai dan memasangkan mahkota pengantin khas Minangkabau itu dari mendiang abaknya. Sejak abak meninggal setahun lalu, Rangga-lah yang meneruskan pekerjaan itu, dibantu amak yang mengajarinya sedikit demi sedikit di sela kesibukan menjahit.",
+      "Penghasilan dari merias suntiang tidak banyak, tetapi cukup untuk menyambung hidup, apalagi setelah amak jatuh sakit dan tidak bisa lagi bekerja seperti dulu. Rangga tahu, kalau ia berhenti, tidak ada lagi yang bisa membiayai obat amak maupun keperluan sekolahnya sendiri.",
+      "Namun, membawa kotak peralatan suntiang melewati warung tempat teman-temannya biasa berkumpul selalu menjadi ujian tersendiri. 'Kerja perempuan tuh, mendandani orang,' begitu ejekan yang paling sering ia dengar. Wajahnya memanas setiap kali harus menahan diri, pura-pura tidak mendengar, sambil mempercepat langkah menuju rumah client.",
+      "Suatu malam, sepulang dari sebuah pesta, Rangga tidak tahan lagi. Ia melempar sebuah foto dirinya sedang memasangkan suntiang ke lantai kamar, kesal dan lelah dengan cemoohan yang tak kunjung berhenti. Dalam hati ia bertanya-tanya, apakah lebih baik ia berhenti saja dan ikut bekerja di bengkel motor seperti teman-teman sebayanya, pekerjaan yang menurutnya lebih 'pantas' bagi anak laki-laki.",
+      "Keesokan harinya, seorang nenek calon pengantin yang akan dirias memanggilnya bicara empat mata. 'Dulu, hanya perempuan tua sepertiku yang bisa memasang suntiang dengan benar. Abakmu belajar susah payah supaya tradisi ini tidak hilang. Sekarang tinggal kau yang bisa,' katanya pelan sambil menepuk pundak Rangga. Kata-kata itu membuat Rangga terdiam lama, memikirkan kembali semua yang telah ia lalui bersama abaknya.",
+      "Sejak hari itu, Rangga tidak lagi menunduk ketika melewati warung. Ia tetap mendengar bisik-bisik ejekan sesekali, tetapi kini langkahnya lebih mantap. Kotak suntiang yang dulu terasa memalukan, perlahan menjadi sesuatu yang ia bawa dengan bangga, sebagai bukti bahwa ia sedang menjaga sesuatu yang lebih besar daripada dirinya sendiri."
+    ],
     image: null,
     source: "Adaptasi dari Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015"
   },
@@ -1395,7 +1556,13 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Gempa Kembar Guncang Venezuela",
-    paragraphs: [],
+    paragraphs: [
+      "Venezuela diguncang bencana dahsyat pada Rabu sore, 24 Juni 2026 waktu setempat, ketika dua gempa besar melanda kawasan pesisir utara negara itu hanya berselang sekitar 39 detik. Guncangan pertama tercatat berkekuatan magnitudo 7,2, disusul guncangan kedua yang lebih dahsyat dengan magnitudo 7,5. Fenomena semacam ini oleh Survei Geologi Amerika Serikat (USGS) disebut sebagai gempa kembar atau doublet earthquake.",
+      "Gempa kembar berbeda dari pola gempa pada umumnya, yang biasanya berupa satu gempa utama diikuti gempa-gempa susulan dengan kekuatan jauh lebih kecil. Pada peristiwa doublet, dua gempa besar dengan kekuatan yang hampir setara terjadi di lokasi dan waktu yang sangat berdekatan. Di Venezuela, rangkaian gempa ini dipicu oleh pergeseran pada Sesar Boconó yang membentang sekitar 500 kilometer, akibat pergerakan Lempeng Karibia yang bergeser relatif terhadap Lempeng Amerika Selatan.",
+      "Dua guncangan besar itu menimbulkan kerusakan luas, terutama di ibu kota Caracas dan kawasan pesisir La Guaira yang menjadi wilayah paling parah terdampak. Banyak bangunan dilaporkan runtuh maupun rusak berat. Bandara Internasional Simón Bolívar turut mengalami kerusakan struktural sehingga seluruh penerbangan dibatalkan.",
+      "Menghadapi situasi darurat tersebut, Penjabat Presiden Venezuela menetapkan status darurat nasional dan mengerahkan tim penyelamat. Proses evakuasi semakin berisiko karena ratusan gempa susulan masih terus terjadi.",
+      "Sejumlah negara dan lembaga kemanusiaan internasional mengirimkan bantuan. USGS juga memperingatkan bahwa peluang munculnya gempa susulan berkekuatan besar masih tinggi."
+    ],
     image: null,
     source: "Tempo, 1 Juli 2026 (dengan modifikasi)"
   },
@@ -1419,7 +1586,13 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Gempa Kembar Guncang Venezuela",
-    paragraphs: [],
+    paragraphs: [
+      "Venezuela diguncang bencana dahsyat pada Rabu sore, 24 Juni 2026 waktu setempat, ketika dua gempa besar melanda kawasan pesisir utara negara itu hanya berselang sekitar 39 detik. Guncangan pertama tercatat berkekuatan magnitudo 7,2, disusul guncangan kedua yang lebih dahsyat dengan magnitudo 7,5. Fenomena semacam ini oleh Survei Geologi Amerika Serikat (USGS) disebut sebagai gempa kembar atau doublet earthquake.",
+      "Gempa kembar berbeda dari pola gempa pada umumnya, yang biasanya berupa satu gempa utama diikuti gempa-gempa susulan dengan kekuatan jauh lebih kecil. Pada peristiwa doublet, dua gempa besar dengan kekuatan yang hampir setara terjadi di lokasi dan waktu yang sangat berdekatan. Di Venezuela, rangkaian gempa ini dipicu oleh pergeseran pada Sesar Boconó yang membentang sekitar 500 kilometer, akibat pergerakan Lempeng Karibia yang bergeser relatif terhadap Lempeng Amerika Selatan.",
+      "Dua guncangan besar itu menimbulkan kerusakan luas, terutama di ibu kota Caracas dan kawasan pesisir La Guaira yang menjadi wilayah paling parah terdampak. Banyak bangunan dilaporkan runtuh maupun rusak berat. Bandara Internasional Simón Bolívar turut mengalami kerusakan struktural sehingga seluruh penerbangan dibatalkan.",
+      "Menghadapi situasi darurat tersebut, Penjabat Presiden Venezuela menetapkan status darurat nasional dan mengerahkan tim penyelamat. Proses evakuasi semakin berisiko karena ratusan gempa susulan masih terus terjadi.",
+      "Sejumlah negara dan lembaga kemanusiaan internasional mengirimkan bantuan. USGS juga memperingatkan bahwa peluang munculnya gempa susulan berkekuatan besar masih tinggi."
+    ],
     image: null,
     source: "Tempo, 1 Juli 2026 (dengan modifikasi)"
   },
@@ -1439,7 +1612,13 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Gempa Kembar Guncang Venezuela",
-    paragraphs: [],
+    paragraphs: [
+      "Venezuela diguncang bencana dahsyat pada Rabu sore, 24 Juni 2026 waktu setempat, ketika dua gempa besar melanda kawasan pesisir utara negara itu hanya berselang sekitar 39 detik. Guncangan pertama tercatat berkekuatan magnitudo 7,2, disusul guncangan kedua yang lebih dahsyat dengan magnitudo 7,5. Fenomena semacam ini oleh Survei Geologi Amerika Serikat (USGS) disebut sebagai gempa kembar atau doublet earthquake.",
+      "Gempa kembar berbeda dari pola gempa pada umumnya, yang biasanya berupa satu gempa utama diikuti gempa-gempa susulan dengan kekuatan jauh lebih kecil. Pada peristiwa doublet, dua gempa besar dengan kekuatan yang hampir setara terjadi di lokasi dan waktu yang sangat berdekatan. Di Venezuela, rangkaian gempa ini dipicu oleh pergeseran pada Sesar Boconó yang membentang sekitar 500 kilometer, akibat pergerakan Lempeng Karibia yang bergeser relatif terhadap Lempeng Amerika Selatan.",
+      "Dua guncangan besar itu menimbulkan kerusakan luas, terutama di ibu kota Caracas dan kawasan pesisir La Guaira yang menjadi wilayah paling parah terdampak. Banyak bangunan dilaporkan runtuh maupun rusak berat. Bandara Internasional Simón Bolívar turut mengalami kerusakan struktural sehingga seluruh penerbangan dibatalkan.",
+      "Menghadapi situasi darurat tersebut, Penjabat Presiden Venezuela menetapkan status darurat nasional dan mengerahkan tim penyelamat. Proses evakuasi semakin berisiko karena ratusan gempa susulan masih terus terjadi.",
+      "Sejumlah negara dan lembaga kemanusiaan internasional mengirimkan bantuan. USGS juga memperingatkan bahwa peluang munculnya gempa susulan berkekuatan besar masih tinggi."
+    ],
     image: null,
     source: "Tempo, 1 Juli 2026 (dengan modifikasi)"
   },
@@ -1490,7 +1669,13 @@ export default [
   stimulus: {
     instruction: "Bacalah puisi berikut untuk menjawab soal!",
     title: "Layar Abadi",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap pagi ia menatap cermin kaca ponsel, mencari wajah yang paling pantas dikenang.",
+      "Ribuan potret berbaris rapi dalam galeri, tapi tak satu pun berani mengaku serupa dirinya.",
+      "\"Siapa yang paling mirip aku?\" tanyanya pada barisan foto yang membisu. Semua diam, menunduk malu, seperti tahu jawabannya hanya ilusi.",
+      "Ia pun terus memotret, mengejar wajah yang selalu berubah, berharap layar kecil itu mampu mengunci waktu yang fana.",
+      "Padahal cermin hanya memantulkan, bukan mengabadikan."
+    ],
     image: null,
     source: "Adaptasi puisi Fotoku Abadi karya Joko Pinurbo"
   },
@@ -1542,7 +1727,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Denting Gong di Malam Tandak",
-    paragraphs: [],
+    paragraphs: [
+      "Kampung Pesisir Rendang selalu riuh menjelang akhir musim melaut. Warga menyiapkan panggung sederhana dari bambu di tepi pantai untuk Tandak Mak Dangkong, tarian syukur yang dipimpin oleh Nek Minah, satu-satunya sesepuh yang masih hafal seluruh gerak dan mantra pengiringnya. Bagi warga kampung, tarian itu bukan sekadar hiburan, melainkan cara mereka mengucap terima kasih kepada laut yang telah memberi rezeki sepanjang tahun.",
+      "Ratna, cucu Nek Minah, justru merasa risi setiap kali tarian itu disebut-sebut di sekolah. Teman-temannya sering berbisik bahwa Tandak Mak Dangkong itu 'kuno' dan 'menyeramkan' karena konon penarinya bisa kerasukan roh penunggu pantai. Ratna lebih memilih diam saat topik itu muncul, bahkan pernah berpura-pura tidak mengenal neneknya ketika seorang teman bertanya apakah benar neneknyalah pemimpin tarian tersebut.",
+      "Dua hari sebelum acara digelar, Nek Minah jatuh sakit. Para tetua kampung berkumpul, membahas apakah tarian tahun ini sebaiknya ditiadakan saja. Sebagian anak muda malah menyambut gembira; mereka ingin mengganti acara adat itu dengan panggung musik modern yang dianggap lebih 'kekinian'. Ratna mendengar semua perbincangan itu sambil menunggui neneknya yang terbaring lemah di rumah.",
+      "Malam itu, Nek Minah memegang tangan Ratna dan berkata pelan bahwa ia tidak takut tandaknya berhenti karena sakit, tetapi takut jika generasi muda kampung lupa alasan tarian itu ada. Ratna teringat masa kecilnya, saat ia selalu menonton dari balik kain sarung neneknya, merasa aman dan bangga setiap gerakan itu ditutup dengan sorak syukur seluruh kampung.",
+      "Keesokan harinya, Ratna memutuskan sesuatu yang tidak pernah ia bayangkan sebelumnya: ia meminta neneknya mengajarinya gerakan dasar tandak dalam waktu semalam, agar tarian tetap bisa ditampilkan meski hanya sebagian. Ia berlatih di halaman belakang rumah, berulang kali salah langkah, sementara beberapa temannya yang kebetulan lewat menahan tawa melihatnya.",
+      "Saat malam pertunjukan tiba, Ratna tampil menggantikan sebagian peran neneknya, didampingi para penari senior lain. Gerakannya belum sempurna, tetapi kesungguhannya terlihat jelas. Warga kampung bertepuk tangan haru, dan beberapa teman sekolah yang semula mencibir kini justru merekam video sambil berbisik kagum. Ratna tersenyum kecil; ia baru menyadari bahwa menjaga tradisi keluarganya bukanlah sesuatu yang memalukan, melainkan caranya sendiri untuk pulang kepada akar kampung halamannya."
+    ],
     image: null,
     source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
   },
@@ -1562,7 +1754,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Denting Gong di Malam Tandak",
-    paragraphs: [],
+    paragraphs: [
+      "Kampung Pesisir Rendang selalu riuh menjelang akhir musim melaut. Warga menyiapkan panggung sederhana dari bambu di tepi pantai untuk Tandak Mak Dangkong, tarian syukur yang dipimpin oleh Nek Minah, satu-satunya sesepuh yang masih hafal seluruh gerak dan mantra pengiringnya. Bagi warga kampung, tarian itu bukan sekadar hiburan, melainkan cara mereka mengucap terima kasih kepada laut yang telah memberi rezeki sepanjang tahun.",
+      "Ratna, cucu Nek Minah, justru merasa risi setiap kali tarian itu disebut-sebut di sekolah. Teman-temannya sering berbisik bahwa Tandak Mak Dangkong itu 'kuno' dan 'menyeramkan' karena konon penarinya bisa kerasukan roh penunggu pantai. Ratna lebih memilih diam saat topik itu muncul, bahkan pernah berpura-pura tidak mengenal neneknya ketika seorang teman bertanya apakah benar neneknyalah pemimpin tarian tersebut.",
+      "Dua hari sebelum acara digelar, Nek Minah jatuh sakit. Para tetua kampung berkumpul, membahas apakah tarian tahun ini sebaiknya ditiadakan saja. Sebagian anak muda malah menyambut gembira; mereka ingin mengganti acara adat itu dengan panggung musik modern yang dianggap lebih 'kekinian'. Ratna mendengar semua perbincangan itu sambil menunggui neneknya yang terbaring lemah di rumah.",
+      "Malam itu, Nek Minah memegang tangan Ratna dan berkata pelan bahwa ia tidak takut tandaknya berhenti karena sakit, tetapi takut jika generasi muda kampung lupa alasan tarian itu ada. Ratna teringat masa kecilnya, saat ia selalu menonton dari balik kain sarung neneknya, merasa aman dan bangga setiap gerakan itu ditutup dengan sorak syukur seluruh kampung.",
+      "Keesokan harinya, Ratna memutuskan sesuatu yang tidak pernah ia bayangkan sebelumnya: ia meminta neneknya mengajarinya gerakan dasar tandak dalam waktu semalam, agar tarian tetap bisa ditampilkan meski hanya sebagian. Ia berlatih di halaman belakang rumah, berulang kali salah langkah, sementara beberapa temannya yang kebetulan lewat menahan tawa melihatnya.",
+      "Saat malam pertunjukan tiba, Ratna tampil menggantikan sebagian peran neneknya, didampingi para penari senior lain. Gerakannya belum sempurna, tetapi kesungguhannya terlihat jelas. Warga kampung bertepuk tangan haru, dan beberapa teman sekolah yang semula mencibir kini justru merekam video sambil berbisik kagum. Ratna tersenyum kecil; ia baru menyadari bahwa menjaga tradisi keluarganya bukanlah sesuatu yang memalukan, melainkan caranya sendiri untuk pulang kepada akar kampung halamannya."
+    ],
     image: null,
     source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
   },
@@ -1582,7 +1781,14 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Denting Gong di Malam Tandak",
-    paragraphs: [],
+    paragraphs: [
+      "Kampung Pesisir Rendang selalu riuh menjelang akhir musim melaut. Warga menyiapkan panggung sederhana dari bambu di tepi pantai untuk Tandak Mak Dangkong, tarian syukur yang dipimpin oleh Nek Minah, satu-satunya sesepuh yang masih hafal seluruh gerak dan mantra pengiringnya. Bagi warga kampung, tarian itu bukan sekadar hiburan, melainkan cara mereka mengucap terima kasih kepada laut yang telah memberi rezeki sepanjang tahun.",
+      "Ratna, cucu Nek Minah, justru merasa risi setiap kali tarian itu disebut-sebut di sekolah. Teman-temannya sering berbisik bahwa Tandak Mak Dangkong itu 'kuno' dan 'menyeramkan' karena konon penarinya bisa kerasukan roh penunggu pantai. Ratna lebih memilih diam saat topik itu muncul, bahkan pernah berpura-pura tidak mengenal neneknya ketika seorang teman bertanya apakah benar neneknyalah pemimpin tarian tersebut.",
+      "Dua hari sebelum acara digelar, Nek Minah jatuh sakit. Para tetua kampung berkumpul, membahas apakah tarian tahun ini sebaiknya ditiadakan saja. Sebagian anak muda malah menyambut gembira; mereka ingin mengganti acara adat itu dengan panggung musik modern yang dianggap lebih 'kekinian'. Ratna mendengar semua perbincangan itu sambil menunggui neneknya yang terbaring lemah di rumah.",
+      "Malam itu, Nek Minah memegang tangan Ratna dan berkata pelan bahwa ia tidak takut tandaknya berhenti karena sakit, tetapi takut jika generasi muda kampung lupa alasan tarian itu ada. Ratna teringat masa kecilnya, saat ia selalu menonton dari balik kain sarung neneknya, merasa aman dan bangga setiap gerakan itu ditutup dengan sorak syukur seluruh kampung.",
+      "Keesokan harinya, Ratna memutuskan sesuatu yang tidak pernah ia bayangkan sebelumnya: ia meminta neneknya mengajarinya gerakan dasar tandak dalam waktu semalam, agar tarian tetap bisa ditampilkan meski hanya sebagian. Ia berlatih di halaman belakang rumah, berulang kali salah langkah, sementara beberapa temannya yang kebetulan lewat menahan tawa melihatnya.",
+      "Saat malam pertunjukan tiba, Ratna tampil menggantikan sebagian peran neneknya, didampingi para penari senior lain. Gerakannya belum sempurna, tetapi kesungguhannya terlihat jelas. Warga kampung bertepuk tangan haru, dan beberapa teman sekolah yang semula mencibir kini justru merekam video sambil berbisik kagum. Ratna tersenyum kecil; ia baru menyadari bahwa menjaga tradisi keluarganya bukanlah sesuatu yang memalukan, melainkan caranya sendiri untuk pulang kepada akar kampung halamannya."
+    ],
     image: null,
     source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
   },
@@ -1603,8 +1809,14 @@ export default [
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Pantai Tanjung Tani & Pesona Parangtritis",
     paragraphs: [
-      "Pantai Tanjung Tani terletak di pesisir barat Pulau Bangka. Pantai ini memiliki ombak yang tenang dan landai sehingga aman untuk anak-anak berenang. Fasilitasnya masih sederhana dan suasananya sepi serta asri.",
-      "Pantai Parangtritis berada di Kabupaten Bantul, Daerah Istimewa Yogyakarta. Pantai ini terkenal dengan legenda Nyi Roro Kidul, ombak besar, arus bawah yang kuat, gumuk pasir, ATV, bendi, dan panorama matahari terbenam."
+      "<b>Teks 1</b>",
+      "Pantai Tanjung Tani terletak di pesisir barat Pulau Bangka, di sebuah kawasan yang belum banyak tersentuh gemerlap wisata modern. Untuk mencapainya, pengunjung harus menyusuri jalan desa yang teduh oleh pohon kelapa sebelum akhirnya disambut hamparan pasir putih yang lembut.",
+      "Ciri khas utama pantai ini adalah ombaknya yang tenang dan landai, membuatnya aman untuk anak-anak berenang di dekat bibir pantai. Pada pagi hari, nelayan tradisional masih terlihat menambatkan perahu mereka, sementara di ujung pantai terdapat gugusan pohon bakau kecil yang menjadi rumah bagi burung-burung pesisir.",
+      "Fasilitas di Pantai Tanjung Tani masih sederhana; hanya ada beberapa warung makan kecil dan area lapang untuk piknik keluarga. Belum ada penginapan besar di sekitarnya, sehingga suasana pantai ini masih terasa sepi dan asri, cocok bagi wisatawan yang mencari ketenangan jauh dari keramaian.",
+      "<b>Teks 2</b>",
+      "Pantai Parangtritis berada di Kabupaten Bantul, di kawasan pesisir selatan Pulau Jawa yang sejak lama dikenal lewat legenda Nyi Roro Kidul. Banyak wisatawan datang bukan hanya untuk menikmati pantai, tetapi juga untuk merasakan suasana mistis yang melekat pada cerita rakyat tersebut.",
+      "Ombak di Parangtritis terkenal besar dan memiliki arus bawah yang kuat, sehingga papan peringatan dipasang di sepanjang pantai untuk mengimbau pengunjung agar tidak berenang terlalu jauh dari bibir pantai. Selain itu, ada pantangan turun-temurun bagi pengunjung untuk tidak mengenakan pakaian berwarna hijau saat berada di kawasan ini.",
+      "Selain ombaknya, daya tarik lain Parangtritis adalah hamparan gumuk pasir yang bisa dijelajahi dengan menyewa ATV atau bendi, serta panorama matahari terbenam yang memukau dari perbukitan Parangndog di dekatnya. Karena daya tariknya yang beragam, pantai ini selalu ramai dikunjungi wisatawan, terutama pada akhir pekan dan musim liburan."
     ],
     image: null,
     source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
@@ -1630,7 +1842,16 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Pantai Tanjung Tani & Pesona Parangtritis",
-    paragraphs: [],
+    paragraphs: [
+      "<b>Teks 1</b>",
+      "Pantai Tanjung Tani terletak di pesisir barat Pulau Bangka, di sebuah kawasan yang belum banyak tersentuh gemerlap wisata modern. Untuk mencapainya, pengunjung harus menyusuri jalan desa yang teduh oleh pohon kelapa sebelum akhirnya disambut hamparan pasir putih yang lembut.",
+      "Ciri khas utama pantai ini adalah ombaknya yang tenang dan landai, membuatnya aman untuk anak-anak berenang di dekat bibir pantai. Pada pagi hari, nelayan tradisional masih terlihat menambatkan perahu mereka, sementara di ujung pantai terdapat gugusan pohon bakau kecil yang menjadi rumah bagi burung-burung pesisir.",
+      "Fasilitas di Pantai Tanjung Tani masih sederhana; hanya ada beberapa warung makan kecil dan area lapang untuk piknik keluarga. Belum ada penginapan besar di sekitarnya, sehingga suasana pantai ini masih terasa sepi dan asri, cocok bagi wisatawan yang mencari ketenangan jauh dari keramaian.",
+      "<b>Teks 2</b>",
+      "Pantai Parangtritis berada di Kabupaten Bantul, di kawasan pesisir selatan Pulau Jawa yang sejak lama dikenal lewat legenda Nyi Roro Kidul. Banyak wisatawan datang bukan hanya untuk menikmati pantai, tetapi juga untuk merasakan suasana mistis yang melekat pada cerita rakyat tersebut.",
+      "Ombak di Parangtritis terkenal besar dan memiliki arus bawah yang kuat, sehingga papan peringatan dipasang di sepanjang pantai untuk mengimbau pengunjung agar tidak berenang terlalu jauh dari bibir pantai. Selain itu, ada pantangan turun-temurun bagi pengunjung untuk tidak mengenakan pakaian berwarna hijau saat berada di kawasan ini.",
+      "Selain ombaknya, daya tarik lain Parangtritis adalah hamparan gumuk pasir yang bisa dijelajahi dengan menyewa ATV atau bendi, serta panorama matahari terbenam yang memukau dari perbukitan Parangndog di dekatnya. Karena daya tariknya yang beragam, pantai ini selalu ramai dikunjungi wisatawan, terutama pada akhir pekan dan musim liburan."
+    ],
     image: null,
     source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
   },
@@ -1677,7 +1898,9 @@ export default [
   stimulus: {
     instruction: "Bacalah teks berikut untuk menjawab soal!",
     title: "Piket Kebersihan Kelas",
-    paragraphs: [],
+    paragraphs: [
+      "Setiap pagi, siswa yang mendapat jadwal piket datang lebih awal untuk membersihkan kelas. Mereka menyapu lantai kelas dengan sapu, mengelap papan tulis, dan merapikan meja-kursi yang berantakan tidak rapi. Setelah itu, mereka membuang sampah pada tempatnya di tempat sampah supaya kelas terlihat bersih dan nyaman untuk kegiatan belajar pada hari itu. Wali kelas sering memuji kelompok piket yang bekerja cepat, meskipun kadang ada siswa piket yang datang terlambat sehingga pekerjaan jadi tertunda."
+    ],
     image: null,
     source: null
   },
@@ -1698,9 +1921,22 @@ export default [
     instruction: "Bacalah puisi berikut untuk menjawab soal!",
     title: "Jam Dinding yang Tak Kunjung Tidur",
     paragraphs: [
-      "Pukul dua belas lewat sedikit, kamar ini sunyi, hanya detik jam berbisik...",
-      "Kini teh itu dingin di atas meja, tak ada lagi yang menemani begadang panjang...",
-      "Tapi kutahu pagi akan datang jua, membawa cahaya menembus jendela kamar..."
+      "Pukul dua belas lewat sedikit,",
+      "kamar ini sunyi, hanya detik jam berbisik.",
+      "Aku menatap langit-langit yang diam,",
+      "sementara pikiran berlarian entah ke mana.",
+      "Kudengar suara kulkas mendengung pelan,",
+      "seperti dahulu suara Ibu menyeduh teh hangat,",
+      "sebelum tidur, sebelum cerita-cerita kecil",
+      "mengantar mataku terpejam tanpa beban.",
+      "Kini teh itu dingin di atas meja,",
+      "tak ada lagi yang menemani begadang panjang,",
+      "hanya bayang lampu jalan menembus tirai,",
+      "dan rindu yang diam-diam menua di dada.",
+      "Tapi kutahu pagi akan datang jua,",
+      "membawa cahaya menembus jendela kamar,",
+      "dan aku, meski sendiri di tengah malam ini,",
+      "percaya esok akan sedikit lebih terang."
     ],
     image: null,
     source: null
@@ -1721,7 +1957,24 @@ export default [
   stimulus: {
     instruction: "Bacalah puisi berikut untuk menjawab soal!",
     title: "Jam Dinding yang Tak Kunjung Tidur",
-    paragraphs: [],
+    paragraphs: [
+      "Pukul dua belas lewat sedikit,",
+      "kamar ini sunyi, hanya detik jam berbisik.",
+      "Aku menatap langit-langit yang diam,",
+      "sementara pikiran berlarian entah ke mana.",
+      "Kudengar suara kulkas mendengung pelan,",
+      "seperti dahulu suara Ibu menyeduh teh hangat,",
+      "sebelum tidur, sebelum cerita-cerita kecil",
+      "mengantar mataku terpejam tanpa beban.",
+      "Kini teh itu dingin di atas meja,",
+      "tak ada lagi yang menemani begadang panjang,",
+      "hanya bayang lampu jalan menembus tirai,",
+      "dan rindu yang diam-diam menua di dada.",
+      "Tapi kutahu pagi akan datang jua,",
+      "membawa cahaya menembus jendela kamar,",
+      "dan aku, meski sendiri di tengah malam ini,",
+      "percaya esok akan sedikit lebih terang."
+    ],
     image: null,
     source: null
   },
@@ -1741,7 +1994,24 @@ export default [
   stimulus: {
     instruction: "Bacalah puisi berikut untuk menjawab soal!",
     title: "Jam Dinding yang Tak Kunjung Tidur",
-    paragraphs: [],
+    paragraphs: [
+      "Pukul dua belas lewat sedikit,",
+      "kamar ini sunyi, hanya detik jam berbisik.",
+      "Aku menatap langit-langit yang diam,",
+      "sementara pikiran berlarian entah ke mana.",
+      "Kudengar suara kulkas mendengung pelan,",
+      "seperti dahulu suara Ibu menyeduh teh hangat,",
+      "sebelum tidur, sebelum cerita-cerita kecil",
+      "mengantar mataku terpejam tanpa beban.",
+      "Kini teh itu dingin di atas meja,",
+      "tak ada lagi yang menemani begadang panjang,",
+      "hanya bayang lampu jalan menembus tirai,",
+      "dan rindu yang diam-diam menua di dada.",
+      "Tapi kutahu pagi akan datang jua,",
+      "membawa cahaya menembus jendela kamar,",
+      "dan aku, meski sendiri di tengah malam ini,",
+      "percaya esok akan sedikit lebih terang."
+    ],
     image: null,
     source: null
   },

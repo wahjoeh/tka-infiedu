@@ -63,6 +63,11 @@ import '../../../styles/smp-indo.css'
 const router = useRouter()
 
 const goToTest = (type) => {
+  if (type === 'fulltest') {
+    router.push('/smp/practice/indo/packages')
+    return
+  }
+
   router.push(`/smp/practice/indo/test?type=${type}`)
 }
 

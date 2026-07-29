@@ -575,6 +575,7 @@ const route = useRoute()
 const router = useRouter()
 
 const type = route.query.type
+const selectedPackage = Number(route.query.package)
 
 // =========================
 // FUNGSI RANDOM - MENGAMBIL 30 SOAL
@@ -603,7 +604,45 @@ function getRandomQuestions(allQuestions, count = 30) {
 
 let questions = []
 
-switch (type) {
+if (selectedPackage === 1 || selectedPackage === 2) {
+  /*
+   * Kedua paket memuat tiap materi secara seimbang (8/7 soal per materi)
+   * dan komposisi tipe jawaban yang hampir identik. Filter dilakukan pada
+   * urutan bank asli, sehingga urutan soal di dalam paket tidak diacak.
+   */
+  const packageOneTargets = {
+    aljabar: { multiple: 2, single: 6 },
+    bilangan: { multiple: 1, single: 4, truefalse: 2 },
+    geometri: { multiple: 1, single: 5, truefalse: 2 },
+    peluang: { multiple: 2, single: 4, truefalse: 1 }
+  }
+  const usedTargets = {}
+
+  const packageOneQuestions = fulltestQuestions.filter((question) => {
+    const topic = question.id.split('-')[0]
+    const target = packageOneTargets[topic]?.[question.type] || 0
+    const targetKey = `${topic}-${question.type}`
+    const used = usedTargets[targetKey] || 0
+
+    if (used >= target) return false
+
+    usedTargets[targetKey] = used + 1
+    return true
+  })
+
+  const selectedQuestions = selectedPackage === 1
+    ? packageOneQuestions
+    : fulltestQuestions.filter((question) => !packageOneQuestions.includes(question))
+
+  // Paket ditentukan oleh sistem, tetapi nomor soal di dalamnya tetap berurutan.
+  questions = selectedQuestions
+    .map((q, index) => ({
+      ...q,
+      displayId: index + 1,
+      originalId: q.id
+    }))
+} else {
+  switch (type) {
 
   case 'fulltest':
     // Ambil 30 soal random dari bank soal
@@ -614,6 +653,7 @@ switch (type) {
     // Default juga ambil 30 soal random
     questions = getRandomQuestions(fulltestQuestions, 30)
 
+  }
 }
 
 const currentQuestion = ref(0)

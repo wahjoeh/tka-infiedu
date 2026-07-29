@@ -64,6 +64,12 @@ import '../../../styles/smp-math.css'
 const router = useRouter()
 
 const goToTest = (type) => {
+  if (type === 'full') {
+    const randomPackage = Math.random() < 0.5 ? 1 : 2
+    router.push(`/smp/practice/math/test?package=${randomPackage}`)
+    return
+  }
+
   router.push(`/smp/practice/math/test?type=${type}`)
 }
 
