@@ -33,6 +33,8 @@ import SMPScienceView from '../views/smp/science/SMPScienceView.vue'
 // SMP Math Test
 import SMPMathTestView from '../views/smp/math/SMPMathTestView.vue'
 import SMPIndoTestView from '../views/smp/indo/SMPIndoTestView.vue'
+import SMPFullTestView from '../views/smp/SMPFullTestView.vue'
+import SMPFullTestResultView from '../views/smp/SMPFullTestResultView.vue'
 
 // SMA
 import SMAView from '../views/sma/SMAView.vue'
@@ -131,6 +133,18 @@ const routes = [
     path: '/smp/practice/science',
     name: 'smp-science',
     component: SMPScienceView
+  },
+
+    // SMP Full Test (gabungan Bahasa Indonesia + Matematika)
+  {
+    path: '/smp/test',
+    name: 'smp-fulltest',
+    component: SMPFullTestView
+  },
+  {
+    path: '/smp/test/result',
+    name: 'smp-fulltest-result',
+    component: SMPFullTestResultView
   },
 
   //PackageView
