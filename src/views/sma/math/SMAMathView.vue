@@ -2,14 +2,14 @@
   <div class="math-container">
     <div class="top-banner">
       <h2>TKA InfiEdu</h2>
-      <p>TKA SMP - Matematika</p>
+      <p>TKA SMA - Matematika</p>
     </div>
 
     <div class="math-card">
       <h1 class="page-title">Latihan Matematika</h1>
 
       <p class="page-subtitle">
-        Pilih aspek materi berdasarkan kisi-kisi TKA SMP 2026
+        Pilih aspek materi berdasarkan kisi-kisi TKA SMA 2026
       </p>
 
       <div class="package-grid">
@@ -45,7 +45,7 @@
         <button class="package-card full-test" @click="goToTest('full')">
           <h3>Full Test Simulation</h3>
           <p>
-            Simulasi lengkap seluruh materi Matematika TKA SMP.
+            Simulasi lengkap seluruh materi Matematika TKA SMA.
           </p>
         </button>
       </div>
@@ -59,15 +59,15 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import '../../../styles/smp-math.css'
+import '../../../styles/sma-math.css'
 
 const router = useRouter()
 
 const goToTest = (type) => {
-  router.push(`/smp/practice/math/test?type=${type}`)
+  router.push(`/sma/practice/math/test?type=${type}`)
 }
 
 const goBack = () => {
-  router.push('/smp/practice')
+  router.push('/sma/practice')
 }
 </script>

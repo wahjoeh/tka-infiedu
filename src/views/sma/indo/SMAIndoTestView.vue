@@ -1,12 +1,12 @@
 <template>
-  <div class="test-container smp-indo-test exam-math-theme">
+  <div class="test-container sma-indo-test exam-math-theme">
 
     <header class="test-header">
 
       <div class="header-title">
         <img src="/logo.png" alt="InfiEdu" class="brand-logo" />
-        <h2>TKA SMP InfiEdu</h2>
-        <p>TKA SMP - Bahasa Indonesia</p>
+        <h2>TKA SMA InfiEdu</h2>
+        <p>TKA SMA - Bahasa Indonesia</p>
       </div>
 
       <div class="header-right">
@@ -564,9 +564,9 @@ import {
   useRouter
 } from 'vue-router'
 
-import '../../../styles/smp-indo-test.css'
+import '../../../styles/sma-indo-test.css'
 
-import fulltestQuestions from '../../../data/smp/indo/fulltest'
+import fulltestQuestions from '../../../data/sma/indo/fulltest'
 
 const route = useRoute()
 const router = useRouter()

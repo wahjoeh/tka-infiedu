@@ -2,11 +2,11 @@
   <div class="practice-container">
     <div class="top-banner">
       <h2>TKA InfiEdu</h2>
-      <p>TKA SMP Practice</p>
+      <p>TKA SMA Practice</p>
     </div>
 
     <div class="practice-card">
-      <h1 class="page-title">Latihan TKA SMP</h1>
+      <h1 class="page-title">Latihan TKA SMA</h1>
       <p class="page-subtitle">
         Pilih mata pelajaran untuk memulai latihan
       </p>
@@ -41,28 +41,28 @@
 </template>
 
 <script setup>
-import '../../styles/smp-practice.css'
+import '../../styles/sma-practice.css'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
 const goToMath = () => {
-  router.push('/smp/practice/math')
+  router.push('/sma/practice/math')
 }
 
 const goToIndo = () => {
-  router.push('/smp/practice/indo')
+  router.push('/sma/practice/indo')
 }
 
 const goToEnglish = () => {
-  router.push('/smp/practice/english')
+  router.push('/sma/practice/english')
 }
 
 const goToScience = () => {
-  router.push('/smp/practice/science')
+  router.push('/sma/practice/science')
 }
 
 const goBack = () => {
-  router.push('/smp')
+  router.push('/sma')
 }
 </script>

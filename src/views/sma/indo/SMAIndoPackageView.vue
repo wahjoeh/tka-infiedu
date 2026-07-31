@@ -2,7 +2,7 @@
   <div class="indo-container">
     <div class="top-banner">
       <h2>TKA InfiEdu</h2>
-      <p>TKA SMP - Bahasa Indonesia</p>
+      <p>TKA SMA - Bahasa Indonesia</p>
     </div>
 
     <div class="indo-card package-view">
@@ -41,23 +41,23 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import '../../../styles/smp-indo.css'
+import '../../../styles/sma-indo.css'
 
 const router = useRouter()
 
 const goToPackage1 = () => {
-  router.push('/smp/practice/indo/test?package=1')
+  router.push('/sma/practice/indo/test?package=1')
 }
 
 const goToPackage2 = () => {
-  router.push('/smp/practice/indo/test?package=2')
+  router.push('/sma/practice/indo/test?package=2')
 }
 
 const goToPackage3 = () => {
-  router.push('/smp/practice/indo/test?package=3')
+  router.push('/sma/practice/indo/test?package=3')
 }
 
 const goBack = () => {
-  router.push('/smp/practice/indo')
+  router.push('/sma/practice/indo')
 }
 </script>

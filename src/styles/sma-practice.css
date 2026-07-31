@@ -11,7 +11,7 @@ body{
   background:#f4f6fb;
 }
 
-.sma-container{
+.practice-container{
   min-height:100vh;
   display:flex;
   justify-content:center;
@@ -23,7 +23,7 @@ body{
   background:linear-gradient(135deg,#2b6cb0 0%, #3b82f6 50%, #60a5fa 100%);
 }
 
-.sma-container::before{
+.practice-container::before{
   content:'';
   position:absolute;
   inset:0;
@@ -35,7 +35,7 @@ body{
   opacity:.5;
 }
 
-.sma-container::after{
+.practice-container::after{
   content:'';
   position:absolute;
   width:280px;
@@ -71,9 +71,9 @@ body{
   margin-top:4px;
 }
 
-.sma-card{
+.practice-card{
   width:100%;
-  max-width:780px;
+  max-width:800px;
   position:relative;
   z-index:2;
 
@@ -98,20 +98,20 @@ body{
   line-height:1.6;
 }
 
-.mode-grid{
+.subject-grid{
   display:grid;
   grid-template-columns:repeat(2,1fr);
   gap:18px;
   margin-top:30px;
 }
 
-.mode-card{
+.subject-card{
   border:none;
   background:white;
   border:1px solid #dbeafe;
   border-radius:18px;
   padding:24px;
-  min-height:140px;
+  min-height:135px;
   cursor:pointer;
 
   display:flex;
@@ -123,24 +123,24 @@ body{
   transition:.25s;
 }
 
-.mode-card:hover{
+.subject-card:hover{
   transform:translateY(-4px);
   border-color:#2563eb;
   box-shadow:0 8px 20px rgba(37,99,235,.12);
 }
 
-.mode-icon{
+.subject-icon{
   font-size:34px;
   margin-bottom:4px;
 }
 
-.mode-card h3{
+.subject-card h3{
   color:#111827;
   font-size:18px;
   font-weight:600;
 }
 
-.mode-card p{
+.subject-card p{
   color:#64748b;
   font-size:13px;
   line-height:1.5;
@@ -159,16 +159,75 @@ body{
   transition:.2s;
 }
 
+.question-image{
+
+  width:100%;
+
+  max-width:450px;
+
+  display:block;
+
+  margin:18px auto;
+
+  border-radius:14px;
+
+  border:1px solid #dbeafe;
+
+  object-fit:contain;
+
+}
+
+.question-source{
+
+  margin-top:14px;
+
+  font-size:12px;
+
+  color:#64748b;
+
+  font-style:italic;
+
+  line-height:1.6;
+
+}
+
 .back-btn:hover{
   background:#1d4ed8;
 }
 
+.disabled-card{
+  background:#f3f4f6 !important;
+  border:1px solid #d1d5db !important;
+  cursor:not-allowed;
+  opacity:.75;
+  pointer-events:none;
+}
+
+.disabled-card:hover{
+  transform:none !important;
+  box-shadow:none !important;
+}
+
+.disabled-card .subject-icon{
+  opacity:.7;
+}
+
+.disabled-card h3{
+  color:#6b7280;
+}
+
+.disabled-card p{
+  margin-top:8px;
+  font-size:13px;
+  color:#9ca3af;
+}
+
 @media (max-width:768px){
-  .mode-grid{
+  .subject-grid{
     grid-template-columns:1fr;
   }
 
-  .sma-card{
+  .practice-card{
     padding:28px;
   }
 

@@ -46,7 +46,7 @@ export default [
     "id": 3,
     "type": "single",
     "stimulus": {
-      "instruction": "Cermati kutipan teks berikut untuk menjawab soal nomor 3-5!",
+      "instruction": "Cermati kutipan teks berikut untuk menjawab soal!",
       "title": "Pahami Cara Simpan, Agar Telur Aman",
       "paragraphs": [
         "Telur dikenal sebagai salah satu sumber protein hewani terbaik karena mengandung nutrisi makro dan mikro yang lengkap. Selain itu, harganya yang relatif terjangkau menjadikan telur sebagai primadona di masyarakat. Telur mengandung berbagai nutrisi seperti: energi, protein, lemak, kalsium, fosfor, zat besi, berbagai macam vitamin dan beragam nutrisi lainnya. Untuk menjaga kandungan gizi dan kualitasnya, telur perlu disimpan dengan cara benar dan aman.",
@@ -68,7 +68,7 @@ export default [
     "id": 4,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Cermati kutipan teks berikut untuk menjawab soal nomor 3-5!",
+      "instruction": "Cermati kutipan teks berikut untuk menjawab soal!",
       "title": "Pahami Cara Simpan, Agar Telur Aman",
       "paragraphs": [
         "Telur dikenal sebagai salah satu sumber protein hewani terbaik karena mengandung nutrisi makro dan mikro yang lengkap. Selain itu, harganya yang relatif terjangkau menjadikan telur sebagai primadona di masyarakat. Telur mengandung berbagai nutrisi seperti: energi, protein, lemak, kalsium, fosfor, zat besi, berbagai macam vitamin dan beragam nutrisi lainnya. Untuk menjaga kandungan gizi dan kualitasnya, telur perlu disimpan dengan cara benar dan aman.",
@@ -93,7 +93,7 @@ export default [
     "id": 5,
     "type": "suitable",
     "stimulus": {
-      "instruction": "Cermati kutipan teks berikut untuk menjawab soal nomor 3-5!",
+      "instruction": "Cermati kutipan teks berikut untuk menjawab soal!",
       "title": "Pahami Cara Simpan, Agar Telur Aman",
       "paragraphs": [
         "Telur dikenal sebagai salah satu sumber protein hewani terbaik karena mengandung nutrisi makro dan mikro yang lengkap. Selain itu, harganya yang relatif terjangkau menjadikan telur sebagai primadona di masyarakat. Telur mengandung berbagai nutrisi seperti: energi, protein, lemak, kalsium, fosfor, zat besi, berbagai macam vitamin dan beragam nutrisi lainnya. Untuk menjaga kandungan gizi dan kualitasnya, telur perlu disimpan dengan cara benar dan aman.",
@@ -122,7 +122,7 @@ export default [
     "id": 6,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 6-10!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "B.J. Habibie: Si Jenius dari Parepare",
       "paragraphs": [
         "Baharuddin Jusuf Habibie atau yang lebih dikenal dengan B.J. Habibie lahir di Parepare, Sulawesi Selatan, pada 25 Juni 1936. Sejak kecil, Habibie dikenal sebagai <em>kutu buku</em> dan memiliki rasa ingin tahu yang sangat tinggi terhadap mesin dan teknologi.",
@@ -145,7 +145,7 @@ export default [
     "id": 7,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 6-10!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "B.J. Habibie: Si Jenius dari Parepare",
       "paragraphs": [
         "Baharuddin Jusuf Habibie atau yang lebih dikenal dengan B.J. Habibie lahir di Parepare, Sulawesi Selatan, pada 25 Juni 1936. Sejak kecil, Habibie dikenal sebagai <em>kutu buku</em> dan memiliki rasa ingin tahu yang sangat tinggi terhadap mesin dan teknologi.",
@@ -168,7 +168,7 @@ export default [
     "id": 8,
     "type": "truefalse",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 6-10!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "B.J. Habibie: Si Jenius dari Parepare",
       "paragraphs": [
         "Baharuddin Jusuf Habibie atau yang lebih dikenal dengan B.J. Habibie lahir di Parepare, Sulawesi Selatan, pada 25 Juni 1936. Sejak kecil, Habibie dikenal sebagai <em>kutu buku</em> dan memiliki rasa ingin tahu yang sangat tinggi terhadap mesin dan teknologi.",
@@ -198,7 +198,7 @@ export default [
     "id": 9,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 6-10!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "B.J. Habibie: Si Jenius dari Parepare",
       "paragraphs": [
         "Baharuddin Jusuf Habibie atau yang lebih dikenal dengan B.J. Habibie lahir di Parepare, Sulawesi Selatan, pada 25 Juni 1936. Sejak kecil, Habibie dikenal sebagai <em>kutu buku</em> dan memiliki rasa ingin tahu yang sangat tinggi terhadap mesin dan teknologi.",
@@ -224,7 +224,7 @@ export default [
     "id": 10,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 6-10!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "B.J. Habibie: Si Jenius dari Parepare",
       "paragraphs": [
         "Baharuddin Jusuf Habibie atau yang lebih dikenal dengan B.J. Habibie lahir di Parepare, Sulawesi Selatan, pada 25 Juni 1936. Sejak kecil, Habibie dikenal sebagai <em>kutu buku</em> dan memiliki rasa ingin tahu yang sangat tinggi terhadap mesin dan teknologi.",
@@ -247,7 +247,7 @@ export default [
     "id": 11,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 11–13!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Membuat Kompos dari Sisa Dapur",
       "paragraphs": [
         "Sepulang sekolah, Raka melihat beberapa kulit buah dan sisa sayuran berada di tempat sampah dapur. Ia hendak membuang sampah tersebut ke tempat pembuangan di depan rumah. Namun, Ayah menghentikannya.",
@@ -273,7 +273,7 @@ export default [
     "id": 12,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 11–13!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Membuat Kompos dari Sisa Dapur",
       "paragraphs": [
         "Sepulang sekolah, Raka melihat beberapa kulit buah dan sisa sayuran berada di tempat sampah dapur. Ia hendak membuang sampah tersebut ke tempat pembuangan di depan rumah. Namun, Ayah menghentikannya.",
@@ -306,7 +306,7 @@ export default [
     "id": 13,
     "type": "goodbad",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 11–13!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Membuat Kompos dari Sisa Dapur",
       "paragraphs": [
         "Sepulang sekolah, Raka melihat beberapa kulit buah dan sisa sayuran berada di tempat sampah dapur. Ia hendak membuang sampah tersebut ke tempat pembuangan di depan rumah. Namun, Ayah menghentikannya.",
@@ -339,7 +339,7 @@ export default [
     "id": 14,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 14–17!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Nisa dan Anak Penjual Bibit",
       "paragraphs": [
         "Sabtu pagi, Nisa menemani Ayah pergi ke pasar desa. Mereka hendak membeli beberapa tanaman untuk halaman rumah. Di dekat pintu masuk pasar, Nisa melihat seorang anak laki-laki seusianya sedang menjual bibit cabai, tomat, dan terung.",
@@ -367,7 +367,7 @@ export default [
     "id": 15,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 14–17!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Nisa dan Anak Penjual Bibit",
       "paragraphs": [
         "Sabtu pagi, Nisa menemani Ayah pergi ke pasar desa. Mereka hendak membeli beberapa tanaman untuk halaman rumah. Di dekat pintu masuk pasar, Nisa melihat seorang anak laki-laki seusianya sedang menjual bibit cabai, tomat, dan terung.",
@@ -400,7 +400,7 @@ export default [
     "id": 16,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 14–17!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Nisa dan Anak Penjual Bibit",
       "paragraphs": [
         "Sabtu pagi, Nisa menemani Ayah pergi ke pasar desa. Mereka hendak membeli beberapa tanaman untuk halaman rumah. Di dekat pintu masuk pasar, Nisa melihat seorang anak laki-laki seusianya sedang menjual bibit cabai, tomat, dan terung.",
@@ -428,7 +428,7 @@ export default [
     "id": 17,
     "type": "agreement",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 14–17!",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Nisa dan Anak Penjual Bibit",
       "paragraphs": [
         "Sabtu pagi, Nisa menemani Ayah pergi ke pasar desa. Mereka hendak membeli beberapa tanaman untuk halaman rumah. Di dekat pintu masuk pasar, Nisa melihat seorang anak laki-laki seusianya sedang menjual bibit cabai, tomat, dan terung.",
@@ -463,7 +463,7 @@ export default [
     "id": 18,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 18–21",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Kentongan Tradisional",
       "paragraphs": [
         "Kentongan merupakan alat komunikasi tradisional yang dikenal di berbagai daerah Indonesia. Alat ini biasanya dibuat dari batang bambu atau kayu yang dilubangi pada bagian tengahnya. Kentongan menghasilkan bunyi nyaring ketika dipukul menggunakan tongkat kayu.",
@@ -487,7 +487,7 @@ export default [
     "id": 19,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 18–21",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Kentongan Tradisional",
       "paragraphs": [
         "Kentongan merupakan alat komunikasi tradisional yang dikenal di berbagai daerah Indonesia. Alat ini biasanya dibuat dari batang bambu atau kayu yang dilubangi pada bagian tengahnya. Kentongan menghasilkan bunyi nyaring ketika dipukul menggunakan tongkat kayu.",
@@ -511,7 +511,7 @@ export default [
     "id": 20,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 18–21",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Kentongan Tradisional",
       "paragraphs": [
         "Kentongan merupakan alat komunikasi tradisional yang dikenal di berbagai daerah Indonesia. Alat ini biasanya dibuat dari batang bambu atau kayu yang dilubangi pada bagian tengahnya. Kentongan menghasilkan bunyi nyaring ketika dipukul menggunakan tongkat kayu.",
@@ -540,7 +540,7 @@ export default [
     "id": 21,
     "type": "agreement",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 18–21",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Kentongan Tradisional",
       "paragraphs": [
         "Kentongan merupakan alat komunikasi tradisional yang dikenal di berbagai daerah Indonesia. Alat ini biasanya dibuat dari batang bambu atau kayu yang dilubangi pada bagian tengahnya. Kentongan menghasilkan bunyi nyaring ketika dipukul menggunakan tongkat kayu.",
@@ -571,7 +571,7 @@ export default [
     "id": 22,
     "type": "single",
     "stimulus": {
-      "instruction": "Amatilah poster berikut untuk menjawab soal nomor 22–25",
+      "instruction": "Amatilah poster berikut untuk menjawab soal!",
       "title": null,
       "paragraphs": null,
       "image": "/images/sd/indo/soal22.jpg",
@@ -588,7 +588,7 @@ export default [
   },
   {
     "id": 23,
-    "type": "Amatilah poster berikut untuk menjawab soal nomor 22–25",
+    "type": "Amatilah poster berikut untuk menjawab soal!",
     "stimulus": {
       "instruction": null,
       "title": null,
@@ -609,7 +609,7 @@ export default [
     "id": 24,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Amatilah poster berikut untuk menjawab soal nomor 22–25",
+      "instruction": "Amatilah poster berikut untuk menjawab soal!",
       "title": null,
       "paragraphs": null,
       "image": "/images/sd/indo/soal22.jpg",
@@ -636,7 +636,7 @@ export default [
     "id": 25,
     "type": "suitable",
     "stimulus": {
-      "instruction": "Amatilah poster berikut untuk menjawab soal nomor 22–25",
+      "instruction": "Amatilah poster berikut untuk menjawab soal!",
       "title": null,
       "paragraphs": null,
       "image": "/images/sd/indo/soal22.jpg",
@@ -662,7 +662,7 @@ export default [
     "id": 26,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah puisi berikut untuk menjawab soal nomor 26–29",
+      "instruction": "Bacalah puisi berikut untuk menjawab soal!",
       "title": "Doa (Karya Chairil Anwar)",
       "paragraphs": [
         "Tuhanku",
@@ -697,7 +697,7 @@ export default [
     "id": 27,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah puisi berikut untuk menjawab soal nomor 26–29",
+      "instruction": "Bacalah puisi berikut untuk menjawab soal!",
       "title": "Doa (Karya Chairil Anwar)",
       "paragraphs": [
         "Tuhanku",
@@ -732,7 +732,7 @@ export default [
     "id": 28,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah puisi berikut untuk menjawab soal nomor 26–29",
+      "instruction": "Bacalah puisi berikut untuk menjawab soal!",
       "title": "Doa (Karya Chairil Anwar)",
       "paragraphs": [
         "Tuhanku",
@@ -772,7 +772,7 @@ export default [
     "id": 29,
     "type": "suitable",
     "stimulus": {
-      "instruction": "Bacalah puisi berikut untuk menjawab soal nomor 26–29",
+      "instruction": "Bacalah puisi berikut untuk menjawab soal!",
       "title": "Doa (Karya Chairil Anwar)",
       "paragraphs": [
         "Tuhanku",
@@ -814,7 +814,7 @@ export default [
     "id": 30,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 30–33",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Pemilik Sumur yang Kikir",
       "paragraphs": [
         "Pada musim kemarau, sebagian besar sumur di Desa Sukamaju mulai mengering. Hanya sumur milik Pak Banu yang masih menghasilkan banyak air. Warga pun datang untuk membeli air dari sumur tersebut.",
@@ -842,7 +842,7 @@ export default [
     "id": 31,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 30–33",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Pemilik Sumur yang Kikir",
       "paragraphs": [
         "Pada musim kemarau, sebagian besar sumur di Desa Sukamaju mulai mengering. Hanya sumur milik Pak Banu yang masih menghasilkan banyak air. Warga pun datang untuk membeli air dari sumur tersebut.",
@@ -875,7 +875,7 @@ export default [
     "id": 32,
     "type": "goodbad",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 30–33",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Pemilik Sumur yang Kikir",
       "paragraphs": [
         "Pada musim kemarau, sebagian besar sumur di Desa Sukamaju mulai mengering. Hanya sumur milik Pak Banu yang masih menghasilkan banyak air. Warga pun datang untuk membeli air dari sumur tersebut.",
@@ -931,7 +931,7 @@ export default [
     "id": 34,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 34–37",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Laporan Hasil Pengamatan",
       "paragraphs": [
         "\nNama: Aditya Pratama\nKelas: VI-A\nLokasi pengamatan: Instalasi Pengolahan Air Tirta Sejahtera\nWaktu pengamatan: Kamis, 14 Agustus 2025\nObjek pengamatan: Kegiatan petugas mengolah air baku menjadi air bersih\nTujuan pengamatan: Mengetahui tahapan pengolahan dan pemeriksaan kualitas air",
@@ -954,7 +954,7 @@ export default [
     "id": 35,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 34–37",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Laporan Hasil Pengamatan",
       "paragraphs": [
         "\nNama: Aditya Pratama\nKelas: VI-A\nLokasi pengamatan: Instalasi Pengolahan Air Tirta Sejahtera\nWaktu pengamatan: Kamis, 14 Agustus 2025\nObjek pengamatan: Kegiatan petugas mengolah air baku menjadi air bersih\nTujuan pengamatan: Mengetahui tahapan pengolahan dan pemeriksaan kualitas air",
@@ -982,7 +982,7 @@ export default [
     "id": 36,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 34–37",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Laporan Hasil Pengamatan",
       "paragraphs": [
         "\nNama: Aditya Pratama\nKelas: VI-A\nLokasi pengamatan: Instalasi Pengolahan Air Tirta Sejahtera\nWaktu pengamatan: Kamis, 14 Agustus 2025\nObjek pengamatan: Kegiatan petugas mengolah air baku menjadi air bersih\nTujuan pengamatan: Mengetahui tahapan pengolahan dan pemeriksaan kualitas air",
@@ -1005,7 +1005,7 @@ export default [
     "id": 37,
     "type": "agreement",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 34–37",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Laporan Hasil Pengamatan",
       "paragraphs": [
         "\nNama: Aditya Pratama\nKelas: VI-A\nLokasi pengamatan: Instalasi Pengolahan Air Tirta Sejahtera\nWaktu pengamatan: Kamis, 14 Agustus 2025\nObjek pengamatan: Kegiatan petugas mengolah air baku menjadi air bersih\nTujuan pengamatan: Mengetahui tahapan pengolahan dan pemeriksaan kualitas air",
@@ -1035,7 +1035,7 @@ export default [
     "id": 38,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 38–40",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Hutan Mangrove",
       "paragraphs": [
         "Hutan mangrove merupakan kawasan yang ditumbuhi berbagai jenis tumbuhan bakau. Hutan ini biasanya ditemukan di wilayah pantai, muara sungai, dan perairan yang dipengaruhi oleh pasang surut air laut. Tumbuhan mangrove mampu hidup di lingkungan berlumpur yang mengandung kadar garam cukup tinggi.",
@@ -1060,7 +1060,7 @@ export default [
     "id": 39,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 38–40",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Hutan Mangrove",
       "paragraphs": [
         "Hutan mangrove merupakan kawasan yang ditumbuhi berbagai jenis tumbuhan bakau. Hutan ini biasanya ditemukan di wilayah pantai, muara sungai, dan perairan yang dipengaruhi oleh pasang surut air laut. Tumbuhan mangrove mampu hidup di lingkungan berlumpur yang mengandung kadar garam cukup tinggi.",
@@ -1090,7 +1090,7 @@ export default [
     "id": 40,
     "type": "agreement",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 38–40",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Hutan Mangrove",
       "paragraphs": [
         "Hutan mangrove merupakan kawasan yang ditumbuhi berbagai jenis tumbuhan bakau. Hutan ini biasanya ditemukan di wilayah pantai, muara sungai, dan perairan yang dipengaruhi oleh pasang surut air laut. Tumbuhan mangrove mampu hidup di lingkungan berlumpur yang mengandung kadar garam cukup tinggi.",
@@ -1122,7 +1122,7 @@ export default [
     "id": 41,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 41–43",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Tanggung Jawab Arga",
       "paragraphs": [
         "Hari Senin, Bu Sinta mengumumkan bahwa sekolah akan mengadakan bazar antarkelas pada hari Jumat. Setiap kelas harus menyiapkan makanan, menghias stan, serta membuat daftar harga. Kelas VI-B menunjuk Arga sebagai koordinator karena ia dikenal pandai menggambar dan membuat hiasan.",
@@ -1177,7 +1177,7 @@ export default [
     "id": 43,
     "type": "agreement",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 41–43",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Tanggung Jawab Arga",
       "paragraphs": [
         "Hari Senin, Bu Sinta mengumumkan bahwa sekolah akan mengadakan bazar antarkelas pada hari Jumat. Setiap kelas harus menyiapkan makanan, menghias stan, serta membuat daftar harga. Kelas VI-B menunjuk Arga sebagai koordinator karena ia dikenal pandai menggambar dan membuat hiasan.",
@@ -1213,7 +1213,7 @@ export default [
     "id": 44,
     "type": "single",
     "stimulus": {
-      "instruction": "Amatilah poster berikut untuk menjawab soal nomor 44 dan 45!",
+      "instruction": "Amatilah poster berikut untuk menjawab soal!",
       "title": null,
       "paragraphs": null,
       "image": "/images/sd/indo/soal44.jpg",
@@ -1232,7 +1232,7 @@ export default [
     "id": 45,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Amatilah poster berikut untuk menjawab soal nomor 44 dan 45!",
+      "instruction": "Amatilah poster berikut untuk menjawab soal!",
       "title": null,
       "paragraphs": null,
       "image": "/images/sd/indo/soal44.jpg",
@@ -1256,7 +1256,7 @@ export default [
     "id": 46,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 46 dan 47",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Pemanfaatan Drone dalam Pertanian",
       "paragraphs": [
         "Teknologi drone mulai dimanfaatkan dalam kegiatan pertanian. Drone merupakan pesawat berukuran kecil tanpa awak yang dapat dikendalikan dari jarak jauh. Alat ini dilengkapi kamera dan perangkat tertentu sehingga dapat terbang di atas lahan pertanian.",
@@ -1282,7 +1282,7 @@ export default [
     "id": 47,
     "type": "agreement",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 46 dan 47",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Pemanfaatan Drone dalam Pertanian",
       "paragraphs": [
         "Teknologi drone mulai dimanfaatkan dalam kegiatan pertanian. Drone merupakan pesawat berukuran kecil tanpa awak yang dapat dikendalikan dari jarak jauh. Alat ini dilengkapi kamera dan perangkat tertentu sehingga dapat terbang di atas lahan pertanian.",
@@ -1315,7 +1315,7 @@ export default [
     "id": 48,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 48–50",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Lila dan Sungai yang Berbusa",
       "paragraphs": [
         "Pada Jumat pagi, siswa kelas VI mengikuti kegiatan pengamatan lingkungan di Sungai Jernih. Sungai itu mengalir tidak jauh dari sekolah mereka. Bu Ratna meminta setiap kelompok mencatat kondisi air, tumbuhan, serta kebersihan di sekitar sungai.",
@@ -1345,7 +1345,7 @@ export default [
     "id": 49,
     "type": "multiple",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 48–50",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Lila dan Sungai yang Berbusa",
       "paragraphs": [
         "Pada Jumat pagi, siswa kelas VI mengikuti kegiatan pengamatan lingkungan di Sungai Jernih. Sungai itu mengalir tidak jauh dari sekolah mereka. Bu Ratna meminta setiap kelompok mencatat kondisi air, tumbuhan, serta kebersihan di sekitar sungai.",
@@ -1380,7 +1380,7 @@ export default [
     "id": 50,
     "type": "single",
     "stimulus": {
-      "instruction": "Bacalah teks berikut untuk menjawab soal nomor 48–50",
+      "instruction": "Bacalah teks berikut untuk menjawab soal!",
       "title": "Lila dan Sungai yang Berbusa",
       "paragraphs": [
         "Pada Jumat pagi, siswa kelas VI mengikuti kegiatan pengamatan lingkungan di Sungai Jernih. Sungai itu mengalir tidak jauh dari sekolah mereka. Bu Ratna meminta setiap kelompok mencatat kondisi air, tumbuhan, serta kebersihan di sekitar sungai.",

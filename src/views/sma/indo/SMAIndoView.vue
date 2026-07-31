@@ -2,14 +2,14 @@
   <div class="indo-container">
     <div class="top-banner">
       <h2>TKA InfiEdu</h2>
-      <p>TKA SMP - Bahasa Indonesia</p>
+      <p>TKA SMA - Bahasa Indonesia</p>
     </div>
 
     <div class="indo-card">
       <h1 class="page-title">Latihan Bahasa Indonesia</h1>
 
       <p class="page-subtitle">
-        Pilih aspek materi berdasarkan kisi-kisi TKA SMP 2026
+        Pilih aspek materi berdasarkan kisi-kisi TKA SMA 2026
       </p>
 
       <div class="package-grid">
@@ -44,7 +44,7 @@
         <button class="package-card full-test" @click="goToTest('fulltest')">
           <h3>Full Test Simulation</h3>
           <p>
-            Simulasi lengkap seluruh materi Bahasa Indonesia TKA SMP.
+            Simulasi lengkap seluruh materi Bahasa Indonesia TKA SMA.
           </p>
         </button>
       </div>
@@ -58,15 +58,15 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import '../../../styles/smp-indo.css'
+import '../../../styles/sma-indo.css'
 
 const router = useRouter()
 
 const goToTest = (type) => {
-  router.push(`/smp/practice/indo/test?type=${type}`)
+  router.push(`/sma/practice/indo/test?type=${type}`)
 }
 
 const goBack = () => {
-  router.push('/smp/practice')
+  router.push('/sma/practice')
 }
 </script>

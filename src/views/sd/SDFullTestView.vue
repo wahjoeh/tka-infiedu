@@ -493,21 +493,68 @@ function buildInitialAnswers(questions) {
 
 // 90 menit per sesi, sama seperti durasi tes per mapel yang sudah ada
 const SESSION_DURATION = 90 * 60
-const QUESTIONS_PER_SESSION = 30
+const indoPackage = Math.random() < 0.5 ? 1 : 2
+const mathPackage = Math.random() < 0.5 ? 1 : 2
 
-const indoQuestions = getRandomQuestions(indoBank, QUESTIONS_PER_SESSION)
-const mathQuestions = getRandomQuestions(mathBank, QUESTIONS_PER_SESSION)
+function withDisplayIds(questions) {
+  return questions.map((q, index) => ({
+    ...q,
+    displayId: index + 1,
+    originalId: q.id
+  }))
+}
+
+function getIndoPackage(packageNumber) {
+  // Bank Bahasa Indonesia SD berisi 50 soal. Agar kedua paket memuat 30 soal,
+  // Paket 1 memakai nomor 1–30 dan Paket 2 memakai nomor 21–50.
+  const startId = packageNumber === 1 ? 1 : 21
+  const endId = packageNumber === 1 ? 30 : 50
+
+  return withDisplayIds(
+    indoBank.filter((question) => question.id >= startId && question.id <= endId)
+  )
+}
+
+function getMathPackage(packageNumber) {
+  // Kedua paket memiliki komposisi tipe soal yang seimbang.
+  const packageOneTypeTargets = {
+    single: 14,
+    short: 7,
+    truefalse: 4,
+    multiple: 5
+  }
+  const usedTargets = {}
+
+  const packageOneQuestions = mathBank.filter((question) => {
+    const target = packageOneTypeTargets[question.type] || 0
+    const used = usedTargets[question.type] || 0
+
+    if (used >= target) return false
+
+    usedTargets[question.type] = used + 1
+    return true
+  })
+
+  const selectedQuestions = packageNumber === 1
+    ? packageOneQuestions
+    : mathBank.filter((question) => !packageOneQuestions.includes(question))
+
+  return withDisplayIds(selectedQuestions)
+}
+
+const indoQuestions = getIndoPackage(indoPackage)
+const mathQuestions = getMathPackage(mathPackage)
 
 const sessions = reactive({
   indo: {
-    label: 'Bahasa Indonesia',
+    label: `Bahasa Indonesia — Paket ${indoPackage}`,
     questions: indoQuestions,
     answers: buildInitialAnswers(indoQuestions),
     flagged: {},
     timeLeft: SESSION_DURATION
   },
   math: {
-    label: 'Matematika',
+    label: `Matematika — Paket ${mathPackage}`,
     questions: mathQuestions,
     answers: buildInitialAnswers(mathQuestions),
     flagged: {},
