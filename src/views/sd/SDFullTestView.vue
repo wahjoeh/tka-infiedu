@@ -649,6 +649,56 @@ const formatFraction = (text) => {
 }
 
 // =========================
+// PENCOCOKAN JAWABAN ISIAN PENDEK (LEBIH FLEKSIBEL)
+// =========================
+// Sama seperti di SDMathTestView.vue: siswa sering menulis jawaban
+// dengan variasi kecil yang seharusnya tetap dianggap benar (beda
+// spasi, kapitalisasi, superscript, atau format ribuan/desimal).
+// q.answer boleh berupa satu string, atau array berisi beberapa
+// varian jawaban yang diterima.
+function normalizeShortAnswer(value) {
+  return value
+    .toString()
+    .trim()
+    .toLowerCase()
+    .replace(/²/g, '2')
+    .replace(/³/g, '3')
+    .replace(/\s+/g, ' ')
+}
+
+function shortAnswersMatch(userAnswer, correctAnswer) {
+  if (userAnswer === null || userAnswer === undefined) return false
+
+  const normalizedUser = normalizeShortAnswer(userAnswer)
+  if (normalizedUser.length === 0) return false
+
+  const acceptedAnswers = Array.isArray(correctAnswer) ? correctAnswer : [correctAnswer]
+
+  return acceptedAnswers.some((candidate) => {
+    if (candidate === null || candidate === undefined) return false
+
+    const normalizedCandidate = normalizeShortAnswer(candidate)
+
+    // Level 1: sama persis setelah rapikan spasi & kapitalisasi
+    if (normalizedUser === normalizedCandidate) return true
+
+    // Level 2: sama setelah semua spasi dihapus (mis. "3kg" vs "3 kg")
+    const noSpaceUser = normalizedUser.replace(/\s+/g, '')
+    const noSpaceCandidate = normalizedCandidate.replace(/\s+/g, '')
+
+    if (noSpaceUser === noSpaceCandidate) return true
+
+    // Level 3: sama setelah tanda baca umum (titik, koma) ikut dihapus,
+    // supaya beda format ribuan/desimal ("Rp8.000,00" vs "Rp8000")
+    // tetap bisa cocok
+    const bareUser = noSpaceUser.replace(/[.,]/g, '')
+    const bareCandidate = noSpaceCandidate.replace(/[.,]/g, '')
+
+    return bareUser === bareCandidate
+  })
+}
+
+// =========================
 // LABEL UNTUK JAWABAN BENAR/SALAH BERTIPE PERNYATAAN
 // =========================
 
@@ -707,7 +757,7 @@ function scoreSession(sessionKey) {
     } else if (statementTypes.includes(q.type)) {
       correct = JSON.stringify(userAnswer) === JSON.stringify(q.answer)
     } else if (q.type === 'short') {
-      correct = userAnswer?.trim().toLowerCase() === q.answer?.trim().toLowerCase()
+      correct = shortAnswersMatch(userAnswer, q.answer)
     }
 
     let userAnswerDisplay
@@ -718,6 +768,11 @@ function scoreSession(sessionKey) {
       userAnswerDisplay = isEmptyAnswer(q, userAnswer)
         ? 'Tidak dijawab'
         : formatBoolArray(q.type, userAnswer)
+    } else if (q.type === 'short') {
+      correctAnswerDisplay = Array.isArray(q.answer) ? q.answer[0] : q.answer
+      userAnswerDisplay = isEmptyAnswer(q, userAnswer)
+        ? 'Tidak dijawab'
+        : userAnswer
     } else if (Array.isArray(q.answer)) {
       correctAnswerDisplay = q.answer.join(', ')
       userAnswerDisplay = isEmptyAnswer(q, userAnswer)

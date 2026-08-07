@@ -30,7 +30,7 @@ export default [
     },
     "question": "Ibu membeli 3 kantong jeruk. Setiap kantong berisi 24 jeruk. Jumlah seluruh jeruk adalah...",
     "options": [],
-    "answer": "72"
+    "answer": ["72", "72 jeruk"]
   },
   {
     "id": 3,
@@ -106,7 +106,7 @@ export default [
     },
     "question": "Perhatikan Gambar Berikut: Ani memakan 2/8 bagian kue, dan Beni memakan 3/8 bagian kue. Bagian kue yang dimakan Ani dan Beni seluruhnya adalah ....",
     "options": [],
-    "answer": "5/8"
+    "answer": ["5/8", "0,625"]
   },
   {
     "id": 7,
@@ -181,7 +181,7 @@ export default [
     },
     "question": "Sebuah toko tas milik Rizal sedang ada diskon 10% untuk setiap modelnya. Harga awal sebuah tas dengan model tertentu adalah Rp80.000,00. Besar diskon yang diberikan oleh toko Rizal adalah Rp....",
     "options": [],
-    "answer": "Rp8.000,00"
+    "answer": ["Rp8.000,00", "Rp8000", "Rp8.000", "8.000", "8000"]
   },
   {
     "id": 11,
@@ -257,7 +257,7 @@ export default [
     },
     "question": "Pecahan 3/5 jika diubah ke dalam bentuk persentase akan menjadi .... %",
     "options": [],
-    "answer": "60%"
+    "answer": ["60%", "60"]
   },
   {
     "id": 15,
@@ -332,7 +332,7 @@ export default [
     },
     "question": "Untuk membuat 1 kue diperlukan 3/4 kg tepung. Jika Ibu membuat 4 kue, banyak tepung yang diperlukan adalah .... kg",
     "options": [],
-    "answer": "3 kg"
+    "answer": ["3 kg", "3"]
   },
   {
     "id": 19,
@@ -403,7 +403,7 @@ export default [
     },
     "question": "Perhatikan gambar berikut! Sebuah persegi memiliki panjang sisi 9 cm. Luas persegi tersebut adalah ....... cm²",
     "options": [],
-    "answer": "81 cm²"
+    "answer": ["81 cm²", "81 cm2", "81"]
   },
   {
     "id": 23,
@@ -479,7 +479,7 @@ export default [
     },
     "question": "Ibu membeli apel seberat 2 kg dan jeruk seberat 500 gram. Berat seluruh buah yang dibeli Ibu adalah .... gram",
     "options": [],
-    "answer": "2.500 gram"
+    "answer": ["2.500 gram", "2500 gram", "2.500", "2500"]
   },
   {
     "id": 27,
@@ -534,7 +534,7 @@ export default [
     },
     "question": "Satu botol berisi 1,5 liter air. Banyak air tersebut sama dengan ..... mililiter.",
     "options": [],
-    "answer": "1.500 mililiter"
+    "answer": ["1.500 mililiter", "1500 mililiter", "1.500 ml", "1500 ml", "1.500", "1500"]
   },
   {
     "id": 30,
@@ -675,7 +675,7 @@ export default [
     },
     "question": "Sebuah akuarium berbentuk balok memiliki panjang 40 cm, lebar 25 cm, dan tinggi 30 cm. Akuarium tersebut diisi air hingga setengah bagian. Volume air di dalam akuarium adalah .... cm³.",
     "options": [],
-    "answer": "15.000 cm³"
+    "answer": ["15.000 cm³", "15000 cm³", "15.000 cm3", "15000 cm3", "15.000", "15000"]
   },
   {
     "id": 37,
@@ -798,7 +798,7 @@ export default [
     },
     "question": "Perhatikan tabel berikut! Jumlah seluruh buku yang dibaca dari Senin sampai Jumat adalah .... buku.",
     "options": [],
-    "answer": "70 buku"
+    "answer": ["70 buku", "70"]
   },
   {
     "id": 43,
@@ -831,7 +831,7 @@ export default [
     },
     "question": "Perhatikan diagram batang berikut! Selisih curah hujan tertinggi dan terendah adalah ....",
     "options": [],
-    "answer": "6 mm"
+    "answer": ["6 mm", "6mm", "6"]
   },
   {
     "id": 45,
@@ -911,7 +911,7 @@ export default [
     },
     "question": "Perhatikan tabel berikut! Jika 5 siswa lagi memilih basket, jumlah seluruh siswa menjadi .... siswa.",
     "options": [],
-    "answer": "45 siswa"
+    "answer": ["45 siswa", "45"]
   },
   {
     "id": 49,
@@ -925,7 +925,7 @@ export default [
     },
     "question": "Perhatikan diagram batang berikut! Setiap 7 pengunjung mendapat 1 penanda buku. Kelas yang mendapat penanda buku terbanyak adalah ....",
     "options": [],
-    "answer": "Kelas 5C, 6 penanda buku"
+    "answer": ["Kelas 5C, 6 penanda buku", "Kelas 5C", "5C"]
   },
   {
     "id": 50,
@@ -1024,7 +1024,7 @@ export default [
     },
     "question": "Perhatikan diagram batang berikut! Target donasi tiap kelas adalah 50 ribu rupiah. Jumlah seluruh kekurangan donasi dari kelas yang belum mencapai target adalah .... ribu rupiah.",
     "options": [],
-    "answer": "30 ribu rupiah"
+    "answer": ["30 ribu rupiah", "30"]
   },
   {
     "id": 55,
