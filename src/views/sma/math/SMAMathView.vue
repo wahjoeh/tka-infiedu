@@ -9,40 +9,12 @@
       <h1 class="page-title">Latihan Matematika</h1>
 
       <p class="page-subtitle">
-        Pilih aspek materi berdasarkan kisi-kisi TKA SMA 2026
+        Pilih mode untuk memulai latihan atau simulasi
       </p>
 
       <div class="package-grid">
-        <button class="package-card" @click="goToTest('statistics')">
-          <h3>Statistika & Peluang</h3>
-          <p>
-            Diagram, mean, median, modus, dan probabilitas dalam konteks
-            kehidupan sehari-hari.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('social')">
-          <h3>Aritmetika Sosial</h3>
-          <p>
-            Diskon, bunga bank, bruto, tara, neto, serta analisis untung-rugi.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('linear')">
-          <h3>Persamaan & Pertidaksamaan Linear</h3>
-          <p>
-            Pemecahan masalah harga barang, umur, dan hubungan antar variabel.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('geometry')">
-          <h3>Geometri & Pengukuran</h3>
-          <p>
-            Volume, luas permukaan, Teorema Pythagoras, dan aplikasi spasial.
-          </p>
-        </button>
-
-        <button class="package-card full-test" @click="goToTest('full')">
+        <button class="package-card" @click="goToTrial"><h3>Trial</h3><p>Kerjakan 10 soal Matematika untuk mencoba kemampuanmu.</p></button>
+        <button class="package-card full-test" @click="showPasswordDialog = true">
           <h3>Full Test Simulation</h3>
           <p>
             Simulasi lengkap seluruh materi Matematika TKA SMA.
@@ -54,18 +26,23 @@
         ← Kembali
       </button>
     </div>
+    <div v-if="showPasswordDialog" class="full-test-password-overlay" @click.self="closePasswordDialog"><form class="full-test-password-dialog" @submit.prevent="openFullTest"><h2>Full Test Simulation</h2><p>Masukkan password untuk memulai simulasi.</p><input v-model="password" type="password" placeholder="Password" autofocus /><p v-if="passwordError" class="password-error">Password tidak sesuai.</p><div class="full-test-password-actions"><button type="button" class="full-test-password-cancel" @click="closePasswordDialog">Batal</button><button type="submit" class="full-test-password-submit">Masuk</button></div></form></div>
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import '../../../styles/sma-math.css'
+import '../../../styles/password-modal.css'
 
 const router = useRouter()
+const password = ref(''); const passwordError = ref(false); const showPasswordDialog = ref(false)
+const FULL_TEST_PASSWORD = 'asd'
 
-const goToTest = (type) => {
-  router.push(`/sma/practice/math/test?type=${type}`)
-}
+const goToTrial = () => router.push('/sma/practice/math/test?mode=trial')
+const openFullTest = () => { if (password.value !== FULL_TEST_PASSWORD) { passwordError.value = true; return }; sessionStorage.setItem('smaMathFullTestUnlocked', 'true'); router.push('/sma/practice/math/test?mode=fulltest') }
+const closePasswordDialog = () => { showPasswordDialog.value = false; password.value = ''; passwordError.value = false }
 
 const goBack = () => {
   router.push('/sma/practice')

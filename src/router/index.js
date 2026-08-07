@@ -52,6 +52,9 @@ import SMAScienceView from '../views/sma/science/SMAScienceView.vue'
 // SMA Math Test
 import SMAMathTestView from '../views/sma/math/SMAMathTestView.vue'
 import SMAIndoTestView from '../views/sma/indo/SMAIndoTestView.vue'
+import SMAEnglishTestView from '../views/sma/english/SMAEnglishTestView.vue'
+import SMAFullTestView from '../views/sma/SMAFullTestView.vue'
+import SMAFullTestResultView from '../views/sma/SMAFullTestResultView.vue'
 
 // Result
 import ResultView from '../views/ResultView.vue'
@@ -218,6 +221,21 @@ const routes = [
   name: 'sma-indo-test',
   component: SMAIndoTestView
   },
+  {
+  path: '/sma/practice/english/test',
+  name: 'sma-english-test',
+  component: SMAEnglishTestView
+  },
+  {
+    path: '/sma/test',
+    name: 'sma-fulltest',
+    component: SMAFullTestView
+  },
+  {
+    path: '/sma/test/result',
+    name: 'sma-fulltest-result',
+    component: SMAFullTestResultView
+  },
 
   // Result
   {
@@ -230,6 +248,33 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes
+})
+
+router.beforeEach((to) => {
+  const protectedCombinedFullTests = {
+    '/sd/test': { key: 'sdCombinedFullTestUnlocked', fallback: '/sd' },
+    '/smp/test': { key: 'smpCombinedFullTestUnlocked', fallback: '/smp' },
+    '/sma/test': { key: 'smaCombinedFullTestUnlocked', fallback: '/sma' }
+  }
+  const protectedFullTests = {
+    '/sd/practice/indo/test': { key: 'sdIndoFullTestUnlocked', fallback: '/sd/practice/indo' },
+    '/sd/practice/math/test': { key: 'sdMathFullTestUnlocked', fallback: '/sd/practice/math' },
+    '/smp/practice/indo/test': { key: 'smpIndoFullTestUnlocked', fallback: '/smp/practice/indo' },
+    '/smp/practice/math/test': { key: 'smpMathFullTestUnlocked', fallback: '/smp/practice/math' },
+    '/sma/practice/indo/test': { key: 'smaIndoFullTestUnlocked', fallback: '/sma/practice/indo' },
+    '/sma/practice/math/test': { key: 'smaMathFullTestUnlocked', fallback: '/sma/practice/math' },
+    '/sma/practice/english/test': { key: 'smaEnglishFullTestUnlocked', fallback: '/sma/practice/english' }
+  }
+  const protectedCombinedTest = protectedCombinedFullTests[to.path]
+  const protectedTest = protectedFullTests[to.path]
+
+  if (protectedCombinedTest && sessionStorage.getItem(protectedCombinedTest.key) !== 'true') {
+    return protectedCombinedTest.fallback
+  }
+
+  if (to.query.mode === 'fulltest' && protectedTest && sessionStorage.getItem(protectedTest.key) !== 'true') {
+    return protectedTest.fallback
+  }
 })
 
 export default router

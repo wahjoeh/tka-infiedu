@@ -449,25 +449,58 @@ import mathBank from '../../data/smp/math/fulltest'
 const router = useRouter()
 
 // =========================
-// FUNGSI RANDOM - MENGAMBIL N SOAL
+// PAKET SOAL - BAHASA INDONESIA (4 paket @ 20 soal)
 // =========================
-
-function getRandomQuestions(allQuestions, count = 30) {
-  const shuffled = [...allQuestions]
-
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-  }
-
-  const selected = shuffled.slice(0, count)
-
-  return selected.map((q, index) => ({
-    ...q,
-    displayId: index + 1,
-    originalId: q.id
-  }))
+// Bank Bahasa Indonesia berisi 70 soal (id 1-70). Karena 70 tidak habis
+// dibagi 20, paket 4 melengkapi 10 soal sisa (id 61-70) dengan
+// meminjam 10 soal dari paket 1 (id 1-10). Sama seperti di
+// SMPIndoTestView.vue.
+const INDO_PACKAGES = {
+  1: Array.from({ length: 20 }, (_, i) => i + 1),   // id 1-20
+  2: Array.from({ length: 20 }, (_, i) => i + 21),  // id 21-40
+  3: Array.from({ length: 20 }, (_, i) => i + 41),  // id 41-60
+  4: [
+    ...Array.from({ length: 10 }, (_, i) => i + 61), // id 61-70
+    ...Array.from({ length: 10 }, (_, i) => i + 1)   // pinjam id 1-10
+  ]
 }
+
+function pickQuestionsById(bank, ids) {
+  return ids
+    .map((id) => bank.find((question) => question.id === id))
+    .filter(Boolean)
+    .map((q, index) => ({
+      ...q,
+      displayId: index + 1,
+      originalId: q.id
+    }))
+}
+
+// =========================
+// PAKET SOAL - MATEMATIKA (4 paket @ 15 soal)
+// =========================
+// Bank Matematika berisi 60 soal, 15 per topik (aljabar, bilangan,
+// geometri, peluang). Tiap topik dibagi rata ke 4 paket dengan offset
+// berbeda per topik supaya sisa pembagian (15 soal / 4 paket) tidak
+// selalu jatuh ke paket yang sama. Sama seperti di SMPMathTestView.vue.
+const MATH_TOPICS = ['aljabar', 'bilangan', 'geometri', 'peluang']
+const MATH_QUESTIONS_PER_TOPIC = 15
+const MATH_PACKAGE_COUNT = 4
+
+function buildMathPackages() {
+  const packages = Array.from({ length: MATH_PACKAGE_COUNT }, () => [])
+
+  MATH_TOPICS.forEach((topic, topicIndex) => {
+    for (let i = 0; i < MATH_QUESTIONS_PER_TOPIC; i++) {
+      const packageIndex = (i + topicIndex) % MATH_PACKAGE_COUNT
+      packages[packageIndex].push(`${topic}-${i + 1}`)
+    }
+  })
+
+  return packages
+}
+
+const MATH_PACKAGES = buildMathPackages() // index 0-3 => paket 1-4
 
 function buildInitialAnswers(questions) {
   const initial = {}
@@ -491,23 +524,29 @@ function buildInitialAnswers(questions) {
   return initial
 }
 
-// 90 menit per sesi, sama seperti durasi tes per mapel yang sudah ada
-const SESSION_DURATION = 90 * 60
-const QUESTIONS_PER_SESSION = 30
+// 35 menit per sesi
+const SESSION_DURATION = 35 * 60
 
-const indoQuestions = getRandomQuestions(indoBank, QUESTIONS_PER_SESSION)
-const mathQuestions = getRandomQuestions(mathBank, QUESTIONS_PER_SESSION)
+// Tiap kali laman dibuka, siswa dapat kombinasi paket Indo & Matematika
+// yang dipilih acak dan independen satu sama lain (mis. Indo dapat
+// paket 1 sementara Matematika dapat paket 2, atau kombinasi lainnya).
+const indoPackageNumber = Math.floor(Math.random() * 4) + 1 // 1-4
+const mathPackageIndex = Math.floor(Math.random() * MATH_PACKAGES.length) // 0-3
+const mathPackageNumber = mathPackageIndex + 1
+
+const indoQuestions = pickQuestionsById(indoBank, INDO_PACKAGES[indoPackageNumber])
+const mathQuestions = pickQuestionsById(mathBank, MATH_PACKAGES[mathPackageIndex])
 
 const sessions = reactive({
   indo: {
-    label: 'Bahasa Indonesia',
+    label: `Bahasa Indonesia (Paket ${indoPackageNumber})`,
     questions: indoQuestions,
     answers: buildInitialAnswers(indoQuestions),
     flagged: {},
     timeLeft: SESSION_DURATION
   },
   math: {
-    label: 'Matematika',
+    label: `Matematika (Paket ${mathPackageNumber})`,
     questions: mathQuestions,
     answers: buildInitialAnswers(mathQuestions),
     flagged: {},

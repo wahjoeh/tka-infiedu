@@ -4,25 +4,27 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Budidaya Bonsai",
+      title: "Memulihkan Lahan Kritis Lewat Rekayasa Mikroba Tanah",
       paragraphs: [
-        "Bonsai merupakan seni hortikultura yang berfokus pada upaya membudidayakan pohon dalam ukuran mini tanpa menghilangkan karakter alaminya. Dalam praktiknya, bonsai tidak hanya sekadar tanaman hias, tetapi juga hasil pengendalian pertumbuhan melalui teknik pemangkasan <i>(pruning)</i>, pembentukan batang dan cabang <i>(wiring)</i>, serta pengaturan akar. Seni ini berkembang dari tradisi panjang yang menekankan keseimbangan antara estetika dan ketelitian perawatan.",
-        "Proses budidaya bonsai dimulai dari pemilihan bahan tanaman yang memiliki potensi bentuk menarik. Tanaman kemudian ditanam dalam wadah terbatas dengan media tanam yang memiliki drainase baik agar akar tidak mudah membusuk. Tahapan penting dalam perawatan meliputi repotting atau relokasi tanaman ke pot baru secara berkala untuk menjaga kesehatan akar dan pertumbuhan yang stabil.",
-        "Selain itu, teknik defoliasi atau pengurangan daun juga sering dilakukan untuk mengontrol ukuran daun dan mendorong pertumbuhan cabang baru. Dalam pembentukan struktur bonsai, penggunaan kawat atau wiring menjadi teknik utama untuk mengarahkan pertumbuhan batang sesuai desain yang diinginkan, misalnya tegak formal, miring, atau menjuntai.",
-        "Perawatan bonsai tidak dapat dipisahkan dari lingkungan penempatannya. Bonsai biasanya diletakkan di area terbuka seperti halaman rumah atau kebun kecil agar memperoleh sinar matahari yang cukup. Namun, perawatan ini tetap membutuhkan pengawasan intensif, termasuk penyiraman rutin dan pemupukan berkala untuk menjaga keseimbangan nutrisi.",
-        "Dengan perawatan yang telaten, bonsai dapat menjadi representasi miniatur alam yang hidup dalam ruang terbatas. Keindahannya tidak hanya terletak pada bentuk, tetapi juga pada proses panjang pembentukan yang mencerminkan kesabaran dan ketekunan pembudidayanya."
+        "Lahan-lahan yang mengalami degradasi akibat eksploitasi tambang, kebakaran hutan, maupun alih fungsi kawasan hutan menjadi area pertanian atau permukiman kini menyisakan persoalan ekologis yang tidak sederhana untuk dipulihkan. Di tengah keterbatasan itu, sejumlah peneliti tanah di Indonesia memperkenalkan pendekatan restorasi berbasis rekayasa ekosistem mikroba, yaitu strategi yang menempatkan optimasi fungsi komunitas mikroorganisme di dalam tanah sebagai fondasi utama pemulihan lahan terdegradasi, bukan sekadar mengandalkan penanaman kembali vegetasi di permukaan.",
+        "Pendekatan tersebut berangkat dari premis bahwa kesuburan tanah tidak semata ditentukan oleh kandungan unsur hara, melainkan juga oleh keseimbangan mikrobioma, yaitu keseluruhan komunitas mikroba yang hidup berdampingan dan saling berinteraksi di dalam ekosistem tanah. Para peneliti bahkan mengembangkan konsep relasi fungsional antara tumbuhan dan mikrobiomanya, yang dikenal sebagai hubungan holobion, untuk menjelaskan bagaimana keruntuhan fungsi mikroba tanah dapat memicu keruntuhan rizosfer secara menyeluruh sehingga kemampuan lahan menopang pertumbuhan tanaman menurun drastis.",
+        "Guna merancang strategi pemulihan yang lebih presisi, para ilmuwan mendorong integrasi sejumlah teknologi mutakhir lintas disiplin. Teknologi geospasial dimanfaatkan untuk memetakan sebaran serta tingkat keparahan lahan terdegradasi secara akurat, sementara metagenomik dan bioinformatika membantu mengidentifikasi jenis-jenis mikroba yang paling sesuai untuk diterapkan pada setiap zona ekologi tertentu. Tidak berhenti di situ, internet of things dan kecerdasan buatan turut dilibatkan untuk memantau dinamika mikrobioma tanah secara berkelanjutan, sehingga intervensi dapat dilakukan secara adaptif sesuai perubahan kondisi di lapangan.",
+        "Momentum tersebut mengemuka dalam acara puncak peringatan Hari Penanggulangan Degradasi Lahan dan Kekeringan Sedunia yang digelar di Jakarta pada awal Juli 2026. Dalam kesempatan itu, seorang pejabat Kementerian Kehutanan menegaskan bahwa pemulihan lahan tidak dapat dimaknai sesempit kegiatan menanam pohon semata, sebab keberhasilan sesungguhnya bergantung pada seberapa jauh masyarakat di sekitar lahan tersebut turut dilibatkan sejak tahap perencanaan hingga pemantauan hasil restorasi dalam jangka panjang.",
+        "Ia menambahkan, upaya pemulihan lahan mesti sekaligus menumbuhkan kepedulian warga dan memperkuat semangat gotong royong, agar manfaat ekologis dari pemulihan lingkungan benar-benar dirasakan secara nyata, baik pada lahan bekas tambang, lahan gambut yang mudah terbakar, maupun kawasan hutan produksi yang telah kritis. Menurutnya, lahan yang sehat pada gilirannya akan menghadirkan lingkungan yang sehat, ekonomi masyarakat yang lebih kuat, serta kehidupan yang lebih baik bagi generasi mendatang.",
+        "Ke depan, arah riset restorasi ekosistem diharapkan terus dikembangkan menuju konsorsium mikroba presisi yang dirancang khusus berdasarkan karakteristik setiap zona ekologi, alih-alih menerapkan formula seragam di seluruh wilayah. Tantangannya, pendekatan berbasis teknologi tinggi semacam ini memerlukan pembiayaan riset yang tidak sedikit serta pemantauan jangka panjang, sehingga keberlanjutannya sangat bergantung pada konsistensi dukungan kebijakan dan kolaborasi lintas lembaga di masa mendatang.",
       ],
       image: null,
-      source: "KompasPedia, 24 Juli 2023 (dengan modifikasi)"
+      source: "Sumber: Harian Kompas, 5 Juli 2026 (dengan modifikasi)"
     },
-    question: "Istilah repotting dalam teks memiliki makna yang paling tepat adalah...",
+    question: "Kata \"restorasi\" pada paragraf 1 merupakan kata serapan dari bahasa asing yang dalam konteks teks tersebut paling tepat dimaknai sebagai ...",
     options: [
-      "Pemangkasan daun untuk memperindah bentuk tanaman",
-      "Pemindahan tanaman ke pot baru untuk menjaga kesehatan akar",
-      "Penyemprotan air untuk menjaga kelembapan daun",
-      "Pemindahan tanaman ke pot untuk merawat kekuatan batang"
+      "Upaya pemulihan kondisi suatu ekosistem ke keadaan yang lebih baik",
+      "Proses pemetaan ulang batas wilayah lahan",
+      "Tindakan pengukuran tingkat kesuburan tanah",
+      "Kegiatan penanaman pohon dalam skala besar",
+      "Proses pengumpulan data mikroba tanah",
     ],
-    answer: "Pemindahan tanaman ke pot baru untuk menjaga kesehatan akar"
+    answer: "Upaya pemulihan kondisi suatu ekosistem ke keadaan yang lebih baik"
   },
 
   {
@@ -30,136 +32,147 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Budidaya Bonsai",
+      title: "Memulihkan Lahan Kritis Lewat Rekayasa Mikroba Tanah",
       paragraphs: [
-        "Bonsai merupakan seni hortikultura yang berfokus pada upaya membudidayakan pohon dalam ukuran mini tanpa menghilangkan karakter alaminya. Dalam praktiknya, bonsai tidak hanya sekadar tanaman hias, tetapi juga hasil pengendalian pertumbuhan melalui teknik pemangkasan <i>(pruning)</i>, pembentukan batang dan cabang <i>(wiring)</i>, serta pengaturan akar. Seni ini berkembang dari tradisi panjang yang menekankan keseimbangan antara estetika dan ketelitian perawatan.",
-        "Proses budidaya bonsai dimulai dari pemilihan bahan tanaman yang memiliki potensi bentuk menarik. Tanaman kemudian ditanam dalam wadah terbatas dengan media tanam yang memiliki drainase baik agar akar tidak mudah membusuk. Tahapan penting dalam perawatan meliputi repotting atau relokasi tanaman ke pot baru secara berkala untuk menjaga kesehatan akar dan pertumbuhan yang stabil.",
-        "Selain itu, teknik defoliasi atau pengurangan daun juga sering dilakukan untuk mengontrol ukuran daun dan mendorong pertumbuhan cabang baru. Dalam pembentukan struktur bonsai, penggunaan kawat atau wiring menjadi teknik utama untuk mengarahkan pertumbuhan batang sesuai desain yang diinginkan, misalnya tegak formal, miring, atau menjuntai.",
-        "Perawatan bonsai tidak dapat dipisahkan dari lingkungan penempatannya. Bonsai biasanya diletakkan di area terbuka seperti halaman rumah atau kebun kecil agar memperoleh sinar matahari yang cukup. Namun, perawatan ini tetap membutuhkan pengawasan intensif, termasuk penyiraman rutin dan pemupukan berkala untuk menjaga keseimbangan nutrisi.",
-        "Dengan perawatan yang telaten, bonsai dapat menjadi representasi miniatur alam yang hidup dalam ruang terbatas. Keindahannya tidak hanya terletak pada bentuk, tetapi juga pada proses panjang pembentukan yang mencerminkan kesabaran dan ketekunan pembudidayanya."
+        "Lahan-lahan yang mengalami degradasi akibat eksploitasi tambang, kebakaran hutan, maupun alih fungsi kawasan hutan menjadi area pertanian atau permukiman kini menyisakan persoalan ekologis yang tidak sederhana untuk dipulihkan. Di tengah keterbatasan itu, sejumlah peneliti tanah di Indonesia memperkenalkan pendekatan restorasi berbasis rekayasa ekosistem mikroba, yaitu strategi yang menempatkan optimasi fungsi komunitas mikroorganisme di dalam tanah sebagai fondasi utama pemulihan lahan terdegradasi, bukan sekadar mengandalkan penanaman kembali vegetasi di permukaan.",
+        "Pendekatan tersebut berangkat dari premis bahwa kesuburan tanah tidak semata ditentukan oleh kandungan unsur hara, melainkan juga oleh keseimbangan mikrobioma, yaitu keseluruhan komunitas mikroba yang hidup berdampingan dan saling berinteraksi di dalam ekosistem tanah. Para peneliti bahkan mengembangkan konsep relasi fungsional antara tumbuhan dan mikrobiomanya, yang dikenal sebagai hubungan holobion, untuk menjelaskan bagaimana keruntuhan fungsi mikroba tanah dapat memicu keruntuhan rizosfer secara menyeluruh sehingga kemampuan lahan menopang pertumbuhan tanaman menurun drastis.",
+        "Guna merancang strategi pemulihan yang lebih presisi, para ilmuwan mendorong integrasi sejumlah teknologi mutakhir lintas disiplin. Teknologi geospasial dimanfaatkan untuk memetakan sebaran serta tingkat keparahan lahan terdegradasi secara akurat, sementara metagenomik dan bioinformatika membantu mengidentifikasi jenis-jenis mikroba yang paling sesuai untuk diterapkan pada setiap zona ekologi tertentu. Tidak berhenti di situ, internet of things dan kecerdasan buatan turut dilibatkan untuk memantau dinamika mikrobioma tanah secara berkelanjutan, sehingga intervensi dapat dilakukan secara adaptif sesuai perubahan kondisi di lapangan.",
+        "Momentum tersebut mengemuka dalam acara puncak peringatan Hari Penanggulangan Degradasi Lahan dan Kekeringan Sedunia yang digelar di Jakarta pada awal Juli 2026. Dalam kesempatan itu, seorang pejabat Kementerian Kehutanan menegaskan bahwa pemulihan lahan tidak dapat dimaknai sesempit kegiatan menanam pohon semata, sebab keberhasilan sesungguhnya bergantung pada seberapa jauh masyarakat di sekitar lahan tersebut turut dilibatkan sejak tahap perencanaan hingga pemantauan hasil restorasi dalam jangka panjang.",
+        "Ia menambahkan, upaya pemulihan lahan mesti sekaligus menumbuhkan kepedulian warga dan memperkuat semangat gotong royong, agar manfaat ekologis dari pemulihan lingkungan benar-benar dirasakan secara nyata, baik pada lahan bekas tambang, lahan gambut yang mudah terbakar, maupun kawasan hutan produksi yang telah kritis. Menurutnya, lahan yang sehat pada gilirannya akan menghadirkan lingkungan yang sehat, ekonomi masyarakat yang lebih kuat, serta kehidupan yang lebih baik bagi generasi mendatang.",
+        "Ke depan, arah riset restorasi ekosistem diharapkan terus dikembangkan menuju konsorsium mikroba presisi yang dirancang khusus berdasarkan karakteristik setiap zona ekologi, alih-alih menerapkan formula seragam di seluruh wilayah. Tantangannya, pendekatan berbasis teknologi tinggi semacam ini memerlukan pembiayaan riset yang tidak sedikit serta pemantauan jangka panjang, sehingga keberlanjutannya sangat bergantung pada konsistensi dukungan kebijakan dan kolaborasi lintas lembaga di masa mendatang.",
       ],
       image: null,
-      source: "KompasPedia, 24 Juli 2023 (dengan modifikasi)"
+      source: "Sumber: Harian Kompas, 5 Juli 2026 (dengan modifikasi)"
     },
-    question: "Penggunaan istilah <i>wiring</i> dalam budidaya bonsai merujuk pada...",
+    question: "Perhatikan istilah \"geospasial\", \"metagenomik\", dan \"bioinformatika\" yang digunakan pada paragraf 3. Penggunaan ketiga kata serapan tersebut menunjukkan bahwa upaya restorasi lahan dalam teks ...",
     options: [
-      "Teknik menstimulasi perkembangan dahan supaya menghasilkan banyak daun",
-      "Teknik mengganti media tanam secara berkala",
-      "Teknik memperbanyak tanaman melalui stek",
-      "Teknik mengatur arah pertumbuhan batang menggunakan kawat"
+      "Hanya mengandalkan pengetahuan tradisional petani setempat",
+      "Terbatas pada penelitian di laboratorium tanpa aplikasi lapangan",
+      "Menekankan efisiensi biaya sebagai prioritas utama program",
+      "Melibatkan kolaborasi disiplin ilmu dan teknologi mutakhir dari berbagai bidang",
+      "Berfokus pada penanaman jenis pohon tertentu saja",
     ],
-    answer: "Teknik mengatur arah pertumbuhan batang menggunakan kawat"
+    answer: "Melibatkan kolaborasi disiplin ilmu dan teknologi mutakhir dari berbagai bidang"
   },
 
   {
     id: 3,
-    type: "single",
+    type: "multiple",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Budidaya Bonsai",
+      title: "Memulihkan Lahan Kritis Lewat Rekayasa Mikroba Tanah",
       paragraphs: [
-        "Bonsai merupakan seni hortikultura yang berfokus pada upaya membudidayakan pohon dalam ukuran mini tanpa menghilangkan karakter alaminya. Dalam praktiknya, bonsai tidak hanya sekadar tanaman hias, tetapi juga hasil pengendalian pertumbuhan melalui teknik pemangkasan <i>(pruning)</i>, pembentukan batang dan cabang <i>(wiring)</i>, serta pengaturan akar. Seni ini berkembang dari tradisi panjang yang menekankan keseimbangan antara estetika dan ketelitian perawatan.",
-        "Proses budidaya bonsai dimulai dari pemilihan bahan tanaman yang memiliki potensi bentuk menarik. Tanaman kemudian ditanam dalam wadah terbatas dengan media tanam yang memiliki drainase baik agar akar tidak mudah membusuk. Tahapan penting dalam perawatan meliputi repotting atau relokasi tanaman ke pot baru secara berkala untuk menjaga kesehatan akar dan pertumbuhan yang stabil.",
-        "Selain itu, teknik defoliasi atau pengurangan daun juga sering dilakukan untuk mengontrol ukuran daun dan mendorong pertumbuhan cabang baru. Dalam pembentukan struktur bonsai, penggunaan kawat atau wiring menjadi teknik utama untuk mengarahkan pertumbuhan batang sesuai desain yang diinginkan, misalnya tegak formal, miring, atau menjuntai.",
-        "Perawatan bonsai tidak dapat dipisahkan dari lingkungan penempatannya. Bonsai biasanya diletakkan di area terbuka seperti halaman rumah atau kebun kecil agar memperoleh sinar matahari yang cukup. Namun, perawatan ini tetap membutuhkan pengawasan intensif, termasuk penyiraman rutin dan pemupukan berkala untuk menjaga keseimbangan nutrisi.",
-        "Dengan perawatan yang telaten, bonsai dapat menjadi representasi miniatur alam yang hidup dalam ruang terbatas. Keindahannya tidak hanya terletak pada bentuk, tetapi juga pada proses panjang pembentukan yang mencerminkan kesabaran dan ketekunan pembudidayanya."
+        "Lahan-lahan yang mengalami degradasi akibat eksploitasi tambang, kebakaran hutan, maupun alih fungsi kawasan hutan menjadi area pertanian atau permukiman kini menyisakan persoalan ekologis yang tidak sederhana untuk dipulihkan. Di tengah keterbatasan itu, sejumlah peneliti tanah di Indonesia memperkenalkan pendekatan restorasi berbasis rekayasa ekosistem mikroba, yaitu strategi yang menempatkan optimasi fungsi komunitas mikroorganisme di dalam tanah sebagai fondasi utama pemulihan lahan terdegradasi, bukan sekadar mengandalkan penanaman kembali vegetasi di permukaan.",
+        "Pendekatan tersebut berangkat dari premis bahwa kesuburan tanah tidak semata ditentukan oleh kandungan unsur hara, melainkan juga oleh keseimbangan mikrobioma, yaitu keseluruhan komunitas mikroba yang hidup berdampingan dan saling berinteraksi di dalam ekosistem tanah. Para peneliti bahkan mengembangkan konsep relasi fungsional antara tumbuhan dan mikrobiomanya, yang dikenal sebagai hubungan holobion, untuk menjelaskan bagaimana keruntuhan fungsi mikroba tanah dapat memicu keruntuhan rizosfer secara menyeluruh sehingga kemampuan lahan menopang pertumbuhan tanaman menurun drastis.",
+        "Guna merancang strategi pemulihan yang lebih presisi, para ilmuwan mendorong integrasi sejumlah teknologi mutakhir lintas disiplin. Teknologi geospasial dimanfaatkan untuk memetakan sebaran serta tingkat keparahan lahan terdegradasi secara akurat, sementara metagenomik dan bioinformatika membantu mengidentifikasi jenis-jenis mikroba yang paling sesuai untuk diterapkan pada setiap zona ekologi tertentu. Tidak berhenti di situ, internet of things dan kecerdasan buatan turut dilibatkan untuk memantau dinamika mikrobioma tanah secara berkelanjutan, sehingga intervensi dapat dilakukan secara adaptif sesuai perubahan kondisi di lapangan.",
+        "Momentum tersebut mengemuka dalam acara puncak peringatan Hari Penanggulangan Degradasi Lahan dan Kekeringan Sedunia yang digelar di Jakarta pada awal Juli 2026. Dalam kesempatan itu, seorang pejabat Kementerian Kehutanan menegaskan bahwa pemulihan lahan tidak dapat dimaknai sesempit kegiatan menanam pohon semata, sebab keberhasilan sesungguhnya bergantung pada seberapa jauh masyarakat di sekitar lahan tersebut turut dilibatkan sejak tahap perencanaan hingga pemantauan hasil restorasi dalam jangka panjang.",
+        "Ia menambahkan, upaya pemulihan lahan mesti sekaligus menumbuhkan kepedulian warga dan memperkuat semangat gotong royong, agar manfaat ekologis dari pemulihan lingkungan benar-benar dirasakan secara nyata, baik pada lahan bekas tambang, lahan gambut yang mudah terbakar, maupun kawasan hutan produksi yang telah kritis. Menurutnya, lahan yang sehat pada gilirannya akan menghadirkan lingkungan yang sehat, ekonomi masyarakat yang lebih kuat, serta kehidupan yang lebih baik bagi generasi mendatang.",
+        "Ke depan, arah riset restorasi ekosistem diharapkan terus dikembangkan menuju konsorsium mikroba presisi yang dirancang khusus berdasarkan karakteristik setiap zona ekologi, alih-alih menerapkan formula seragam di seluruh wilayah. Tantangannya, pendekatan berbasis teknologi tinggi semacam ini memerlukan pembiayaan riset yang tidak sedikit serta pemantauan jangka panjang, sehingga keberlanjutannya sangat bergantung pada konsistensi dukungan kebijakan dan kolaborasi lintas lembaga di masa mendatang.",
       ],
       image: null,
-      source: "KompasPedia, 24 Juli 2023 (dengan modifikasi)"
+      source: "Sumber: Harian Kompas, 5 Juli 2026 (dengan modifikasi)"
     },
-    question: "Berdasarkan teks, tempat yang paling sesuai untuk menempatkan bonsai agar tumbuh optimal adalah...",
+    question: "Manakah pernyataan berikut yang benar mengenai penggunaan kata serapan dalam teks tersebut? (Pilih semua jawaban yang tepat!)",
     options: [
-      "Halaman rumah atau kebun kecil",
-      "Ruangan tertutup dengan cahaya cukup",
-      "Balkon yang mendapat suplai matahari berlebih",
-      "Tempat teduh dan lembap"
+      "Kata \"mikrobioma\" merupakan istilah serapan dari bidang biologi yang merujuk pada komunitas mikroorganisme dalam suatu ekosistem",
+      "Kata \"presisi\" pada paragraf 6 digunakan untuk menunjukkan tingkat ketepatan pemilihan konsorsium mikroba sesuai zona ekologi",
+      "Kata \"konsorsium\" dalam teks bermakna sekelompok individu yang bekerja secara terpisah tanpa koordinasi",
+      "Kata \"ekologi\" adalah istilah serapan yang berkaitan dengan hubungan makhluk hidup dengan lingkungannya",
+      "Seluruh kata serapan dalam teks berasal dari bahasa daerah di Indonesia",
     ],
-    answer: "Halaman rumah atau kebun kecil"
+    answer: [
+      "Kata \"mikrobioma\" merupakan istilah serapan dari bidang biologi yang merujuk pada komunitas mikroorganisme dalam suatu ekosistem",
+      "Kata \"presisi\" pada paragraf 6 digunakan untuk menunjukkan tingkat ketepatan pemilihan konsorsium mikroba sesuai zona ekologi",
+      "Kata \"ekologi\" adalah istilah serapan yang berkaitan dengan hubungan makhluk hidup dengan lingkungannya",
+    ]
   },
 
   {
     id: 4,
-    type: "multiple",
+    type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Budidaya Bonsai",
+      title: "Kabut Pagi di Dermaga Ujung Batu",
       paragraphs: [
-        "Bonsai merupakan seni hortikultura yang berfokus pada upaya membudidayakan pohon dalam ukuran mini tanpa menghilangkan karakter alaminya. Dalam praktiknya, bonsai tidak hanya sekadar tanaman hias, tetapi juga hasil pengendalian pertumbuhan melalui teknik pemangkasan <i>(pruning)</i>, pembentukan batang dan cabang <i>(wiring)</i>, serta pengaturan akar. Seni ini berkembang dari tradisi panjang yang menekankan keseimbangan antara estetika dan ketelitian perawatan.",
-        "Proses budidaya bonsai dimulai dari pemilihan bahan tanaman yang memiliki potensi bentuk menarik. Tanaman kemudian ditanam dalam wadah terbatas dengan media tanam yang memiliki drainase baik agar akar tidak mudah membusuk. Tahapan penting dalam perawatan meliputi repotting atau relokasi tanaman ke pot baru secara berkala untuk menjaga kesehatan akar dan pertumbuhan yang stabil.",
-        "Selain itu, teknik defoliasi atau pengurangan daun juga sering dilakukan untuk mengontrol ukuran daun dan mendorong pertumbuhan cabang baru. Dalam pembentukan struktur bonsai, penggunaan kawat atau wiring menjadi teknik utama untuk mengarahkan pertumbuhan batang sesuai desain yang diinginkan, misalnya tegak formal, miring, atau menjuntai.",
-        "Perawatan bonsai tidak dapat dipisahkan dari lingkungan penempatannya. Bonsai biasanya diletakkan di area terbuka seperti halaman rumah atau kebun kecil agar memperoleh sinar matahari yang cukup. Namun, perawatan ini tetap membutuhkan pengawasan intensif, termasuk penyiraman rutin dan pemupukan berkala untuk menjaga keseimbangan nutrisi.",
-        "Dengan perawatan yang telaten, bonsai dapat menjadi representasi miniatur alam yang hidup dalam ruang terbatas. Keindahannya tidak hanya terletak pada bentuk, tetapi juga pada proses panjang pembentukan yang mencerminkan kesabaran dan ketekunan pembudidayanya."
+        "Kabut tipis serupa selubung kelabu masih menggantung rendah di atas permukaan laut ketika Mak Inah melangkah pelan menyusuri dermaga kayu yang papan-papannya mulai lapuk dimakan usia dan asinnya air laut. Suara debur ombak yang pecah di sela-sela tiang pancang berpadu dengan derit kayu di bawah telapak kakinya, seolah menjadi penanda rutin bahwa perempuan itu selalu tiba jauh sebelum semburat jingga matahari benar-benar menyingsing di ufuk timur kampung nelayan itu.",
+        "Perempuan berusia enam puluh tahun itu mengenakan kain sarung lusuh bermotif kotak-kotak yang warnanya telah banyak pudar, dipadu caping anyaman bambu yang tepiannya mulai terkelupas dimakan panas dan hujan bertahun-tahun. Meski begitu, tangannya yang keriput tak pernah kehilangan kecekatan saat menjinjing bakul rotan berisi ikan asin hasil olahannya semalam suntuk, sebuah keterampilan yang diwarisinya turun-temurun dari ibunya dan siap dijajakan pagi itu ke pasar kecil di ujung kampung.",
+        "Di kejauhan, tampak beberapa perahu nelayan berlambung kayu yang baru saja merapat satu demi satu, badannya basah dan berkilau ditimpa cahaya keemasan matahari yang perlahan merangkak naik dari balik punggung bukit di seberang teluk. Teriakan riang para nelayan muda yang saling bersahutan sembari menghitung hasil tangkapan malam itu menandakan bahwa laut sedang bermurah hati, sebuah pemandangan yang jarang lagi dijumpai sejak beberapa musim belakangan akibat cuaca yang kian tak menentu.",
+        "Angin laut yang membawa aroma khas garam bercampur amis ikan berembus lembut, menerbangkan ujung kain sarung Mak Inah hingga berkibar pelan. Ia berhenti sejenak, menatap laut yang perlahan berubah warna dari kelabu pekat menjadi biru kehijauan yang jernih, seakan tenggelam dalam kenangan masa mudanya dahulu, ketika suaminya masih hidup dan selalu ikut melaut setiap subuh sebelum akhirnya pergi untuk selamanya diterjang badai belasan tahun silam.",
+        "Tak jauh dari tempatnya berdiri, seorang anak lelaki kecil berlari-lari riang sambil menyeret jaring yang tanpa sengaja tersangkut di pergelangan kakinya, membuat beberapa nelayan yang menyaksikannya tertawa terbahak-bahak. Mak Inah pun tersenyum tipis menyaksikan tingkah polah bocah itu, teringat pada cucunya sendiri yang kini merantau jauh ke kota besar dan sudah bertahun-tahun tak lagi menjejakkan kaki di kampung nelayan yang kian sunyi ini.",
+        "Setelah memastikan susunan ikan asin dalam bakulnya cukup rapi untuk dijajakan, Mak Inah kembali melangkah menyusuri dermaga, meninggalkan jejak kaki di hamparan pasir basah yang perlahan-lahan tersapu ombak. Ia berjalan seolah membawa serta dermaga itu beserta seluruh kisah yang tersimpan di dalamnya, kisah yang akan terus terulang esok hari, dan hari-hari berikutnya, selama laut masih bersedia menghidupi orang-orang seperti dirinya.",
       ],
       image: null,
-      source: "KompasPedia, 24 Juli 2023 (dengan modifikasi)"
+      source: null
     },
-    question: "Berdasarkan teks tersebut, pilihlah pernyataan yang paling tepat mengenai objek budidaya dan tempat perawatan bonsai!",
+    question: "Berdasarkan pilihan kata (diksi) yang digunakan dalam paragraf 1 dan 3, latar waktu yang paling tepat menggambarkan suasana dalam teks tersebut adalah ...",
     options: [
-      "Bonsai dibudidayakan dari tanaman liar yang tumbuh bebas di hutan lalu dikembangkan dengan pengendalian manusia.",
-      "Bonsai merupakan pohon miniatur yang dibentuk melalui teknik pemangkasan, wiring, dan pengaturan akar dalam wadah terbatas.",
-      "Bonsai dirawat di ruang terbuka seperti halaman atau kebun kecil dengan kebutuhan sinar matahari yang cukup serta perawatan intensif.",
-      "Perawatan bonsai umumnya dilakukan di dalam ruangan tertutup agar terhindar dari paparan sinar matahari langsung."
+      "Tengah hari saat matahari berada tepat di atas kepala",
+      "Menjelang senja ketika langit mulai gelap",
+      "Malam hari saat suasana pelabuhan sepi",
+      "Sore hari saat nelayan baru berangkat melaut",
+      "Dini hari hingga pagi menjelang matahari terbit sempurna",
     ],
-    answer: [
-      "Bonsai merupakan pohon miniatur yang dibentuk melalui teknik pemangkasan, wiring, dan pengaturan akar dalam wadah terbatas.",
-      "Bonsai dirawat di ruang terbuka seperti halaman atau kebun kecil dengan kebutuhan sinar matahari yang cukup serta perawatan intensif."
-    ]
+    answer: "Dini hari hingga pagi menjelang matahari terbit sempurna"
   },
 
   {
     id: 5,
-    type: "truefalse",
+    type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Budidaya Bonsai",
+      title: "Kabut Pagi di Dermaga Ujung Batu",
       paragraphs: [
-        "Bonsai merupakan seni hortikultura yang berfokus pada upaya membudidayakan pohon dalam ukuran mini tanpa menghilangkan karakter alaminya. Dalam praktiknya, bonsai tidak hanya sekadar tanaman hias, tetapi juga hasil pengendalian pertumbuhan melalui teknik pemangkasan <i>(pruning)</i>, pembentukan batang dan cabang <i>(wiring)</i>, serta pengaturan akar. Seni ini berkembang dari tradisi panjang yang menekankan keseimbangan antara estetika dan ketelitian perawatan.",
-        "Proses budidaya bonsai dimulai dari pemilihan bahan tanaman yang memiliki potensi bentuk menarik. Tanaman kemudian ditanam dalam wadah terbatas dengan media tanam yang memiliki drainase baik agar akar tidak mudah membusuk. Tahapan penting dalam perawatan meliputi repotting atau relokasi tanaman ke pot baru secara berkala untuk menjaga kesehatan akar dan pertumbuhan yang stabil.",
-        "Selain itu, teknik defoliasi atau pengurangan daun juga sering dilakukan untuk mengontrol ukuran daun dan mendorong pertumbuhan cabang baru. Dalam pembentukan struktur bonsai, penggunaan kawat atau wiring menjadi teknik utama untuk mengarahkan pertumbuhan batang sesuai desain yang diinginkan, misalnya tegak formal, miring, atau menjuntai.",
-        "Perawatan bonsai tidak dapat dipisahkan dari lingkungan penempatannya. Bonsai biasanya diletakkan di area terbuka seperti halaman rumah atau kebun kecil agar memperoleh sinar matahari yang cukup. Namun, perawatan ini tetap membutuhkan pengawasan intensif, termasuk penyiraman rutin dan pemupukan berkala untuk menjaga keseimbangan nutrisi.",
-        "Dengan perawatan yang telaten, bonsai dapat menjadi representasi miniatur alam yang hidup dalam ruang terbatas. Keindahannya tidak hanya terletak pada bentuk, tetapi juga pada proses panjang pembentukan yang mencerminkan kesabaran dan ketekunan pembudidayanya."
+        "Kabut tipis serupa selubung kelabu masih menggantung rendah di atas permukaan laut ketika Mak Inah melangkah pelan menyusuri dermaga kayu yang papan-papannya mulai lapuk dimakan usia dan asinnya air laut. Suara debur ombak yang pecah di sela-sela tiang pancang berpadu dengan derit kayu di bawah telapak kakinya, seolah menjadi penanda rutin bahwa perempuan itu selalu tiba jauh sebelum semburat jingga matahari benar-benar menyingsing di ufuk timur kampung nelayan itu.",
+        "Perempuan berusia enam puluh tahun itu mengenakan kain sarung lusuh bermotif kotak-kotak yang warnanya telah banyak pudar, dipadu caping anyaman bambu yang tepiannya mulai terkelupas dimakan panas dan hujan bertahun-tahun. Meski begitu, tangannya yang keriput tak pernah kehilangan kecekatan saat menjinjing bakul rotan berisi ikan asin hasil olahannya semalam suntuk, sebuah keterampilan yang diwarisinya turun-temurun dari ibunya dan siap dijajakan pagi itu ke pasar kecil di ujung kampung.",
+        "Di kejauhan, tampak beberapa perahu nelayan berlambung kayu yang baru saja merapat satu demi satu, badannya basah dan berkilau ditimpa cahaya keemasan matahari yang perlahan merangkak naik dari balik punggung bukit di seberang teluk. Teriakan riang para nelayan muda yang saling bersahutan sembari menghitung hasil tangkapan malam itu menandakan bahwa laut sedang bermurah hati, sebuah pemandangan yang jarang lagi dijumpai sejak beberapa musim belakangan akibat cuaca yang kian tak menentu.",
+        "Angin laut yang membawa aroma khas garam bercampur amis ikan berembus lembut, menerbangkan ujung kain sarung Mak Inah hingga berkibar pelan. Ia berhenti sejenak, menatap laut yang perlahan berubah warna dari kelabu pekat menjadi biru kehijauan yang jernih, seakan tenggelam dalam kenangan masa mudanya dahulu, ketika suaminya masih hidup dan selalu ikut melaut setiap subuh sebelum akhirnya pergi untuk selamanya diterjang badai belasan tahun silam.",
+        "Tak jauh dari tempatnya berdiri, seorang anak lelaki kecil berlari-lari riang sambil menyeret jaring yang tanpa sengaja tersangkut di pergelangan kakinya, membuat beberapa nelayan yang menyaksikannya tertawa terbahak-bahak. Mak Inah pun tersenyum tipis menyaksikan tingkah polah bocah itu, teringat pada cucunya sendiri yang kini merantau jauh ke kota besar dan sudah bertahun-tahun tak lagi menjejakkan kaki di kampung nelayan yang kian sunyi ini.",
+        "Setelah memastikan susunan ikan asin dalam bakulnya cukup rapi untuk dijajakan, Mak Inah kembali melangkah menyusuri dermaga, meninggalkan jejak kaki di hamparan pasir basah yang perlahan-lahan tersapu ombak. Ia berjalan seolah membawa serta dermaga itu beserta seluruh kisah yang tersimpan di dalamnya, kisah yang akan terus terulang esok hari, dan hari-hari berikutnya, selama laut masih bersedia menghidupi orang-orang seperti dirinya.",
       ],
       image: null,
-      source: "KompasPedia, 24 Juli 2023 (dengan modifikasi)"
+      source: null
     },
-    question: "Tentukan benar atau salah.",
-    statements: [
-      "Bonsai dibentuk melalui teknik pemangkasan, wiring, dan pengaturan akar untuk mengendalikan pertumbuhannya.",
-      "Media tanam bonsai tidak perlu memiliki drainase baik karena diperlukan kondisi lembap agar akar cepat berkembang.",
-      "Repotting dilakukan secara berkala untuk menjaga kesehatan akar dan kestabilan pertumbuhan bonsai.",
-      "Defoliasi bertujuan untuk memperbesar ukuran daun agar bonsai tampak lebih rimbun."
+    question: "Kosakata yang digunakan untuk menggambarkan tokoh Mak Inah pada paragraf 2 dan 4 menunjukkan karakter tokoh tersebut sebagai sosok yang ...",
+    options: [
+      "Muda, ceria, dan penuh semangat menjalani rutinitas baru",
+      "Kaya raya namun kesepian karena ditinggal keluarga",
+      "Sederhana, ulet, dan menyimpan kenangan masa lalu yang mendalam",
+      "Pemarah dan sering mengeluh terhadap kehidupan nelayan",
+      "Baru pertama kali bekerja sebagai penjual ikan di pasar",
     ],
-    answer: [
-      true,
-      false,
-      true,
-      false
-    ]
+    answer: "Sederhana, ulet, dan menyimpan kenangan masa lalu yang mendalam"
   },
 
   {
     id: 6,
-    type: "single",
+    type: "truefalse",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "13 Murid SMA di Jatim Keracunan Seusai Santap MBG",
+      title: "Kabut Pagi di Dermaga Ujung Batu",
       paragraphs: [
-        "Sebanyak 13 murid SMA Negeri 2 Lamongan, Jawa Timur (Jatim) mengalami keracunan massal setelah diduga menyantap makanan bergizi gratis (MBG). Murid yang keracunan itu kemudian dilarikan ke rumah sakit untuk mendapatkan perawatan. Humas SMA Negeri 2 Lamongan, Anggraeni, mengatakan para murid mulai mengalami gejala sekitar pukul 14.30 WIB. Lalu pada pukul 15.38 WIB tiga siswa dibawa ke RS Narsul Ummah.",
-        "\"Mengalami pusing, mual, terus sampai muntah. Kemudian kami tidak berspekulasi karena kami bukan dokter. Sehingga kami langsung bawa ke rumah sakit,\" ungkap Anggraeni.",
-        "Ia tidak membantah bahwa sebelum keracunan para murid sempat mengonsumsi MBG. Tercatat ada jatah MBG untuk 1.295 siswa. Namun pihak sekolah masih menunggu hasil pemeriksaan medis untuk memastikan penyebab kejadian tersebut.",
-        "Kondisi para siswa kemudian mulai membaik. Aktivitas belajar tetap berlangsung dengan pengawasan lebih ketat terhadap konsumsi makanan yang dibagikan kepada siswa."
+        "Kabut tipis serupa selubung kelabu masih menggantung rendah di atas permukaan laut ketika Mak Inah melangkah pelan menyusuri dermaga kayu yang papan-papannya mulai lapuk dimakan usia dan asinnya air laut. Suara debur ombak yang pecah di sela-sela tiang pancang berpadu dengan derit kayu di bawah telapak kakinya, seolah menjadi penanda rutin bahwa perempuan itu selalu tiba jauh sebelum semburat jingga matahari benar-benar menyingsing di ufuk timur kampung nelayan itu.",
+        "Perempuan berusia enam puluh tahun itu mengenakan kain sarung lusuh bermotif kotak-kotak yang warnanya telah banyak pudar, dipadu caping anyaman bambu yang tepiannya mulai terkelupas dimakan panas dan hujan bertahun-tahun. Meski begitu, tangannya yang keriput tak pernah kehilangan kecekatan saat menjinjing bakul rotan berisi ikan asin hasil olahannya semalam suntuk, sebuah keterampilan yang diwarisinya turun-temurun dari ibunya dan siap dijajakan pagi itu ke pasar kecil di ujung kampung.",
+        "Di kejauhan, tampak beberapa perahu nelayan berlambung kayu yang baru saja merapat satu demi satu, badannya basah dan berkilau ditimpa cahaya keemasan matahari yang perlahan merangkak naik dari balik punggung bukit di seberang teluk. Teriakan riang para nelayan muda yang saling bersahutan sembari menghitung hasil tangkapan malam itu menandakan bahwa laut sedang bermurah hati, sebuah pemandangan yang jarang lagi dijumpai sejak beberapa musim belakangan akibat cuaca yang kian tak menentu.",
+        "Angin laut yang membawa aroma khas garam bercampur amis ikan berembus lembut, menerbangkan ujung kain sarung Mak Inah hingga berkibar pelan. Ia berhenti sejenak, menatap laut yang perlahan berubah warna dari kelabu pekat menjadi biru kehijauan yang jernih, seakan tenggelam dalam kenangan masa mudanya dahulu, ketika suaminya masih hidup dan selalu ikut melaut setiap subuh sebelum akhirnya pergi untuk selamanya diterjang badai belasan tahun silam.",
+        "Tak jauh dari tempatnya berdiri, seorang anak lelaki kecil berlari-lari riang sambil menyeret jaring yang tanpa sengaja tersangkut di pergelangan kakinya, membuat beberapa nelayan yang menyaksikannya tertawa terbahak-bahak. Mak Inah pun tersenyum tipis menyaksikan tingkah polah bocah itu, teringat pada cucunya sendiri yang kini merantau jauh ke kota besar dan sudah bertahun-tahun tak lagi menjejakkan kaki di kampung nelayan yang kian sunyi ini.",
+        "Setelah memastikan susunan ikan asin dalam bakulnya cukup rapi untuk dijajakan, Mak Inah kembali melangkah menyusuri dermaga, meninggalkan jejak kaki di hamparan pasir basah yang perlahan-lahan tersapu ombak. Ia berjalan seolah membawa serta dermaga itu beserta seluruh kisah yang tersimpan di dalamnya, kisah yang akan terus terulang esok hari, dan hari-hari berikutnya, selama laut masih bersedia menghidupi orang-orang seperti dirinya.",
       ],
       image: null,
-      source: "detik Sumut, 18 September 2025 (dengan modifikasi)"
+      source: null
     },
-    question: "Berdasarkan teks, pernyataan yang paling tepat adalah...",
-    options: [
-      "Seluruh siswa SMA Negeri 2 Lamongan mengalami keracunan setelah mengonsumsi MBG.",
-      "Sebanyak 13 siswa mengalami gejala keracunan dan sebagian telah dibawa ke RS Narsul Ummah.",
-      "Semua siswa yang mengonsumsi MBG langsung dilarikan ke rumah sakit.",
-      "Gejala keracunan pertama kali muncul pada pukul 15.38 WIB setelah siswa tiba di rumah sakit."
+    question: "Bacalah kembali teks tersebut, lalu tentukan Benar atau Salah pada setiap pernyataan berikut berdasarkan kosakata yang digunakan dalam teks!",
+    statements: [
+      "Fenomena yang tergambar dalam teks adalah rutinitas pagi hari masyarakat pesisir yang bergantung pada hasil laut.",
+      "Kata \"amis\" pada paragraf 4 menggambarkan latar suasana pegunungan yang sejuk.",
+      "Tokoh anak lelaki kecil dalam teks digambarkan memiliki sifat pemurung dan penakut.",
+      "Latar tempat dalam teks adalah kawasan dermaga di sebuah kampung nelayan.",
     ],
-    answer: "Sebanyak 13 siswa mengalami gejala keracunan dan sebagian telah dibawa ke RS Narsul Ummah."
+    answer: [
+      true,
+      false,
+      false,
+      true,
+    ]
   },
 
   {
@@ -167,49 +180,55 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "13 Murid SMA di Jatim Keracunan Seusai Santap MBG",
+      title: "Menghitung Dampak Mematikan Gelombang Panas Eropa",
       paragraphs: [
-        "Sebanyak 13 murid SMA Negeri 2 Lamongan, Jawa Timur (Jatim) mengalami keracunan massal setelah diduga menyantap makanan bergizi gratis (MBG). Murid yang keracunan itu kemudian dilarikan ke rumah sakit untuk mendapatkan perawatan. Humas SMA Negeri 2 Lamongan, Anggraeni, mengatakan para murid mulai mengalami gejala sekitar pukul 14.30 WIB. Lalu pada pukul 15.38 WIB tiga siswa dibawa ke RS Narsul Ummah.",
-        "\"Mengalami pusing, mual, terus sampai muntah. Kemudian kami tidak berspekulasi karena kami bukan dokter. Sehingga kami langsung bawa ke rumah sakit,\" ungkap Anggraeni.",
-        "Ia tidak membantah bahwa sebelum keracunan para murid sempat mengonsumsi MBG. Tercatat ada jatah MBG untuk 1.295 siswa. Namun pihak sekolah masih menunggu hasil pemeriksaan medis untuk memastikan penyebab kejadian tersebut.",
-        "Kondisi para siswa kemudian mulai membaik. Aktivitas belajar tetap berlangsung dengan pengawasan lebih ketat terhadap konsumsi makanan yang dibagikan kepada siswa."
+        "Gelombang panas ekstrem yang melanda kawasan Eropa pada akhir Juni 2026 diperkirakan menimbulkan korban jiwa dalam jumlah yang jauh lebih besar daripada yang selama ini tercatat dalam laporan resmi pemerintah masing-masing negara. Sebuah kajian awal bahkan memperkirakan jumlah kematian akibat cuaca panas ekstrem tersebut mencapai puluhan ribu orang hanya dalam kurun waktu kurang dari sepekan, sebuah angka yang jika terkonfirmasi akan menjadikan peristiwa ini salah satu bencana iklim paling mematikan di benua tersebut dalam beberapa tahun terakhir.",
+        "Peneliti dari Indiana University, Christopher Callahan, memperkirakan sekitar 20.390 orang meninggal dunia akibat gelombang panas yang berlangsung selama tujuh hari, yakni sejak 22 hingga 28 Juni 2026. Angka tersebut tersebar tidak merata di sejumlah negara, dengan Prancis dan Jerman mencatat jumlah korban tertinggi, disusul Spanyol, sementara Inggris mencatat angka yang relatif lebih rendah dibandingkan negara-negara Eropa daratan lainnya, sebuah pola yang menurut Callahan berkaitan erat dengan kombinasi suhu ekstrem dan proporsi penduduk lanjut usia di masing-masing wilayah.",
+        "Perkiraan tersebut disusun bukan berdasarkan penghitungan kematian secara langsung dari catatan kesehatan resmi, melainkan dengan menganalisis pola hubungan statistik antara suhu ekstrem dan lonjakan angka kematian yang telah terjadi pada peristiwa-peristiwa gelombang panas sebelumnya. Pola historis tersebut kemudian diterapkan pada data suhu aktual yang tercatat di berbagai kota Eropa selama periode gelombang panas berlangsung, sehingga menghasilkan taksiran jumlah korban yang jauh lebih cepat diperoleh dibandingkan menunggu proses verifikasi data kematian yang biasanya memakan waktu berbulan-bulan.",
+        "Angka perkiraan itu jauh melampaui laporan resmi pemerintah negara-negara terkait hingga saat berita ini diturunkan. Kesenjangan tersebut dinilai wajar oleh sejumlah ahli epidemiologi, mengingat proses pendataan dan verifikasi penyebab kematian akibat panas ekstrem umumnya membutuhkan waktu berbulan-bulan untuk dapat dipastikan, terutama karena penyebab \"panas\" sangat jarang dicantumkan secara langsung dalam sertifikat kematian korban, yang pada umumnya justru mencatat penyakit penyerta seperti gangguan jantung atau pernapasan sebagai penyebab utama.",
+        "Di sisi lain, sejumlah ilmuwan menyatakan keraguan terhadap besarnya angka perkiraan tersebut. Mereka berpendapat bahwa metode pemodelan statistik yang digunakan berpotensi melebih-lebihkan jumlah korban sesungguhnya, sehingga diperlukan kajian lebih mendalam terhadap asumsi dan parameter yang mendasari model tersebut sebelum angka 20.390 kematian dapat diterima secara luas sebagai representasi akurat dari dampak nyata gelombang panas Juni 2026.",
+        "Terlepas dari perbedaan pandangan mengenai besaran angka pastinya, para peneliti pada dasarnya sepakat bahwa temuan awal ini menegaskan urgensi langkah adaptasi yang jauh lebih cepat, mulai dari perbaikan sistem peringatan dini, penyediaan ruang publik berpendingin, hingga perlindungan khusus bagi kelompok rentan seperti lansia, agar dampak buruk gelombang panas serupa dapat dicegah atau setidaknya diminimalkan secara signifikan pada masa-masa mendatang.",
       ],
       image: null,
-      source: "detik Sumut, 18 September 2025 (dengan modifikasi)"
+      source: "Sumber: Kompas.com 6 Juli 2026 (dengan modifikasi)"
     },
-    question: "Tindakan yang dilakukan pihak sekolah setelah siswa menunjukkan gejala adalah...",
+    question: "Berdasarkan struktur teks eksposisi tersebut, susunan kerangka gagasan yang tepat untuk paragraf 1 sampai dengan 3 adalah ...",
     options: [
-      "Menunggu hasil laboratorium sebelum memberikan penanganan.",
-      "Menghentikan seluruh kegiatan belajar di sekolah.",
-      "Membawa siswa yang mengalami gejala langsung ke rumah sakit.",
-      "Mengembalikan makanan MBG kepada penyedia tanpa pemeriksaan."
+      "Kritik ahli → data temuan → metode penelitian",
+      "Metode penelitian → pernyataan masalah → kesimpulan",
+      "Pernyataan masalah → data temuan penelitian → metode yang digunakan",
+      "Kesimpulan → data temuan → pernyataan masalah",
+      "Data temuan → kritik ahli → pernyataan masalah",
     ],
-    answer: "Membawa siswa yang mengalami gejala langsung ke rumah sakit."
+    answer: "Pernyataan masalah → data temuan penelitian → metode yang digunakan"
   },
 
   {
     id: 8,
     type: "single",
     stimulus: {
-      instruction: "Perhatikan urutan peristiwa berikut!",
-      title: null,
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Menghitung Dampak Mematikan Gelombang Panas Eropa",
       paragraphs: [
-        "Sebanyak 13 murid SMA Negeri 2 Lamongan, Jawa Timur (Jatim) mengalami keracunan massal setelah diduga menyantap makanan bergizi gratis (MBG). Murid yang keracunan itu kemudian dilarikan ke rumah sakit untuk mendapatkan perawatan. Humas SMA Negeri 2 Lamongan, Anggraeni, mengatakan para murid mulai mengalami gejala sekitar pukul 14.30 WIB. Lalu pada pukul 15.38 WIB tiga siswa dibawa ke RS Narsul Ummah.",
-        "\"Mengalami pusing, mual, terus sampai muntah. Kemudian kami tidak berspekulasi karena kami bukan dokter. Sehingga kami langsung bawa ke rumah sakit,\" ungkap Anggraeni.",
-        "Ia tidak membantah bahwa sebelum keracunan para murid sempat mengonsumsi MBG. Tercatat ada jatah MBG untuk 1.295 siswa. Namun pihak sekolah masih menunggu hasil pemeriksaan medis untuk memastikan penyebab kejadian tersebut.",
-        "Kondisi para siswa kemudian mulai membaik. Aktivitas belajar tetap berlangsung dengan pengawasan lebih ketat terhadap konsumsi makanan yang dibagikan kepada siswa."
+        "Gelombang panas ekstrem yang melanda kawasan Eropa pada akhir Juni 2026 diperkirakan menimbulkan korban jiwa dalam jumlah yang jauh lebih besar daripada yang selama ini tercatat dalam laporan resmi pemerintah masing-masing negara. Sebuah kajian awal bahkan memperkirakan jumlah kematian akibat cuaca panas ekstrem tersebut mencapai puluhan ribu orang hanya dalam kurun waktu kurang dari sepekan, sebuah angka yang jika terkonfirmasi akan menjadikan peristiwa ini salah satu bencana iklim paling mematikan di benua tersebut dalam beberapa tahun terakhir.",
+        "Peneliti dari Indiana University, Christopher Callahan, memperkirakan sekitar 20.390 orang meninggal dunia akibat gelombang panas yang berlangsung selama tujuh hari, yakni sejak 22 hingga 28 Juni 2026. Angka tersebut tersebar tidak merata di sejumlah negara, dengan Prancis dan Jerman mencatat jumlah korban tertinggi, disusul Spanyol, sementara Inggris mencatat angka yang relatif lebih rendah dibandingkan negara-negara Eropa daratan lainnya, sebuah pola yang menurut Callahan berkaitan erat dengan kombinasi suhu ekstrem dan proporsi penduduk lanjut usia di masing-masing wilayah.",
+        "Perkiraan tersebut disusun bukan berdasarkan penghitungan kematian secara langsung dari catatan kesehatan resmi, melainkan dengan menganalisis pola hubungan statistik antara suhu ekstrem dan lonjakan angka kematian yang telah terjadi pada peristiwa-peristiwa gelombang panas sebelumnya. Pola historis tersebut kemudian diterapkan pada data suhu aktual yang tercatat di berbagai kota Eropa selama periode gelombang panas berlangsung, sehingga menghasilkan taksiran jumlah korban yang jauh lebih cepat diperoleh dibandingkan menunggu proses verifikasi data kematian yang biasanya memakan waktu berbulan-bulan.",
+        "Angka perkiraan itu jauh melampaui laporan resmi pemerintah negara-negara terkait hingga saat berita ini diturunkan. Kesenjangan tersebut dinilai wajar oleh sejumlah ahli epidemiologi, mengingat proses pendataan dan verifikasi penyebab kematian akibat panas ekstrem umumnya membutuhkan waktu berbulan-bulan untuk dapat dipastikan, terutama karena penyebab \"panas\" sangat jarang dicantumkan secara langsung dalam sertifikat kematian korban, yang pada umumnya justru mencatat penyakit penyerta seperti gangguan jantung atau pernapasan sebagai penyebab utama.",
+        "Di sisi lain, sejumlah ilmuwan menyatakan keraguan terhadap besarnya angka perkiraan tersebut. Mereka berpendapat bahwa metode pemodelan statistik yang digunakan berpotensi melebih-lebihkan jumlah korban sesungguhnya, sehingga diperlukan kajian lebih mendalam terhadap asumsi dan parameter yang mendasari model tersebut sebelum angka 20.390 kematian dapat diterima secara luas sebagai representasi akurat dari dampak nyata gelombang panas Juni 2026.",
+        "Terlepas dari perbedaan pandangan mengenai besaran angka pastinya, para peneliti pada dasarnya sepakat bahwa temuan awal ini menegaskan urgensi langkah adaptasi yang jauh lebih cepat, mulai dari perbaikan sistem peringatan dini, penyediaan ruang publik berpendingin, hingga perlindungan khusus bagi kelompok rentan seperti lansia, agar dampak buruk gelombang panas serupa dapat dicegah atau setidaknya diminimalkan secara signifikan pada masa-masa mendatang.",
       ],
       image: null,
-      source: "detik Sumut, 18 September 2025 (dengan modifikasi)"
+      source: "Sumber: Kompas.com 6 Juli 2026 (dengan modifikasi)"
     },
-    question: "Urutan kronologi yang paling tepat adalah...",
+    question: "Jika kerangka isi teks tersebut disusun dalam bentuk bagan sebab-akibat, bagian teks yang paling tepat menjadi penjelas \"penyebab munculnya kesenjangan antara data perkiraan dan data resmi\" terdapat pada ...",
     options: [
-      "2 – 4 – 1 – 3",
-      "4 – 1 – 2 – 3",
-      "2 – 1 – 4 – 3",
-      "4 – 2 – 1 – 3"
+      "Paragraf 1",
+      "Paragraf 4",
+      "Paragraf 2",
+      "Paragraf 5",
+      "Paragraf 6",
     ],
-    answer: "4 – 2 – 1 – 3"
+    answer: "Paragraf 4"
   },
 
   {
@@ -217,54 +236,55 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "13 Murid SMA di Jatim Keracunan Seusai Santap MBG",
+      title: "Menghitung Dampak Mematikan Gelombang Panas Eropa",
       paragraphs: [
-        "Sebanyak 13 murid SMA Negeri 2 Lamongan, Jawa Timur (Jatim) mengalami keracunan massal setelah diduga menyantap makanan bergizi gratis (MBG). Murid yang keracunan itu kemudian dilarikan ke rumah sakit untuk mendapatkan perawatan. Humas SMA Negeri 2 Lamongan, Anggraeni, mengatakan para murid mulai mengalami gejala sekitar pukul 14.30 WIB. Lalu pada pukul 15.38 WIB tiga siswa dibawa ke RS Narsul Ummah.",
-        "\"Mengalami pusing, mual, terus sampai muntah. Kemudian kami tidak berspekulasi karena kami bukan dokter. Sehingga kami langsung bawa ke rumah sakit,\" ungkap Anggraeni.",
-        "Ia tidak membantah bahwa sebelum keracunan para murid sempat mengonsumsi MBG. Tercatat ada jatah MBG untuk 1.295 siswa. Namun pihak sekolah masih menunggu hasil pemeriksaan medis untuk memastikan penyebab kejadian tersebut.",
-        "Kondisi para siswa kemudian mulai membaik. Aktivitas belajar tetap berlangsung dengan pengawasan lebih ketat terhadap konsumsi makanan yang dibagikan kepada siswa."
+        "Gelombang panas ekstrem yang melanda kawasan Eropa pada akhir Juni 2026 diperkirakan menimbulkan korban jiwa dalam jumlah yang jauh lebih besar daripada yang selama ini tercatat dalam laporan resmi pemerintah masing-masing negara. Sebuah kajian awal bahkan memperkirakan jumlah kematian akibat cuaca panas ekstrem tersebut mencapai puluhan ribu orang hanya dalam kurun waktu kurang dari sepekan, sebuah angka yang jika terkonfirmasi akan menjadikan peristiwa ini salah satu bencana iklim paling mematikan di benua tersebut dalam beberapa tahun terakhir.",
+        "Peneliti dari Indiana University, Christopher Callahan, memperkirakan sekitar 20.390 orang meninggal dunia akibat gelombang panas yang berlangsung selama tujuh hari, yakni sejak 22 hingga 28 Juni 2026. Angka tersebut tersebar tidak merata di sejumlah negara, dengan Prancis dan Jerman mencatat jumlah korban tertinggi, disusul Spanyol, sementara Inggris mencatat angka yang relatif lebih rendah dibandingkan negara-negara Eropa daratan lainnya, sebuah pola yang menurut Callahan berkaitan erat dengan kombinasi suhu ekstrem dan proporsi penduduk lanjut usia di masing-masing wilayah.",
+        "Perkiraan tersebut disusun bukan berdasarkan penghitungan kematian secara langsung dari catatan kesehatan resmi, melainkan dengan menganalisis pola hubungan statistik antara suhu ekstrem dan lonjakan angka kematian yang telah terjadi pada peristiwa-peristiwa gelombang panas sebelumnya. Pola historis tersebut kemudian diterapkan pada data suhu aktual yang tercatat di berbagai kota Eropa selama periode gelombang panas berlangsung, sehingga menghasilkan taksiran jumlah korban yang jauh lebih cepat diperoleh dibandingkan menunggu proses verifikasi data kematian yang biasanya memakan waktu berbulan-bulan.",
+        "Angka perkiraan itu jauh melampaui laporan resmi pemerintah negara-negara terkait hingga saat berita ini diturunkan. Kesenjangan tersebut dinilai wajar oleh sejumlah ahli epidemiologi, mengingat proses pendataan dan verifikasi penyebab kematian akibat panas ekstrem umumnya membutuhkan waktu berbulan-bulan untuk dapat dipastikan, terutama karena penyebab \"panas\" sangat jarang dicantumkan secara langsung dalam sertifikat kematian korban, yang pada umumnya justru mencatat penyakit penyerta seperti gangguan jantung atau pernapasan sebagai penyebab utama.",
+        "Di sisi lain, sejumlah ilmuwan menyatakan keraguan terhadap besarnya angka perkiraan tersebut. Mereka berpendapat bahwa metode pemodelan statistik yang digunakan berpotensi melebih-lebihkan jumlah korban sesungguhnya, sehingga diperlukan kajian lebih mendalam terhadap asumsi dan parameter yang mendasari model tersebut sebelum angka 20.390 kematian dapat diterima secara luas sebagai representasi akurat dari dampak nyata gelombang panas Juni 2026.",
+        "Terlepas dari perbedaan pandangan mengenai besaran angka pastinya, para peneliti pada dasarnya sepakat bahwa temuan awal ini menegaskan urgensi langkah adaptasi yang jauh lebih cepat, mulai dari perbaikan sistem peringatan dini, penyediaan ruang publik berpendingin, hingga perlindungan khusus bagi kelompok rentan seperti lansia, agar dampak buruk gelombang panas serupa dapat dicegah atau setidaknya diminimalkan secara signifikan pada masa-masa mendatang.",
       ],
       image: null,
-      source: "detik Sumut, 18 September 2025 (dengan modifikasi)"
+      source: "Sumber: Kompas.com 6 Juli 2026 (dengan modifikasi)"
     },
-    question: "Pernyataan yang paling tepat sebagai ringkasan isi teks adalah...",
+    question: "Bagian rumpang yang tepat untuk melengkapi bagan tersebut adalah ...",
     options: [
-      "Peristiwa keracunan massal menimpa seluruh siswa SMA Negeri 2 Lamongan sehingga seluruh kegiatan belajar dihentikan.",
-      "Program MBG terbukti menjadi penyebab utama keracunan sehingga dihentikan secara permanen.",
-      "Sebanyak 13 siswa mengalami gejala keracunan setelah diduga mengonsumsi MBG, sebagian dirawat di rumah sakit, sementara pihak sekolah masih menunggu hasil pemeriksaan medis.",
-      "Keracunan disebabkan oleh kelalaian pihak sekolah dalam pengawasan distribusi makanan."
+      "Kritik terhadap metode penelitian",
+      "Penjelasan tentang sertifikat kematian",
+      "Ajakan untuk mengurangi emisi karbon",
+      "Profil singkat peneliti Christopher Callahan",
+      "Data hasil perkiraan jumlah dan sebaran korban",
     ],
-    answer: "Sebanyak 13 siswa mengalami gejala keracunan setelah diduga mengonsumsi MBG, sebagian dirawat di rumah sakit, sementara pihak sekolah masih menunggu hasil pemeriksaan medis."
+    answer: "Data hasil perkiraan jumlah dan sebaran korban"
   },
 
   {
     id: 10,
-    type: "truefalse",
+    type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "13 Murid SMA di Jatim Keracunan Seusai Santap MBG",
+      title: "Partai Kecoa Yang Menggetarkan India",
       paragraphs: [
-        "Sebanyak 13 murid SMA Negeri 2 Lamongan, Jawa Timur (Jatim) mengalami keracunan massal setelah diduga menyantap makanan bergizi gratis (MBG). Murid yang keracunan itu kemudian dilarikan ke rumah sakit untuk mendapatkan perawatan. Humas SMA Negeri 2 Lamongan, Anggraeni, mengatakan para murid mulai mengalami gejala sekitar pukul 14.30 WIB. Lalu pada pukul 15.38 WIB tiga siswa dibawa ke RS Narsul Ummah.",
-        "\"Mengalami pusing, mual, terus sampai muntah. Kemudian kami tidak berspekulasi karena kami bukan dokter. Sehingga kami langsung bawa ke rumah sakit,\" ungkap Anggraeni.",
-        "Ia tidak membantah bahwa sebelum keracunan para murid sempat mengonsumsi MBG. Tercatat ada jatah MBG untuk 1.295 siswa. Namun pihak sekolah masih menunggu hasil pemeriksaan medis untuk memastikan penyebab kejadian tersebut.",
-        "Kondisi para siswa kemudian mulai membaik. Aktivitas belajar tetap berlangsung dengan pengawasan lebih ketat terhadap konsumsi makanan yang dibagikan kepada siswa."
+        "(1) Pertengahan Mei 2026, publik India digemparkan oleh pernyataan Ketua Mahkamah Agung Surya Kant dalam sebuah sidang yang membahas kasus ijazah palsu. Ia menyebut sebagian anak muda yang gagal mendapatkan pekerjaan sesuai profesinya sebagai “kecoa” dan “parasit”. Pernyataan tersebut dengan cepat menyebar di media sosial dan memicu kemarahan luas, terutama di kalangan generasi muda yang merasa direndahkan. Surya Kant kemudian mengklarifikasi bahwa ucapannya sebenarnya ditujukan kepada pemegang ijazah palsu, bukan generasi muda secara umum. Namun, klarifikasi itu datang terlambat; opini publik sudah kadung terbentuk dan amarah terus membesar.",
+        "(2) Dari kemarahan itu, lahirlah sebuah gerakan tak terduga bernama Cockroach Janta Party atau disingkat CJP—nama yang sengaja diplesetkan dari Bharatiya Janata Party (BJP), partai penguasa pimpinan Perdana Menteri Narendra Modi. Gerakan ini digagas oleh Abhijeet Dipke, seorang ahli strategi komunikasi politik yang tengah menempuh studi di Boston University, Amerika Serikat. Sebelumnya, Dipke pernah terlibat dalam kerja-kerja politik bersama Aam Aadmi Party, partai yang dikenal piawai memanfaatkan media sosial. Menurut pengakuannya, ide membentuk CJP awalnya hanya bermula dari obrolan iseng di internet.",
+        "(3) Keunikan CJP terletak pada caranya menertawakan diri sendiri. Alih-alih menjadi partai politik resmi, CJP hadir sebagai komunitas digital dengan syarat keanggotaan yang sengaja dibuat konyol: pengangguran, pemalas, gemar berlama-lama di dunia maya, hingga memiliki “kemampuan mengeluh secara profesional”. Dalam hitungan hari, formulir pendaftaran daring milik CJP dibanjiri puluhan ribu pendaftar. Tagar #MainBhiCockroach (“Saya juga kecoa”) pun menjalar cepat di berbagai platform, bahkan menarik perhatian sejumlah tokoh oposisi yang mulai menyoroti fenomena tersebut.",
+        "(4) Yang membuat banyak pihak tercengang, jumlah pengikut akun media sosial CJP dalam waktu singkat justru melampaui jumlah pengikut akun resmi BJP. Fenomena ini oleh banyak pengamat dibaca bukan sekadar lelucon internet biasa, melainkan cerminan kekecewaan mendalam generasi muda India terhadap sistem politik yang mereka anggap sudah tidak lagi mewakili aspirasi mereka. Partai tradisional dianggap gagal berbicara dengan bahasa yang dipahami anak muda, sehingga mereka mencari saluran ekspresi baru yang lebih jujur, meski dibungkus dengan nada satire.",
+        "(5) Popularitas yang meroket rupanya berbuntut panjang. Hanya beberapa hari setelah diluncurkan, situs resmi CJP dilaporkan diblokir di India dan mengalami gangguan akses di sejumlah tempat lain. Dipke bahkan mengeklaim bahwa akun pribadi maupun akun kelompoknya telah diretas. Ia mempertanyakan secara terbuka melalui media sosial, mengapa pihak berwenang tampak begitu gentar menghadapi sebuah gerakan yang bermula dari lelucon.",
+        "(6) Terlepas dari kontroversi dan hambatan yang dihadapinya, Dipke meyakini bahwa CJP hanyalah awal dari gelombang baru gerakan politik anak muda India. Ia menilai generasi muda saat ini telah lelah dengan format politik konvensional dan tengah mencari cara baru untuk menyuarakan keresahannya. Bagi Dipke, semakin banyak partai maupun komunitas serupa yang akan bermunculan, sebagai bentuk perlawanan generasi yang enggan lagi diam.",
       ],
       image: null,
-      source: "detik Sumut, 18 September 2025 (dengan modifikasi)"
+      source: "Sumber: BBC News Indonesia, 22 Mei 2026 (dengan modifikasi)"
     },
-    question: "Tentukan benar atau salah.",
-    statements: [
-      "Dari total 1.295 siswa penerima MBG, hanya sebagian kecil yang dilaporkan mengalami gejala keracunan.",
-      "Pihak sekolah tidak ingin berspekulasi mengenai penyebab kejadian karena menunggu keterangan medis.",
-      "Seluruh siswa yang mengalami gejala langsung dilarikan ke rumah sakit tanpa adanya penanganan awal dari pihak sekolah.",
-      "Aktivitas pembelajaran tetap dilanjutkan dengan pengawasan lebih ketat terhadap distribusi dan konsumsi makanan."
+    question: "Berdasarkan paragraf (1) dan (2), simpulan gagasan utama yang paling tepat adalah…",
+    options: [
+      "Ketua Mahkamah Agung India secara khusus menghina generasi muda India yang menganggur.",
+      "Klarifikasi Surya Kant berhasil meredakan kemarahan publik terhadap generasi muda India.",
+      "Amarah publik atas pernyataan kontroversial Ketua Mahkamah Agung memunculkan gerakan satire CJP yang digagas Abhijeet Dipke.",
+      "Abhijeet Dipke mendirikan CJP karena terinspirasi oleh keberhasilan Aam Aadmi Party dalam pemilu.",
+      "CJP dibentuk sebagai partai politik resmi tandingan BJP untuk pemilu berikutnya di India.",
     ],
-    answer: [
-      true,
-      true,
-      false,
-      true
-    ]
+    answer: "Amarah publik atas pernyataan kontroversial Ketua Mahkamah Agung memunculkan gerakan satire CJP yang digagas Abhijeet Dipke."
   },
 
   {
@@ -272,25 +292,27 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Manfaat Lebah",
+      title: "Partai Kecoa Yang Menggetarkan India",
       paragraphs: [
-        "Lebah adalah serangga kecil dari famili Apidae yang sering dipandang sebelah mata. Padahal, makhluk mungil ini menyimpan begitu banyak manfaat bagi manusia. Dari sarang dan cairan yang dihasilkannya, lebah memberi sumbangan besar bagi kesehatan tubuh sekaligus bagi perekonomian masyarakat.",
-        "Manfaat lebah bisa didapat dari sarang, dan cairan yang dihasilkannya, yaitu madu. Madu mengandung banyak vitamin, mineral, dan enzim yang baik bagi kesehatan tubuh.",
-        "Selain madu, lebah juga menghasilkan <i>bee pollen</i>, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. <i>Bee pollen</i> dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga <i>bee pollen</i> di pasaran pun cenderung mahal, tetapi tetap banyak diminati.",
-        "Produk lain yang tidak kalah berharga adalah <i>royal jelly</i>, makanan khusus bagi ratu lebah. <i>Royal jelly</i> dipercaya mampu memulihkan energi serta mencukupi kebutuhan vitamin dan mineral tubuh.",
-        "Dengan beragam kandungan baik yang dimilikinya, lebah kini dipandang sebagai sumber berbagai khasiat yang menguntungkan bagi kehidupan manusia."
+        "(1) Pertengahan Mei 2026, publik India digemparkan oleh pernyataan Ketua Mahkamah Agung Surya Kant dalam sebuah sidang yang membahas kasus ijazah palsu. Ia menyebut sebagian anak muda yang gagal mendapatkan pekerjaan sesuai profesinya sebagai “kecoa” dan “parasit”. Pernyataan tersebut dengan cepat menyebar di media sosial dan memicu kemarahan luas, terutama di kalangan generasi muda yang merasa direndahkan. Surya Kant kemudian mengklarifikasi bahwa ucapannya sebenarnya ditujukan kepada pemegang ijazah palsu, bukan generasi muda secara umum. Namun, klarifikasi itu datang terlambat; opini publik sudah kadung terbentuk dan amarah terus membesar.",
+        "(2) Dari kemarahan itu, lahirlah sebuah gerakan tak terduga bernama Cockroach Janta Party atau disingkat CJP—nama yang sengaja diplesetkan dari Bharatiya Janata Party (BJP), partai penguasa pimpinan Perdana Menteri Narendra Modi. Gerakan ini digagas oleh Abhijeet Dipke, seorang ahli strategi komunikasi politik yang tengah menempuh studi di Boston University, Amerika Serikat. Sebelumnya, Dipke pernah terlibat dalam kerja-kerja politik bersama Aam Aadmi Party, partai yang dikenal piawai memanfaatkan media sosial. Menurut pengakuannya, ide membentuk CJP awalnya hanya bermula dari obrolan iseng di internet.",
+        "(3) Keunikan CJP terletak pada caranya menertawakan diri sendiri. Alih-alih menjadi partai politik resmi, CJP hadir sebagai komunitas digital dengan syarat keanggotaan yang sengaja dibuat konyol: pengangguran, pemalas, gemar berlama-lama di dunia maya, hingga memiliki “kemampuan mengeluh secara profesional”. Dalam hitungan hari, formulir pendaftaran daring milik CJP dibanjiri puluhan ribu pendaftar. Tagar #MainBhiCockroach (“Saya juga kecoa”) pun menjalar cepat di berbagai platform, bahkan menarik perhatian sejumlah tokoh oposisi yang mulai menyoroti fenomena tersebut.",
+        "(4) Yang membuat banyak pihak tercengang, jumlah pengikut akun media sosial CJP dalam waktu singkat justru melampaui jumlah pengikut akun resmi BJP. Fenomena ini oleh banyak pengamat dibaca bukan sekadar lelucon internet biasa, melainkan cerminan kekecewaan mendalam generasi muda India terhadap sistem politik yang mereka anggap sudah tidak lagi mewakili aspirasi mereka. Partai tradisional dianggap gagal berbicara dengan bahasa yang dipahami anak muda, sehingga mereka mencari saluran ekspresi baru yang lebih jujur, meski dibungkus dengan nada satire.",
+        "(5) Popularitas yang meroket rupanya berbuntut panjang. Hanya beberapa hari setelah diluncurkan, situs resmi CJP dilaporkan diblokir di India dan mengalami gangguan akses di sejumlah tempat lain. Dipke bahkan mengeklaim bahwa akun pribadi maupun akun kelompoknya telah diretas. Ia mempertanyakan secara terbuka melalui media sosial, mengapa pihak berwenang tampak begitu gentar menghadapi sebuah gerakan yang bermula dari lelucon.",
+        "(6) Terlepas dari kontroversi dan hambatan yang dihadapinya, Dipke meyakini bahwa CJP hanyalah awal dari gelombang baru gerakan politik anak muda India. Ia menilai generasi muda saat ini telah lelah dengan format politik konvensional dan tengah mencari cara baru untuk menyuarakan keresahannya. Bagi Dipke, semakin banyak partai maupun komunitas serupa yang akan bermunculan, sebagai bentuk perlawanan generasi yang enggan lagi diam.",
       ],
       image: null,
-      source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
+      source: "Sumber: BBC News Indonesia, 22 Mei 2026 (dengan modifikasi)"
     },
-    question: "Simpulan yang paling tepat menggambarkan gagasan utama teks tersebut adalah...",
+    question: "Simpulan gagasan utama yang paling merepresentasikan keseluruhan isi teks tersebut adalah…",
     options: [
-      "Produk-produk yang dihasilkan lebah, seperti madu, <i>bee pollen</i>, dan <i>royal jelly</i> memberikan berbagai manfaat bagi kesehatan manusia.",
-      "Lebah adalah serangga yang berasal dari famili Apidae dan biasa hidup berkoloni di alam.",
-      "Harga <i>bee pollen</i> di pasaran cukup mahal karena kandungan dan khasiatnya yang beragam bagi tubuh.",
-      " <i>Royal jelly</i> merupakan makanan khusus yang dikonsumsi oleh ratu lebah setiap hari."
+      "Pemblokiran situs CJP membuktikan bahwa gerakan satire tidak akan pernah berhasil memengaruhi opini publik.",
+      "Dipke merupakan tokoh oposisi resmi yang menantang kekuasaan Narendra Modi lewat jalur politik formal.",
+      "CJP hanya sekadar tren media sosial sesaat yang tidak memiliki makna sosial apa pun bagi anak muda India.",
+      "Gerakan satire CJP yang lahir dari kemarahan berkembang menjadi simbol kekecewaan generasi muda India terhadap politik tradisional.",
+      "BJP kalah telak dari CJP dalam pemilu nasional India karena strategi media sosial yang lebih baik",
     ],
-    answer: "Produk-produk yang dihasilkan lebah, seperti madu, <i>bee pollen</i>, dan <i>royal jelly</i> memberikan berbagai manfaat bagi kesehatan manusia."
+    answer: "Gerakan satire CJP yang lahir dari kemarahan berkembang menjadi simbol kekecewaan generasi muda India terhadap politik tradisional."
   },
 
   {
@@ -298,111 +320,115 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Manfaat Lebah",
+      title: "Partai Kecoa Yang Menggetarkan India",
       paragraphs: [
-        "Lebah adalah serangga kecil dari famili Apidae yang sering dipandang sebelah mata. Padahal, makhluk mungil ini menyimpan begitu banyak manfaat bagi manusia. Dari sarang dan cairan yang dihasilkannya, lebah memberi sumbangan besar bagi kesehatan tubuh sekaligus bagi perekonomian masyarakat.",
-        "Manfaat lebah bisa didapat dari sarang, dan cairan yang dihasilkannya, yaitu madu. Madu mengandung banyak vitamin, mineral, dan enzim yang baik bagi kesehatan tubuh.",
-        "Selain madu, lebah juga menghasilkan <i>bee pollen</i>, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. <i>Bee pollen</i> dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga <i>bee pollen</i> di pasaran pun cenderung mahal, tetapi tetap banyak diminati.",
-        "Produk lain yang tidak kalah berharga adalah <i>royal jelly</i>, makanan khusus bagi ratu lebah. <i>Royal jelly</i> dipercaya mampu memulihkan energi serta mencukupi kebutuhan vitamin dan mineral tubuh.",
-        "Dengan beragam kandungan baik yang dimilikinya, lebah kini dipandang sebagai sumber berbagai khasiat yang menguntungkan bagi kehidupan manusia."
+        "(1) Pertengahan Mei 2026, publik India digemparkan oleh pernyataan Ketua Mahkamah Agung Surya Kant dalam sebuah sidang yang membahas kasus ijazah palsu. Ia menyebut sebagian anak muda yang gagal mendapatkan pekerjaan sesuai profesinya sebagai “kecoa” dan “parasit”. Pernyataan tersebut dengan cepat menyebar di media sosial dan memicu kemarahan luas, terutama di kalangan generasi muda yang merasa direndahkan. Surya Kant kemudian mengklarifikasi bahwa ucapannya sebenarnya ditujukan kepada pemegang ijazah palsu, bukan generasi muda secara umum. Namun, klarifikasi itu datang terlambat; opini publik sudah kadung terbentuk dan amarah terus membesar.",
+        "(2) Dari kemarahan itu, lahirlah sebuah gerakan tak terduga bernama Cockroach Janta Party atau disingkat CJP—nama yang sengaja diplesetkan dari Bharatiya Janata Party (BJP), partai penguasa pimpinan Perdana Menteri Narendra Modi. Gerakan ini digagas oleh Abhijeet Dipke, seorang ahli strategi komunikasi politik yang tengah menempuh studi di Boston University, Amerika Serikat. Sebelumnya, Dipke pernah terlibat dalam kerja-kerja politik bersama Aam Aadmi Party, partai yang dikenal piawai memanfaatkan media sosial. Menurut pengakuannya, ide membentuk CJP awalnya hanya bermula dari obrolan iseng di internet.",
+        "(3) Keunikan CJP terletak pada caranya menertawakan diri sendiri. Alih-alih menjadi partai politik resmi, CJP hadir sebagai komunitas digital dengan syarat keanggotaan yang sengaja dibuat konyol: pengangguran, pemalas, gemar berlama-lama di dunia maya, hingga memiliki “kemampuan mengeluh secara profesional”. Dalam hitungan hari, formulir pendaftaran daring milik CJP dibanjiri puluhan ribu pendaftar. Tagar #MainBhiCockroach (“Saya juga kecoa”) pun menjalar cepat di berbagai platform, bahkan menarik perhatian sejumlah tokoh oposisi yang mulai menyoroti fenomena tersebut.",
+        "(4) Yang membuat banyak pihak tercengang, jumlah pengikut akun media sosial CJP dalam waktu singkat justru melampaui jumlah pengikut akun resmi BJP. Fenomena ini oleh banyak pengamat dibaca bukan sekadar lelucon internet biasa, melainkan cerminan kekecewaan mendalam generasi muda India terhadap sistem politik yang mereka anggap sudah tidak lagi mewakili aspirasi mereka. Partai tradisional dianggap gagal berbicara dengan bahasa yang dipahami anak muda, sehingga mereka mencari saluran ekspresi baru yang lebih jujur, meski dibungkus dengan nada satire.",
+        "(5) Popularitas yang meroket rupanya berbuntut panjang. Hanya beberapa hari setelah diluncurkan, situs resmi CJP dilaporkan diblokir di India dan mengalami gangguan akses di sejumlah tempat lain. Dipke bahkan mengeklaim bahwa akun pribadi maupun akun kelompoknya telah diretas. Ia mempertanyakan secara terbuka melalui media sosial, mengapa pihak berwenang tampak begitu gentar menghadapi sebuah gerakan yang bermula dari lelucon.",
+        "(6) Terlepas dari kontroversi dan hambatan yang dihadapinya, Dipke meyakini bahwa CJP hanyalah awal dari gelombang baru gerakan politik anak muda India. Ia menilai generasi muda saat ini telah lelah dengan format politik konvensional dan tengah mencari cara baru untuk menyuarakan keresahannya. Bagi Dipke, semakin banyak partai maupun komunitas serupa yang akan bermunculan, sebagai bentuk perlawanan generasi yang enggan lagi diam.",
       ],
       image: null,
-      source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
+      source: "Sumber: BBC News Indonesia, 22 Mei 2026 (dengan modifikasi)"
     },
-    question: "Ide pokok paragraf ketiga pada teks tersebut adalah...",
+    question: "Gagasan utama paragraf (5) dalam teks tersebut adalah...",
     options: [
-      "Manfaat <i>bee pollen</i> yang beragam membuat produk ini tetap diburu meski harganya tergolong mahal.",
-      "<i>Bee pollen</i> adalah serbuk sari yang dikumpulkan oleh lebah pekerja dari bunga-bunga di sekitar sarang.",
-      "Lebah pekerja memiliki tugas khusus untuk mengumpulkan serbuk sari dan mengolahnya menjadi <i>bee pollen</i>.",
-      "Harga <i>bee pollen</i> di pasaran jauh lebih mahal jika dibandingkan dengan harga madu pada umumnya."
+      "Popularitas CJP menurun drastis setelah banyak tokoh oposisi menarik dukungannya.",
+      "Situs resmi CJP diblokir tak lama setelah viral, dan pendirinya mempertanyakan alasan di balik tindakan tersebut.",
+      "Pemerintah India resmi mengakui CJP sebagai partai politik yang sah.",
+      "Dipke memutuskan menutup sendiri situs CJP karena merasa gerakannya sudah selesai.",
+      "Peristiwa pemblokiran ini terjadi bertahun-tahun setelah CJP pertama kali dibentuk.",
     ],
-    answer: "Manfaat <i>bee pollen</i> yang beragam membuat produk ini tetap diburu meski harganya tergolong mahal."
+    answer: "Situs resmi CJP diblokir tak lama setelah viral, dan pendirinya mempertanyakan alasan di balik tindakan tersebut."
   },
 
   {
     id: 13,
-    type: "truefalse",
+    type: "single",
     stimulus: {
-      instruction: "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan isi teks.",
-      title: "Manfaat Lebah",
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Partai Kecoa Yang Menggetarkan India",
       paragraphs: [
-        "Lebah adalah serangga kecil dari famili Apidae yang sering dipandang sebelah mata. Padahal, makhluk mungil ini menyimpan begitu banyak manfaat bagi manusia. Dari sarang dan cairan yang dihasilkannya, lebah memberi sumbangan besar bagi kesehatan tubuh sekaligus bagi perekonomian masyarakat.",
-        "Manfaat lebah bisa didapat dari sarang, dan cairan yang dihasilkannya, yaitu madu. Madu mengandung banyak vitamin, mineral, dan enzim yang baik bagi kesehatan tubuh.",
-        "Selain madu, lebah juga menghasilkan <i>bee pollen</i>, yaitu serbuk sari yang dikumpulkan oleh lebah pekerja. <i>Bee pollen</i> dipercaya dapat membantu meredakan varises dan radang sendi. Karena khasiatnya yang beragam itu, harga <i>bee pollen</i> di pasaran pun cenderung mahal, tetapi tetap banyak diminati.",
-        "Produk lain yang tidak kalah berharga adalah <i>royal jelly</i>, makanan khusus bagi ratu lebah. <i>Royal jelly</i> dipercaya mampu memulihkan energi serta mencukupi kebutuhan vitamin dan mineral tubuh.",
-        "Dengan beragam kandungan baik yang dimilikinya, lebah kini dipandang sebagai sumber berbagai khasiat yang menguntungkan bagi kehidupan manusia."
+        "(1) Pertengahan Mei 2026, publik India digemparkan oleh pernyataan Ketua Mahkamah Agung Surya Kant dalam sebuah sidang yang membahas kasus ijazah palsu. Ia menyebut sebagian anak muda yang gagal mendapatkan pekerjaan sesuai profesinya sebagai “kecoa” dan “parasit”. Pernyataan tersebut dengan cepat menyebar di media sosial dan memicu kemarahan luas, terutama di kalangan generasi muda yang merasa direndahkan. Surya Kant kemudian mengklarifikasi bahwa ucapannya sebenarnya ditujukan kepada pemegang ijazah palsu, bukan generasi muda secara umum. Namun, klarifikasi itu datang terlambat; opini publik sudah kadung terbentuk dan amarah terus membesar.",
+        "(2) Dari kemarahan itu, lahirlah sebuah gerakan tak terduga bernama Cockroach Janta Party atau disingkat CJP—nama yang sengaja diplesetkan dari Bharatiya Janata Party (BJP), partai penguasa pimpinan Perdana Menteri Narendra Modi. Gerakan ini digagas oleh Abhijeet Dipke, seorang ahli strategi komunikasi politik yang tengah menempuh studi di Boston University, Amerika Serikat. Sebelumnya, Dipke pernah terlibat dalam kerja-kerja politik bersama Aam Aadmi Party, partai yang dikenal piawai memanfaatkan media sosial. Menurut pengakuannya, ide membentuk CJP awalnya hanya bermula dari obrolan iseng di internet.",
+        "(3) Keunikan CJP terletak pada caranya menertawakan diri sendiri. Alih-alih menjadi partai politik resmi, CJP hadir sebagai komunitas digital dengan syarat keanggotaan yang sengaja dibuat konyol: pengangguran, pemalas, gemar berlama-lama di dunia maya, hingga memiliki “kemampuan mengeluh secara profesional”. Dalam hitungan hari, formulir pendaftaran daring milik CJP dibanjiri puluhan ribu pendaftar. Tagar #MainBhiCockroach (“Saya juga kecoa”) pun menjalar cepat di berbagai platform, bahkan menarik perhatian sejumlah tokoh oposisi yang mulai menyoroti fenomena tersebut.",
+        "(4) Yang membuat banyak pihak tercengang, jumlah pengikut akun media sosial CJP dalam waktu singkat justru melampaui jumlah pengikut akun resmi BJP. Fenomena ini oleh banyak pengamat dibaca bukan sekadar lelucon internet biasa, melainkan cerminan kekecewaan mendalam generasi muda India terhadap sistem politik yang mereka anggap sudah tidak lagi mewakili aspirasi mereka. Partai tradisional dianggap gagal berbicara dengan bahasa yang dipahami anak muda, sehingga mereka mencari saluran ekspresi baru yang lebih jujur, meski dibungkus dengan nada satire.",
+        "(5) Popularitas yang meroket rupanya berbuntut panjang. Hanya beberapa hari setelah diluncurkan, situs resmi CJP dilaporkan diblokir di India dan mengalami gangguan akses di sejumlah tempat lain. Dipke bahkan mengeklaim bahwa akun pribadi maupun akun kelompoknya telah diretas. Ia mempertanyakan secara terbuka melalui media sosial, mengapa pihak berwenang tampak begitu gentar menghadapi sebuah gerakan yang bermula dari lelucon.",
+        "(6) Terlepas dari kontroversi dan hambatan yang dihadapinya, Dipke meyakini bahwa CJP hanyalah awal dari gelombang baru gerakan politik anak muda India. Ia menilai generasi muda saat ini telah lelah dengan format politik konvensional dan tengah mencari cara baru untuk menyuarakan keresahannya. Bagi Dipke, semakin banyak partai maupun komunitas serupa yang akan bermunculan, sebagai bentuk perlawanan generasi yang enggan lagi diam.",
       ],
       image: null,
-      source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
+      source: "Sumber: BBC News Indonesia, 22 Mei 2026 (dengan modifikasi)"
     },
-    question: "Tentukan benar atau salah.",
+    question: "Berdasarkan gaya penulisan dan pilihan diksi yang digunakan (seperti “obrolan iseng”, “menertawakan diri sendiri”, “gelombang baru”), tujuan tersirat penulis teks tersebut yang paling tepat adalah…",
+    options: [
+      "Mengajak pembaca untuk turut mendaftar sebagai anggota CJP secara resmi.",
+      "Memberikan panduan teknis kepada organisasi politik lain agar kontennya viral di media sosial.",
+      "Menginformasikan sekaligus mengajak pembaca merenungkan fenomena satire politik sebagai bentuk baru ekspresi ketidakpuasan generasi muda.",
+      "Mengkritik habis-habisan seluruh kebijakan pemerintahan Narendra Modi secara terang-terangan.",
+      "Membela pernyataan Ketua Mahkamah Agung India yang dianggap telah disalahpahami publik.",
+    ],
+    answer: "Menginformasikan sekaligus mengajak pembaca merenungkan fenomena satire politik sebagai bentuk baru ekspresi ketidakpuasan generasi muda."
+  },
+
+  {
+    id: 14,
+    type: "truefalse",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Partai Kecoa Yang Menggetarkan India",
+      paragraphs: [
+        "(1) Pertengahan Mei 2026, publik India digemparkan oleh pernyataan Ketua Mahkamah Agung Surya Kant dalam sebuah sidang yang membahas kasus ijazah palsu. Ia menyebut sebagian anak muda yang gagal mendapatkan pekerjaan sesuai profesinya sebagai “kecoa” dan “parasit”. Pernyataan tersebut dengan cepat menyebar di media sosial dan memicu kemarahan luas, terutama di kalangan generasi muda yang merasa direndahkan. Surya Kant kemudian mengklarifikasi bahwa ucapannya sebenarnya ditujukan kepada pemegang ijazah palsu, bukan generasi muda secara umum. Namun, klarifikasi itu datang terlambat; opini publik sudah kadung terbentuk dan amarah terus membesar.",
+        "(2) Dari kemarahan itu, lahirlah sebuah gerakan tak terduga bernama Cockroach Janta Party atau disingkat CJP—nama yang sengaja diplesetkan dari Bharatiya Janata Party (BJP), partai penguasa pimpinan Perdana Menteri Narendra Modi. Gerakan ini digagas oleh Abhijeet Dipke, seorang ahli strategi komunikasi politik yang tengah menempuh studi di Boston University, Amerika Serikat. Sebelumnya, Dipke pernah terlibat dalam kerja-kerja politik bersama Aam Aadmi Party, partai yang dikenal piawai memanfaatkan media sosial. Menurut pengakuannya, ide membentuk CJP awalnya hanya bermula dari obrolan iseng di internet.",
+        "(3) Keunikan CJP terletak pada caranya menertawakan diri sendiri. Alih-alih menjadi partai politik resmi, CJP hadir sebagai komunitas digital dengan syarat keanggotaan yang sengaja dibuat konyol: pengangguran, pemalas, gemar berlama-lama di dunia maya, hingga memiliki “kemampuan mengeluh secara profesional”. Dalam hitungan hari, formulir pendaftaran daring milik CJP dibanjiri puluhan ribu pendaftar. Tagar #MainBhiCockroach (“Saya juga kecoa”) pun menjalar cepat di berbagai platform, bahkan menarik perhatian sejumlah tokoh oposisi yang mulai menyoroti fenomena tersebut.",
+        "(4) Yang membuat banyak pihak tercengang, jumlah pengikut akun media sosial CJP dalam waktu singkat justru melampaui jumlah pengikut akun resmi BJP. Fenomena ini oleh banyak pengamat dibaca bukan sekadar lelucon internet biasa, melainkan cerminan kekecewaan mendalam generasi muda India terhadap sistem politik yang mereka anggap sudah tidak lagi mewakili aspirasi mereka. Partai tradisional dianggap gagal berbicara dengan bahasa yang dipahami anak muda, sehingga mereka mencari saluran ekspresi baru yang lebih jujur, meski dibungkus dengan nada satire.",
+        "(5) Popularitas yang meroket rupanya berbuntut panjang. Hanya beberapa hari setelah diluncurkan, situs resmi CJP dilaporkan diblokir di India dan mengalami gangguan akses di sejumlah tempat lain. Dipke bahkan mengeklaim bahwa akun pribadi maupun akun kelompoknya telah diretas. Ia mempertanyakan secara terbuka melalui media sosial, mengapa pihak berwenang tampak begitu gentar menghadapi sebuah gerakan yang bermula dari lelucon.",
+        "(6) Terlepas dari kontroversi dan hambatan yang dihadapinya, Dipke meyakini bahwa CJP hanyalah awal dari gelombang baru gerakan politik anak muda India. Ia menilai generasi muda saat ini telah lelah dengan format politik konvensional dan tengah mencari cara baru untuk menyuarakan keresahannya. Bagi Dipke, semakin banyak partai maupun komunitas serupa yang akan bermunculan, sebagai bentuk perlawanan generasi yang enggan lagi diam.",
+      ],
+      image: null,
+      source: "Sumber: BBC News Indonesia, 22 Mei 2026 (dengan modifikasi)"
+    },
+    question: "Tentukan BENAR atau SALAH setiap pernyataan berikut mengenai pesan tersirat dan target pembaca teks!",
     statements: [
-      "Meski berukuran kecil, lebah memberi banyak manfaat bagi manusia.",
-      " <i>Royal jelly</i> hanya boleh dikonsumsi oleh lebah pekerja yang sedang sakit.",
-      "Pandangan masyarakat berubah karena manfaat yang dimiliki lebah.",
-      "Madu hanya bermanfaat bagi orang yang menderita penyakit kronis."
+      "Teks tersebut secara tersirat menunjukkan bahwa media sosial dapat menjadi wadah efektif bagi generasi muda untuk menyalurkan kekecewaan politik.",
+      "Teks tersebut ditujukan khusus untuk pembaca yang berprofesi sebagai politikus profesional di India.",
+      "Pemilihan frasa “menertawakan diri sendiri” secara tersirat menunjukkan bahwa CJP menggunakan humor sebagai strategi menyampaikan kritik sosial.",
+      "Nada penulisan teks secara keseluruhan bersifat provokatif dan secara eksplisit menghasut pembaca untuk melakukan aksi kekerasan.",
     ],
     answer: [
       true,
       false,
       true,
-      false
+      false,
     ]
-  },
-
-  {
-    id: 14,
-    type: "single",
-    stimulus: {
-      instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Pengaruh Seni terhadap Kesehatan Mental",
-      paragraphs: [
-        "Seni, dalam berbagai bentuknya, telah lama menjadi bagian dari kehidupan manusia. Lebih dari sekadar hiburan, seni ternyata memberikan dampak positif yang cukup signifikan bagi kesehatan mental penggunanya.",
-        "Melalui kegiatan seperti melukis, bermusik, atau berkarya secara visual, seseorang dapat menyalurkan emosinya dengan cara yang sehat dan kreatif. Proses ini membantu meredakan stres serta kecemasan yang dirasakan.",
-        "Selain itu, kegiatan berkesenian menuntut fokus dan konsentrasi yang tinggi. Ketika seseorang tenggelam dalam proses berkarya, perhatiannya teralihkan dari pikiran-pikiran negatif yang kerap memicu gangguan mental seperti depresi.",
-        "Karya seni yang dihargai, baik oleh diri sendiri maupun orang lain, juga dapat meningkatkan rasa percaya diri. Meskipun ada pandangan bahwa manfaat seni hanya dirasakan oleh orang yang berbakat, berbagai penelitian justru menunjukkan bahwa hampir semua orang dapat merasakan manfaat tersebut.",
-        "Dengan demikian, seni dapat dikatakan sebagai sarana yang ampuh untuk menjaga kesehatan mental."
-      ],
-      image: null,
-      source: "Brain Academy, 31 Maret 2026 (dengan modifikasi)"
-    },
-    question: "Rincian berikut yang TIDAK mendukung gagasan bahwa seni bermanfaat bagi kesehatan mental adalah...",
-    options: [
-      "Seni dapat membantu seseorang menyalurkan emosi secara sehat dan kreatif.",
-      "Berkesenian menuntut fokus tinggi sehingga mengalihkan pikiran dari hal-hal negatif.",
-      "Seni, dalam berbagai bentuknya, sudah menjadi bagian kehidupan manusia sejak lama.",
-      "Penghargaan terhadap karya seni dapat meningkatkan rasa percaya diri seseorang."
-    ],
-    answer: "Seni, dalam berbagai bentuknya, sudah menjadi bagian kehidupan manusia sejak lama."
   },
 
   {
     id: 15,
-    type: "multiple",
+    type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Pengaruh Seni terhadap Kesehatan Mental",
+      title: "Kotak Kayu di Loteng",
       paragraphs: [
-        "Seni, dalam berbagai bentuknya, telah lama menjadi bagian dari kehidupan manusia. Lebih dari sekadar hiburan, seni ternyata memberikan dampak positif yang cukup signifikan bagi kesehatan mental penggunanya.",
-        "Melalui kegiatan seperti melukis, bermusik, atau berkarya secara visual, seseorang dapat menyalurkan emosinya dengan cara yang sehat dan kreatif. Proses ini membantu meredakan stres serta kecemasan yang dirasakan.",
-        "Selain itu, kegiatan berkesenian menuntut fokus dan konsentrasi yang tinggi. Ketika seseorang tenggelam dalam proses berkarya, perhatiannya teralihkan dari pikiran-pikiran negatif yang kerap memicu gangguan mental seperti depresi.",
-        "Karya seni yang dihargai, baik oleh diri sendiri maupun orang lain, juga dapat meningkatkan rasa percaya diri. Meskipun ada pandangan bahwa manfaat seni hanya dirasakan oleh orang yang berbakat, berbagai penelitian justru menunjukkan bahwa hampir semua orang dapat merasakan manfaat tersebut.",
-        "Dengan demikian, seni dapat dikatakan sebagai sarana yang ampuh untuk menjaga kesehatan mental."
+        "(1) Sore itu, Rania menemukan sebuah kotak kayu tua terselip di sudut loteng rumah neneknya, tertutup debu tebal yang tampak belum tersentuh bertahun-tahun. Di dalamnya tersimpan tumpukan surat berwarna kuning kecokelatan, ditulis tangan dengan tinta yang mulai memudar. Rania duduk di lantai kayu yang berderit, membiarkan cahaya senja masuk lewat celah jendela loteng sambil membuka surat pertama.",
+        "(2) Surat-surat itu ternyata ditulis oleh kakeknya, Pak Broto, kepada seorang perempuan bernama Sulastri—bukan neneknya. Dalam surat-surat itu, Pak Broto menulis tentang rencana mereka untuk menikah sebelum akhirnya kakek justru menikahi nenek Rania atas desakan keluarga besar. Tangan Rania gemetar membaca kalimat terakhir salah satu surat: “Aku memilih jalan yang membuat semua orang bahagia, kecuali diriku sendiri.”",
+        "(3) Rania terduduk lama, mencerna apa yang baru saja ia baca. Ia teringat kebiasaan kakeknya dahulu yang selalu menyendiri di halaman belakang setiap sore, memandangi langit tanpa berkata apa pun, dan bagaimana neneknya tak pernah sekali pun bertanya soal itu. Kini semuanya terasa masuk akal—kesunyian kakek, kesabaran nenek yang seperti membiarkan sesuatu tak pernah disinggung.",
+        "(4) Muncul pergolakan batin dalam diri Rania: haruskah ia menceritakan penemuan ini kepada neneknya yang kini sudah renta, atau menyimpannya sendiri demi menjaga kedamaian yang telah dibangun keluarganya selama puluhan tahun? Ia tahu neneknya sangat mencintai kakek, tetapi ia juga tak yakin apakah kejujuran akan menyembuhkan atau justru melukai luka lama yang mungkin sudah lama mengering.",
+        "(5) Malam itu, saat menemani neneknya minum teh di teras, Rania berkali-kali membuka mulut untuk bicara, namun selalu ia urungkan. Neneknya, seolah menyadari ada sesuatu yang mengganjal, hanya tersenyum tipis sambil berkata, “Loteng itu penuh kenangan lama, ya? Biarkan saja yang lama tetap di sana, Nak. Tidak semua yang ditemukan harus dibongkar.”",
+        "(6) Rania terpaku mendengar kalimat neneknya. Ia mengangguk pelan, memutuskan untuk mengembalikan kotak kayu itu ke tempatnya semula di loteng, membiarkan sejarah yang belum sepenuhnya ia pahami tetap tersimpan rapi di sana.",
       ],
       image: null,
-      source: "Brain Academy, 31 Maret 2026 (dengan modifikasi)"
+      source: null
     },
-    question: "Manakah pernyataan berikut yang merupakan rincian pendukung gagasan utama paragraf keempat?",
+    question: "Konflik utama yang dialami Rania dalam kutipan cerita tersebut adalah konflik…",
     options: [
-      "Penelitian menunjukkan hampir semua orang dapat merasakan manfaat seni bagi kesehatan mental.",
-      "Karya seni yang dihargai dapat meningkatkan rasa percaya diri seseorang.",
-      "Seni hanya bisa dirasakan manfaatnya oleh orang-orang yang memiliki bakat seni.",
-      "Melukis dan bermusik adalah dua bentuk seni yang paling sering digunakan orang."
+      "Batin Rania dalam menimbang antara mengungkapkan kebenaran atau menjaga kedamaian keluarga.",
+      "Fisik antara Rania dan neneknya karena perbedaan pendapat soal warisan keluarga.",
+      "Sosial antara Rania dengan masyarakat sekitar yang mengetahui rahasia keluarganya.",
+      "Antara Rania dan kakeknya yang telah lama tidak akur semasa hidup.",
+      "Alam ketika Rania kesulitan menjelajahi loteng rumah yang gelap dan berdebu.",
     ],
-    answer: [
-      "Penelitian menunjukkan hampir semua orang dapat merasakan manfaat seni bagi kesehatan mental.",
-      "Karya seni yang dihargai dapat meningkatkan rasa percaya diri seseorang."
-    ]
+    answer: "Batin Rania dalam menimbang antara mengungkapkan kebenaran atau menjaga kedamaian keluarga."
   },
 
   {
@@ -410,81 +436,86 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Mutiara di Balik Randegan",
+      title: "Kotak Kayu di Loteng",
       paragraphs: [
-        "Silir tinggal di Desa Randegan, sebuah desa kecil di ujung timur Banjarnegara yang terkenal sebagai penghasil batu bata. Sejak kecil, gadis itu sangat menyukai kesenian lengger, tarian tradisional khas daerahnya. Setiap senja, ia sering duduk sendirian di tepi Sungai Serayu sambil melatih gerakan-gerakan tari yang ia pelajari secara diam-diam.",
-        "Sayangnya, tidak semua orang di desanya mendukung kegemarannya itu. Bapaknya justru sering menegur dan menganggap menari lengger bukan kegiatan yang pantas bagi anak perempuannya. Bahkan beberapa tetangga turut mencela, membuat Silir kerap menahan air mata setiap kali pulang ke rumah.",
-        "Meski hatinya terluka oleh cemoohan orang-orang di sekitarnya, Silir tidak pernah benar-benar berhenti menari. Ia memilih tetap berlatih bersama Paguyuban Lengger Wala Budaya. Bersama kelompok itu, ia mengikuti lomba kesenian tingkat daerah.",
-        "Kelompoknya berhasil menjadi juara sehingga sikap warga berubah. Bapak yang dahulu menentang pun akhirnya meminta maaf dan mendukung penuh langkah Silir untuk terus melestarikan kesenian lengger."
+        "(1) Sore itu, Rania menemukan sebuah kotak kayu tua terselip di sudut loteng rumah neneknya, tertutup debu tebal yang tampak belum tersentuh bertahun-tahun. Di dalamnya tersimpan tumpukan surat berwarna kuning kecokelatan, ditulis tangan dengan tinta yang mulai memudar. Rania duduk di lantai kayu yang berderit, membiarkan cahaya senja masuk lewat celah jendela loteng sambil membuka surat pertama.",
+        "(2) Surat-surat itu ternyata ditulis oleh kakeknya, Pak Broto, kepada seorang perempuan bernama Sulastri—bukan neneknya. Dalam surat-surat itu, Pak Broto menulis tentang rencana mereka untuk menikah sebelum akhirnya kakek justru menikahi nenek Rania atas desakan keluarga besar. Tangan Rania gemetar membaca kalimat terakhir salah satu surat: “Aku memilih jalan yang membuat semua orang bahagia, kecuali diriku sendiri.”",
+        "(3) Rania terduduk lama, mencerna apa yang baru saja ia baca. Ia teringat kebiasaan kakeknya dahulu yang selalu menyendiri di halaman belakang setiap sore, memandangi langit tanpa berkata apa pun, dan bagaimana neneknya tak pernah sekali pun bertanya soal itu. Kini semuanya terasa masuk akal—kesunyian kakek, kesabaran nenek yang seperti membiarkan sesuatu tak pernah disinggung.",
+        "(4) Muncul pergolakan batin dalam diri Rania: haruskah ia menceritakan penemuan ini kepada neneknya yang kini sudah renta, atau menyimpannya sendiri demi menjaga kedamaian yang telah dibangun keluarganya selama puluhan tahun? Ia tahu neneknya sangat mencintai kakek, tetapi ia juga tak yakin apakah kejujuran akan menyembuhkan atau justru melukai luka lama yang mungkin sudah lama mengering.",
+        "(5) Malam itu, saat menemani neneknya minum teh di teras, Rania berkali-kali membuka mulut untuk bicara, namun selalu ia urungkan. Neneknya, seolah menyadari ada sesuatu yang mengganjal, hanya tersenyum tipis sambil berkata, “Loteng itu penuh kenangan lama, ya? Biarkan saja yang lama tetap di sana, Nak. Tidak semua yang ditemukan harus dibongkar.”",
+        "(6) Rania terpaku mendengar kalimat neneknya. Ia mengangguk pelan, memutuskan untuk mengembalikan kotak kayu itu ke tempatnya semula di loteng, membiarkan sejarah yang belum sepenuhnya ia pahami tetap tersimpan rapi di sana.",
       ],
       image: null,
-      source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
+      source: null
     },
-    question: "Berdasarkan tindakan-tindakan Silir dalam cerita, watak yang paling tepat menggambarkan tokoh tersebut adalah...",
+    question: "Latar suasana yang tepat pada paragraf (3) kutipan cerita tersebut adalah…",
     options: [
-      "Pemberani dan cekatan menghadapi tantangan.",
-      "Pendiam dan enggan bergaul dengan warga desa lainnya.",
-      "Mudah terpengaruh oleh pendapat orang-orang di sekitarnya.",
-      "Teguh pada pendirian dan tidak mudah patah semangat meski dicela orang lain."
+      "Hening dan reflektif, karena Rania larut merenungkan kebenaran yang baru saja ia temukan.",
+      "Riang dan penuh syukur, karena Rania senang menemukan sejarah keluarganya.",
+      "Tegang dan mencekam, karena Rania merasa terancam bahaya.",
+      "Ramai dan meriah, karena banyak anggota keluarga berkumpul di loteng.",
+      "Panik dan tergesa-gesa, karena Rania harus segera menyembunyikan kotak kayu tersebut.",
     ],
-    answer: "Teguh pada pendirian dan tidak mudah patah semangat meski dicela orang lain."
+    answer: "Hening dan reflektif, karena Rania larut merenungkan kebenaran yang baru saja ia temukan."
   },
 
   {
     id: 17,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ilusi Kemenangan di Balik Layar Mesin Slot",
+      paragraphs: [
+        "(1) Banyak orang bertanya-tanya mengapa pemain judi slot daring tetap yakin bisa menang, padahal secara matematis peluang mereka untuk kalah jauh lebih besar dalam jangka panjang. Jawabannya bukan terletak pada keberuntungan, melainkan pada rangkaian bias psikologis yang secara sengaja dimanfaatkan oleh operator permainan untuk menjaga pemain tetap bertaruh.",
+        "(2) Salah satu bias yang paling sering muncul adalah hot-hand fallacy, yaitu keyakinan bahwa kemenangan kecil yang berturut-turut menandakan giliran kemenangan besar akan segera tiba. Padahal, setiap putaran mesin slot bersifat independen dan diatur oleh generator angka acak, sehingga hasil putaran sebelumnya sama sekali tidak memengaruhi peluang putaran berikutnya. Meski demikian, otak manusia cenderung mencari pola dalam kejadian acak sebagai warisan mekanisme bertahan hidup, sehingga pola semu ini terasa nyata bagi pemain.",
+        "(3) Selain hot-hand fallacy, ada pula gambler's fallacy yang bekerja dengan logika terbalik: setelah mengalami kekalahan berulang, pemain semakin yakin bahwa kemenangan “sudah waktunya” muncul. Keyakinan keliru ini membuat pemain justru menaikkan taruhan alih-alih berhenti, meski secara statistik peluang menang tidak pernah berubah akibat riwayat kekalahan sebelumnya. Dengan kata lain, kedua bias ini sama-sama berakar pada kesalahan memahami konsep peluang acak, hanya arah keyakinannya yang berlawanan.",
+        "(4) Operator judi daring juga memanfaatkan illusion of control, yakni ilusi bahwa pemain memiliki kendali atas hasil permainan. Salah satu triknya adalah membiarkan akun baru meraih kemenangan kecil di awal permainan, sehingga pemain merasa telah menemukan “rumus” untuk menang. Akibatnya, banyak pemain sengaja membuat akun baru berulang kali dengan harapan mengulang kemenangan awal tersebut—tanpa menyadari bahwa itu adalah bagian dari strategi jebakan, bukan bukti adanya kendali nyata atas permainan.",
+        "(5) Selain memanipulasi cara berpikir, efek visual dan audio yang dramatis—lampu berkedip, suara kemenangan, animasi “hampir menang”—turut dirancang untuk memperkuat sensasi emosional sesaat sebelum keputusan rasional sempat diambil. Kombinasi bias kognitif dan rangsangan sensorik inilah yang secara bertahap mengikis literasi keuangan pemain sekaligus meningkatkan selera mereka terhadap risiko.",
+        "(6) Oleh karena itu, memahami mekanisme di balik desain permainan judi daring menjadi penting, bukan sekadar untuk menghindari kerugian finansial, tetapi juga untuk menyadari bahwa yang tampak sebagai “hampir menang” sesungguhnya adalah hasil rekayasa psikologis yang dirancang secermat mungkin agar pemain terus kembali bertaruh.",
+      ],
+      image: null,
+      source: "Sumber: The Conversation, 19 Oktober 2023 (dengan modifikasi)"
+    },
+    question: "Perhatikan kalimat kedua dan ketiga pada paragraf (2). Hubungan logis antara kedua kalimat tersebut adalah…",
+    options: [
+      "Sebab-akibat, karena kalimat ketiga menjelaskan penyebab munculnya generator angka acak.",
+      "Perbandingan, karena kedua kalimat membandingkan dua jenis mesin slot yang berbeda.",
+      "Penjumlahan, karena kalimat ketiga menambahkan informasi yang sejalan tanpa ada kontradiksi.",
+      "Akibat-sebab, karena kalimat kedua merupakan akibat dari apa yang dijelaskan pada kalimat ketiga.",
+      "Pertentangan, karena kalimat ketiga menunjukkan fakta psikologis yang berlawanan dengan fakta matematis pada kalimat kedua.",
+    ],
+    answer: "Pertentangan, karena kalimat ketiga menunjukkan fakta psikologis yang berlawanan dengan fakta matematis pada kalimat kedua."
+  },
+
+  {
+    id: 18,
     type: "truefalse",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Mutiara di Balik Randegan",
+      title: "Ilusi Kemenangan di Balik Layar Mesin Slot",
       paragraphs: [
-        "Silir tinggal di Desa Randegan, sebuah desa kecil di ujung timur Banjarnegara yang terkenal sebagai penghasil batu bata. Sejak kecil, gadis itu sangat menyukai kesenian lengger, tarian tradisional khas daerahnya. Setiap senja, ia sering duduk sendirian di tepi Sungai Serayu sambil melatih gerakan-gerakan tari yang ia pelajari secara diam-diam.",
-        "Sayangnya, tidak semua orang di desanya mendukung kegemarannya itu. Bapaknya justru sering menegur dan menganggap menari lengger bukan kegiatan yang pantas bagi anak perempuannya. Bahkan beberapa tetangga turut mencela, membuat Silir kerap menahan air mata setiap kali pulang ke rumah.",
-        "Meski hatinya terluka oleh cemoohan orang-orang di sekitarnya, Silir tidak pernah benar-benar berhenti menari. Ia memilih tetap berlatih bersama Paguyuban Lengger Wala Budaya. Bersama kelompok itu, ia mengikuti lomba kesenian tingkat daerah.",
-        "Kelompoknya berhasil menjadi juara sehingga sikap warga berubah. Bapak yang dahulu menentang pun akhirnya meminta maaf dan mendukung penuh langkah Silir untuk terus melestarikan kesenian lengger."
+        "(1) Banyak orang bertanya-tanya mengapa pemain judi slot daring tetap yakin bisa menang, padahal secara matematis peluang mereka untuk kalah jauh lebih besar dalam jangka panjang. Jawabannya bukan terletak pada keberuntungan, melainkan pada rangkaian bias psikologis yang secara sengaja dimanfaatkan oleh operator permainan untuk menjaga pemain tetap bertaruh.",
+        "(2) Salah satu bias yang paling sering muncul adalah hot-hand fallacy, yaitu keyakinan bahwa kemenangan kecil yang berturut-turut menandakan giliran kemenangan besar akan segera tiba. Padahal, setiap putaran mesin slot bersifat independen dan diatur oleh generator angka acak, sehingga hasil putaran sebelumnya sama sekali tidak memengaruhi peluang putaran berikutnya. Meski demikian, otak manusia cenderung mencari pola dalam kejadian acak sebagai warisan mekanisme bertahan hidup, sehingga pola semu ini terasa nyata bagi pemain.",
+        "(3) Selain hot-hand fallacy, ada pula gambler's fallacy yang bekerja dengan logika terbalik: setelah mengalami kekalahan berulang, pemain semakin yakin bahwa kemenangan “sudah waktunya” muncul. Keyakinan keliru ini membuat pemain justru menaikkan taruhan alih-alih berhenti, meski secara statistik peluang menang tidak pernah berubah akibat riwayat kekalahan sebelumnya. Dengan kata lain, kedua bias ini sama-sama berakar pada kesalahan memahami konsep peluang acak, hanya arah keyakinannya yang berlawanan.",
+        "(4) Operator judi daring juga memanfaatkan illusion of control, yakni ilusi bahwa pemain memiliki kendali atas hasil permainan. Salah satu triknya adalah membiarkan akun baru meraih kemenangan kecil di awal permainan, sehingga pemain merasa telah menemukan “rumus” untuk menang. Akibatnya, banyak pemain sengaja membuat akun baru berulang kali dengan harapan mengulang kemenangan awal tersebut—tanpa menyadari bahwa itu adalah bagian dari strategi jebakan, bukan bukti adanya kendali nyata atas permainan.",
+        "(5) Selain memanipulasi cara berpikir, efek visual dan audio yang dramatis—lampu berkedip, suara kemenangan, animasi “hampir menang”—turut dirancang untuk memperkuat sensasi emosional sesaat sebelum keputusan rasional sempat diambil. Kombinasi bias kognitif dan rangsangan sensorik inilah yang secara bertahap mengikis literasi keuangan pemain sekaligus meningkatkan selera mereka terhadap risiko.",
+        "(6) Oleh karena itu, memahami mekanisme di balik desain permainan judi daring menjadi penting, bukan sekadar untuk menghindari kerugian finansial, tetapi juga untuk menyadari bahwa yang tampak sebagai “hampir menang” sesungguhnya adalah hasil rekayasa psikologis yang dirancang secermat mungkin agar pemain terus kembali bertaruh.",
       ],
       image: null,
-      source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
+      source: "Sumber: The Conversation, 19 Oktober 2023 (dengan modifikasi)"
     },
-    question: "Tentukan benar atau salah.",
+    question: "Tentukan status BENAR atau SALAH setiap pernyataan berikut mengenai hubungan antarparagraf dalam teks!",
     statements: [
-      "Konflik dalam cerita tersebut terjadi karena Silir berselisih dengan teman sebayanya soal gelar juara lomba.",
-      "Amanat yang dapat dipetik dari cerita tersebut adalah pentingnya tetap teguh pada minat dan bakat meski mendapat tentangan dari lingkungan sekitar.",
-      "Konflik utama dalam cerita tersebut adalah pertentangan antara keinginan Silir menekuni seni lengger dan ketidaksetujuan keluarga serta warga sekitarnya.",
-      "Cerita tersebut mengajarkan bahwa kesenian tradisional sebaiknya ditinggalkan karena dianggap kuno oleh masyarakat."
+      "Paragraf (4) menjelaskan sebab langsung dari fakta yang diuraikan pada paragraf (5).",
+      "Paragraf (3) memiliki hubungan melengkapi dengan paragraf (2) karena sama-sama membahas bias psikologis yang berkaitan dengan kesalahan memahami peluang acak.",
+      "Paragraf (6) berfungsi sebagai simpulan yang menegaskan kembali gagasan yang telah dibangun pada paragraf-paragraf sebelumnya.",
+      "Paragraf (1) dan paragraf (2) tidak memiliki keterkaitan gagasan sama sekali.",
     ],
     answer: [
       false,
       true,
       true,
-      false
-    ]
-  },
-
-  {
-    id: 18,
-    type: "multiple",
-    stimulus: {
-      instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Mutiara di Balik Randegan",
-      paragraphs: [
-        "Silir tinggal di Desa Randegan, sebuah desa kecil di ujung timur Banjarnegara yang terkenal sebagai penghasil batu bata. Sejak kecil, gadis itu sangat menyukai kesenian lengger, tarian tradisional khas daerahnya. Setiap senja, ia sering duduk sendirian di tepi Sungai Serayu sambil melatih gerakan-gerakan tari yang ia pelajari secara diam-diam.",
-        "Sayangnya, tidak semua orang di desanya mendukung kegemarannya itu. Bapaknya justru sering menegur dan menganggap menari lengger bukan kegiatan yang pantas bagi anak perempuannya. Bahkan beberapa tetangga turut mencela, membuat Silir kerap menahan air mata setiap kali pulang ke rumah.",
-        "Meski hatinya terluka oleh cemoohan orang-orang di sekitarnya, Silir tidak pernah benar-benar berhenti menari. Ia memilih tetap berlatih bersama Paguyuban Lengger Wala Budaya. Bersama kelompok itu, ia mengikuti lomba kesenian tingkat daerah.",
-        "Kelompoknya berhasil menjadi juara sehingga sikap warga berubah. Bapak yang dahulu menentang pun akhirnya meminta maaf dan mendukung penuh langkah Silir untuk terus melestarikan kesenian lengger."
-      ],
-      image: null,
-      source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
-    },
-    question: "Pernyataan yang sesuai dengan isi cerita adalah...",
-    options: [
-      "Silir tetap berlatih meskipun sering mendapat tentangan dari lingkungan sekitar.",
-      "Silir berhenti mengikuti latihan tari setelah dimarahi ayahnya.",
-      "Keberhasilan Silir membuat masyarakat mulai menghargai kesenian lengger.",
-      "Paguyuban Lengger Wala Budaya menolak Silir bergabung karena masih anak-anak."
-    ],
-    answer: [
-      "Silir tetap berlatih meskipun sering mendapat tentangan dari lingkungan sekitar.",
-      "Keberhasilan Silir membuat masyarakat mulai menghargai kesenian lengger."
+      false,
     ]
   },
 
@@ -493,113 +524,112 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Kenali Rhabdomyolysis untuk Mengurangi Risiko Kerusakan Ginjal",
+      title: "Ilusi Kemenangan di Balik Layar Mesin Slot",
       paragraphs: [
-        "Tren berlari semakin diminati banyak orang, mulai dari lomba 5K, half marathon, hingga marathon penuh. Meski bermanfaat untuk kebugaran, olahraga ini tetap perlu dilakukan sesuai kemampuan tubuh masing-masing, karena memaksakan diri berlari terlalu berat dapat memicu gangguan serius bernama rhabdomiolisis.",
-        "Rhabdomiolisis terjadi ketika otot rangka mengalami kerusakan berat akibat aktivitas fisik yang berlebihan. Saat itu terjadi, protein bernama mioglobin beserta sejumlah elektrolit keluar dari sel otot dan masuk ke aliran darah. Jika jumlah mioglobin yang beredar terlalu banyak, kerja ginjal dapat terganggu hingga berisiko memicu cedera ginjal akut apabila tidak segera ditangani.",
-        "Menurut dokter spesialis ginjal dan hipertensi, Tunggul Situmorang, kondisi ini umumnya muncul ketika seseorang tetap memaksakan tubuhnya berlari meski sudah merasa sangat lelah. Gejalanya pun tidak selalu langsung terasa; tanda-tanda seperti tubuh sangat lelah, nyeri otot, mual, hingga urine berwarna lebih gelap baru bisa muncul satu sampai tiga hari setelah otot mengalami kerusakan.",
-        "Tunggul menjelaskan bahwa salah satu penyebab utama rhabdomiolisis adalah pemanasan yang tidak dilakukan secara bertahap sebelum berolahraga berat. Pelari pemula yang langsung berlari dengan intensitas tinggi tanpa memberi waktu bagi tubuh untuk beradaptasi menjadi kelompok yang paling rentan mengalaminya. Meski begitu, pelari berpengalaman pun tetap berisiko apabila memaksakan diri secara berlebihan dan mendadak.",
-        "Kabar baiknya, rhabdomiolisis yang ditangani secara cepat umumnya masih dapat disembuhkan tanpa harus menjalani cuci darah, terutama jika cedera ginjal yang terjadi masih tergolong ringan. Karena itu, mengenali gejala sejak awal dan segera memeriksakan diri ke dokter menjadi langkah penting bagi siapa pun yang gemar berlari jarak jauh."
+        "(1) Banyak orang bertanya-tanya mengapa pemain judi slot daring tetap yakin bisa menang, padahal secara matematis peluang mereka untuk kalah jauh lebih besar dalam jangka panjang. Jawabannya bukan terletak pada keberuntungan, melainkan pada rangkaian bias psikologis yang secara sengaja dimanfaatkan oleh operator permainan untuk menjaga pemain tetap bertaruh.",
+        "(2) Salah satu bias yang paling sering muncul adalah hot-hand fallacy, yaitu keyakinan bahwa kemenangan kecil yang berturut-turut menandakan giliran kemenangan besar akan segera tiba. Padahal, setiap putaran mesin slot bersifat independen dan diatur oleh generator angka acak, sehingga hasil putaran sebelumnya sama sekali tidak memengaruhi peluang putaran berikutnya. Meski demikian, otak manusia cenderung mencari pola dalam kejadian acak sebagai warisan mekanisme bertahan hidup, sehingga pola semu ini terasa nyata bagi pemain.",
+        "(3) Selain hot-hand fallacy, ada pula gambler's fallacy yang bekerja dengan logika terbalik: setelah mengalami kekalahan berulang, pemain semakin yakin bahwa kemenangan “sudah waktunya” muncul. Keyakinan keliru ini membuat pemain justru menaikkan taruhan alih-alih berhenti, meski secara statistik peluang menang tidak pernah berubah akibat riwayat kekalahan sebelumnya. Dengan kata lain, kedua bias ini sama-sama berakar pada kesalahan memahami konsep peluang acak, hanya arah keyakinannya yang berlawanan.",
+        "(4) Operator judi daring juga memanfaatkan illusion of control, yakni ilusi bahwa pemain memiliki kendali atas hasil permainan. Salah satu triknya adalah membiarkan akun baru meraih kemenangan kecil di awal permainan, sehingga pemain merasa telah menemukan “rumus” untuk menang. Akibatnya, banyak pemain sengaja membuat akun baru berulang kali dengan harapan mengulang kemenangan awal tersebut—tanpa menyadari bahwa itu adalah bagian dari strategi jebakan, bukan bukti adanya kendali nyata atas permainan.",
+        "(5) Selain memanipulasi cara berpikir, efek visual dan audio yang dramatis—lampu berkedip, suara kemenangan, animasi “hampir menang”—turut dirancang untuk memperkuat sensasi emosional sesaat sebelum keputusan rasional sempat diambil. Kombinasi bias kognitif dan rangsangan sensorik inilah yang secara bertahap mengikis literasi keuangan pemain sekaligus meningkatkan selera mereka terhadap risiko.",
+        "(6) Oleh karena itu, memahami mekanisme di balik desain permainan judi daring menjadi penting, bukan sekadar untuk menghindari kerugian finansial, tetapi juga untuk menyadari bahwa yang tampak sebagai “hampir menang” sesungguhnya adalah hasil rekayasa psikologis yang dirancang secermat mungkin agar pemain terus kembali bertaruh.",
       ],
       image: null,
-      source: "CNN Indonesia, 27 Juni 2026 (dengan modifikasi)"
+      source: "Sumber: The Conversation, 19 Oktober 2023 (dengan modifikasi)"
     },
-    question: "Berdasarkan teks tersebut, hal yang menyebabkan rhabdomiolisis dapat berkembang menjadi cedera ginjal akut adalah ...",
+    question: "Kata “Oleh karena itu” yang mengawali paragraf (6) menunjukkan hubungan logis paragraf tersebut dengan paragraf-paragraf sebelumnya, yaitu hubungan…",
     options: [
-      "Pelari mengikuti lomba half marathon tanpa ditemani oleh pelatih profesional.",
-      "Mioglobin dalam jumlah besar masuk ke aliran darah dan membebani kerja ginjal.",
-      "Pelari memilih rute lomba yang menanjak dan memiliki suhu udara tinggi.",
-      "Tubuh pelari kekurangan cairan karena tidak membawa bekal minuman saat berlari."
+      "Pertentangan, karena paragraf (6) menyanggah seluruh isi paragraf (2) sampai (5).",
+      "Simpulan/akibat, karena paragraf (6) menegaskan pentingnya memahami mekanisme yang telah diuraikan sebagai akibat logis dari paparan bias-bias psikologis sebelumnya.",
+      "Perbandingan, karena paragraf (6) membandingkan mesin slot dengan permainan judi jenis lain.",
+      "Contoh, karena paragraf (6) hanya memberi ilustrasi tambahan tanpa berkaitan dengan gagasan sebelumnya.",
+      "Kronologis, karena paragraf (6) menjelaskan urutan waktu kejadian setelah paragraf (5).",
     ],
-    answer: "Mioglobin dalam jumlah besar masuk ke aliran darah dan membebani kerja ginjal."
+    answer: "Simpulan/akibat, karena paragraf (6) menegaskan pentingnya memahami mekanisme yang telah diuraikan sebagai akibat logis dari paparan bias-bias psikologis sebelumnya."
   },
 
   {
     id: 20,
-    type: "multiple",
+    type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: "Kenali Rhabdomyolysis untuk Mengurangi Risiko Kerusakan Ginjal",
+      title: "Ilusi Kemenangan di Balik Layar Mesin Slot",
       paragraphs: [
-        "Tren berlari semakin diminati banyak orang, mulai dari lomba 5K, half marathon, hingga marathon penuh. Meski bermanfaat untuk kebugaran, olahraga ini tetap perlu dilakukan sesuai kemampuan tubuh masing-masing, karena memaksakan diri berlari terlalu berat dapat memicu gangguan serius bernama rhabdomiolisis.",
-        "Rhabdomiolisis terjadi ketika otot rangka mengalami kerusakan berat akibat aktivitas fisik yang berlebihan. Saat itu terjadi, protein bernama mioglobin beserta sejumlah elektrolit keluar dari sel otot dan masuk ke aliran darah. Jika jumlah mioglobin yang beredar terlalu banyak, kerja ginjal dapat terganggu hingga berisiko memicu cedera ginjal akut apabila tidak segera ditangani.",
-        "Menurut dokter spesialis ginjal dan hipertensi, Tunggul Situmorang, kondisi ini umumnya muncul ketika seseorang tetap memaksakan tubuhnya berlari meski sudah merasa sangat lelah. Gejalanya pun tidak selalu langsung terasa; tanda-tanda seperti tubuh sangat lelah, nyeri otot, mual, hingga urine berwarna lebih gelap baru bisa muncul satu sampai tiga hari setelah otot mengalami kerusakan.",
-        "Tunggul menjelaskan bahwa salah satu penyebab utama rhabdomiolisis adalah pemanasan yang tidak dilakukan secara bertahap sebelum berolahraga berat. Pelari pemula yang langsung berlari dengan intensitas tinggi tanpa memberi waktu bagi tubuh untuk beradaptasi menjadi kelompok yang paling rentan mengalaminya. Meski begitu, pelari berpengalaman pun tetap berisiko apabila memaksakan diri secara berlebihan dan mendadak.",
-        "Kabar baiknya, rhabdomiolisis yang ditangani secara cepat umumnya masih dapat disembuhkan tanpa harus menjalani cuci darah, terutama jika cedera ginjal yang terjadi masih tergolong ringan. Karena itu, mengenali gejala sejak awal dan segera memeriksakan diri ke dokter menjadi langkah penting bagi siapa pun yang gemar berlari jarak jauh."
+        "(1) Banyak orang bertanya-tanya mengapa pemain judi slot daring tetap yakin bisa menang, padahal secara matematis peluang mereka untuk kalah jauh lebih besar dalam jangka panjang. Jawabannya bukan terletak pada keberuntungan, melainkan pada rangkaian bias psikologis yang secara sengaja dimanfaatkan oleh operator permainan untuk menjaga pemain tetap bertaruh.",
+        "(2) Salah satu bias yang paling sering muncul adalah hot-hand fallacy, yaitu keyakinan bahwa kemenangan kecil yang berturut-turut menandakan giliran kemenangan besar akan segera tiba. Padahal, setiap putaran mesin slot bersifat independen dan diatur oleh generator angka acak, sehingga hasil putaran sebelumnya sama sekali tidak memengaruhi peluang putaran berikutnya. Meski demikian, otak manusia cenderung mencari pola dalam kejadian acak sebagai warisan mekanisme bertahan hidup, sehingga pola semu ini terasa nyata bagi pemain.",
+        "(3) Selain hot-hand fallacy, ada pula gambler's fallacy yang bekerja dengan logika terbalik: setelah mengalami kekalahan berulang, pemain semakin yakin bahwa kemenangan “sudah waktunya” muncul. Keyakinan keliru ini membuat pemain justru menaikkan taruhan alih-alih berhenti, meski secara statistik peluang menang tidak pernah berubah akibat riwayat kekalahan sebelumnya. Dengan kata lain, kedua bias ini sama-sama berakar pada kesalahan memahami konsep peluang acak, hanya arah keyakinannya yang berlawanan.",
+        "(4) Operator judi daring juga memanfaatkan illusion of control, yakni ilusi bahwa pemain memiliki kendali atas hasil permainan. Salah satu triknya adalah membiarkan akun baru meraih kemenangan kecil di awal permainan, sehingga pemain merasa telah menemukan “rumus” untuk menang. Akibatnya, banyak pemain sengaja membuat akun baru berulang kali dengan harapan mengulang kemenangan awal tersebut—tanpa menyadari bahwa itu adalah bagian dari strategi jebakan, bukan bukti adanya kendali nyata atas permainan.",
+        "(5) Selain memanipulasi cara berpikir, efek visual dan audio yang dramatis—lampu berkedip, suara kemenangan, animasi “hampir menang”—turut dirancang untuk memperkuat sensasi emosional sesaat sebelum keputusan rasional sempat diambil. Kombinasi bias kognitif dan rangsangan sensorik inilah yang secara bertahap mengikis literasi keuangan pemain sekaligus meningkatkan selera mereka terhadap risiko.",
+        "(6) Oleh karena itu, memahami mekanisme di balik desain permainan judi daring menjadi penting, bukan sekadar untuk menghindari kerugian finansial, tetapi juga untuk menyadari bahwa yang tampak sebagai “hampir menang” sesungguhnya adalah hasil rekayasa psikologis yang dirancang secermat mungkin agar pemain terus kembali bertaruh.",
       ],
       image: null,
-      source: "CNN Indonesia, 27 Juni 2026 (dengan modifikasi)"
+      source: "Sumber: The Conversation, 19 Oktober 2023 (dengan modifikasi)"
     },
-    question: "Manakah pernyataan berikut yang sesuai dengan kronologi munculnya rhabdomiolisis seperti dijelaskan dalam teks?",
+    question: "Hubungan logis antara paragraf (4) dan paragraf (5) dalam teks tersebut adalah…",
     options: [
-      "Otot rusak akibat aktivitas berat, mioglobin masuk ke darah, lalu gejala seperti urine gelap muncul satu hingga tiga hari kemudian.",
-      "Pemanasan yang tidak dilakukan secara bertahap dapat menjadi penyebab awal sebelum otot mengalami kerusakan berat.",
-      "Gejala rhabdomiolisis selalu muncul seketika saat pelari masih berada di lintasan lomba.",
-      "Cedera ginjal akut selalu terjadi lebih dahulu sebelum otot mengalami kerusakan."
+      "Pertentangan, karena paragraf (5) membantah seluruh klaim yang diuraikan pada paragraf (4).",
+      "Perbandingan, karena paragraf (5) membandingkan dua jenis mesin slot yang berbeda.",
+      "Kronologis, karena paragraf (5) menjelaskan kejadian yang terjadi setelah peristiwa pada paragraf (4).",
+      "Contoh, karena paragraf (5) hanya memberi ilustrasi tambahan tanpa gagasan baru.",
+      "Aditif (penambahan), karena paragraf (5) menambahkan strategi lain yang digunakan operator untuk mempertahankan pemain, sejalan dengan paragraf (4).",
     ],
-    answer: [
-      "Otot rusak akibat aktivitas berat, mioglobin masuk ke darah, lalu gejala seperti urine gelap muncul satu hingga tiga hari kemudian.",
-      "Pemanasan yang tidak dilakukan secara bertahap dapat menjadi penyebab awal sebelum otot mengalami kerusakan berat."
-    ]
+    answer: "Aditif (penambahan), karena paragraf (5) menambahkan strategi lain yang digunakan operator untuk mempertahankan pemain, sejalan dengan paragraf (4)."
   },
 
   {
     id: 21,
-    type: "truefalse",
+    type: "single",
     stimulus: {
-      instruction: "Berdasarkan isi teks, tentukan apakah pernyataan berikut Benar atau Salah!",
-      title: null,
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Pesan yang Belum Terkirim",
       paragraphs: [
-        "Tren berlari semakin diminati banyak orang, mulai dari lomba 5K, half marathon, hingga marathon penuh. Meski bermanfaat untuk kebugaran, olahraga ini tetap perlu dilakukan sesuai kemampuan tubuh masing-masing, karena memaksakan diri berlari terlalu berat dapat memicu gangguan serius bernama rhabdomiolisis.",
-        "Rhabdomiolisis terjadi ketika otot rangka mengalami kerusakan berat akibat aktivitas fisik yang berlebihan. Saat itu terjadi, protein bernama mioglobin beserta sejumlah elektrolit keluar dari sel otot dan masuk ke aliran darah. Jika jumlah mioglobin yang beredar terlalu banyak, kerja ginjal dapat terganggu hingga berisiko memicu cedera ginjal akut apabila tidak segera ditangani.",
-        "Menurut dokter spesialis ginjal dan hipertensi, Tunggul Situmorang, kondisi ini umumnya muncul ketika seseorang tetap memaksakan tubuhnya berlari meski sudah merasa sangat lelah. Gejalanya pun tidak selalu langsung terasa; tanda-tanda seperti tubuh sangat lelah, nyeri otot, mual, hingga urine berwarna lebih gelap baru bisa muncul satu sampai tiga hari setelah otot mengalami kerusakan.",
-        "Tunggul menjelaskan bahwa salah satu penyebab utama rhabdomiolisis adalah pemanasan yang tidak dilakukan secara bertahap sebelum berolahraga berat. Pelari pemula yang langsung berlari dengan intensitas tinggi tanpa memberi waktu bagi tubuh untuk beradaptasi menjadi kelompok yang paling rentan mengalaminya. Meski begitu, pelari berpengalaman pun tetap berisiko apabila memaksakan diri secara berlebihan dan mendadak.",
-        "Kabar baiknya, rhabdomiolisis yang ditangani secara cepat umumnya masih dapat disembuhkan tanpa harus menjalani cuci darah, terutama jika cedera ginjal yang terjadi masih tergolong ringan. Karena itu, mengenali gejala sejak awal dan segera memeriksakan diri ke dokter menjadi langkah penting bagi siapa pun yang gemar berlari jarak jauh."
+        "(1) Yudha menatap layar ponselnya lama sekali, jempolnya berhenti tepat di atas tombol kirim. Pesan itu sudah ia tulis ulang lima kali sejak tadi malam: sebuah pengakuan bahwa dialah yang secara tidak sengaja membocorkan rencana kejutan ulang tahun untuk Bima, sahabatnya sejak SMP, kepada orang yang seharusnya tidak tahu.",
+        "(2) Semua bermula tiga hari lalu, saat Yudha mengobrol santai dengan Sari, gadis yang diam-diam disukai Bima, tanpa sadar menyebut detail lokasi dan waktu pesta kejutan itu. Sari, yang ternyata dekat dengan mantan pacar Bima, tanpa sengaja meneruskan informasi tersebut sampai akhirnya bocor ke lingkaran pertemanan yang lebih luas.",
+        "(3) Malam sebelumnya, Bima mengirim pesan singkat ke grup: “Kalian tahu nggak, kejutan ulang tahunku ternyata udah bukan rahasia lagi. Ada yang bocorin. Aneh aja, padahal cuma segelintir orang yang tahu.” Kalimat itu terasa seperti tamparan bagi Yudha, yang tahu betul dialah sumber kebocorannya, meski tidak sengaja.",
+        "(4) Sejak pesan itu masuk, Yudha jadi tidak tenang. Ia teringat betapa Bima selalu membela dirinya di masa lalu, bahkan pernah mengambil alih kesalahan Yudha di depan guru demi melindunginya. Di sisi lain, ia juga tahu Bima punya prinsip yang sangat ketat soal kejujuran—pernah suatu kali Bima memutus hubungan pertemanan dengan orang lain hanya karena orang itu berbohong soal hal sepele.",
+        "(5) Jemari Yudha gemetar. Ia membuka kembali pesan yang telah ia ketik: “Bim, gue yang nggak sengaja bocorin soal pesta itu ke Sari. Gue tahu ini kesalahan gue, dan gue minta maaf sebesar-besarnya.” Kursor berkedip-kedip di ujung kalimat, seolah menunggu keputusan final darinya. Ponsel bergetar sekali—notifikasi dari grup pertemanan yang sama, entah apa isinya, namun Yudha belum berani membukanya.",
       ],
       image: null,
-      source: "CNN Indonesia, 27 Juni 2026 (dengan modifikasi)"
+      source: null
     },
-    question: "Tentukan Benar atau Salah.",
+    question: "Berdasarkan penokohan dan alur yang telah dibangun, kelanjutan cerita yang paling logis adalah…",
+    options: [
+      "Yudha akhirnya mengirim pesan pengakuannya karena mengetahui watak Bima yang sangat menjunjung tinggi kejujuran, meski berisiko merenggangkan persahabatan mereka.",
+      "Yudha menghapus semua riwayat pesan dan memutuskan untuk pindah sekolah agar tidak perlu menghadapi Bima.",
+      "Bima ternyata sudah lama merencanakan pesta ulang tahun palsu untuk menguji kesetiaan teman-temannya.",
+      "Sari tiba-tiba muncul dan mengaku sebagai sumber kebocoran informasi tanpa melibatkan Yudha sama sekali.",
+      "Yudha memutuskan melupakan kejadian tersebut sepenuhnya dan tidak pernah membahasnya lagi seumur hidup.",
+    ],
+    answer: "Yudha akhirnya mengirim pesan pengakuannya karena mengetahui watak Bima yang sangat menjunjung tinggi kejujuran, meski berisiko merenggangkan persahabatan mereka."
+  },
+
+  {
+    id: 22,
+    type: "truefalse",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Pesan yang Belum Terkirim",
+      paragraphs: [
+        "(1) Yudha menatap layar ponselnya lama sekali, jempolnya berhenti tepat di atas tombol kirim. Pesan itu sudah ia tulis ulang lima kali sejak tadi malam: sebuah pengakuan bahwa dialah yang secara tidak sengaja membocorkan rencana kejutan ulang tahun untuk Bima, sahabatnya sejak SMP, kepada orang yang seharusnya tidak tahu.",
+        "(2) Semua bermula tiga hari lalu, saat Yudha mengobrol santai dengan Sari, gadis yang diam-diam disukai Bima, tanpa sadar menyebut detail lokasi dan waktu pesta kejutan itu. Sari, yang ternyata dekat dengan mantan pacar Bima, tanpa sengaja meneruskan informasi tersebut sampai akhirnya bocor ke lingkaran pertemanan yang lebih luas.",
+        "(3) Malam sebelumnya, Bima mengirim pesan singkat ke grup: “Kalian tahu nggak, kejutan ulang tahunku ternyata udah bukan rahasia lagi. Ada yang bocorin. Aneh aja, padahal cuma segelintir orang yang tahu.” Kalimat itu terasa seperti tamparan bagi Yudha, yang tahu betul dialah sumber kebocorannya, meski tidak sengaja.",
+        "(4) Sejak pesan itu masuk, Yudha jadi tidak tenang. Ia teringat betapa Bima selalu membela dirinya di masa lalu, bahkan pernah mengambil alih kesalahan Yudha di depan guru demi melindunginya. Di sisi lain, ia juga tahu Bima punya prinsip yang sangat ketat soal kejujuran—pernah suatu kali Bima memutus hubungan pertemanan dengan orang lain hanya karena orang itu berbohong soal hal sepele.",
+        "(5) Jemari Yudha gemetar. Ia membuka kembali pesan yang telah ia ketik: “Bim, gue yang nggak sengaja bocorin soal pesta itu ke Sari. Gue tahu ini kesalahan gue, dan gue minta maaf sebesar-besarnya.” Kursor berkedip-kedip di ujung kalimat, seolah menunggu keputusan final darinya. Ponsel bergetar sekali—notifikasi dari grup pertemanan yang sama, entah apa isinya, namun Yudha belum berani membukanya.",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Tentukan status BENAR atau SALAH setiap prediksi kelanjutan cerita berikut berdasarkan bukti yang telah dibangun dalam teks!",
     statements: [
-      "Paragraf pertama dan paragraf kelima sama sekali tidak memiliki keterkaitan topik.",
-      "Paragraf kelima bertentangan dengan paragraf-paragraf sebelumnya karena menyatakan bahwa rhabdomiolisis tidak dapat disembuhkan.",
-      "Paragraf ketiga dan keempat sama-sama menjelaskan faktor penyebab serta gejala munculnya rhabdomiolisis dari sudut pandang medis.",
-      "Paragraf kedua berfungsi menjelaskan secara lebih rinci proses medis yang disebutkan secara umum pada paragraf pertama."
+      "Prediksi bahwa Bima akan langsung memutuskan persahabatan tanpa mendengar penjelasan Yudha terlebih dahulu adalah prediksi yang didukung kuat oleh sifat Bima yang telah digambarkan dalam cerita.",
+      "Latar belakang persahabatan panjang antara Yudha dan Bima tidak memiliki relevansi apa pun terhadap prediksi kelanjutan cerita.",
+      "Rasa bersalah dan keraguan Yudha yang digambarkan pada paragraf (4) dan (5) memperkuat kemungkinan bahwa ia akan mengambil keputusan sulit terkait pesan pengakuannya.",
+      "Kemunculan notifikasi baru di akhir cerita berfungsi menambah ketegangan dan berpotensi memengaruhi keputusan Yudha selanjutnya.",
     ],
     answer: [
       false,
       false,
       true,
-      true
-    ]
-  },
-
-  {
-    id: 22,
-    type: "multiple",
-    stimulus: {
-      instruction: "Bacalah kembali teks tersebut!",
-      title: null,
-      paragraphs: [
-        "Tren berlari semakin diminati banyak orang, mulai dari lomba 5K, half marathon, hingga marathon penuh. Meski bermanfaat untuk kebugaran, olahraga ini tetap perlu dilakukan sesuai kemampuan tubuh masing-masing, karena memaksakan diri berlari terlalu berat dapat memicu gangguan serius bernama rhabdomiolisis.",
-        "Rhabdomiolisis terjadi ketika otot rangka mengalami kerusakan berat akibat aktivitas fisik yang berlebihan. Saat itu terjadi, protein bernama mioglobin beserta sejumlah elektrolit keluar dari sel otot dan masuk ke aliran darah. Jika jumlah mioglobin yang beredar terlalu banyak, kerja ginjal dapat terganggu hingga berisiko memicu cedera ginjal akut apabila tidak segera ditangani.",
-        "Menurut dokter spesialis ginjal dan hipertensi, Tunggul Situmorang, kondisi ini umumnya muncul ketika seseorang tetap memaksakan tubuhnya berlari meski sudah merasa sangat lelah. Gejalanya pun tidak selalu langsung terasa; tanda-tanda seperti tubuh sangat lelah, nyeri otot, mual, hingga urine berwarna lebih gelap baru bisa muncul satu sampai tiga hari setelah otot mengalami kerusakan.",
-        "Tunggul menjelaskan bahwa salah satu penyebab utama rhabdomiolisis adalah pemanasan yang tidak dilakukan secara bertahap sebelum berolahraga berat. Pelari pemula yang langsung berlari dengan intensitas tinggi tanpa memberi waktu bagi tubuh untuk beradaptasi menjadi kelompok yang paling rentan mengalaminya. Meski begitu, pelari berpengalaman pun tetap berisiko apabila memaksakan diri secara berlebihan dan mendadak.",
-        "Kabar baiknya, rhabdomiolisis yang ditangani secara cepat umumnya masih dapat disembuhkan tanpa harus menjalani cuci darah, terutama jika cedera ginjal yang terjadi masih tergolong ringan. Karena itu, mengenali gejala sejak awal dan segera memeriksakan diri ke dokter menjadi langkah penting bagi siapa pun yang gemar berlari jarak jauh."
-      ],
-      image: null,
-      source: "CNN Indonesia, 27 Juni 2026 (dengan modifikasi)"
-    },
-    question: "Manakah pernyataan yang tepat mengenai hubungan antarparagraf dalam teks tersebut?",
-    options: [
-      "Paragraf kelima merupakan simpulan yang memberi harapan setelah paragraf-paragraf sebelumnya menjelaskan risiko dan bahaya rhabdomiolisis.",
-      "Paragraf kedua tidak berkaitan dengan paragraf pertama karena membahas topik yang sama sekali berbeda.",
-      "Paragraf ketiga membahas topik yang sepenuhnya bertentangan dengan paragraf keempat.",
-      "Paragraf keempat memperkuat paragraf ketiga dengan menjelaskan faktor risiko yang membuat seseorang lebih rentan mengalami rhabdomiolisis."
-    ],
-    answer: [
-      "Paragraf kelima merupakan simpulan yang memberi harapan setelah paragraf-paragraf sebelumnya menjelaskan risiko dan bahaya rhabdomiolisis.",
-      "Paragraf keempat memperkuat paragraf ketiga dengan menjelaskan faktor risiko yang membuat seseorang lebih rentan mengalami rhabdomiolisis."
+      true,
     ]
   },
 
@@ -607,295 +637,305 @@ export default [
     id: 23,
     type: "single",
     stimulus: {
-      instruction: "Bacalah puisi berikut untuk menjawab soal!",
-      title: "Cita-Cita Sederhana",
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Pesan yang Belum Terkirim",
       paragraphs: [
-        "Setelah kerja sehari penuh,",
-        "apa lagi yang kuinginkan?",
-        "Hanya ingin pulang sebelum gelap,",
-        "duduk bersama senja di teras rumah.",
-        "",
-        "Tapi jalanan selalu sesak,",
-        "waktu berlari lebih cepat dari langkahku.",
-        "Senja sering pulang lebih dulu,",
-        "meninggalkan jejak jingga yang dingin di jendela.",
-        "",
-        "Aku menabung detik demi detik,",
-        "berharap suatu hari nanti",
-        "waktu mau singgah sebentar saja,",
-        "menemaniku menyesap teh di senja yang sama.",
-        "",
-        "Sampai kapan aku harus menunggu?",
-        "Mungkin cita-cita yang sederhana ini",
-        "justru yang paling sulit kuraih",
-        "di tengah kota yang tak pernah benar-benar diam."
+        "(1) Yudha menatap layar ponselnya lama sekali, jempolnya berhenti tepat di atas tombol kirim. Pesan itu sudah ia tulis ulang lima kali sejak tadi malam: sebuah pengakuan bahwa dialah yang secara tidak sengaja membocorkan rencana kejutan ulang tahun untuk Bima, sahabatnya sejak SMP, kepada orang yang seharusnya tidak tahu.",
+        "(2) Semua bermula tiga hari lalu, saat Yudha mengobrol santai dengan Sari, gadis yang diam-diam disukai Bima, tanpa sadar menyebut detail lokasi dan waktu pesta kejutan itu. Sari, yang ternyata dekat dengan mantan pacar Bima, tanpa sengaja meneruskan informasi tersebut sampai akhirnya bocor ke lingkaran pertemanan yang lebih luas.",
+        "(3) Malam sebelumnya, Bima mengirim pesan singkat ke grup: “Kalian tahu nggak, kejutan ulang tahunku ternyata udah bukan rahasia lagi. Ada yang bocorin. Aneh aja, padahal cuma segelintir orang yang tahu.” Kalimat itu terasa seperti tamparan bagi Yudha, yang tahu betul dialah sumber kebocorannya, meski tidak sengaja.",
+        "(4) Sejak pesan itu masuk, Yudha jadi tidak tenang. Ia teringat betapa Bima selalu membela dirinya di masa lalu, bahkan pernah mengambil alih kesalahan Yudha di depan guru demi melindunginya. Di sisi lain, ia juga tahu Bima punya prinsip yang sangat ketat soal kejujuran—pernah suatu kali Bima memutus hubungan pertemanan dengan orang lain hanya karena orang itu berbohong soal hal sepele.",
+        "(5) Jemari Yudha gemetar. Ia membuka kembali pesan yang telah ia ketik: “Bim, gue yang nggak sengaja bocorin soal pesta itu ke Sari. Gue tahu ini kesalahan gue, dan gue minta maaf sebesar-besarnya.” Kursor berkedip-kedip di ujung kalimat, seolah menunggu keputusan final darinya. Ponsel bergetar sekali—notifikasi dari grup pertemanan yang sama, entah apa isinya, namun Yudha belum berani membukanya.",
       ],
       image: null,
-      source: "Adaptasi puisi 'Cita-cita' karya Joko Pinurbo"
+      source: null
     },
-    question: 'Majas personifikasi pada larik "Senja sering pulang lebih dulu, meninggalkan jejak jingga yang dingin di jendela" memberikan efek ...',
+    question: "Jika Yudha memutuskan untuk tidak pernah mengirimkan pesan pengakuannya, dampak yang paling logis terjadi berikutnya berdasarkan alur yang telah dibangun adalah…",
     options: [
-      "menggambarkan kemarahan tokoh terhadap keadaan rumahnya yang sepi.",
-      "menghidupkan senja sebagai sosok yang memiliki kehendak sendiri, sehingga memperkuat kesan bahwa waktu kebersamaan yang diinginkan tokoh sering terlewat begitu saja.",
-      "menunjukkan bahwa cuaca pada sore hari tersebut sangat dingin dan tidak nyaman bagi tokoh.",
-      "menjelaskan bahwa jendela rumah tokoh berwarna jingga akibat sinar matahari sore."
+      "Bima tidak akan pernah mengetahui siapa sumber kebocoran informasi hingga akhir cerita, dan persahabatan mereka tetap seperti semula tanpa ada ketegangan sedikit pun.",
+      "Sari kemungkinan besar akan menikah dengan Bima setelah pesta ulang tahun tersebut berlangsung.",
+      "Yudha akan otomatis dikeluarkan dari grup pertemanan oleh seluruh anggota tanpa alasan yang jelas.",
+      "Rasa bersalah Yudha kemungkinan akan terus membebani dirinya dan berpotensi merusak kepercayaan dalam persahabatannya dengan Bima jika kebenaran terungkap di kemudian hari.",
+      "Bima akan langsung melupakan seluruh kejadian pembocoran informasi tersebut tanpa bekas ketegangan apa pun.",
     ],
-    answer: "menghidupkan senja sebagai sosok yang memiliki kehendak sendiri, sehingga memperkuat kesan bahwa waktu kebersamaan yang diinginkan tokoh sering terlewat begitu saja."
+    answer: "Rasa bersalah Yudha kemungkinan akan terus membebani dirinya dan berpotensi merusak kepercayaan dalam persahabatannya dengan Bima jika kebenaran terungkap di kemudian hari."
   },
 
   {
     id: 24,
-    type: "truefalse",
+    type: "single",
     stimulus: {
-      instruction: "Bacalah puisi berikut untuk menjawab soal!",
-      title: "Cita-Cita Sederhana",
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Integrasi Sistem Informasi dan Gamifikasi dalam Pembelajaran Anak",
       paragraphs: [
-        "Setelah kerja sehari penuh,",
-        "apa lagi yang kuinginkan?",
-        "Hanya ingin pulang sebelum gelap,",
-        "duduk bersama senja di teras rumah.",
-        "",
-        "Tapi jalanan selalu sesak,",
-        "waktu berlari lebih cepat dari langkahku.",
-        "Senja sering pulang lebih dulu,",
-        "meninggalkan jejak jingga yang dingin di jendela.",
-        "",
-        "Aku menabung detik demi detik,",
-        "berharap suatu hari nanti",
-        "waktu mau singgah sebentar saja,",
-        "menemaniku menyesap teh di senja yang sama.",
-        "",
-        "Sampai kapan aku harus menunggu?",
-        "Mungkin cita-cita yang sederhana ini",
-        "justru yang paling sulit kuraih",
-        "di tengah kota yang tak pernah benar-benar diam."
+        "Mengenalkan nilai-nilai Pancasila kepada anak-anak melalui hafalan teks di buku pelajaran sering kali tidak membekas lama dalam ingatan mereka. Metode searah semacam ini cenderung berhenti pada kemampuan mengucapkan bunyi sila-sila, tanpa menyentuh pemahaman makna maupun kemauan mempraktikkannya dalam keseharian. Ketika rentang perhatian anak semakin dipengaruhi tampilan layar yang serba interaktif, pendekatan konvensional tersebut dinilai perlu diperbarui.",
+        "Salah satu terobosan yang mulai dikembangkan adalah memadukan ilmu sistem informasi dengan gamifikasi, yakni menerapkan mekanisme dan pola pikir permainan ke dalam kegiatan belajar yang sebenarnya bukan permainan. Riset pendidikan menunjukkan bahwa gamifikasi yang dirancang secara matang tidak sekadar mendorong siswa menuntaskan tugas, tetapi membantu mereka menyerap norma dan nilai sosial lewat simulasi yang aman untuk mencoba dan boleh gagal.",
+        "Dalam praktiknya, kekuatan sebuah aplikasi edukasi karakter tidak terletak pada tumpukan poin, lencana, atau papan peringkat semata, melainkan pada jalinan cerita dan tampilan visual yang mudah dipahami anak. Sebagai ilustrasi, sebuah e-book interaktif dapat menghadirkan tokoh bernama “Bintang” yang menggambarkan nilai ketuhanan dan “Rantai” yang mewakili semangat kemanusiaan. Melalui interaksi menolong tokoh-tokoh itu memecahkan persoalan, anak diajak memaknai nilai kewarganegaraan secara aktif, bukan sekadar membaca teks pasif.",
+        "Di balik tampilan yang berwarna-warni itu, sistem menyimpan dua jenis rekaman: capaian kognitif dari kuis dan teka-teki, serta pilihan afektif yang diambil anak saat menghadapi dilema moral dalam cerita. Ketika sistem mendeteksi seorang anak berulang kali kesulitan pada modul keadilan sosial, misalnya, aplikasi tidak memberi hukuman yang menjatuhkan semangat, tetapi menyesuaikan alur cerita atau memberi petunjuk tambahan lewat karakter pendamping.",
+        "Pengembang aplikasi semacam ini juga sengaja menghindari penghargaan berupa koin virtual semata, karena dikhawatirkan anak hanya termotivasi mengejar koin, bukan memahami nilai karakter itu sendiri. Sebagai gantinya, keberhasilan menuntaskan satu misi kewarganegaraan dibuka lewat babak baru dalam komik digital atau akses kustomisasi avatar, sehingga rasa ingin tahu anak terhadap kelanjutan cerita menjadi pendorong belajar yang datang dari dalam diri sendiri.",
+        "Sebelum dirilis ke publik, aplikasi semacam ini mesti melalui pengujian kegunaan yang melibatkan anak-anak secara langsung, untuk memastikan mereka mudah menavigasi menu dan memahami instruksi tanpa terbebani kerumitan teknis. Dengan begitu, nilai-nilai luhur bangsa tidak lagi menjadi beban hafalan di ruang kelas, tetapi berubah menjadi petualangan digital yang membekas dalam ingatan generasi muda.",
       ],
       image: null,
-      source: "Adaptasi puisi 'Cita-cita' karya Joko Pinurbo"
+      source: "Sumber: Good News From Indonesia, 7 Juli 2026 (dengan modifikasi)"
     },
-    question: "Tentukan Benar atau Salah.",
-    statements: [
-      'Ungkapan "menabung detik demi detik" merupakan majas metafora yang menggambarkan usaha tokoh menyisihkan waktu sedikit demi sedikit untuk hal yang diinginkannya.',
-      'Larik "waktu berlari lebih cepat dari langkahku" bermakna bahwa tokoh benar-benar sedang berlomba lari melawan satuan waktu.',
-      "Penggunaan majas dalam puisi tersebut secara keseluruhan memperkuat kesan tentang waktu yang terasa cepat berlalu di tengah kesibukan.",
-      "Puisi tersebut menggunakan majas untuk menyindir tokoh yang dianggap malas bekerja."
+    question: "Manakah kegiatan sehari-hari berikut yang paling relevan mencerminkan prinsip “sistem penghargaan yang bermakna” seperti diuraikan dalam teks?",
+    options: [
+      "Sebuah komunitas literasi membuka bab lanjutan sebuah cerita hanya setelah pembaca menyelesaikan diskusi reflektif tentang bab sebelumnya, sehingga rasa penasaran pembaca terhadap kelanjutan kisah menjadi pendorong utama untuk terus membaca.",
+      "Seorang siswa rajin belajar karena setiap nilai ulangan yang bagus akan ditukar dengan uang jajan tambahan dari orang tuanya.",
+      "Sebuah aplikasi belajar bahasa memberikan lencana emas kepada pengguna yang login setiap hari selama sebulan penuh.",
+      "Sebuah sekolah memberi piagam penghargaan kepada sepuluh siswa dengan nilai ujian tertinggi setiap semester.",
+      "Sebuah kantin sekolah memberi diskon harga makanan bagi siswa yang menunjukkan kartu prestasi akademik.",
     ],
-    answer: [
-      true,
-      false,
-      true,
-      false
-    ]
+    answer: "Sebuah komunitas literasi membuka bab lanjutan sebuah cerita hanya setelah pembaca menyelesaikan diskusi reflektif tentang bab sebelumnya, sehingga rasa penasaran pembaca terhadap kelanjutan kisah menjadi pendorong utama untuk terus membaca."
   },
 
   {
     id: 25,
     type: "single",
     stimulus: {
-      instruction: "Bacalah cerpen berikut untuk menjawab soal!",
-      title: "Aku Yang Lain",
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Integrasi Sistem Informasi dan Gamifikasi dalam Pembelajaran Anak",
       paragraphs: [
-        "Ratna, gadis berusia lima belas tahun, sering merasa lelah mendengar kedua orang tuanya bertengkar soal hal-hal sepele, dan pikirannya pun mudah melayang ke berita konflik di Gaza yang entah mengapa selalu mengusik hatinya. Suatu hari, gurunya memberinya tugas mencari informasi tentang lambang palang merah—tugas yang terasa aneh, sebab beberapa teman menyebut Ratna baru saja berpidato dengan percaya diri di depan kelas, padahal ia sama sekali tidak mengingatnya dan sangat tidak suka tampil di depan umum.",
-        "Kejadian aneh semacam itu terus berulang: Ratna kerap merasa kehilangan waktu, mendengar bisikan dalam pikirannya, dan ditanyai tentang hal yang tidak pernah ia alami. Karena khawatir, Mama membawanya menemui psikiater remaja bernama Dokter Hendri, yang setelah beberapa pertemuan menyimpulkan bahwa Ratna mengalami gangguan kepribadian ganda (Multiple Personality Disorder)—di dalam dirinya ada sosok lain bernama Nabilah, pribadi yang berani, percaya diri, dan pandai berpidato, kebalikan dari Ratna yang pendiam dan penurut.",
-        "Melalui proses terapi, terungkap latar belakang kelam Ratna: nama aslinya adalah Amaliah, anak dari sepasang warga Palestina yang dititipkan kepada kerabat di Indonesia sejak kecil, sementara orang tua kandungnya gugur dalam konflik di kampung halaman mereka. Trauma berat itulah yang membuat pikiran kecil Amaliah menciptakan sosok Nabilah untuk melindunginya dari kenangan yang terlalu menyakitkan. Dengan bimbingan Dokter Hendri, Ratna pun bersedia menyatukan dirinya dengan Nabilah secara damai, hingga keduanya melebur menjadi satu jiwa yang utuh.",
-        "Lima tahun kemudian, gadis itu—kini dikenal dengan nama Amaliah Jamal—tumbuh menjadi duta muda Indonesia untuk Palestina. Dengan keberanian yang dulu dimiliki Nabilah dan kepekaan yang dimiliki Ratna, ia berdiri tegak di forum kemanusiaan internasional, menyuarakan pembelaan bagi korban perang dengan argumen tegas tentang pelanggaran terhadap lambang palang merah yang seharusnya dilindungi oleh Konvensi Jenewa."
+        "Mengenalkan nilai-nilai Pancasila kepada anak-anak melalui hafalan teks di buku pelajaran sering kali tidak membekas lama dalam ingatan mereka. Metode searah semacam ini cenderung berhenti pada kemampuan mengucapkan bunyi sila-sila, tanpa menyentuh pemahaman makna maupun kemauan mempraktikkannya dalam keseharian. Ketika rentang perhatian anak semakin dipengaruhi tampilan layar yang serba interaktif, pendekatan konvensional tersebut dinilai perlu diperbarui.",
+        "Salah satu terobosan yang mulai dikembangkan adalah memadukan ilmu sistem informasi dengan gamifikasi, yakni menerapkan mekanisme dan pola pikir permainan ke dalam kegiatan belajar yang sebenarnya bukan permainan. Riset pendidikan menunjukkan bahwa gamifikasi yang dirancang secara matang tidak sekadar mendorong siswa menuntaskan tugas, tetapi membantu mereka menyerap norma dan nilai sosial lewat simulasi yang aman untuk mencoba dan boleh gagal.",
+        "Dalam praktiknya, kekuatan sebuah aplikasi edukasi karakter tidak terletak pada tumpukan poin, lencana, atau papan peringkat semata, melainkan pada jalinan cerita dan tampilan visual yang mudah dipahami anak. Sebagai ilustrasi, sebuah e-book interaktif dapat menghadirkan tokoh bernama “Bintang” yang menggambarkan nilai ketuhanan dan “Rantai” yang mewakili semangat kemanusiaan. Melalui interaksi menolong tokoh-tokoh itu memecahkan persoalan, anak diajak memaknai nilai kewarganegaraan secara aktif, bukan sekadar membaca teks pasif.",
+        "Di balik tampilan yang berwarna-warni itu, sistem menyimpan dua jenis rekaman: capaian kognitif dari kuis dan teka-teki, serta pilihan afektif yang diambil anak saat menghadapi dilema moral dalam cerita. Ketika sistem mendeteksi seorang anak berulang kali kesulitan pada modul keadilan sosial, misalnya, aplikasi tidak memberi hukuman yang menjatuhkan semangat, tetapi menyesuaikan alur cerita atau memberi petunjuk tambahan lewat karakter pendamping.",
+        "Pengembang aplikasi semacam ini juga sengaja menghindari penghargaan berupa koin virtual semata, karena dikhawatirkan anak hanya termotivasi mengejar koin, bukan memahami nilai karakter itu sendiri. Sebagai gantinya, keberhasilan menuntaskan satu misi kewarganegaraan dibuka lewat babak baru dalam komik digital atau akses kustomisasi avatar, sehingga rasa ingin tahu anak terhadap kelanjutan cerita menjadi pendorong belajar yang datang dari dalam diri sendiri.",
+        "Sebelum dirilis ke publik, aplikasi semacam ini mesti melalui pengujian kegunaan yang melibatkan anak-anak secara langsung, untuk memastikan mereka mudah menavigasi menu dan memahami instruksi tanpa terbebani kerumitan teknis. Dengan begitu, nilai-nilai luhur bangsa tidak lagi menjadi beban hafalan di ruang kelas, tetapi berubah menjadi petualangan digital yang membekas dalam ingatan generasi muda.",
       ],
       image: null,
-      source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
+      source: "Sumber: Good News From Indonesia, 7 Juli 2026 (dengan modifikasi)"
     },
-    question: "Salah satu pesan yang dapat diambil dari perjalanan Ratna menyatukan dirinya dengan Nabilah adalah keberanian untuk tampil dan bersuara setelah melalui proses panjang mengenal diri sendiri. Situasi kehidupan sehari-hari siswa SMP manakah yang PALING relevan dengan pesan tersebut?",
+    question: "Seorang guru PPKn ingin merancang kegiatan pembelajaran nilai gotong royong dengan mengadaptasi prinsip gamifikasi yang dijelaskan dalam teks. Manakah rancangan kegiatan berikut yang paling konsisten dengan gagasan dalam teks?",
     options: [
-      "Siswa yang menyalin tugas teman karena malas mengerjakan sendiri.",
-      "Siswa yang berpindah sekolah karena mengikuti tugas orang tua.",
-      "Siswa yang menghindari pelajaran yang tidak ia sukai.",
-      "Siswa yang awalnya sangat pemalu, lalu berlatih sungguh-sungguh hingga akhirnya berani berbicara di depan kelas untuk membela isu yang ia pedulikan."
+      "Guru membuat papan skor kelas dan memberi bintang kepada siswa yang paling cepat mengerjakan LKS tentang gotong royong; bintang terbanyak mendapat nilai tambahan.",
+      "Guru mewajibkan siswa menghafal definisi gotong royong dan mempresentasikannya di depan kelas untuk mendapat nilai maksimal.",
+      "Guru memberi hadiah uang tunai kepada kelompok yang paling cepat menyelesaikan tugas kelompok tentang gotong royong.",
+      "Guru merancang simulasi bermain peran tentang kerja bakti kampung; ketika siswa mengambil keputusan yang mencerminkan gotong royong, cerita berlanjut ke babak baru, sedangkan keputusan yang kurang tepat direspons dengan petunjuk tambahan, bukan hukuman nilai.",
+      "Guru meminta siswa menonton video tentang gotong royong lalu mengerjakan soal pilihan ganda sebanyak-banyaknya untuk mengumpulkan poin.",
     ],
-    answer: "Siswa yang awalnya sangat pemalu, lalu berlatih sungguh-sungguh hingga akhirnya berani berbicara di depan kelas untuk membela isu yang ia pedulikan."
+    answer: "Guru merancang simulasi bermain peran tentang kerja bakti kampung; ketika siswa mengambil keputusan yang mencerminkan gotong royong, cerita berlanjut ke babak baru, sedangkan keputusan yang kurang tepat direspons dengan petunjuk tambahan, bukan hukuman nilai."
   },
 
   {
     id: 26,
-    type: "single",
+    type: "multiple",
     stimulus: {
-      instruction: "Bacalah cerpen berikut untuk menjawab soal!",
-      title: "Aku Yang Lain",
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Integrasi Sistem Informasi dan Gamifikasi dalam Pembelajaran Anak",
       paragraphs: [
-        "Ratna, gadis berusia lima belas tahun, sering merasa lelah mendengar kedua orang tuanya bertengkar soal hal-hal sepele, dan pikirannya pun mudah melayang ke berita konflik di Gaza yang entah mengapa selalu mengusik hatinya. Suatu hari, gurunya memberinya tugas mencari informasi tentang lambang palang merah—tugas yang terasa aneh, sebab beberapa teman menyebut Ratna baru saja berpidato dengan percaya diri di depan kelas, padahal ia sama sekali tidak mengingatnya dan sangat tidak suka tampil di depan umum.",
-        "Kejadian aneh semacam itu terus berulang: Ratna kerap merasa kehilangan waktu, mendengar bisikan dalam pikirannya, dan ditanyai tentang hal yang tidak pernah ia alami. Karena khawatir, Mama membawanya menemui psikiater remaja bernama Dokter Hendri, yang setelah beberapa pertemuan menyimpulkan bahwa Ratna mengalami gangguan kepribadian ganda (Multiple Personality Disorder)—di dalam dirinya ada sosok lain bernama Nabilah, pribadi yang berani, percaya diri, dan pandai berpidato, kebalikan dari Ratna yang pendiam dan penurut.",
-        "Melalui proses terapi, terungkap latar belakang kelam Ratna: nama aslinya adalah Amaliah, anak dari sepasang warga Palestina yang dititipkan kepada kerabat di Indonesia sejak kecil, sementara orang tua kandungnya gugur dalam konflik di kampung halaman mereka. Trauma berat itulah yang membuat pikiran kecil Amaliah menciptakan sosok Nabilah untuk melindunginya dari kenangan yang terlalu menyakitkan. Dengan bimbingan Dokter Hendri, Ratna pun bersedia menyatukan dirinya dengan Nabilah secara damai, hingga keduanya melebur menjadi satu jiwa yang utuh.",
-        "Lima tahun kemudian, gadis itu—kini dikenal dengan nama Amaliah Jamal—tumbuh menjadi duta muda Indonesia untuk Palestina. Dengan keberanian yang dulu dimiliki Nabilah dan kepekaan yang dimiliki Ratna, ia berdiri tegak di forum kemanusiaan internasional, menyuarakan pembelaan bagi korban perang dengan argumen tegas tentang pelanggaran terhadap lambang palang merah yang seharusnya dilindungi oleh Konvensi Jenewa."
+        "Mengenalkan nilai-nilai Pancasila kepada anak-anak melalui hafalan teks di buku pelajaran sering kali tidak membekas lama dalam ingatan mereka. Metode searah semacam ini cenderung berhenti pada kemampuan mengucapkan bunyi sila-sila, tanpa menyentuh pemahaman makna maupun kemauan mempraktikkannya dalam keseharian. Ketika rentang perhatian anak semakin dipengaruhi tampilan layar yang serba interaktif, pendekatan konvensional tersebut dinilai perlu diperbarui.",
+        "Salah satu terobosan yang mulai dikembangkan adalah memadukan ilmu sistem informasi dengan gamifikasi, yakni menerapkan mekanisme dan pola pikir permainan ke dalam kegiatan belajar yang sebenarnya bukan permainan. Riset pendidikan menunjukkan bahwa gamifikasi yang dirancang secara matang tidak sekadar mendorong siswa menuntaskan tugas, tetapi membantu mereka menyerap norma dan nilai sosial lewat simulasi yang aman untuk mencoba dan boleh gagal.",
+        "Dalam praktiknya, kekuatan sebuah aplikasi edukasi karakter tidak terletak pada tumpukan poin, lencana, atau papan peringkat semata, melainkan pada jalinan cerita dan tampilan visual yang mudah dipahami anak. Sebagai ilustrasi, sebuah e-book interaktif dapat menghadirkan tokoh bernama “Bintang” yang menggambarkan nilai ketuhanan dan “Rantai” yang mewakili semangat kemanusiaan. Melalui interaksi menolong tokoh-tokoh itu memecahkan persoalan, anak diajak memaknai nilai kewarganegaraan secara aktif, bukan sekadar membaca teks pasif.",
+        "Di balik tampilan yang berwarna-warni itu, sistem menyimpan dua jenis rekaman: capaian kognitif dari kuis dan teka-teki, serta pilihan afektif yang diambil anak saat menghadapi dilema moral dalam cerita. Ketika sistem mendeteksi seorang anak berulang kali kesulitan pada modul keadilan sosial, misalnya, aplikasi tidak memberi hukuman yang menjatuhkan semangat, tetapi menyesuaikan alur cerita atau memberi petunjuk tambahan lewat karakter pendamping.",
+        "Pengembang aplikasi semacam ini juga sengaja menghindari penghargaan berupa koin virtual semata, karena dikhawatirkan anak hanya termotivasi mengejar koin, bukan memahami nilai karakter itu sendiri. Sebagai gantinya, keberhasilan menuntaskan satu misi kewarganegaraan dibuka lewat babak baru dalam komik digital atau akses kustomisasi avatar, sehingga rasa ingin tahu anak terhadap kelanjutan cerita menjadi pendorong belajar yang datang dari dalam diri sendiri.",
+        "Sebelum dirilis ke publik, aplikasi semacam ini mesti melalui pengujian kegunaan yang melibatkan anak-anak secara langsung, untuk memastikan mereka mudah menavigasi menu dan memahami instruksi tanpa terbebani kerumitan teknis. Dengan begitu, nilai-nilai luhur bangsa tidak lagi menjadi beban hafalan di ruang kelas, tetapi berubah menjadi petualangan digital yang membekas dalam ingatan generasi muda.",
       ],
       image: null,
-      source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
+      source: "Sumber: Good News From Indonesia, 7 Juli 2026 (dengan modifikasi)"
     },
-    question: "Pertengkaran kedua orang tua (angkat) Ratna menjadi salah satu pemicu tekanan batin yang dialami tokoh. Pernyataan manakah yang paling tepat menggambarkan relevansi peristiwa tersebut dengan kehidupan remaja pada umumnya?",
+    question: "Berdasarkan isi teks, manakah pernyataan yang sesuai dengan alasan mengapa gamifikasi dianggap lebih efektif daripada metode hafalan dalam menanamkan nilai Pancasila?",
     options: [
-      "Remaja yang tumbuh di lingkungan rumah yang sering diwarnai konflik dapat mengalami tekanan emosional yang memengaruhi perasaan dan perilakunya.",
-      "Pertengkaran orang tua selalu berakhir dengan perceraian.",
-      "Setiap anak yang orang tuanya bertengkar pasti akan mengalami gangguan kepribadian ganda seperti Ratna.",
-      "Pertengkaran orang tua tidak akan berpengaruh apa pun pada anak selama anak tidak melihatnya secara langsung."
+      "Memberikan hadiah berupa koin virtual sebanyak mungkin agar anak terus bermain.",
+      "Menyusun cerita interaktif yang mengajak anak mengambil keputusan moral.",
+      "Membuat tingkat kesulitan yang sama bagi semua pengguna tanpa memperhatikan hasil belajar mereka.",
+      "Melibatkan anak-anak dalam uji coba sebelum aplikasi dipublikasikan.",
+      "Menjadikan papan peringkat sebagai tujuan utama pembelajaran karakter.",
     ],
-    answer: "Remaja yang tumbuh di lingkungan rumah yang sering diwarnai konflik dapat mengalami tekanan emosional yang memengaruhi perasaan dan perilakunya."
+    answer: [
+      "Memberikan hadiah berupa koin virtual sebanyak mungkin agar anak terus bermain.",
+      "Membuat tingkat kesulitan yang sama bagi semua pengguna tanpa memperhatikan hasil belajar mereka.",
+      "Menjadikan papan peringkat sebagai tujuan utama pembelajaran karakter.",
+    ]
   },
 
   {
     id: 27,
-    type: "multiple",
+    type: "single",
     stimulus: {
-      instruction: "Bacalah cerpen berikut untuk menjawab soal!",
-      title: "Aku Yang Lain",
+      instruction: "Bacalah dua teks berikut untuk menjawab soal!",
+      title: null,
       paragraphs: [
-        "Ratna, gadis berusia lima belas tahun, sering merasa lelah mendengar kedua orang tuanya bertengkar soal hal-hal sepele, dan pikirannya pun mudah melayang ke berita konflik di Gaza yang entah mengapa selalu mengusik hatinya. Suatu hari, gurunya memberinya tugas mencari informasi tentang lambang palang merah—tugas yang terasa aneh, sebab beberapa teman menyebut Ratna baru saja berpidato dengan percaya diri di depan kelas, padahal ia sama sekali tidak mengingatnya dan sangat tidak suka tampil di depan umum.",
-        "Kejadian aneh semacam itu terus berulang: Ratna kerap merasa kehilangan waktu, mendengar bisikan dalam pikirannya, dan ditanyai tentang hal yang tidak pernah ia alami. Karena khawatir, Mama membawanya menemui psikiater remaja bernama Dokter Hendri, yang setelah beberapa pertemuan menyimpulkan bahwa Ratna mengalami gangguan kepribadian ganda (Multiple Personality Disorder)—di dalam dirinya ada sosok lain bernama Nabilah, pribadi yang berani, percaya diri, dan pandai berpidato, kebalikan dari Ratna yang pendiam dan penurut.",
-        "Melalui proses terapi, terungkap latar belakang kelam Ratna: nama aslinya adalah Amaliah, anak dari sepasang warga Palestina yang dititipkan kepada kerabat di Indonesia sejak kecil, sementara orang tua kandungnya gugur dalam konflik di kampung halaman mereka. Trauma berat itulah yang membuat pikiran kecil Amaliah menciptakan sosok Nabilah untuk melindunginya dari kenangan yang terlalu menyakitkan. Dengan bimbingan Dokter Hendri, Ratna pun bersedia menyatukan dirinya dengan Nabilah secara damai, hingga keduanya melebur menjadi satu jiwa yang utuh.",
-        "Lima tahun kemudian, gadis itu—kini dikenal dengan nama Amaliah Jamal—tumbuh menjadi duta muda Indonesia untuk Palestina. Dengan keberanian yang dulu dimiliki Nabilah dan kepekaan yang dimiliki Ratna, ia berdiri tegak di forum kemanusiaan internasional, menyuarakan pembelaan bagi korban perang dengan argumen tegas tentang pelanggaran terhadap lambang palang merah yang seharusnya dilindungi oleh Konvensi Jenewa."
+        "<strong>Teks 1</strong>",
+        "Ada pergeseran besar yang tengah berlangsung dalam cara sebuah negara mengelola pemerintahannya, meski belum banyak disadari. Data Digital 2025 mencatat bahwa ratusan juta penduduk Indonesia kini terhubung ke internet dan menghabiskan waktu berjam-jam setiap hari di media sosial. Artinya, realitas yang dilihat masyarakat setiap pagi tidak lagi sepenuhnya dibentuk oleh negara atau ruang redaksi media, melainkan oleh algoritma yang bekerja tanpa henti menentukan apa yang mereka lihat dan percayai.",
+        "Pola komunikasi yang dahulu berjalan searah—pemerintah mengumumkan, media menyebarkan, masyarakat menerima—kini telah berubah total. Setiap warga berpotensi menjadi penyiar informasi sendiri, sehingga kepercayaan publik tidak lagi bisa diperoleh hanya berdasarkan kewenangan formal, tetapi harus terus-menerus dimenangkan lewat komunikasi yang terbuka dan dapat dipercaya.",
+        "Beberapa kebijakan strategis pemerintah, seperti program bantuan gizi nasional maupun pembentukan lembaga pengelola investasi baru, menunjukkan bahwa kualitas sebuah kebijakan saja tidak cukup; publik perlu memahami tujuan dan tata kelola di baliknya agar ruang informasi tidak keburu dipenuhi spekulasi. Karena itu, penulis artikel opini ini berpendapat bahwa komunikasi semestinya tidak lagi dipandang sebagai sekadar pencitraan, melainkan bagian tak terpisahkan dari seni mengelola negara (statecraft).",
+        "Penulis menekankan tiga pergeseran yang dianggapnya penting: dari sekadar mengumumkan menjadi mendengarkan, dari reaktif menjadi proaktif dalam merespons isu, serta dari banyak suara yang membingungkan menjadi satu narasi yang konsisten dan terasa manusiawi. Ia turut mencontohkan Finlandia yang disebut berhasil menghadapi disinformasi lewat literasi media dan transparansi, bukan lewat pembatasan informasi.",
+        "Sumber: CNBC Indonesia, 7 Juli 2026 (dengan penyesuaian)",
+        "<strong>Teks 2</strong>",
+        "DPRD Provinsi Jawa Tengah menggelar Focus Group Discussion bertema transformasi komunikasi publik di era digital, yang berlangsung di Semarang pada awal Juli 2026. Forum ini dimaksudkan untuk membahas tantangan sekaligus peluang komunikasi publik di tengah pesatnya perkembangan teknologi digital.",
+        "Wakil Ketua DPRD Jawa Tengah menyampaikan bahwa arus informasi saat ini bergerak sangat cepat karena setiap orang berpotensi menjadi sumber informasi, sehingga opini publik dapat memengaruhi proses pengambilan kebijakan, termasuk dalam hal penganggaran proyek yang mendadak menjadi sorotan publik.",
+        "Sementara itu, Ketua Komisi Informasi Publik Provinsi Jawa Tengah menyatakan bahwa keterbukaan informasi harus menjadi budaya dalam tata kelola pemerintahan, mengingat tantangan yang dihadapi mencakup misinformasi, kesenjangan akses digital, tuntutan respons cepat masyarakat, hingga ancaman keamanan siber. Menurutnya, kepercayaan publik merupakan hasil akhir dari praktik transparansi dan akuntabilitas yang dijalankan secara konsisten.",
+        "Melalui forum diskusi tersebut, DPRD Jawa Tengah berharap dapat merumuskan langkah strategis untuk memperkuat komunikasi publik yang transparan, akuntabel, dan adaptif terhadap perkembangan teknologi digital.",
+        "Sumber: Jateng Daily, 6 Juli 2026 (dengan penyesuaian)",
       ],
       image: null,
-      source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
+      source: null
     },
-    question: 'Pernyataan-pernyataan berikut berkaitan dengan struktur dan unsur cerpen "Aku Yang Lain". Pilihlah pernyataan yang SESUAI dengan isi cerita tersebut!',
+    question: "Manakah pernyataan berikut yang merupakan OPINI penulis dalam Teks 1, bukan fakta?",
     options: [
-      "Konflik utama dalam cerpen ini berupa konflik batin tokoh akibat trauma masa lalu yang terpendam.",
-      "Tokoh Dokter Hendri berperan sebagai tokoh antagonis yang berusaha menyakiti Ratna.",
-      "Cerpen ini menggunakan alur yang mengungkap masa lalu tokoh melalui proses terapi, sehingga pembaca mengetahui sebab suatu akibat secara bertahap.",
-      "Latar tempat keseluruhan cerita terjadi di sebuah negara di Timur Tengah.",
-      "Salah satu amanat cerita ini adalah pentingnya keberanian menghadapi trauma untuk dapat menemukan jati diri yang utuh."
+      "Ratusan juta penduduk Indonesia telah terhubung ke internet dan aktif menggunakan media sosial setiap hari.",
+      "Program bantuan gizi nasional dan pembentukan lembaga pengelola investasi baru merupakan kebijakan strategis pemerintah.",
+      "Finlandia dikenal sebagai negara yang menghadapi tantangan disinformasi.",
+      "Pola komunikasi pemerintah dahulu berjalan searah dari pemerintah ke media lalu ke masyarakat.",
+      "Komunikasi pemerintah semestinya tidak lagi dipandang sebagai sekadar pencitraan, melainkan bagian tak terpisahkan dari seni mengelola negara.",
     ],
-    answer: [
-      "Konflik utama dalam cerpen ini berupa konflik batin tokoh akibat trauma masa lalu yang terpendam.",
-      "Cerpen ini menggunakan alur yang mengungkap masa lalu tokoh melalui proses terapi, sehingga pembaca mengetahui sebab suatu akibat secara bertahap.",
-      "Salah satu amanat cerita ini adalah pentingnya keberanian menghadapi trauma untuk dapat menemukan jati diri yang utuh."
-    ]
+    answer: "Komunikasi pemerintah semestinya tidak lagi dipandang sebagai sekadar pencitraan, melainkan bagian tak terpisahkan dari seni mengelola negara."
   },
 
   {
     id: 28,
     type: "single",
     stimulus: {
-      instruction: "Bacalah cerpen berikut untuk menjawab soal!",
-      title: "Aku Yang Lain",
+      instruction: "Bacalah dua teks berikut untuk menjawab soal!",
+      title: null,
       paragraphs: [
-        "Ratna, gadis berusia lima belas tahun, sering merasa lelah mendengar kedua orang tuanya bertengkar soal hal-hal sepele, dan pikirannya pun mudah melayang ke berita konflik di Gaza yang entah mengapa selalu mengusik hatinya. Suatu hari, gurunya memberinya tugas mencari informasi tentang lambang palang merah—tugas yang terasa aneh, sebab beberapa teman menyebut Ratna baru saja berpidato dengan percaya diri di depan kelas, padahal ia sama sekali tidak mengingatnya dan sangat tidak suka tampil di depan umum.",
-        "Kejadian aneh semacam itu terus berulang: Ratna kerap merasa kehilangan waktu, mendengar bisikan dalam pikirannya, dan ditanyai tentang hal yang tidak pernah ia alami. Karena khawatir, Mama membawanya menemui psikiater remaja bernama Dokter Hendri, yang setelah beberapa pertemuan menyimpulkan bahwa Ratna mengalami gangguan kepribadian ganda (Multiple Personality Disorder)—di dalam dirinya ada sosok lain bernama Nabilah, pribadi yang berani, percaya diri, dan pandai berpidato, kebalikan dari Ratna yang pendiam dan penurut.",
-        "Melalui proses terapi, terungkap latar belakang kelam Ratna: nama aslinya adalah Amaliah, anak dari sepasang warga Palestina yang dititipkan kepada kerabat di Indonesia sejak kecil, sementara orang tua kandungnya gugur dalam konflik di kampung halaman mereka. Trauma berat itulah yang membuat pikiran kecil Amaliah menciptakan sosok Nabilah untuk melindunginya dari kenangan yang terlalu menyakitkan. Dengan bimbingan Dokter Hendri, Ratna pun bersedia menyatukan dirinya dengan Nabilah secara damai, hingga keduanya melebur menjadi satu jiwa yang utuh.",
-        "Lima tahun kemudian, gadis itu—kini dikenal dengan nama Amaliah Jamal—tumbuh menjadi duta muda Indonesia untuk Palestina. Dengan keberanian yang dulu dimiliki Nabilah dan kepekaan yang dimiliki Ratna, ia berdiri tegak di forum kemanusiaan internasional, menyuarakan pembelaan bagi korban perang dengan argumen tegas tentang pelanggaran terhadap lambang palang merah yang seharusnya dilindungi oleh Konvensi Jenewa."
+        "<strong>Teks 1</strong>",
+        "Ada pergeseran besar yang tengah berlangsung dalam cara sebuah negara mengelola pemerintahannya, meski belum banyak disadari. Data Digital 2025 mencatat bahwa ratusan juta penduduk Indonesia kini terhubung ke internet dan menghabiskan waktu berjam-jam setiap hari di media sosial. Artinya, realitas yang dilihat masyarakat setiap pagi tidak lagi sepenuhnya dibentuk oleh negara atau ruang redaksi media, melainkan oleh algoritma yang bekerja tanpa henti menentukan apa yang mereka lihat dan percayai.",
+        "Pola komunikasi yang dahulu berjalan searah—pemerintah mengumumkan, media menyebarkan, masyarakat menerima—kini telah berubah total. Setiap warga berpotensi menjadi penyiar informasi sendiri, sehingga kepercayaan publik tidak lagi bisa diperoleh hanya berdasarkan kewenangan formal, tetapi harus terus-menerus dimenangkan lewat komunikasi yang terbuka dan dapat dipercaya.",
+        "Beberapa kebijakan strategis pemerintah, seperti program bantuan gizi nasional maupun pembentukan lembaga pengelola investasi baru, menunjukkan bahwa kualitas sebuah kebijakan saja tidak cukup; publik perlu memahami tujuan dan tata kelola di baliknya agar ruang informasi tidak keburu dipenuhi spekulasi. Karena itu, penulis artikel opini ini berpendapat bahwa komunikasi semestinya tidak lagi dipandang sebagai sekadar pencitraan, melainkan bagian tak terpisahkan dari seni mengelola negara (statecraft).",
+        "Penulis menekankan tiga pergeseran yang dianggapnya penting: dari sekadar mengumumkan menjadi mendengarkan, dari reaktif menjadi proaktif dalam merespons isu, serta dari banyak suara yang membingungkan menjadi satu narasi yang konsisten dan terasa manusiawi. Ia turut mencontohkan Finlandia yang disebut berhasil menghadapi disinformasi lewat literasi media dan transparansi, bukan lewat pembatasan informasi.",
+        "Sumber: CNBC Indonesia, 7 Juli 2026 (dengan penyesuaian)",
+        "<strong>Teks 2</strong>",
+        "DPRD Provinsi Jawa Tengah menggelar Focus Group Discussion bertema transformasi komunikasi publik di era digital, yang berlangsung di Semarang pada awal Juli 2026. Forum ini dimaksudkan untuk membahas tantangan sekaligus peluang komunikasi publik di tengah pesatnya perkembangan teknologi digital.",
+        "Wakil Ketua DPRD Jawa Tengah menyampaikan bahwa arus informasi saat ini bergerak sangat cepat karena setiap orang berpotensi menjadi sumber informasi, sehingga opini publik dapat memengaruhi proses pengambilan kebijakan, termasuk dalam hal penganggaran proyek yang mendadak menjadi sorotan publik.",
+        "Sementara itu, Ketua Komisi Informasi Publik Provinsi Jawa Tengah menyatakan bahwa keterbukaan informasi harus menjadi budaya dalam tata kelola pemerintahan, mengingat tantangan yang dihadapi mencakup misinformasi, kesenjangan akses digital, tuntutan respons cepat masyarakat, hingga ancaman keamanan siber. Menurutnya, kepercayaan publik merupakan hasil akhir dari praktik transparansi dan akuntabilitas yang dijalankan secara konsisten.",
+        "Melalui forum diskusi tersebut, DPRD Jawa Tengah berharap dapat merumuskan langkah strategis untuk memperkuat komunikasi publik yang transparan, akuntabel, dan adaptif terhadap perkembangan teknologi digital.",
+        "Sumber: Jateng Daily, 6 Juli 2026 (dengan penyesuaian)",
       ],
       image: null,
-      source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
+      source: null
     },
-    question: "Bagaimana penulis menggambarkan perkembangan tokoh utama dari awal hingga akhir cerita?",
+    question: "Berdasarkan pembacaan terhadap Teks 1 dan Teks 2 secara bersamaan, manakah simpulan yang paling tepat mengenai hubungan kedua teks tersebut?",
     options: [
-      "Tokoh utama tidak mengalami perubahan apa pun sejak awal hingga akhir cerita.",
-      "Tokoh utama berkembang dari pribadi yang tertekan dan pasif menjadi sosok yang berani dan percaya diri setelah menyatu dengan sisi lain dirinya.",
-      "Tokoh utama justru kehilangan kepercayaan dirinya di akhir cerita.",
-      "Tokoh utama digambarkan statis sebagai pribadi pendiam sepanjang cerita."
+      "Kedua teks saling bertentangan karena Teks 1 mendukung keterbukaan informasi, sedangkan Teks 2 menolaknya.",
+      "Teks 1 dan Teks 2 sama-sama merupakan laporan berita tanpa mengandung opini penulis maupun narasumber.",
+      "Teks 1 menyampaikan gagasan konseptual tentang pentingnya komunikasi sebagai bagian dari tata kelola negara, sedangkan Teks 2 melaporkan upaya konkret sebuah lembaga legislatif daerah untuk mewujudkan gagasan serupa melalui forum diskusi.",
+      "Teks 2 membantah anggapan dalam Teks 1 bahwa kepercayaan publik penting bagi pemerintahan.",
+      "Teks 1 membahas transformasi ekonomi, sedangkan Teks 2 membahas transformasi pendidikan.",
     ],
-    answer: "Tokoh utama berkembang dari pribadi yang tertekan dan pasif menjadi sosok yang berani dan percaya diri setelah menyatu dengan sisi lain dirinya."
+    answer: "Teks 1 menyampaikan gagasan konseptual tentang pentingnya komunikasi sebagai bagian dari tata kelola negara, sedangkan Teks 2 melaporkan upaya konkret sebuah lembaga legislatif daerah untuk mewujudkan gagasan serupa melalui forum diskusi."
   },
 
   {
     id: 29,
     type: "single",
     stimulus: {
-      instruction: "Bacalah kedua teks berikut untuk menjawab soal!",
-      title: "Perbandingan Tari Jaipong dan Tari Saman",
+      instruction: "Bacalah dua teks berikut untuk menjawab soal!",
+      title: null,
       paragraphs: [
-        "<b>Teks 1</b>",
-        "\n\nTari Jaipong merupakan tarian tradisional khas masyarakat Sunda yang tumbuh dan berkembang di wilayah Karawang dan Bandung, Jawa Barat. Tarian ini lahir dari perpaduan beberapa kesenian rakyat, seperti Tari Ketuk Tilu, Pencak Silat, dan Wayang Golek. Karena keunikannya, Tari Jaipong sering ditampilkan dalam acara penyambutan tamu penting, termasuk tamu dari luar negeri.\n\nTarian ini dapat dibawakan secara tunggal, berpasangan, atau berkelompok, baik oleh penari laki-laki maupun perempuan. Perlengkapan yang digunakan antara lain selendang (sampur), baju atasan (apok), serta kain panjang (sinjang). Gerakannya diiringi musik tradisional seperti kendang, gong, dan rebab, ditambah nyanyian seorang sinden.\n\nCiri khas Tari Jaipong terletak pada gerakan yang enerjik dengan tempo musik yang cenderung cepat, terutama pada hentakan pinggul, ayunan tangan, dan sorot mata penarinya yang tajam. Hingga kini, Tari Jaipong tetap digemari berbagai kalangan dan beberapa kali tampil di mancanegara.",
-        "<b>Teks 2</b>",
-        "\n\nTari Saman adalah tarian tradisional dari Aceh yang sejak tahun 2011 telah diakui UNESCO sebagai Warisan Budaya Takbenda dunia. Pada mulanya, tarian ini digunakan sebagai sarana dakwah dan hanya dibawakan oleh penari laki-laki, dengan kandungan nilai pendidikan agama, kepahlawanan, serta kekompakan.\n\nJumlah penari Saman selalu ganjil. Selain melantunkan syair berbahasa Gayo bercampur bahasa Arab, gerakan tari ini juga dipadukan dengan suara tepuk tangan, tepuk dada, dan tepuk paha para penari sendiri, tanpa menggunakan alat musik apa pun.\n\nBusana penari Saman terdiri atas tiga bagian, yaitu hiasan kepala, pakaian badan berupa baju kantong dan sarung, serta hiasan tangan seperti gelang dan sapu tangan. Melalui gerak dan kostumnya, Tari Saman menonjolkan nilai kekompakan dan kebersamaan yang sangat dijaga oleh masyarakat Gayo, Aceh."
+        "<strong>Teks 1</strong>",
+        "Ada pergeseran besar yang tengah berlangsung dalam cara sebuah negara mengelola pemerintahannya, meski belum banyak disadari. Data Digital 2025 mencatat bahwa ratusan juta penduduk Indonesia kini terhubung ke internet dan menghabiskan waktu berjam-jam setiap hari di media sosial. Artinya, realitas yang dilihat masyarakat setiap pagi tidak lagi sepenuhnya dibentuk oleh negara atau ruang redaksi media, melainkan oleh algoritma yang bekerja tanpa henti menentukan apa yang mereka lihat dan percayai.",
+        "Pola komunikasi yang dahulu berjalan searah—pemerintah mengumumkan, media menyebarkan, masyarakat menerima—kini telah berubah total. Setiap warga berpotensi menjadi penyiar informasi sendiri, sehingga kepercayaan publik tidak lagi bisa diperoleh hanya berdasarkan kewenangan formal, tetapi harus terus-menerus dimenangkan lewat komunikasi yang terbuka dan dapat dipercaya.",
+        "Beberapa kebijakan strategis pemerintah, seperti program bantuan gizi nasional maupun pembentukan lembaga pengelola investasi baru, menunjukkan bahwa kualitas sebuah kebijakan saja tidak cukup; publik perlu memahami tujuan dan tata kelola di baliknya agar ruang informasi tidak keburu dipenuhi spekulasi. Karena itu, penulis artikel opini ini berpendapat bahwa komunikasi semestinya tidak lagi dipandang sebagai sekadar pencitraan, melainkan bagian tak terpisahkan dari seni mengelola negara (statecraft).",
+        "Penulis menekankan tiga pergeseran yang dianggapnya penting: dari sekadar mengumumkan menjadi mendengarkan, dari reaktif menjadi proaktif dalam merespons isu, serta dari banyak suara yang membingungkan menjadi satu narasi yang konsisten dan terasa manusiawi. Ia turut mencontohkan Finlandia yang disebut berhasil menghadapi disinformasi lewat literasi media dan transparansi, bukan lewat pembatasan informasi.",
+        "Sumber: CNBC Indonesia, 7 Juli 2026 (dengan penyesuaian)",
+        "<strong>Teks 2</strong>",
+        "DPRD Provinsi Jawa Tengah menggelar Focus Group Discussion bertema transformasi komunikasi publik di era digital, yang berlangsung di Semarang pada awal Juli 2026. Forum ini dimaksudkan untuk membahas tantangan sekaligus peluang komunikasi publik di tengah pesatnya perkembangan teknologi digital.",
+        "Wakil Ketua DPRD Jawa Tengah menyampaikan bahwa arus informasi saat ini bergerak sangat cepat karena setiap orang berpotensi menjadi sumber informasi, sehingga opini publik dapat memengaruhi proses pengambilan kebijakan, termasuk dalam hal penganggaran proyek yang mendadak menjadi sorotan publik.",
+        "Sementara itu, Ketua Komisi Informasi Publik Provinsi Jawa Tengah menyatakan bahwa keterbukaan informasi harus menjadi budaya dalam tata kelola pemerintahan, mengingat tantangan yang dihadapi mencakup misinformasi, kesenjangan akses digital, tuntutan respons cepat masyarakat, hingga ancaman keamanan siber. Menurutnya, kepercayaan publik merupakan hasil akhir dari praktik transparansi dan akuntabilitas yang dijalankan secara konsisten.",
+        "Melalui forum diskusi tersebut, DPRD Jawa Tengah berharap dapat merumuskan langkah strategis untuk memperkuat komunikasi publik yang transparan, akuntabel, dan adaptif terhadap perkembangan teknologi digital.",
+        "Sumber: Jateng Daily, 6 Juli 2026 (dengan penyesuaian)",
       ],
       image: null,
-      source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
+      source: null
     },
-    question: "Berdasarkan kedua teks tersebut, pernyataan manakah yang AKURAT mengenai persamaan antara Tari Jaipong dan Tari Saman?",
+    question: "Jika Teks 2 hendak dijadikan rujukan untuk menyimpulkan bahwa transformasi komunikasi digital DPRD Jawa Tengah telah berhasil meningkatkan kepercayaan masyarakat, manakah penilaian yang paling tepat terhadap kecukupan informasi dalam teks tersebut?",
     options: [
-      "Kedua tarian menggunakan instrumen gamelan lengkap sebagai pengiring utama.",
-      "Kedua tarian berasal dari budaya masyarakat Sunda.",
-      "Kedua tarian dapat dibawakan secara berkelompok dan sama-sama mengandung nilai kekompakan atau kebersamaan.",
-      "Kedua tarian hanya boleh dibawakan oleh penari laki-laki."
+      "Informasi dalam teks tidak cukup karena teks hanya melaporkan jalannya forum diskusi dan pernyataan harapan narasumber, belum menyajikan data atau hasil evaluasi konkret mengenai peningkatan kepercayaan masyarakat.",
+      "Informasi dalam teks sudah cukup karena narasumber menyebutkan pentingnya transparansi.",
+      "Informasi dalam teks sudah cukup karena disebutkan bahwa Ketua Komisi Informasi mendukung keterbukaan informasi.",
+      "Informasi dalam teks tidak relevan sama sekali dengan topik kepercayaan publik.",
+      "Informasi dalam teks sudah lebih dari cukup karena melibatkan tiga narasumber berbeda.",
     ],
-    answer: "Kedua tarian dapat dibawakan secara berkelompok dan sama-sama mengandung nilai kekompakan atau kebersamaan."
+    answer: "Informasi dalam teks tidak cukup karena teks hanya melaporkan jalannya forum diskusi dan pernyataan harapan narasumber, belum menyajikan data atau hasil evaluasi konkret mengenai peningkatan kepercayaan masyarakat."
   },
 
   {
     id: 30,
-    type: "truefalse",
+    type: "single",
     stimulus: {
-      instruction: "Bacalah kedua teks berikut untuk menjawab soal!",
-      title: "Perbandingan Tari Jaipong dan Tari Saman",
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Monolog di Bawah Kemboja",
       paragraphs: [
-        "<b>Teks 1</b>",
-        "\n\nTari Jaipong merupakan tarian tradisional khas masyarakat Sunda yang tumbuh dan berkembang di wilayah Karawang dan Bandung, Jawa Barat. Tarian ini lahir dari perpaduan beberapa kesenian rakyat, seperti Tari Ketuk Tilu, Pencak Silat, dan Wayang Golek. Karena keunikannya, Tari Jaipong sering ditampilkan dalam acara penyambutan tamu penting, termasuk tamu dari luar negeri.\n\nTarian ini dapat dibawakan secara tunggal, berpasangan, atau berkelompok, baik oleh penari laki-laki maupun perempuan. Perlengkapan yang digunakan antara lain selendang (sampur), baju atasan (apok), serta kain panjang (sinjang). Gerakannya diiringi musik tradisional seperti kendang, gong, dan rebab, ditambah nyanyian seorang sinden.\n\nCiri khas Tari Jaipong terletak pada gerakan yang enerjik dengan tempo musik yang cenderung cepat, terutama pada hentakan pinggul, ayunan tangan, dan sorot mata penarinya yang tajam. Hingga kini, Tari Jaipong tetap digemari berbagai kalangan dan beberapa kali tampil di mancanegara.",
-        "<b>Teks 2</b>",
-        "\n\nTari Saman adalah tarian tradisional dari Aceh yang sejak tahun 2011 telah diakui UNESCO sebagai Warisan Budaya Takbenda dunia. Pada mulanya, tarian ini digunakan sebagai sarana dakwah dan hanya dibawakan oleh penari laki-laki, dengan kandungan nilai pendidikan agama, kepahlawanan, serta kekompakan.\n\nJumlah penari Saman selalu ganjil. Selain melantunkan syair berbahasa Gayo bercampur bahasa Arab, gerakan tari ini juga dipadukan dengan suara tepuk tangan, tepuk dada, dan tepuk paha para penari sendiri, tanpa menggunakan alat musik apa pun.\n\nBusana penari Saman terdiri atas tiga bagian, yaitu hiasan kepala, pakaian badan berupa baju kantong dan sarung, serta hiasan tangan seperti gelang dan sapu tangan. Melalui gerak dan kostumnya, Tari Saman menonjolkan nilai kekompakan dan kebersamaan yang sangat dijaga oleh masyarakat Gayo, Aceh."
+        "Sudah tiga puluh tahun pohon kemboja itu berdiri di sudut halaman rumah Mbok Darmi, dengan batang bengkok dan bunga putih berhati kuning yang gugur setiap pagi tanpa pernah diminta. Mbok Darmi selalu menyapunya sebelum matahari sepenuhnya terbit, mengumpulkan kelopak-kelopak itu ke dalam bakul anyaman, seolah-olah ia sedang memunguti kenangan yang berjatuhan satu per satu.",
+        "“Kau tahu, Kemboja,” gumamnya suatu pagi sambil menyapu, “anakku dulu suka duduk di bawahmu, menghitung bintang yang tak pernah bisa dihitungnya sampai selesai.” Suaranya datar, tanpa amarah, seperti orang yang telah lama berdamai dengan sepi. Ia tidak pernah mengeluh meski tetangga kerap bertanya kapan anak semata wayangnya itu pulang dari kota.",
+        "Rumo, anak itu, pergi sepuluh tahun lalu dengan janji akan kembali membawa gelar sarjana dan pekerjaan yang layak. Surat-suratnya semakin jarang datang, lalu berhenti sama sekali sejak tahun ketiga. Mbok Darmi tidak pernah menceritakan kepada siapa pun betapa setiap kali ada motor berhenti di depan gang, jantungnya berdegup sedikit lebih kencang sebelum kembali tenang saat tahu itu bukan anaknya.",
+        "Suatu sore di penghujung musim kemarau, seorang lelaki muda berdiri ragu di depan pagar bambu, membawa tas lusuh dan wajah yang telah berubah oleh bertahun-tahun yang keras. Mbok Darmi yang sedang menyapu kelopak kemboja mendongak, tangannya berhenti di udara, sapu lidi tergantung tak jadi diayunkan. Ia tidak berteriak, tidak berlari memeluk. Ia hanya berdiri, menatap lama, lalu berkata pelan, “Kamu sudah makan?”",
+        "Rumo menunduk, air matanya jatuh lebih dulu daripada kata-kata permintaan maafnya. Ia bercerita tentang pekerjaan yang gagal, tentang uang yang habis untuk hal-hal yang membuatnya malu untuk disebutkan, tentang keberanian yang baru terkumpul setelah bertahun-tahun bersembunyi dari rasa bersalahnya sendiri. Mbok Darmi hanya mendengarkan sambil melipat kedua tangannya di depan dada, sesekali mengangguk, membiarkan kelopak-kelopak kemboja terus berjatuhan tanpa disapu.",
+        "Ketika malam tiba, mereka duduk berdampingan di bawah pohon yang sama, tempat dulu Rumo kecil menghitung bintang. Mbok Darmi tidak bertanya lagi tentang sepuluh tahun yang hilang. Ia hanya menunjuk ke langit dan berkata, “Coba hitung, apa sekarang kau sudah bisa sampai selesai?” Dan untuk pertama kalinya sejak sore itu, keduanya tertawa kecil, pelan, di antara aroma kemboja yang mulai menyengat oleh embun malam.",
       ],
       image: null,
-      source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
+      source: "Diadaptasi dari Cerpen Pilihan Kompas 2010 berjudul “Solilokui Bunga Kemboja” karya Cicilia Oday"
     },
-    question: "Tentukan Benar atau Salah.",
-    statements: [
-      "Tari Saman menggunakan iringan alat musik kendang dan gong, sama seperti Tari Jaipong.",
-      "Tari Jaipong dapat ditarikan oleh penari laki-laki maupun perempuan, sedangkan Tari Saman pada awalnya hanya ditarikan oleh laki-laki.",
-      "Kedua teks tersebut sama-sama menjelaskan asal usul, gerakan atau cara menari, kostum, dan makna budaya dari sebuah tarian tradisional."
+    question: "Kutipan manakah dalam cerpen tersebut yang paling tepat menggambarkan watak sabar dan lapang dada tokoh Mbok Darmi?",
+    options: [
+      "“Sudah tiga puluh tahun pohon kemboja itu berdiri di sudut halaman rumah Mbok Darmi....”",
+      "“Rumo, anak itu, pergi sepuluh tahun lalu dengan janji akan kembali membawa gelar sarjana....”",
+      "“Rumo menunduk, air matanya jatuh lebih dulu daripada kata-kata permintaan maafnya.”",
+      "“Ia tidak berteriak, tidak berlari memeluk. Ia hanya berdiri, menatap lama, lalu berkata pelan, ‘Kamu sudah makan?’”",
+      "“Ketika malam tiba, mereka duduk berdampingan di bawah pohon yang sama....”",
     ],
-    answer: [
-      false,
-      true,
-      true
-    ]
+    answer: "“Ia tidak berteriak, tidak berlari memeluk. Ia hanya berdiri, menatap lama, lalu berkata pelan, ‘Kamu sudah makan?’”"
   },
 
-{
+  {
     id: 31,
     type: "single",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: null,
+      title: "Monolog di Bawah Kemboja",
       paragraphs: [
-        "(1) Pada Minggu pagi, warga Kompleks Melati mengadakan kegiatan kerja bakti membersihkan selokan yang tersumbat sampah plastik.",
-        "(2) Menurut Bu RT, kegiatan tersebut sangat penting sekali untuk mencegah terjadinya banjir pada saat musim penghujan tiba.",
-        "(3) Anak-anak ikut serta membantu para orang tua menyapu halaman rumah masing-masing dan mengumpulkan sampah-sampah ke dalam karung.",
-        "(4) Setelah kerja bakti selesai dilaksanakan, seluruh warga kompleks tersebut kemudian berkumpul bersama-sama untuk makan bersama dengan menu sayur dan ikan asin yang sudah disiapkan secara bergotong royong oleh ibu-ibu sebelumnya.",
-        "(5) Bu RT berharap kegiatan positif seperti ini dapat terus dilaksanakan secara rutin setiap bulan agar lingkungan tetap bersih dan sehat."
+        "Sudah tiga puluh tahun pohon kemboja itu berdiri di sudut halaman rumah Mbok Darmi, dengan batang bengkok dan bunga putih berhati kuning yang gugur setiap pagi tanpa pernah diminta. Mbok Darmi selalu menyapunya sebelum matahari sepenuhnya terbit, mengumpulkan kelopak-kelopak itu ke dalam bakul anyaman, seolah-olah ia sedang memunguti kenangan yang berjatuhan satu per satu.",
+        "“Kau tahu, Kemboja,” gumamnya suatu pagi sambil menyapu, “anakku dulu suka duduk di bawahmu, menghitung bintang yang tak pernah bisa dihitungnya sampai selesai.” Suaranya datar, tanpa amarah, seperti orang yang telah lama berdamai dengan sepi. Ia tidak pernah mengeluh meski tetangga kerap bertanya kapan anak semata wayangnya itu pulang dari kota.",
+        "Rumo, anak itu, pergi sepuluh tahun lalu dengan janji akan kembali membawa gelar sarjana dan pekerjaan yang layak. Surat-suratnya semakin jarang datang, lalu berhenti sama sekali sejak tahun ketiga. Mbok Darmi tidak pernah menceritakan kepada siapa pun betapa setiap kali ada motor berhenti di depan gang, jantungnya berdegup sedikit lebih kencang sebelum kembali tenang saat tahu itu bukan anaknya.",
+        "Suatu sore di penghujung musim kemarau, seorang lelaki muda berdiri ragu di depan pagar bambu, membawa tas lusuh dan wajah yang telah berubah oleh bertahun-tahun yang keras. Mbok Darmi yang sedang menyapu kelopak kemboja mendongak, tangannya berhenti di udara, sapu lidi tergantung tak jadi diayunkan. Ia tidak berteriak, tidak berlari memeluk. Ia hanya berdiri, menatap lama, lalu berkata pelan, “Kamu sudah makan?”",
+        "Rumo menunduk, air matanya jatuh lebih dulu daripada kata-kata permintaan maafnya. Ia bercerita tentang pekerjaan yang gagal, tentang uang yang habis untuk hal-hal yang membuatnya malu untuk disebutkan, tentang keberanian yang baru terkumpul setelah bertahun-tahun bersembunyi dari rasa bersalahnya sendiri. Mbok Darmi hanya mendengarkan sambil melipat kedua tangannya di depan dada, sesekali mengangguk, membiarkan kelopak-kelopak kemboja terus berjatuhan tanpa disapu.",
+        "Ketika malam tiba, mereka duduk berdampingan di bawah pohon yang sama, tempat dulu Rumo kecil menghitung bintang. Mbok Darmi tidak bertanya lagi tentang sepuluh tahun yang hilang. Ia hanya menunjuk ke langit dan berkata, “Coba hitung, apa sekarang kau sudah bisa sampai selesai?” Dan untuk pertama kalinya sejak sore itu, keduanya tertawa kecil, pelan, di antara aroma kemboja yang mulai menyengat oleh embun malam.",
       ],
       image: null,
-      source: null
+      source: "Diadaptasi dari Cerpen Pilihan Kompas 2010 berjudul “Solilokui Bunga Kemboja” karya Cicilia Oday"
     },
-    question: "Kalimat yang menggunakan kata tidak efektif karena pemborosan kata terdapat pada nomor ....",
+    question: "Kutipan manakah yang paling tepat menggambarkan latar waktu dan suasana pada saat Rumo kembali ke rumah?",
     options: [
-      "(1)",
-      "(2)",
-      "(3)",
-      "(4)"
+      "“Sudah tiga puluh tahun pohon kemboja itu berdiri di sudut halaman rumah Mbok Darmi, dengan batang bengkok dan bunga putih berhati kuning....”",
+      "“Suatu sore di penghujung musim kemarau, seorang lelaki muda berdiri ragu di depan pagar bambu, membawa tas lusuh dan wajah yang telah berubah oleh bertahun-tahun yang keras.”",
+      "“Rumo, anak itu, pergi sepuluh tahun lalu dengan janji akan kembali membawa gelar sarjana dan pekerjaan yang layak.”",
+      "“Mbok Darmi tidak pernah menceritakan kepada siapa pun betapa setiap kali ada motor berhenti di depan gang, jantungnya berdegup sedikit lebih kencang....”",
+      "“Ketika malam tiba, mereka duduk berdampingan di bawah pohon yang sama, tempat dulu Rumo kecil menghitung bintang.”",
     ],
-    answer: "(2)"
+    answer: "“Suatu sore di penghujung musim kemarau, seorang lelaki muda berdiri ragu di depan pagar bambu, membawa tas lusuh dan wajah yang telah berubah oleh bertahun-tahun yang keras.”"
   },
 
   {
     id: 32,
-    type: "single",
+    type: "truefalse",
     stimulus: {
       instruction: "Bacalah teks berikut untuk menjawab soal!",
-      title: null,
+      title: "Monolog di Bawah Kemboja",
       paragraphs: [
-        "(1) Pada Minggu pagi, warga Kompleks Melati mengadakan kegiatan kerja bakti membersihkan selokan yang tersumbat sampah plastik.",
-        "(2) Menurut Bu RT, kegiatan tersebut sangat penting sekali untuk mencegah terjadinya banjir pada saat musim penghujan tiba.",
-        "(3) Anak-anak ikut serta membantu para orang tua menyapu halaman rumah masing-masing dan mengumpulkan sampah-sampah ke dalam karung.",
-        "(4) Setelah kerja bakti selesai dilaksanakan, seluruh warga kompleks tersebut kemudian berkumpul bersama-sama untuk makan bersama dengan menu sayur dan ikan asin yang sudah disiapkan secara bergotong royong oleh ibu-ibu sebelumnya.",
-        "(5) Bu RT berharap kegiatan positif seperti ini dapat terus dilaksanakan secara rutin setiap bulan agar lingkungan tetap bersih dan sehat."
+        "Sudah tiga puluh tahun pohon kemboja itu berdiri di sudut halaman rumah Mbok Darmi, dengan batang bengkok dan bunga putih berhati kuning yang gugur setiap pagi tanpa pernah diminta. Mbok Darmi selalu menyapunya sebelum matahari sepenuhnya terbit, mengumpulkan kelopak-kelopak itu ke dalam bakul anyaman, seolah-olah ia sedang memunguti kenangan yang berjatuhan satu per satu.",
+        "“Kau tahu, Kemboja,” gumamnya suatu pagi sambil menyapu, “anakku dulu suka duduk di bawahmu, menghitung bintang yang tak pernah bisa dihitungnya sampai selesai.” Suaranya datar, tanpa amarah, seperti orang yang telah lama berdamai dengan sepi. Ia tidak pernah mengeluh meski tetangga kerap bertanya kapan anak semata wayangnya itu pulang dari kota.",
+        "Rumo, anak itu, pergi sepuluh tahun lalu dengan janji akan kembali membawa gelar sarjana dan pekerjaan yang layak. Surat-suratnya semakin jarang datang, lalu berhenti sama sekali sejak tahun ketiga. Mbok Darmi tidak pernah menceritakan kepada siapa pun betapa setiap kali ada motor berhenti di depan gang, jantungnya berdegup sedikit lebih kencang sebelum kembali tenang saat tahu itu bukan anaknya.",
+        "Suatu sore di penghujung musim kemarau, seorang lelaki muda berdiri ragu di depan pagar bambu, membawa tas lusuh dan wajah yang telah berubah oleh bertahun-tahun yang keras. Mbok Darmi yang sedang menyapu kelopak kemboja mendongak, tangannya berhenti di udara, sapu lidi tergantung tak jadi diayunkan. Ia tidak berteriak, tidak berlari memeluk. Ia hanya berdiri, menatap lama, lalu berkata pelan, “Kamu sudah makan?”",
+        "Rumo menunduk, air matanya jatuh lebih dulu daripada kata-kata permintaan maafnya. Ia bercerita tentang pekerjaan yang gagal, tentang uang yang habis untuk hal-hal yang membuatnya malu untuk disebutkan, tentang keberanian yang baru terkumpul setelah bertahun-tahun bersembunyi dari rasa bersalahnya sendiri. Mbok Darmi hanya mendengarkan sambil melipat kedua tangannya di depan dada, sesekali mengangguk, membiarkan kelopak-kelopak kemboja terus berjatuhan tanpa disapu.",
+        "Ketika malam tiba, mereka duduk berdampingan di bawah pohon yang sama, tempat dulu Rumo kecil menghitung bintang. Mbok Darmi tidak bertanya lagi tentang sepuluh tahun yang hilang. Ia hanya menunjuk ke langit dan berkata, “Coba hitung, apa sekarang kau sudah bisa sampai selesai?” Dan untuk pertama kalinya sejak sore itu, keduanya tertawa kecil, pelan, di antara aroma kemboja yang mulai menyengat oleh embun malam.",
       ],
       image: null,
-      source: null
+      source: "Diadaptasi dari Cerpen Pilihan Kompas 2010 berjudul “Solilokui Bunga Kemboja” karya Cicilia Oday"
     },
-    question: "Kalimat (4) dinilai kurang efektif karena terlalu panjang dan mengandung kata-kata yang berlebihan. Manakah perbaikan kalimat (4) yang PALING efektif tanpa mengubah informasi intinya?",
-    options: [
-      "Setelah kerja bakti selesai dilaksanakan, seluruh warga kompleks tersebut kemudian berkumpul bersama-sama untuk makan bersama dengan menu sayur dan ikan asin yang sudah disiapkan secara bergotong royong oleh ibu-ibu sebelumnya.",
-      "Kerja bakti selesai, lalu makan.",
-      "Warga makan bersama menu sayur dan ikan asin setelah kerja bakti selesai dilaksanakan oleh warga kompleks tersebut secara bersama-sama.",
-      "Setelah kerja bakti selesai, warga berkumpul makan bersama dengan menu sayur dan ikan asin yang telah disiapkan ibu-ibu."
+    question: "Perhatikan pernyataan-pernyataan berikut berdasarkan cerpen “Monolog di Bawah Kemboja”. Tentukan Benar (B) atau Salah (S) untuk setiap pernyataan dengan mengisi tabel di bawah ini!",
+    statements: [
+      "Mbok Darmi memarahi Rumo begitu melihatnya pulang ke rumah.",
+      "Rumo pergi merantau dengan tujuan awal mendapatkan gelar sarjana dan pekerjaan yang layak.",
+      "Pohon kemboja dalam cerita berfungsi sebagai saksi bisu perjalanan waktu dan hubungan ibu-anak.",
+      "Rumo pulang tanpa menceritakan sedikit pun tentang kehidupannya selama merantau.",
     ],
-    answer: "Setelah kerja bakti selesai, warga berkumpul makan bersama dengan menu sayur dan ikan asin yang telah disiapkan ibu-ibu."
+    answer: [
+      false,
+      true,
+      true,
+      false,
+    ]
   },
 
   {
@@ -903,40 +943,40 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah puisi berikut untuk menjawab soal!",
-      title: "Suara dari Tanah yang Terbakar",
+      title: "Ziarah pada Diri Sendiri",
       paragraphs: [
-        "Aku dengar derap langkah di kejauhan,",
-        "bukan langkah pawai, bukan pula langkah pulang,",
-        "melainkan langkah yang menyeret luka",
-        "ke arah esok yang masih samar.",
+        "Kutinggalkan sepasang sepatu usang",
+        "di ambang pintu yang lama kubiarkan berkarat,",
+        "sebab langkah yang sama tak lagi membawaku",
+        "ke arah yang kucari sedari dulu.",
         "",
-        "Anak-anak menutup telinga dari dentum,",
-        "tapi mata mereka tak bisa menutup mimpi:",
-        "sebuah rumah yang berdiri tegak,",
-        "sebuah pagi tanpa asap dan tangis.",
+        "Ada bagian dariku yang harus kutanam",
+        "di bawah tanah paling dalam ingatan,",
+        "bukan untuk mati, melainkan menunggu",
+        "menjadi akar bagi sesuatu yang baru.",
         "",
-        "Kita yang jauh hanya bisa berdoa,",
-        "mengirim kata lewat angin dan layar kaca,",
-        "tapi doa pun adalah bentuk perlawanan",
-        "ketika tangan tak sampai menjangkau.",
+        "Aku menangis bukan karena kehilangan,",
+        "tapi karena akhirnya berani melepaskan",
+        "topeng yang kupakai bertahun-tahun,",
+        "demi wajah asing yang ternyata milikku sendiri.",
         "",
-        "Maka mari kita rapatkan barisan harapan,",
-        "bukan dengan senjata, tapi dengan suara,",
-        "sebab perang ini bukan hanya milik mereka,",
-        "ini adalah perang kita semua—",
-        "melawan diam, melawan lupa."
+        "Pagi ini kutemukan diriku tumbuh",
+        "dari reruntuhan yang kusangka kekalahan,",
+        "dan kusadari: yang kukubur kemarin",
+        "adalah benih yang kini bermekaran.",
       ],
       image: null,
-      source: null
+      source: "Diadaptasi dari puisi “Penguburan Diri” karya Bella (Langgam Pustaka)"
     },
-    question: "Perasaan apa yang PALING mungkin dirasakan pembaca ketika membaca larik “Anak-anak menutup telinga dari dentum, / tapi mata mereka tak bisa menutup mimpi”?",
+    question: "Larik “Ada bagian dariku yang harus kutanam / di bawah tanah paling dalam ingatan, / bukan untuk mati, melainkan menunggu / menjadi akar bagi sesuatu yang baru” paling tepat memunculkan respons emosional pembaca berupa...",
     options: [
-      "Gembira dan bangga",
-      "Sedih, sekaligus tersentuh oleh harapan yang masih ada di tengah kesulitan",
-      "Marah kepada penyair karena dianggap berlebihan",
-      "Bosan karena tema yang dianggap biasa saja"
+      "Keputusasaan yang mendalam karena tokoh lirik merasa telah kehilangan segalanya.",
+      "Kemarahan terhadap masa lalu yang dianggap sebagai beban.",
+      "Ketakutan menghadapi perubahan yang akan datang.",
+      "Kebingungan karena tokoh lirik tidak memahami dirinya sendiri.",
+      "Harapan yang tenang, karena proses melepaskan sesuatu dimaknai sebagai awal pertumbuhan baru, bukan akhir yang menyedihkan.",
     ],
-    answer: "Sedih, sekaligus tersentuh oleh harapan yang masih ada di tengah kesulitan"
+    answer: "Harapan yang tenang, karena proses melepaskan sesuatu dimaknai sebagai awal pertumbuhan baru, bukan akhir yang menyedihkan."
   },
 
   {
@@ -944,40 +984,40 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah puisi berikut untuk menjawab soal!",
-      title: "Suara dari Tanah yang Terbakar",
+      title: "Ziarah pada Diri Sendiri",
       paragraphs: [
-        "Aku dengar derap langkah di kejauhan,",
-        "bukan langkah pawai, bukan pula langkah pulang,",
-        "melainkan langkah yang menyeret luka",
-        "ke arah esok yang masih samar.",
+        "Kutinggalkan sepasang sepatu usang",
+        "di ambang pintu yang lama kubiarkan berkarat,",
+        "sebab langkah yang sama tak lagi membawaku",
+        "ke arah yang kucari sedari dulu.",
         "",
-        "Anak-anak menutup telinga dari dentum,",
-        "tapi mata mereka tak bisa menutup mimpi:",
-        "sebuah rumah yang berdiri tegak,",
-        "sebuah pagi tanpa asap dan tangis.",
+        "Ada bagian dariku yang harus kutanam",
+        "di bawah tanah paling dalam ingatan,",
+        "bukan untuk mati, melainkan menunggu",
+        "menjadi akar bagi sesuatu yang baru.",
         "",
-        "Kita yang jauh hanya bisa berdoa,",
-        "mengirim kata lewat angin dan layar kaca,",
-        "tapi doa pun adalah bentuk perlawanan",
-        "ketika tangan tak sampai menjangkau.",
+        "Aku menangis bukan karena kehilangan,",
+        "tapi karena akhirnya berani melepaskan",
+        "topeng yang kupakai bertahun-tahun,",
+        "demi wajah asing yang ternyata milikku sendiri.",
         "",
-        "Maka mari kita rapatkan barisan harapan,",
-        "bukan dengan senjata, tapi dengan suara,",
-        "sebab perang ini bukan hanya milik mereka,",
-        "ini adalah perang kita semua—",
-        "melawan diam, melawan lupa."
+        "Pagi ini kutemukan diriku tumbuh",
+        "dari reruntuhan yang kusangka kekalahan,",
+        "dan kusadari: yang kukubur kemarin",
+        "adalah benih yang kini bermekaran.",
       ],
       image: null,
-      source: null
+      source: "Diadaptasi dari puisi “Penguburan Diri” karya Bella (Langgam Pustaka)"
     },
-    question: "Berdasarkan keseluruhan puisi, sikap apa yang ditawarkan penyair kepada pembaca yang berada jauh dari wilayah konflik?",
+    question: "Diksi “topeng yang kupakai bertahun-tahun” pada bait ketiga berfungsi estetis untuk...",
     options: [
-      "Pembaca diajak untuk tetap peduli dan menyuarakan dukungan, meski hanya lewat doa dan kata-kata",
-      "Pembaca disuruh berdiam diri saja karena dianggap tidak bisa berbuat apa-apa",
-      "Pembaca diminta untuk melupakan peristiwa tersebut demi ketenangan diri",
-      "Pembaca dianjurkan untuk membenci salah satu pihak yang berkonflik"
+      "Melambangkan identitas atau citra diri palsu yang selama ini disembunyikan tokoh lirik, sehingga melepaskannya memunculkan efek lega sekaligus haru bagi pembaca.",
+      "Menggambarkan secara harfiah benda yang dipakai tokoh lirik dalam sebuah pertunjukan teater.",
+      "Menyindir kebiasaan masyarakat memakai topeng dalam upacara adat.",
+      "Menunjukkan bahwa tokoh lirik gemar mengoleksi topeng.",
+      "Menegaskan bahwa puisi ini berlatar sebuah pesta topeng.",
     ],
-    answer: "Pembaca diajak untuk tetap peduli dan menyuarakan dukungan, meski hanya lewat doa dan kata-kata"
+    answer: "Melambangkan identitas atau citra diri palsu yang selama ini disembunyikan tokoh lirik, sehingga melepaskannya memunculkan efek lega sekaligus haru bagi pembaca."
   },
 
   {
@@ -985,1043 +1025,1170 @@ export default [
     type: "single",
     stimulus: {
       instruction: "Bacalah puisi berikut untuk menjawab soal!",
-      title: "Suara dari Tanah yang Terbakar",
+      title: "Ziarah pada Diri Sendiri",
       paragraphs: [
-        "Aku dengar derap langkah di kejauhan,",
-        "bukan langkah pawai, bukan pula langkah pulang,",
-        "melainkan langkah yang menyeret luka",
-        "ke arah esok yang masih samar.",
+        "Kutinggalkan sepasang sepatu usang",
+        "di ambang pintu yang lama kubiarkan berkarat,",
+        "sebab langkah yang sama tak lagi membawaku",
+        "ke arah yang kucari sedari dulu.",
         "",
-        "Anak-anak menutup telinga dari dentum,",
-        "tapi mata mereka tak bisa menutup mimpi:",
-        "sebuah rumah yang berdiri tegak,",
-        "sebuah pagi tanpa asap dan tangis.",
+        "Ada bagian dariku yang harus kutanam",
+        "di bawah tanah paling dalam ingatan,",
+        "bukan untuk mati, melainkan menunggu",
+        "menjadi akar bagi sesuatu yang baru.",
         "",
-        "Kita yang jauh hanya bisa berdoa,",
-        "mengirim kata lewat angin dan layar kaca,",
-        "tapi doa pun adalah bentuk perlawanan",
-        "ketika tangan tak sampai menjangkau.",
+        "Aku menangis bukan karena kehilangan,",
+        "tapi karena akhirnya berani melepaskan",
+        "topeng yang kupakai bertahun-tahun,",
+        "demi wajah asing yang ternyata milikku sendiri.",
         "",
-        "Maka mari kita rapatkan barisan harapan,",
-        "bukan dengan senjata, tapi dengan suara,",
-        "sebab perang ini bukan hanya milik mereka,",
-        "ini adalah perang kita semua—",
-        "melawan diam, melawan lupa."
+        "Pagi ini kutemukan diriku tumbuh",
+        "dari reruntuhan yang kusangka kekalahan,",
+        "dan kusadari: yang kukubur kemarin",
+        "adalah benih yang kini bermekaran.",
+      ],
+      image: null,
+      source: "Diadaptasi dari puisi “Penguburan Diri” karya Bella (Langgam Pustaka)"
+    },
+    question: "Perubahan suasana dari bait pertama hingga bait keempat dalam puisi tersebut paling tepat digambarkan sebagai perjalanan emosi dari...",
+    options: [
+      "Kebahagiaan menuju kesedihan.",
+      "Keraguan dan kehilangan menuju penerimaan diri dan harapan baru.",
+      "Kemarahan menuju balas dendam.",
+      "Kebingungan menuju keputusasaan total.",
+      "Ketakutan menuju pengabaian terhadap masalah.",
+    ],
+    answer: "Keraguan dan kehilangan menuju penerimaan diri dan harapan baru."
+  },
+
+  {
+    id: 36,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Penangkal Doomscrolling",
+      paragraphs: [
+        "Kebiasaan menggulir layar gawai tanpa henti kini menjadi bagian dari rutinitas harian banyak orang. Saat menunggu, saat bosan, bahkan beberapa menit sebelum tidur, jari-jari secara otomatis membuka aplikasi media sosial dan menggulir konten dari satu unggahan ke unggahan lain. Fenomena yang lazim disebut doomscrolling ini awalnya hanya bertujuan mengisi waktu luang, tetapi lambat laun dapat berubah menjadi kebiasaan yang sulit dihentikan.",
+        "Secara teknis, kebiasaan ini erat kaitannya dengan cara kerja algoritma pada aplikasi digital. Setiap notifikasi yang muncul di layar memicu pelepasan dopamin, yaitu neurotransmiter yang berkaitan dengan rasa senang, sehingga otak terus-menerus “meminta” rangsangan serupa. Semakin sering rangsangan itu diberikan, semakin sulit pula seseorang melepaskan diri dari gawai, karena sistem saraf telah terbiasa dengan pola stimulasi instan tersebut.",
+        "Paparan konten digital yang terus-menerus dan berganti secara cepat ternyata berdampak pada fungsi kognitif. Sejumlah pakar neurologi menyebut kondisi kelelahan mental akibat konsumsi informasi berlebihan ini dengan istilah brain rot. Gejalanya beragam, mulai dari menurunnya kemampuan konsentrasi, melemahnya daya ingat jangka pendek, hingga munculnya rasa cemas tanpa sebab yang jelas setelah berjam-jam menatap layar.",
+        "Di tengah persoalan tersebut, sejumlah penelitian terbaru menunjukkan bahwa aktivitas fisik, khususnya olahraga aerobik dan latihan kardiovaskular, dapat menjadi penangkal yang efektif. Olahraga terbukti meningkatkan aliran darah ke otak sekaligus merangsang neuroplastisitas, yaitu kemampuan otak membentuk dan memperkuat koneksi saraf baru. Proses ini pada gilirannya membantu memulihkan konsentrasi yang sempat terkikis akibat kebiasaan menggulir layar tanpa henti.",
+        "Para ahli merekomendasikan olahraga ringan hingga sedang, seperti berjalan cepat atau bersepeda, selama kurang lebih tiga puluh menit setiap hari untuk merasakan manfaat optimal bagi fungsi kognitif. Kombinasi antara pembatasan waktu layar dan rutinitas fisik dinilai jauh lebih efektif dibandingkan hanya mengandalkan salah satu strategi saja. Selain itu, tidur yang cukup turut berperan penting dalam memulihkan sel-sel saraf yang lelah akibat kelebihan stimulasi digital.",
+        "Pada akhirnya, menjaga keseimbangan antara dunia digital dan aktivitas fisik menjadi kunci agar otak tetap bekerja optimal di tengah derasnya arus informasi. Olahraga bukan sekadar rutinitas untuk membentuk otot, melainkan juga investasi jangka panjang bagi kesehatan mental dan ketajaman berpikir generasi yang tumbuh berdampingan dengan layar.",
+      ],
+      image: null,
+      source: "Sumber: Harian Kompas, 9 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Kata algoritma, notifikasi, dan dopamin digunakan secara bersamaan dalam paragraf kedua. Ketiganya merupakan kata serapan dari dua bidang ilmu yang berbeda. Penggabungan istilah dari kedua bidang tersebut berfungsi untuk…",
+    options: [
+      "menunjukkan bahwa penulis menguasai banyak istilah asing agar tulisannya terlihat ilmiah",
+      "membandingkan bidang teknologi dan bidang kedokteran sebagai dua disiplin ilmu yang saling bertentangan",
+      "menjelaskan hubungan sebab-akibat antara mekanisme kerja aplikasi digital dan respons biologis di dalam otak manusia",
+      "memberi tahu pembaca bahwa istilah bidang teknologi lebih penting dipahami daripada istilah bidang kedokteran",
+      "menggantikan istilah populer dengan istilah ilmiah supaya teks tampak lebih rumit",
+    ],
+    answer: "menjelaskan hubungan sebab-akibat antara mekanisme kerja aplikasi digital dan respons biologis di dalam otak manusia"
+  },
+
+  {
+    id: 37,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Penangkal Doomscrolling",
+      paragraphs: [
+        "Kebiasaan menggulir layar gawai tanpa henti kini menjadi bagian dari rutinitas harian banyak orang. Saat menunggu, saat bosan, bahkan beberapa menit sebelum tidur, jari-jari secara otomatis membuka aplikasi media sosial dan menggulir konten dari satu unggahan ke unggahan lain. Fenomena yang lazim disebut doomscrolling ini awalnya hanya bertujuan mengisi waktu luang, tetapi lambat laun dapat berubah menjadi kebiasaan yang sulit dihentikan.",
+        "Secara teknis, kebiasaan ini erat kaitannya dengan cara kerja algoritma pada aplikasi digital. Setiap notifikasi yang muncul di layar memicu pelepasan dopamin, yaitu neurotransmiter yang berkaitan dengan rasa senang, sehingga otak terus-menerus “meminta” rangsangan serupa. Semakin sering rangsangan itu diberikan, semakin sulit pula seseorang melepaskan diri dari gawai, karena sistem saraf telah terbiasa dengan pola stimulasi instan tersebut.",
+        "Paparan konten digital yang terus-menerus dan berganti secara cepat ternyata berdampak pada fungsi kognitif. Sejumlah pakar neurologi menyebut kondisi kelelahan mental akibat konsumsi informasi berlebihan ini dengan istilah brain rot. Gejalanya beragam, mulai dari menurunnya kemampuan konsentrasi, melemahnya daya ingat jangka pendek, hingga munculnya rasa cemas tanpa sebab yang jelas setelah berjam-jam menatap layar.",
+        "Di tengah persoalan tersebut, sejumlah penelitian terbaru menunjukkan bahwa aktivitas fisik, khususnya olahraga aerobik dan latihan kardiovaskular, dapat menjadi penangkal yang efektif. Olahraga terbukti meningkatkan aliran darah ke otak sekaligus merangsang neuroplastisitas, yaitu kemampuan otak membentuk dan memperkuat koneksi saraf baru. Proses ini pada gilirannya membantu memulihkan konsentrasi yang sempat terkikis akibat kebiasaan menggulir layar tanpa henti.",
+        "Para ahli merekomendasikan olahraga ringan hingga sedang, seperti berjalan cepat atau bersepeda, selama kurang lebih tiga puluh menit setiap hari untuk merasakan manfaat optimal bagi fungsi kognitif. Kombinasi antara pembatasan waktu layar dan rutinitas fisik dinilai jauh lebih efektif dibandingkan hanya mengandalkan salah satu strategi saja. Selain itu, tidur yang cukup turut berperan penting dalam memulihkan sel-sel saraf yang lelah akibat kelebihan stimulasi digital.",
+        "Pada akhirnya, menjaga keseimbangan antara dunia digital dan aktivitas fisik menjadi kunci agar otak tetap bekerja optimal di tengah derasnya arus informasi. Olahraga bukan sekadar rutinitas untuk membentuk otot, melainkan juga investasi jangka panjang bagi kesehatan mental dan ketajaman berpikir generasi yang tumbuh berdampingan dengan layar.",
+      ],
+      image: null,
+      source: "Sumber: Harian Kompas, 9 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Penulis memilih menggunakan istilah serapan “neuroplastisitas” dan langsung menjelaskan maknanya dalam kalimat yang sama. Tujuan strategi penulisan tersebut adalah…",
+    options: [
+      "mempersingkat kalimat agar teks tidak terlalu panjang untuk dibaca",
+      "menghindari kesalahpahaman pembaca terhadap istilah kardiovaskular yang telah disebutkan sebelumnya",
+      "menunjukkan bahwa penulis lebih menguasai bidang teknologi dibandingkan bidang kedokteran",
+      "menjaga keakuratan istilah ilmiah sekaligus memastikan pembaca awam tetap memahami konsep yang dimaksud",
+      "mengganti istilah asing dengan istilah serapan bahasa daerah supaya teks lebih mudah dipahami",
+    ],
+    answer: "menjaga keakuratan istilah ilmiah sekaligus memastikan pembaca awam tetap memahami konsep yang dimaksud"
+  },
+
+  {
+    id: 38,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Penangkal Doomscrolling",
+      paragraphs: [
+        "Kebiasaan menggulir layar gawai tanpa henti kini menjadi bagian dari rutinitas harian banyak orang. Saat menunggu, saat bosan, bahkan beberapa menit sebelum tidur, jari-jari secara otomatis membuka aplikasi media sosial dan menggulir konten dari satu unggahan ke unggahan lain. Fenomena yang lazim disebut doomscrolling ini awalnya hanya bertujuan mengisi waktu luang, tetapi lambat laun dapat berubah menjadi kebiasaan yang sulit dihentikan.",
+        "Secara teknis, kebiasaan ini erat kaitannya dengan cara kerja algoritma pada aplikasi digital. Setiap notifikasi yang muncul di layar memicu pelepasan dopamin, yaitu neurotransmiter yang berkaitan dengan rasa senang, sehingga otak terus-menerus “meminta” rangsangan serupa. Semakin sering rangsangan itu diberikan, semakin sulit pula seseorang melepaskan diri dari gawai, karena sistem saraf telah terbiasa dengan pola stimulasi instan tersebut.",
+        "Paparan konten digital yang terus-menerus dan berganti secara cepat ternyata berdampak pada fungsi kognitif. Sejumlah pakar neurologi menyebut kondisi kelelahan mental akibat konsumsi informasi berlebihan ini dengan istilah brain rot. Gejalanya beragam, mulai dari menurunnya kemampuan konsentrasi, melemahnya daya ingat jangka pendek, hingga munculnya rasa cemas tanpa sebab yang jelas setelah berjam-jam menatap layar.",
+        "Di tengah persoalan tersebut, sejumlah penelitian terbaru menunjukkan bahwa aktivitas fisik, khususnya olahraga aerobik dan latihan kardiovaskular, dapat menjadi penangkal yang efektif. Olahraga terbukti meningkatkan aliran darah ke otak sekaligus merangsang neuroplastisitas, yaitu kemampuan otak membentuk dan memperkuat koneksi saraf baru. Proses ini pada gilirannya membantu memulihkan konsentrasi yang sempat terkikis akibat kebiasaan menggulir layar tanpa henti.",
+        "Para ahli merekomendasikan olahraga ringan hingga sedang, seperti berjalan cepat atau bersepeda, selama kurang lebih tiga puluh menit setiap hari untuk merasakan manfaat optimal bagi fungsi kognitif. Kombinasi antara pembatasan waktu layar dan rutinitas fisik dinilai jauh lebih efektif dibandingkan hanya mengandalkan salah satu strategi saja. Selain itu, tidur yang cukup turut berperan penting dalam memulihkan sel-sel saraf yang lelah akibat kelebihan stimulasi digital.",
+        "Pada akhirnya, menjaga keseimbangan antara dunia digital dan aktivitas fisik menjadi kunci agar otak tetap bekerja optimal di tengah derasnya arus informasi. Olahraga bukan sekadar rutinitas untuk membentuk otot, melainkan juga investasi jangka panjang bagi kesehatan mental dan ketajaman berpikir generasi yang tumbuh berdampingan dengan layar.",
+      ],
+      image: null,
+      source: "Sumber: Harian Kompas, 9 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Berdasarkan keseluruhan teks, pasangan kata serapan dan bidang ilmu asalnya berikut yang TIDAK tepat adalah…",
+    options: [
+      "“dopamin” berasal dari bidang kedokteran/biokimia",
+      "“algoritma” berasal dari bidang teknologi informasi",
+      "“kardiovaskular” berasal dari bidang kedokteran",
+      "“notifikasi” berasal dari bidang kedokteran",
+      "“neuroplastisitas” berasal dari bidang neurosains",
+    ],
+    answer: "“notifikasi” berasal dari bidang kedokteran"
+  },
+
+  {
+    id: 39,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ke Mana Ikan-Ikan Itu Pergi",
+      paragraphs: [
+        "Hujan turun deras ketika perahu kecil itu terombang-ambing di tengah laut. Sang tokoh utama, seorang pemuda pesisir dari Luwuk, tengah memancing seorang diri saat badai tiba-tiba datang. Di tengah kepanikan, matanya tertumbuk pada sepasang sandal yang tergeletak di lambung perahu—benda yang menurut kepercayaan warga setempat pantang dibawa melaut karena dianggap membawa sial. Ia pun segera melemparnya ke laut.",
+        "Ayahnya, yang akrab disapa Sebe, adalah nelayan tua yang keras dan pemarah, namun sangat berharap anaknya kelak meneruskan profesi sebagai nelayan. Sebe kerap mengomel dengan logat khas daerahnya, “Ngana ini yang banyak tingkah. Dari kecil so bapancing, perahu so dibuatkan…tinju turuuus…mau apa dengan tinju?” Ia tidak merestui hobi tinju sang anak dan menganggapnya sia-sia. Di balik amarahnya, Sebe sesungguhnya menyimpan kekhawatiran besar karena hasil tangkapan ikan yang kian menipis membuatnya harus melaut lebih jauh dari biasanya.",
+        "Tokoh utama merasa tertekan oleh tuntutan Sebe. Untuk melupakan rasa gagalnya, ia kerap mabuk-mabukan bersama temannya, Adi, hingga larut malam. “Sa bukan keluar kota, cuma bapancing,” katanya suatu ketika saat pamit melaut sendirian pada malam yang tidak baik, mengabaikan pesan Mamak agar ia tidak pergi karena malam itu dianggap kurang baik untuk melaut.",
+        "Di tengah laut, badai besar kembali menerjang. Dalam kepanikan dan pengaruh minuman keras, ia nyaris kehilangan arah hingga terdampar jauh dari daratan. Esok paginya, di tengah laut yang telah tenang, seekor ikan layar besar tersangkut di pancingnya. Setelah bergulat berjam-jam, ia berhasil menaklukkan ikan tersebut, tetapi kondisinya sendiri sudah sangat lemah karena kehabisan bahan bakar dan tersesat.",
+        "Saat harapan hampir pupus, sebuah perahu layar tua mendekat. Seorang lelaki tua berjanggut putih, yang mengaku sebagai “Tua dari Seberang”, menghampirinya tanpa banyak bertanya. Lelaki itu memotong ikan layar itu menjadi beberapa bagian, lalu menarik perahu sang tokoh utama menuju Luwuk tanpa meminta imbalan apa pun, dan menghilang begitu daratan mulai terlihat.",
+        "Ketika akhirnya tiba di tepian, sorot lampu senter dan suara Mamak yang berlari sambil memanggil namanya menyambutnya. Ikan layar besar itu masih terbujur utuh di perahu, seolah menjadi bukti sekaligus harapan bahwa ia bisa kembali membuktikan diri di hadapan Sebe, sosok ayah yang keras namun sesungguhnya menyimpan kasih sayang yang besar.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen Reza Nufa di situs bacapetra.co (dengan penyesuaian)"
+    },
+    question: "Penggunaan kosakata seperti “bapancing”, “ngana”, “sa”, dan penyebutan tempat “Luwuk” dalam kutipan cerita tersebut paling tepat menggambarkan latar sosial-budaya masyarakat…",
+    options: [
+      "masyarakat pesisir Betawi yang berprofesi sebagai pedagang ikan",
+      "masyarakat pesisir Sulawesi bagian timur (Manado–Bajo) yang bermata pencaharian sebagai nelayan",
+      "masyarakat urban Jakarta yang bekerja di sektor perikanan modern",
+      "masyarakat pedalaman Kalimantan yang menggantungkan hidup dari hasil hutan",
+      "masyarakat pesisir Jawa yang menggunakan dialek Jawa Timuran dalam kesehariannya",
+    ],
+    answer: "masyarakat pesisir Sulawesi bagian timur (Manado–Bajo) yang bermata pencaharian sebagai nelayan"
+  },
+
+  {
+    id: 40,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ke Mana Ikan-Ikan Itu Pergi",
+      paragraphs: [
+        "Hujan turun deras ketika perahu kecil itu terombang-ambing di tengah laut. Sang tokoh utama, seorang pemuda pesisir dari Luwuk, tengah memancing seorang diri saat badai tiba-tiba datang. Di tengah kepanikan, matanya tertumbuk pada sepasang sandal yang tergeletak di lambung perahu—benda yang menurut kepercayaan warga setempat pantang dibawa melaut karena dianggap membawa sial. Ia pun segera melemparnya ke laut.",
+        "Ayahnya, yang akrab disapa Sebe, adalah nelayan tua yang keras dan pemarah, namun sangat berharap anaknya kelak meneruskan profesi sebagai nelayan. Sebe kerap mengomel dengan logat khas daerahnya, “Ngana ini yang banyak tingkah. Dari kecil so bapancing, perahu so dibuatkan…tinju turuuus…mau apa dengan tinju?” Ia tidak merestui hobi tinju sang anak dan menganggapnya sia-sia. Di balik amarahnya, Sebe sesungguhnya menyimpan kekhawatiran besar karena hasil tangkapan ikan yang kian menipis membuatnya harus melaut lebih jauh dari biasanya.",
+        "Tokoh utama merasa tertekan oleh tuntutan Sebe. Untuk melupakan rasa gagalnya, ia kerap mabuk-mabukan bersama temannya, Adi, hingga larut malam. “Sa bukan keluar kota, cuma bapancing,” katanya suatu ketika saat pamit melaut sendirian pada malam yang tidak baik, mengabaikan pesan Mamak agar ia tidak pergi karena malam itu dianggap kurang baik untuk melaut.",
+        "Di tengah laut, badai besar kembali menerjang. Dalam kepanikan dan pengaruh minuman keras, ia nyaris kehilangan arah hingga terdampar jauh dari daratan. Esok paginya, di tengah laut yang telah tenang, seekor ikan layar besar tersangkut di pancingnya. Setelah bergulat berjam-jam, ia berhasil menaklukkan ikan tersebut, tetapi kondisinya sendiri sudah sangat lemah karena kehabisan bahan bakar dan tersesat.",
+        "Saat harapan hampir pupus, sebuah perahu layar tua mendekat. Seorang lelaki tua berjanggut putih, yang mengaku sebagai “Tua dari Seberang”, menghampirinya tanpa banyak bertanya. Lelaki itu memotong ikan layar itu menjadi beberapa bagian, lalu menarik perahu sang tokoh utama menuju Luwuk tanpa meminta imbalan apa pun, dan menghilang begitu daratan mulai terlihat.",
+        "Ketika akhirnya tiba di tepian, sorot lampu senter dan suara Mamak yang berlari sambil memanggil namanya menyambutnya. Ikan layar besar itu masih terbujur utuh di perahu, seolah menjadi bukti sekaligus harapan bahwa ia bisa kembali membuktikan diri di hadapan Sebe, sosok ayah yang keras namun sesungguhnya menyimpan kasih sayang yang besar.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen Reza Nufa di situs bacapetra.co (dengan penyesuaian)"
+    },
+    question: "Perhatikan kembali kutipan dialog Sebe: “Ngana ini yang banyak tingkah…tinju turuuus…mau apa dengan tinju?” Meski demikian, Sebe tetap memastikan Mamak menyiapkan perlengkapan melaut untuk tokoh utama, dan amarahnya justru muncul setiap kali ia mengkhawatirkan keselamatan anaknya di laut. Berdasarkan kutipan tersebut, watak Sebe yang paling tepat adalah…",
+    options: [
+      "tegas dan bijaksana dalam mendidik anak tanpa pernah menunjukkan emosi",
+      "acuh tak acuh terhadap keselamatan dan masa depan anaknya",
+      "lemah lembut namun tidak konsisten dalam menerapkan aturan keluarga",
+      "kejam tanpa alasan yang jelas terhadap anggota keluarganya sendiri",
+      "keras dan pemarah dalam bertutur, tetapi sesungguhnya menyimpan kepedulian dan kasih sayang mendalam terhadap anaknya",
+    ],
+    answer: "keras dan pemarah dalam bertutur, tetapi sesungguhnya menyimpan kepedulian dan kasih sayang mendalam terhadap anaknya"
+  },
+
+  {
+    id: 41,
+    type: "truefalse",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ke Mana Ikan-Ikan Itu Pergi",
+      paragraphs: [
+        "Hujan turun deras ketika perahu kecil itu terombang-ambing di tengah laut. Sang tokoh utama, seorang pemuda pesisir dari Luwuk, tengah memancing seorang diri saat badai tiba-tiba datang. Di tengah kepanikan, matanya tertumbuk pada sepasang sandal yang tergeletak di lambung perahu—benda yang menurut kepercayaan warga setempat pantang dibawa melaut karena dianggap membawa sial. Ia pun segera melemparnya ke laut.",
+        "Ayahnya, yang akrab disapa Sebe, adalah nelayan tua yang keras dan pemarah, namun sangat berharap anaknya kelak meneruskan profesi sebagai nelayan. Sebe kerap mengomel dengan logat khas daerahnya, “Ngana ini yang banyak tingkah. Dari kecil so bapancing, perahu so dibuatkan…tinju turuuus…mau apa dengan tinju?” Ia tidak merestui hobi tinju sang anak dan menganggapnya sia-sia. Di balik amarahnya, Sebe sesungguhnya menyimpan kekhawatiran besar karena hasil tangkapan ikan yang kian menipis membuatnya harus melaut lebih jauh dari biasanya.",
+        "Tokoh utama merasa tertekan oleh tuntutan Sebe. Untuk melupakan rasa gagalnya, ia kerap mabuk-mabukan bersama temannya, Adi, hingga larut malam. “Sa bukan keluar kota, cuma bapancing,” katanya suatu ketika saat pamit melaut sendirian pada malam yang tidak baik, mengabaikan pesan Mamak agar ia tidak pergi karena malam itu dianggap kurang baik untuk melaut.",
+        "Di tengah laut, badai besar kembali menerjang. Dalam kepanikan dan pengaruh minuman keras, ia nyaris kehilangan arah hingga terdampar jauh dari daratan. Esok paginya, di tengah laut yang telah tenang, seekor ikan layar besar tersangkut di pancingnya. Setelah bergulat berjam-jam, ia berhasil menaklukkan ikan tersebut, tetapi kondisinya sendiri sudah sangat lemah karena kehabisan bahan bakar dan tersesat.",
+        "Saat harapan hampir pupus, sebuah perahu layar tua mendekat. Seorang lelaki tua berjanggut putih, yang mengaku sebagai “Tua dari Seberang”, menghampirinya tanpa banyak bertanya. Lelaki itu memotong ikan layar itu menjadi beberapa bagian, lalu menarik perahu sang tokoh utama menuju Luwuk tanpa meminta imbalan apa pun, dan menghilang begitu daratan mulai terlihat.",
+        "Ketika akhirnya tiba di tepian, sorot lampu senter dan suara Mamak yang berlari sambil memanggil namanya menyambutnya. Ikan layar besar itu masih terbujur utuh di perahu, seolah menjadi bukti sekaligus harapan bahwa ia bisa kembali membuktikan diri di hadapan Sebe, sosok ayah yang keras namun sesungguhnya menyimpan kasih sayang yang besar.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen Reza Nufa di situs bacapetra.co (dengan penyesuaian)"
+    },
+    question: "Tentukan BENAR atau SALAH setiap pernyataan berikut berdasarkan latar, karakter, dan fenomena yang tergambar melalui kosakata dalam teks!",
+    statements: [
+      "Penggunaan kata “te”, “so”, “jo”, dan “ngana” secara konsisten menunjukkan bahwa latar cerita berada di wilayah bertutur dialek Melayu Manado.",
+      "Kebiasaan tokoh utama mabuk-mabukan bersama Adi menggambarkan caranya melarikan diri dari tekanan batin akibat ekspektasi tinggi Sebe terhadap dirinya.",
+      "Sosok “Tua dari Seberang” dijelaskan secara eksplisit dalam cerita sebagai kerabat dekat keluarga tokoh utama yang sengaja menjemputnya.",
+      "Keharusan Sebe melaut lebih jauh dari sebelumnya untuk mendapatkan ikan mencerminkan fenomena menipisnya hasil tangkapan di perairan dekat pantai yang dialami nelayan tradisional.",
+    ],
+    answer: [
+      true,
+      true,
+      false,
+      true,
+    ]
+  },
+
+  {
+    id: 42,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Manusia Purba Flores Bukan Pemburu",
+      paragraphs: [
+        "Selama bertahun-tahun, manusia purba mungil dari Pulau Flores yang dijuluki “hobbit” digambarkan sebagai pemburu tangguh. Dengan tinggi tubuh hanya sekitar satu meter, spesies yang dikenal sebagai Homo floresiensis ini diyakini mampu menaklukkan gajah kerdil (stegodon) yang jauh lebih besar dari tubuhnya sendiri.",
+        "Namun, studi terbaru yang terbit di jurnal Science Advances pada awal Juli 2026 mematahkan anggapan tersebut. Kesimpulannya sederhana sekaligus mengejutkan: hobbit kemungkinan besar bukanlah pemburu, melainkan pemulung yang mengais sisa daging buruan komodo raksasa yang hidup berdampingan dengannya di Pulau Flores.",
+        "Tim peneliti yang dipimpin Elizabeth Grace Veatch, dengan melibatkan ilmuwan dari Smithsonian, BRIN, dan Institut Teknologi Bandung, meneliti ulang 3.155 fragmen tulang stegodon serta hampir 7.000 tulang tikus dari Gua Liang Bua. Mereka menganalisis bekas tanda gigitan predator dan tanda sayatan alat batu pada permukaan tulang untuk menentukan spesies mana yang lebih dulu mengakses bangkai hewan tersebut.",
+        "Dari 154 tanda yang diperiksa, 100 di antaranya merupakan bekas gigitan komodo, sedangkan hanya 54 yang merupakan sayatan alat batu buatan hobbit. Bekas gigitan komodo terkonsentrasi pada bagian tubuh berdaging tebal seperti bahu dan paha, sementara sayatan manusia purba hanya ditemukan pada bagian minim daging seperti tengkorak, kaki, dan tulang rusuk—menunjukkan bahwa komodo mengonsumsi bangkai lebih dahulu.",
+        "Studi ini juga menepis dugaan bahwa hobbit telah menguasai teknik memasak menggunakan api. Dari ribuan tulang tikus yang diteliti, tidak satu pun menunjukkan tanda terbakar, berbeda dengan lapisan yang berkaitan dengan Homo sapiens yang datang belakangan, yang sekitar 20 persen tulangnya menunjukkan bekas terbakar.",
+        "Temuan ini mengubah gambaran hobbit dari sosok pemburu tangguh menjadi makhluk pemulung oportunistik yang mampu bertahan hidup di pulau yang dihuni predator-predator raksasa. Keberhasilan mereka bertahan hingga sekitar 50.000 tahun lalu mungkin bukan berasal dari kemampuan berburu, melainkan dari kemampuan beradaptasi yang luar biasa.",
+      ],
+      image: null,
+      source: "Sumber: seasia.co, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Apabila informasi dalam teks tersebut disusun menjadi bagan alur penelitian dengan bagian-bagian berikut:<br>(1) Anggapan lama bahwa hobbit adalah pemburu tangguh<br>(2) Studi baru yang terbit di jurnal Science Advances<br>(3) Metode: analisis tanda gigitan dan sayatan pada ribuan fragmen tulang<br>(4) Hasil: distribusi tanda gigitan komodo dan sayatan manusia pada bagian tubuh berbeda<br>(5) Bukti tambahan: ketiadaan bekas terbakar pada tulang tikus<br>(6) Kesimpulan: hobbit adalah pemulung oportunistik<br><br>Urutan bagan yang paling tepat sesuai alur penyampaian gagasan dalam teks adalah…",
+    options: [
+      "(3)-(1)-(2)-(4)-(6)-(5)",
+      "(1)-(2)-(3)-(4)-(5)-(6)",
+      "(2)-(1)-(4)-(3)-(5)-(6)",
+      "(1)-(3)-(2)-(5)-(4)-(6)",
+      "(6)-(5)-(4)-(3)-(2)-(1)",
+    ],
+    answer: "(1)-(2)-(3)-(4)-(5)-(6)"
+  },
+
+  {
+    id: 43,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Manusia Purba Flores Bukan Pemburu",
+      paragraphs: [
+        "Selama bertahun-tahun, manusia purba mungil dari Pulau Flores yang dijuluki “hobbit” digambarkan sebagai pemburu tangguh. Dengan tinggi tubuh hanya sekitar satu meter, spesies yang dikenal sebagai Homo floresiensis ini diyakini mampu menaklukkan gajah kerdil (stegodon) yang jauh lebih besar dari tubuhnya sendiri.",
+        "Namun, studi terbaru yang terbit di jurnal Science Advances pada awal Juli 2026 mematahkan anggapan tersebut. Kesimpulannya sederhana sekaligus mengejutkan: hobbit kemungkinan besar bukanlah pemburu, melainkan pemulung yang mengais sisa daging buruan komodo raksasa yang hidup berdampingan dengannya di Pulau Flores.",
+        "Tim peneliti yang dipimpin Elizabeth Grace Veatch, dengan melibatkan ilmuwan dari Smithsonian, BRIN, dan Institut Teknologi Bandung, meneliti ulang 3.155 fragmen tulang stegodon serta hampir 7.000 tulang tikus dari Gua Liang Bua. Mereka menganalisis bekas tanda gigitan predator dan tanda sayatan alat batu pada permukaan tulang untuk menentukan spesies mana yang lebih dulu mengakses bangkai hewan tersebut.",
+        "Dari 154 tanda yang diperiksa, 100 di antaranya merupakan bekas gigitan komodo, sedangkan hanya 54 yang merupakan sayatan alat batu buatan hobbit. Bekas gigitan komodo terkonsentrasi pada bagian tubuh berdaging tebal seperti bahu dan paha, sementara sayatan manusia purba hanya ditemukan pada bagian minim daging seperti tengkorak, kaki, dan tulang rusuk—menunjukkan bahwa komodo mengonsumsi bangkai lebih dahulu.",
+        "Studi ini juga menepis dugaan bahwa hobbit telah menguasai teknik memasak menggunakan api. Dari ribuan tulang tikus yang diteliti, tidak satu pun menunjukkan tanda terbakar, berbeda dengan lapisan yang berkaitan dengan Homo sapiens yang datang belakangan, yang sekitar 20 persen tulangnya menunjukkan bekas terbakar.",
+        "Temuan ini mengubah gambaran hobbit dari sosok pemburu tangguh menjadi makhluk pemulung oportunistik yang mampu bertahan hidup di pulau yang dihuni predator-predator raksasa. Keberhasilan mereka bertahan hingga sekitar 50.000 tahun lalu mungkin bukan berasal dari kemampuan berburu, melainkan dari kemampuan beradaptasi yang luar biasa.",
+      ],
+      image: null,
+      source: "Sumber: seasia.co, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Jika kerangka teks tersebut disusun dalam bentuk bagan dengan cabang utama “Bukti Pendukung Temuan Baru”, bagian manakah yang paling tepat dimasukkan ke dalam cabang tersebut?",
+    options: [
+      "distribusi lokasi tanda gigitan komodo dan sayatan alat batu pada bagian tubuh yang berbeda, serta ketiadaan bekas terbakar pada tulang tikus",
+      "penjelasan tentang tinggi tubuh hobbit yang hanya sekitar satu meter",
+      "informasi tentang asal-usul julukan “hobbit” bagi Homo floresiensis",
+      "pendapat pribadi penulis artikel mengenai pentingnya penelitian arkeologi",
+      "daftar lengkap lembaga yang terlibat dalam kolaborasi penelitian",
+    ],
+    answer: "distribusi lokasi tanda gigitan komodo dan sayatan alat batu pada bagian tubuh yang berbeda, serta ketiadaan bekas terbakar pada tulang tikus"
+  },
+
+  {
+    id: 44,
+    type: "multiple",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Manusia Purba Flores Bukan Pemburu",
+      paragraphs: [
+        "Selama bertahun-tahun, manusia purba mungil dari Pulau Flores yang dijuluki “hobbit” digambarkan sebagai pemburu tangguh. Dengan tinggi tubuh hanya sekitar satu meter, spesies yang dikenal sebagai Homo floresiensis ini diyakini mampu menaklukkan gajah kerdil (stegodon) yang jauh lebih besar dari tubuhnya sendiri.",
+        "Namun, studi terbaru yang terbit di jurnal Science Advances pada awal Juli 2026 mematahkan anggapan tersebut. Kesimpulannya sederhana sekaligus mengejutkan: hobbit kemungkinan besar bukanlah pemburu, melainkan pemulung yang mengais sisa daging buruan komodo raksasa yang hidup berdampingan dengannya di Pulau Flores.",
+        "Tim peneliti yang dipimpin Elizabeth Grace Veatch, dengan melibatkan ilmuwan dari Smithsonian, BRIN, dan Institut Teknologi Bandung, meneliti ulang 3.155 fragmen tulang stegodon serta hampir 7.000 tulang tikus dari Gua Liang Bua. Mereka menganalisis bekas tanda gigitan predator dan tanda sayatan alat batu pada permukaan tulang untuk menentukan spesies mana yang lebih dulu mengakses bangkai hewan tersebut.",
+        "Dari 154 tanda yang diperiksa, 100 di antaranya merupakan bekas gigitan komodo, sedangkan hanya 54 yang merupakan sayatan alat batu buatan hobbit. Bekas gigitan komodo terkonsentrasi pada bagian tubuh berdaging tebal seperti bahu dan paha, sementara sayatan manusia purba hanya ditemukan pada bagian minim daging seperti tengkorak, kaki, dan tulang rusuk—menunjukkan bahwa komodo mengonsumsi bangkai lebih dahulu.",
+        "Studi ini juga menepis dugaan bahwa hobbit telah menguasai teknik memasak menggunakan api. Dari ribuan tulang tikus yang diteliti, tidak satu pun menunjukkan tanda terbakar, berbeda dengan lapisan yang berkaitan dengan Homo sapiens yang datang belakangan, yang sekitar 20 persen tulangnya menunjukkan bekas terbakar.",
+        "Temuan ini mengubah gambaran hobbit dari sosok pemburu tangguh menjadi makhluk pemulung oportunistik yang mampu bertahan hidup di pulau yang dihuni predator-predator raksasa. Keberhasilan mereka bertahan hingga sekitar 50.000 tahun lalu mungkin bukan berasal dari kemampuan berburu, melainkan dari kemampuan beradaptasi yang luar biasa.",
+      ],
+      image: null,
+      source: "Sumber: seasia.co, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Bagian-bagian berikut ini manakah yang tepat dimasukkan sebagai sub-bagian “Hasil Analisis Tanda pada Tulang” dalam kerangka/bagan teks tersebut? (Jawaban LEBIH dari satu)",
+    options: [
+      "Dari 154 tanda yang diperiksa, 100 di antaranya merupakan bekas gigitan komodo.",
+      "Bekas gigitan komodo terkonsentrasi pada bagian tubuh berdaging tebal seperti bahu dan paha.",
+      "Homo floresiensis pertama kali ditemukan di Gua Liang Bua pada tahun 2003.",
+      "Pulau Flores merupakan pulau dengan fenomena evolusi ekstrem berupa gajah kerdil dan komodo raksasa.",
+      "Sayatan alat batu buatan hobbit hanya ditemukan pada bagian minim daging seperti tengkorak, kaki, dan tulang rusuk.",
+    ],
+    answer: [
+      "Dari 154 tanda yang diperiksa, 100 di antaranya merupakan bekas gigitan komodo.",
+      "Bekas gigitan komodo terkonsentrasi pada bagian tubuh berdaging tebal seperti bahu dan paha.",
+      "Sayatan alat batu buatan hobbit hanya ditemukan pada bagian minim daging seperti tengkorak, kaki, dan tulang rusuk.",
+    ]
+  },
+
+  {
+    id: 45,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Jebakan Pendapatan Menengah dan Tiga Retakan di Menara Gading",
+      paragraphs: [
+        "Pertumbuhan ekonomi Indonesia dalam beberapa tahun terakhir bertahan stabil pada kisaran lima persen, bahkan sempat menyentuh angka 5,61 persen pada triwulan pertama 2026. Angka ini kerap dirayakan sebagai bukti fondasi ekonomi yang kokoh. Namun, di balik statistik yang menggembirakan itu, tersembunyi pertanyaan yang lebih mendasar: apakah pertumbuhan semacam ini cukup untuk membawa Indonesia keluar dari jebakan pendapatan menengah menuju status negara maju pada 2045? Sejarah negara-negara yang berhasil naik kelas menunjukkan satu benang merah yang sama, yaitu keberanian berinvestasi besar-besaran pada perguruan tinggi, dosen, dan riset. Sebaliknya, Indonesia justru menghadapi tiga retakan sekaligus pada pilar itu.",
+        "Retakan pertama tampak pada mahalnya biaya kuliah. Uang Kuliah Tunggal di sejumlah kampus negeri ternama terus merangkak naik, sementara beasiswa yang tersedia tidak sebanding dengan jumlah lulusan sekolah menengah yang ingin melanjutkan pendidikan. Akibatnya, pendidikan tinggi berkualitas perlahan bergeser menjadi barang mewah yang hanya terjangkau oleh kelompok masyarakat tertentu, bukan lagi tangga mobilitas sosial bagi anak-anak dari keluarga berpenghasilan menengah ke bawah.",
+        "Retakan kedua justru terjadi pada sisi yang seharusnya menjadi tulang punggung mutu pendidikan, yaitu kesejahteraan dosen. Banyak dosen, terutama di kampus swasta dan daerah, menerima honor yang jauh dari layak sehingga terpaksa mengajar di beberapa kampus sekaligus demi menyambung hidup. Waktu dan energi yang semestinya dicurahkan untuk membimbing mahasiswa serta melakukan riset mendalam habis terpakai untuk mengejar jam mengajar tambahan. Paradoks pun muncul: kampus menagih biaya mahal kepada mahasiswa, tetapi tidak mampu membayar layak orang yang mendidik mereka.",
+        "Retakan ketiga adalah lemahnya riset. Anggaran penelitian nasional Indonesia masih jauh tertinggal dibandingkan negara-negara yang telah lebih dulu keluar dari jebakan pendapatan menengah dan secara konsisten mengalokasikan dana besar untuk riset serta pengembangan sebagai fondasi transformasi ekonominya. Minimnya insentif riset membuat publikasi ilmiah dan paten dari perguruan tinggi Indonesia kalah bersaing di kancah internasional, sekaligus memperlambat lahirnya inovasi yang semestinya menjadi motor penggerak industri bernilai tambah tinggi.",
+        "Ketiga retakan ini saling mengunci dan memperparah satu sama lain. Kampus yang mahal tidak otomatis melahirkan riset unggul apabila dosennya kelelahan mengejar honor tambahan. Riset yang lemah pada gilirannya membuat industri nasional tetap bergantung pada teknologi impor, alih-alih menciptakan nilai tambah dari dalam negeri sendiri. Dengan pola seperti ini, hilirisasi sumber daya alam yang digadang-gadang sebagai jalan pintas menuju negara maju berisiko hanya memindahkan bahan mentah menjadi produk setengah jadi, tanpa lompatan teknologi yang berarti.",
+        "Jika ketiga retakan itu dibiarkan menganga, visi Indonesia Emas 2045 berpotensi tinggal menjadi slogan seremonial belaka. Untuk benar-benar keluar dari jebakan pendapatan menengah, keberpihakan anggaran pada pendidikan tinggi tidak cukup diukur dari besarnya UKT yang dipungut, melainkan dari seberapa serius negara menyejahterakan dosen dan menopang riset sebagai investasi jangka panjang, bukan sekadar pos pengeluaran yang mudah dipangkas saat anggaran seret.",
+      ],
+      image: null,
+      source: "Sumber: Media Indonesia, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Manakah simpulan yang paling tepat menggambarkan keseluruhan teks tersebut?",
+    options: [
+      "Pertumbuhan ekonomi Indonesia sebesar 5,61 persen pada triwulan pertama 2026 membuktikan bahwa negara telah keluar dari jebakan pendapatan menengah.",
+      "Uang Kuliah Tunggal di kampus negeri terus meningkat sehingga banyak lulusan SMA memilih untuk tidak melanjutkan pendidikan tinggi.",
+      "Ancaman jebakan pendapatan menengah bagi Indonesia berakar pada tiga persoalan pendidikan tinggi yang saling terkait, yaitu biaya kuliah yang mahal, kesejahteraan dosen yang rendah, dan riset yang lemah.",
+      "Dosen di kampus swasta dan daerah terpaksa mengajar di beberapa tempat sekaligus karena honor yang mereka terima tidak mencukupi kebutuhan hidup.",
+      "Negara-negara lain berhasil keluar dari jebakan pendapatan menengah karena berinvestasi besar pada perguruan tinggi, dosen, dan riset sejak beberapa dekade lalu.",
+    ],
+    answer: "Ancaman jebakan pendapatan menengah bagi Indonesia berakar pada tiga persoalan pendidikan tinggi yang saling terkait, yaitu biaya kuliah yang mahal, kesejahteraan dosen yang rendah, dan riset yang lemah."
+  },
+
+  {
+    id: 46,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Jebakan Pendapatan Menengah dan Tiga Retakan di Menara Gading",
+      paragraphs: [
+        "Pertumbuhan ekonomi Indonesia dalam beberapa tahun terakhir bertahan stabil pada kisaran lima persen, bahkan sempat menyentuh angka 5,61 persen pada triwulan pertama 2026. Angka ini kerap dirayakan sebagai bukti fondasi ekonomi yang kokoh. Namun, di balik statistik yang menggembirakan itu, tersembunyi pertanyaan yang lebih mendasar: apakah pertumbuhan semacam ini cukup untuk membawa Indonesia keluar dari jebakan pendapatan menengah menuju status negara maju pada 2045? Sejarah negara-negara yang berhasil naik kelas menunjukkan satu benang merah yang sama, yaitu keberanian berinvestasi besar-besaran pada perguruan tinggi, dosen, dan riset. Sebaliknya, Indonesia justru menghadapi tiga retakan sekaligus pada pilar itu.",
+        "Retakan pertama tampak pada mahalnya biaya kuliah. Uang Kuliah Tunggal di sejumlah kampus negeri ternama terus merangkak naik, sementara beasiswa yang tersedia tidak sebanding dengan jumlah lulusan sekolah menengah yang ingin melanjutkan pendidikan. Akibatnya, pendidikan tinggi berkualitas perlahan bergeser menjadi barang mewah yang hanya terjangkau oleh kelompok masyarakat tertentu, bukan lagi tangga mobilitas sosial bagi anak-anak dari keluarga berpenghasilan menengah ke bawah.",
+        "Retakan kedua justru terjadi pada sisi yang seharusnya menjadi tulang punggung mutu pendidikan, yaitu kesejahteraan dosen. Banyak dosen, terutama di kampus swasta dan daerah, menerima honor yang jauh dari layak sehingga terpaksa mengajar di beberapa kampus sekaligus demi menyambung hidup. Waktu dan energi yang semestinya dicurahkan untuk membimbing mahasiswa serta melakukan riset mendalam habis terpakai untuk mengejar jam mengajar tambahan. Paradoks pun muncul: kampus menagih biaya mahal kepada mahasiswa, tetapi tidak mampu membayar layak orang yang mendidik mereka.",
+        "Retakan ketiga adalah lemahnya riset. Anggaran penelitian nasional Indonesia masih jauh tertinggal dibandingkan negara-negara yang telah lebih dulu keluar dari jebakan pendapatan menengah dan secara konsisten mengalokasikan dana besar untuk riset serta pengembangan sebagai fondasi transformasi ekonominya. Minimnya insentif riset membuat publikasi ilmiah dan paten dari perguruan tinggi Indonesia kalah bersaing di kancah internasional, sekaligus memperlambat lahirnya inovasi yang semestinya menjadi motor penggerak industri bernilai tambah tinggi.",
+        "Ketiga retakan ini saling mengunci dan memperparah satu sama lain. Kampus yang mahal tidak otomatis melahirkan riset unggul apabila dosennya kelelahan mengejar honor tambahan. Riset yang lemah pada gilirannya membuat industri nasional tetap bergantung pada teknologi impor, alih-alih menciptakan nilai tambah dari dalam negeri sendiri. Dengan pola seperti ini, hilirisasi sumber daya alam yang digadang-gadang sebagai jalan pintas menuju negara maju berisiko hanya memindahkan bahan mentah menjadi produk setengah jadi, tanpa lompatan teknologi yang berarti.",
+        "Jika ketiga retakan itu dibiarkan menganga, visi Indonesia Emas 2045 berpotensi tinggal menjadi slogan seremonial belaka. Untuk benar-benar keluar dari jebakan pendapatan menengah, keberpihakan anggaran pada pendidikan tinggi tidak cukup diukur dari besarnya UKT yang dipungut, melainkan dari seberapa serius negara menyejahterakan dosen dan menopang riset sebagai investasi jangka panjang, bukan sekadar pos pengeluaran yang mudah dipangkas saat anggaran seret.",
+      ],
+      image: null,
+      source: "Sumber: Media Indonesia, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Gagasan utama paragraf ketiga adalah...",
+    options: [
+      "Dosen di berbagai kampus mengajar demi meningkatkan reputasi institusi tempat mereka bekerja.",
+      "Honor yang tidak layak memaksa banyak dosen mengajar di berbagai kampus sehingga waktu untuk riset dan bimbingan mahasiswa berkurang.",
+      "Kampus swasta membayar dosen lebih tinggi dibandingkan kampus negeri di kota besar.",
+      "Mahasiswa lebih menyukai dosen yang mengajar di banyak kampus karena dianggap lebih berpengalaman.",
+      "Riset yang dilakukan dosen di Indonesia sudah cukup memadai meski honor mengajar tergolong rendah.",
+    ],
+    answer: "Honor yang tidak layak memaksa banyak dosen mengajar di berbagai kampus sehingga waktu untuk riset dan bimbingan mahasiswa berkurang."
+  },
+
+  {
+    id: 47,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Jebakan Pendapatan Menengah dan Tiga Retakan di Menara Gading",
+      paragraphs: [
+        "Pertumbuhan ekonomi Indonesia dalam beberapa tahun terakhir bertahan stabil pada kisaran lima persen, bahkan sempat menyentuh angka 5,61 persen pada triwulan pertama 2026. Angka ini kerap dirayakan sebagai bukti fondasi ekonomi yang kokoh. Namun, di balik statistik yang menggembirakan itu, tersembunyi pertanyaan yang lebih mendasar: apakah pertumbuhan semacam ini cukup untuk membawa Indonesia keluar dari jebakan pendapatan menengah menuju status negara maju pada 2045? Sejarah negara-negara yang berhasil naik kelas menunjukkan satu benang merah yang sama, yaitu keberanian berinvestasi besar-besaran pada perguruan tinggi, dosen, dan riset. Sebaliknya, Indonesia justru menghadapi tiga retakan sekaligus pada pilar itu.",
+        "Retakan pertama tampak pada mahalnya biaya kuliah. Uang Kuliah Tunggal di sejumlah kampus negeri ternama terus merangkak naik, sementara beasiswa yang tersedia tidak sebanding dengan jumlah lulusan sekolah menengah yang ingin melanjutkan pendidikan. Akibatnya, pendidikan tinggi berkualitas perlahan bergeser menjadi barang mewah yang hanya terjangkau oleh kelompok masyarakat tertentu, bukan lagi tangga mobilitas sosial bagi anak-anak dari keluarga berpenghasilan menengah ke bawah.",
+        "Retakan kedua justru terjadi pada sisi yang seharusnya menjadi tulang punggung mutu pendidikan, yaitu kesejahteraan dosen. Banyak dosen, terutama di kampus swasta dan daerah, menerima honor yang jauh dari layak sehingga terpaksa mengajar di beberapa kampus sekaligus demi menyambung hidup. Waktu dan energi yang semestinya dicurahkan untuk membimbing mahasiswa serta melakukan riset mendalam habis terpakai untuk mengejar jam mengajar tambahan. Paradoks pun muncul: kampus menagih biaya mahal kepada mahasiswa, tetapi tidak mampu membayar layak orang yang mendidik mereka.",
+        "Retakan ketiga adalah lemahnya riset. Anggaran penelitian nasional Indonesia masih jauh tertinggal dibandingkan negara-negara yang telah lebih dulu keluar dari jebakan pendapatan menengah dan secara konsisten mengalokasikan dana besar untuk riset serta pengembangan sebagai fondasi transformasi ekonominya. Minimnya insentif riset membuat publikasi ilmiah dan paten dari perguruan tinggi Indonesia kalah bersaing di kancah internasional, sekaligus memperlambat lahirnya inovasi yang semestinya menjadi motor penggerak industri bernilai tambah tinggi.",
+        "Ketiga retakan ini saling mengunci dan memperparah satu sama lain. Kampus yang mahal tidak otomatis melahirkan riset unggul apabila dosennya kelelahan mengejar honor tambahan. Riset yang lemah pada gilirannya membuat industri nasional tetap bergantung pada teknologi impor, alih-alih menciptakan nilai tambah dari dalam negeri sendiri. Dengan pola seperti ini, hilirisasi sumber daya alam yang digadang-gadang sebagai jalan pintas menuju negara maju berisiko hanya memindahkan bahan mentah menjadi produk setengah jadi, tanpa lompatan teknologi yang berarti.",
+        "Jika ketiga retakan itu dibiarkan menganga, visi Indonesia Emas 2045 berpotensi tinggal menjadi slogan seremonial belaka. Untuk benar-benar keluar dari jebakan pendapatan menengah, keberpihakan anggaran pada pendidikan tinggi tidak cukup diukur dari besarnya UKT yang dipungut, melainkan dari seberapa serius negara menyejahterakan dosen dan menopang riset sebagai investasi jangka panjang, bukan sekadar pos pengeluaran yang mudah dipangkas saat anggaran seret.",
+      ],
+      image: null,
+      source: "Sumber: Media Indonesia, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Inti gagasan yang ingin disampaikan penulis pada paragraf kelima adalah...",
+    options: [
+      "Hilirisasi sumber daya alam sudah cukup untuk membawa Indonesia menjadi negara maju tanpa perlu memperbaiki riset.",
+      "Tiga persoalan pendidikan tinggi, yaitu biaya, kesejahteraan dosen, dan riset, saling memperburuk satu sama lain sehingga hilirisasi berisiko tidak disertai lompatan teknologi.",
+      "Industri nasional tidak lagi membutuhkan teknologi impor karena riset dalam negeri sudah mencukupi.",
+      "Dosen yang kelelahan mengajar justru menghasilkan riset yang lebih inovatif dibandingkan dosen yang fokus meneliti.",
+      "Kampus yang mahal secara otomatis akan menghasilkan riset unggulan tanpa perlu perbaikan kesejahteraan dosen.",
+    ],
+    answer: "Tiga persoalan pendidikan tinggi, yaitu biaya, kesejahteraan dosen, dan riset, saling memperburuk satu sama lain sehingga hilirisasi berisiko tidak disertai lompatan teknologi."
+  },
+
+  {
+    id: 48,
+    type: "truefalse",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Jebakan Pendapatan Menengah dan Tiga Retakan di Menara Gading",
+      paragraphs: [
+        "Pertumbuhan ekonomi Indonesia dalam beberapa tahun terakhir bertahan stabil pada kisaran lima persen, bahkan sempat menyentuh angka 5,61 persen pada triwulan pertama 2026. Angka ini kerap dirayakan sebagai bukti fondasi ekonomi yang kokoh. Namun, di balik statistik yang menggembirakan itu, tersembunyi pertanyaan yang lebih mendasar: apakah pertumbuhan semacam ini cukup untuk membawa Indonesia keluar dari jebakan pendapatan menengah menuju status negara maju pada 2045? Sejarah negara-negara yang berhasil naik kelas menunjukkan satu benang merah yang sama, yaitu keberanian berinvestasi besar-besaran pada perguruan tinggi, dosen, dan riset. Sebaliknya, Indonesia justru menghadapi tiga retakan sekaligus pada pilar itu.",
+        "Retakan pertama tampak pada mahalnya biaya kuliah. Uang Kuliah Tunggal di sejumlah kampus negeri ternama terus merangkak naik, sementara beasiswa yang tersedia tidak sebanding dengan jumlah lulusan sekolah menengah yang ingin melanjutkan pendidikan. Akibatnya, pendidikan tinggi berkualitas perlahan bergeser menjadi barang mewah yang hanya terjangkau oleh kelompok masyarakat tertentu, bukan lagi tangga mobilitas sosial bagi anak-anak dari keluarga berpenghasilan menengah ke bawah.",
+        "Retakan kedua justru terjadi pada sisi yang seharusnya menjadi tulang punggung mutu pendidikan, yaitu kesejahteraan dosen. Banyak dosen, terutama di kampus swasta dan daerah, menerima honor yang jauh dari layak sehingga terpaksa mengajar di beberapa kampus sekaligus demi menyambung hidup. Waktu dan energi yang semestinya dicurahkan untuk membimbing mahasiswa serta melakukan riset mendalam habis terpakai untuk mengejar jam mengajar tambahan. Paradoks pun muncul: kampus menagih biaya mahal kepada mahasiswa, tetapi tidak mampu membayar layak orang yang mendidik mereka.",
+        "Retakan ketiga adalah lemahnya riset. Anggaran penelitian nasional Indonesia masih jauh tertinggal dibandingkan negara-negara yang telah lebih dulu keluar dari jebakan pendapatan menengah dan secara konsisten mengalokasikan dana besar untuk riset serta pengembangan sebagai fondasi transformasi ekonominya. Minimnya insentif riset membuat publikasi ilmiah dan paten dari perguruan tinggi Indonesia kalah bersaing di kancah internasional, sekaligus memperlambat lahirnya inovasi yang semestinya menjadi motor penggerak industri bernilai tambah tinggi.",
+        "Ketiga retakan ini saling mengunci dan memperparah satu sama lain. Kampus yang mahal tidak otomatis melahirkan riset unggul apabila dosennya kelelahan mengejar honor tambahan. Riset yang lemah pada gilirannya membuat industri nasional tetap bergantung pada teknologi impor, alih-alih menciptakan nilai tambah dari dalam negeri sendiri. Dengan pola seperti ini, hilirisasi sumber daya alam yang digadang-gadang sebagai jalan pintas menuju negara maju berisiko hanya memindahkan bahan mentah menjadi produk setengah jadi, tanpa lompatan teknologi yang berarti.",
+        "Jika ketiga retakan itu dibiarkan menganga, visi Indonesia Emas 2045 berpotensi tinggal menjadi slogan seremonial belaka. Untuk benar-benar keluar dari jebakan pendapatan menengah, keberpihakan anggaran pada pendidikan tinggi tidak cukup diukur dari besarnya UKT yang dipungut, melainkan dari seberapa serius negara menyejahterakan dosen dan menopang riset sebagai investasi jangka panjang, bukan sekadar pos pengeluaran yang mudah dipangkas saat anggaran seret.",
+      ],
+      image: null,
+      source: "Sumber: Media Indonesia, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Berdasarkan gaya bahasa dan isi teks, tentukan Benar (B) atau Salah (S) pada setiap pernyataan berikut mengenai tujuan penulisan dan target pembaca teks tersebut!",
+    statements: [
+      "Penulis menggunakan gaya bahasa argumentatif disertai data dan perbandingan antarnegara untuk meyakinkan pembaca.",
+      "Tujuan utama teks ini adalah untuk memuji capaian pertumbuhan ekonomi Indonesia pada triwulan pertama 2026.",
+      "Sasaran pembaca teks ini kemungkinan besar adalah pemangku kebijakan pendidikan dan masyarakat yang peduli isu pendidikan tinggi.",
+      "Penulis secara implisit menyiratkan bahwa besarnya Uang Kuliah Tunggal sudah sebanding dengan mutu pendidikan yang diterima mahasiswa.",
+    ],
+    answer: [
+      true,
+      false,
+      true,
+      false,
+    ]
+  },
+
+  {
+    id: 49,
+    type: "multiple",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Jebakan Pendapatan Menengah dan Tiga Retakan di Menara Gading",
+      paragraphs: [
+        "Pertumbuhan ekonomi Indonesia dalam beberapa tahun terakhir bertahan stabil pada kisaran lima persen, bahkan sempat menyentuh angka 5,61 persen pada triwulan pertama 2026. Angka ini kerap dirayakan sebagai bukti fondasi ekonomi yang kokoh. Namun, di balik statistik yang menggembirakan itu, tersembunyi pertanyaan yang lebih mendasar: apakah pertumbuhan semacam ini cukup untuk membawa Indonesia keluar dari jebakan pendapatan menengah menuju status negara maju pada 2045? Sejarah negara-negara yang berhasil naik kelas menunjukkan satu benang merah yang sama, yaitu keberanian berinvestasi besar-besaran pada perguruan tinggi, dosen, dan riset. Sebaliknya, Indonesia justru menghadapi tiga retakan sekaligus pada pilar itu.",
+        "Retakan pertama tampak pada mahalnya biaya kuliah. Uang Kuliah Tunggal di sejumlah kampus negeri ternama terus merangkak naik, sementara beasiswa yang tersedia tidak sebanding dengan jumlah lulusan sekolah menengah yang ingin melanjutkan pendidikan. Akibatnya, pendidikan tinggi berkualitas perlahan bergeser menjadi barang mewah yang hanya terjangkau oleh kelompok masyarakat tertentu, bukan lagi tangga mobilitas sosial bagi anak-anak dari keluarga berpenghasilan menengah ke bawah.",
+        "Retakan kedua justru terjadi pada sisi yang seharusnya menjadi tulang punggung mutu pendidikan, yaitu kesejahteraan dosen. Banyak dosen, terutama di kampus swasta dan daerah, menerima honor yang jauh dari layak sehingga terpaksa mengajar di beberapa kampus sekaligus demi menyambung hidup. Waktu dan energi yang semestinya dicurahkan untuk membimbing mahasiswa serta melakukan riset mendalam habis terpakai untuk mengejar jam mengajar tambahan. Paradoks pun muncul: kampus menagih biaya mahal kepada mahasiswa, tetapi tidak mampu membayar layak orang yang mendidik mereka.",
+        "Retakan ketiga adalah lemahnya riset. Anggaran penelitian nasional Indonesia masih jauh tertinggal dibandingkan negara-negara yang telah lebih dulu keluar dari jebakan pendapatan menengah dan secara konsisten mengalokasikan dana besar untuk riset serta pengembangan sebagai fondasi transformasi ekonominya. Minimnya insentif riset membuat publikasi ilmiah dan paten dari perguruan tinggi Indonesia kalah bersaing di kancah internasional, sekaligus memperlambat lahirnya inovasi yang semestinya menjadi motor penggerak industri bernilai tambah tinggi.",
+        "Ketiga retakan ini saling mengunci dan memperparah satu sama lain. Kampus yang mahal tidak otomatis melahirkan riset unggul apabila dosennya kelelahan mengejar honor tambahan. Riset yang lemah pada gilirannya membuat industri nasional tetap bergantung pada teknologi impor, alih-alih menciptakan nilai tambah dari dalam negeri sendiri. Dengan pola seperti ini, hilirisasi sumber daya alam yang digadang-gadang sebagai jalan pintas menuju negara maju berisiko hanya memindahkan bahan mentah menjadi produk setengah jadi, tanpa lompatan teknologi yang berarti.",
+        "Jika ketiga retakan itu dibiarkan menganga, visi Indonesia Emas 2045 berpotensi tinggal menjadi slogan seremonial belaka. Untuk benar-benar keluar dari jebakan pendapatan menengah, keberpihakan anggaran pada pendidikan tinggi tidak cukup diukur dari besarnya UKT yang dipungut, melainkan dari seberapa serius negara menyejahterakan dosen dan menopang riset sebagai investasi jangka panjang, bukan sekadar pos pengeluaran yang mudah dipangkas saat anggaran seret.",
+      ],
+      image: null,
+      source: "Sumber: Media Indonesia, 7 Juli 2026 (dengan penyesuaian)"
+    },
+    question: "Berdasarkan gaya bahasa dan isi teks, pilihlah pernyataan yang tepat mengenai pesan tersirat yang ingin disampaikan penulis! (Jawaban lebih dari satu)",
+    options: [
+      "Pertumbuhan ekonomi 5,61 persen sudah menjadi bukti bahwa Indonesia pasti akan lolos dari jebakan pendapatan menengah.",
+      "Hilirisasi sumber daya alam harus dihentikan karena tidak memberi manfaat ekonomi sama sekali.",
+      "Keberhasilan negara lain menunjukkan pentingnya investasi jangka panjang pada dosen dan riset, bukan sekadar slogan.",
+      "Peningkatan anggaran riset semata tidak akan efektif tanpa perbaikan kesejahteraan dosen.",
+      "Pendidikan tinggi berisiko kehilangan fungsinya sebagai sarana mobilitas sosial jika biayanya terus naik.",
+    ],
+    answer: [
+      "Keberhasilan negara lain menunjukkan pentingnya investasi jangka panjang pada dosen dan riset, bukan sekadar slogan.",
+      "Peningkatan anggaran riset semata tidak akan efektif tanpa perbaikan kesejahteraan dosen.",
+      "Pendidikan tinggi berisiko kehilangan fungsinya sebagai sarana mobilitas sosial jika biayanya terus naik.",
+    ]
+  },
+
+  {
+    id: 50,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Penjaga di Ambang Pintu",
+      paragraphs: [
+        "Sebagaimana hari-hari yang telah lewat, aku menghabiskan pagi ini di beranda, mengamati orang-orang yang lalu-lalang di jalan kecil depan rumah. Pak Bhre, orang yang kini merawatku, telah berangkat sejak subuh. Sebelum pergi, dia selalu mengelus kepalaku pelan sambil berbisik bahwa dia akan pulang sebelum petang jika tugasnya tidak terlalu padat. Aku hanya diam, meski telingaku yang terlatih mendengar setiap kata itu dengan jelas.",
+        "Dengan indra penciuman yang sejak dulu menjadi kebanggaanku, aku bisa mengenali siapa saja yang mendekati pekarangan jauh sebelum mereka terlihat. Namun kini, tubuhku tak lagi seutuh dulu. Salah satu kaki depanku telah hilang, membuat langkahku terpincang setiap kali aku mencoba bangkit dari tempat berbaring menuju pagar.",
+        "Aku masih ingat betul masa kecilku, ketika aku dipisahkan dari induk sejak usia amat muda untuk menjalani pelatihan keras. Wangi tubuh induk yang dulu selalu menenangkan perlahan tergantikan oleh aroma tajam instruktur dan bahan-bahan yang wajib kuhafal baunya sampai kapan pun: bubuk mesiu, kabel yang terbakar, dan berbagai unsur peledak rakitan.",
+        "Latihan bertahun-tahun itu membuahkan hasil. Aku dinyatakan lulus sebagai salah satu unit terbaik di divisi penjinak bahan peledak, ditugaskan pada operasi-operasi berisiko tinggi yang tidak semua anjing pelacak mampu menjalaninya. Pak Bhre adalah salah satu penanganku sejak awal aku bertugas, orang yang paling memahami setiap gerak-gerikku.",
+        "Tiga tahun lalu, timku mendapat perintah menyisir sebuah gudang tua yang dicurigai menyimpan bahan peledak rakitan. Hari itu penciumanku sedang tidak prima karena pilek ringan yang kusembunyikan dari tim, sebab aku tidak ingin dianggap lemah dan digantikan oleh anjing lain. Ketika melangkah di antara tumpukan kardus, aku gagal mengenali aroma pemicu yang tersembunyi, dan ledakan kecil pun terjadi tepat di depanku.",
+        "Sejak insiden itu, aku dinyatakan tidak lagi layak bertugas aktif. Setelah menjalani perawatan panjang, Pak Bhre memutuskan membawaku pulang untuk dirawat di rumahnya sendiri, menggantikan seragam dinas dengan hari-hari yang lebih tenang meski tak sepenuhnya damai bagiku.",
+        "Sore ini, ketika suara mobil memasuki pekarangan, insting lamaku kembali bekerja. Aku menyeret tubuhku menuju pagar, mengendus roda dan badan mobil itu perlahan, memastikan tidak ada yang mencurigakan, sebagaimana yang selalu kulakukan dulu. Sebab meski telah pensiun, sebagian diriku masih merasa bertanggung jawab untuk menjaga, dan penyesalan karena pernah menyembunyikan kondisiku sendiri dari tim tak pernah benar-benar hilang.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen “Pensiunan Polisi” karya Radja Sinaga (basabasi.co)"
+    },
+    question: "Konflik utama yang dialami tokoh \"aku\" dalam cerpen tersebut adalah...",
+    options: [
+      "Konflik batin akibat menyembunyikan kondisi kesehatan yang berujung pada cedera permanen saat bertugas.",
+      "Perselisihan antara tokoh \"aku\" dan Pak Bhre karena jadwal tugas yang terlalu padat.",
+      "Persaingan antaranggota tim penjinak bahan peledak untuk mendapatkan penghargaan dari atasan.",
+      "Kesulitan tokoh \"aku\" beradaptasi dengan lingkungan rumah baru setelah dipensiunkan.",
+      "Pertentangan antara tokoh \"aku\" dan instruktur pelatihan sejak usia muda.",
+    ],
+    answer: "Konflik batin akibat menyembunyikan kondisi kesehatan yang berujung pada cedera permanen saat bertugas."
+  },
+
+  {
+    id: 51,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Penjaga di Ambang Pintu",
+      paragraphs: [
+        "Sebagaimana hari-hari yang telah lewat, aku menghabiskan pagi ini di beranda, mengamati orang-orang yang lalu-lalang di jalan kecil depan rumah. Pak Bhre, orang yang kini merawatku, telah berangkat sejak subuh. Sebelum pergi, dia selalu mengelus kepalaku pelan sambil berbisik bahwa dia akan pulang sebelum petang jika tugasnya tidak terlalu padat. Aku hanya diam, meski telingaku yang terlatih mendengar setiap kata itu dengan jelas.",
+        "Dengan indra penciuman yang sejak dulu menjadi kebanggaanku, aku bisa mengenali siapa saja yang mendekati pekarangan jauh sebelum mereka terlihat. Namun kini, tubuhku tak lagi seutuh dulu. Salah satu kaki depanku telah hilang, membuat langkahku terpincang setiap kali aku mencoba bangkit dari tempat berbaring menuju pagar.",
+        "Aku masih ingat betul masa kecilku, ketika aku dipisahkan dari induk sejak usia amat muda untuk menjalani pelatihan keras. Wangi tubuh induk yang dulu selalu menenangkan perlahan tergantikan oleh aroma tajam instruktur dan bahan-bahan yang wajib kuhafal baunya sampai kapan pun: bubuk mesiu, kabel yang terbakar, dan berbagai unsur peledak rakitan.",
+        "Latihan bertahun-tahun itu membuahkan hasil. Aku dinyatakan lulus sebagai salah satu unit terbaik di divisi penjinak bahan peledak, ditugaskan pada operasi-operasi berisiko tinggi yang tidak semua anjing pelacak mampu menjalaninya. Pak Bhre adalah salah satu penanganku sejak awal aku bertugas, orang yang paling memahami setiap gerak-gerikku.",
+        "Tiga tahun lalu, timku mendapat perintah menyisir sebuah gudang tua yang dicurigai menyimpan bahan peledak rakitan. Hari itu penciumanku sedang tidak prima karena pilek ringan yang kusembunyikan dari tim, sebab aku tidak ingin dianggap lemah dan digantikan oleh anjing lain. Ketika melangkah di antara tumpukan kardus, aku gagal mengenali aroma pemicu yang tersembunyi, dan ledakan kecil pun terjadi tepat di depanku.",
+        "Sejak insiden itu, aku dinyatakan tidak lagi layak bertugas aktif. Setelah menjalani perawatan panjang, Pak Bhre memutuskan membawaku pulang untuk dirawat di rumahnya sendiri, menggantikan seragam dinas dengan hari-hari yang lebih tenang meski tak sepenuhnya damai bagiku.",
+        "Sore ini, ketika suara mobil memasuki pekarangan, insting lamaku kembali bekerja. Aku menyeret tubuhku menuju pagar, mengendus roda dan badan mobil itu perlahan, memastikan tidak ada yang mencurigakan, sebagaimana yang selalu kulakukan dulu. Sebab meski telah pensiun, sebagian diriku masih merasa bertanggung jawab untuk menjaga, dan penyesalan karena pernah menyembunyikan kondisiku sendiri dari tim tak pernah benar-benar hilang.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen “Pensiunan Polisi” karya Radja Sinaga (basabasi.co)"
+    },
+    question: "Nilai yang paling menonjol yang dapat dipetik dari sikap tokoh \"aku\" pascacedera adalah...",
+    options: [
+      "Rasa dendam terhadap institusi yang telah melatihnya sejak kecil.",
+      "Sikap pasrah yang membuatnya berhenti peduli terhadap tugas dan lingkungan sekitarnya.",
+      "Keinginan untuk kembali aktif bertugas tanpa mempertimbangkan kondisi tubuhnya.",
+      "Tanggung jawab dan dedikasi yang tetap dijalankannya secara naluriah meski telah pensiun dan mengalami keterbatasan fisik.",
+      "Sikap acuh tak acuh terhadap Pak Bhre yang telah merawatnya.",
+    ],
+    answer: "Tanggung jawab dan dedikasi yang tetap dijalankannya secara naluriah meski telah pensiun dan mengalami keterbatasan fisik."
+  },
+
+  {
+    id: 52,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ketahanan Listrik sebagai Bagian dari Pertahanan Semesta",
+      paragraphs: [
+        "Listrik dapat diibaratkan sebagai sistem saraf sebuah negara. Ketika listrik menyala, rumah sakit bekerja, pelabuhan beroperasi, pusat data tetap hidup, dan transaksi keuangan dapat berjalan lancar. Namun, ketika listrik padam secara luas dan berkepanjangan, yang terganggu bukan hanya penerangan rumah tangga, melainkan juga kemampuan negara mengendalikan roda perekonomian dan menjaga kedaulatannya. Oleh karena itu, ketahanan listrik semestinya dipandang bukan sekadar persoalan teknis kelistrikan, melainkan bagian dari strategi pertahanan semesta dalam menghadapi cuaca ekstrem, bencana alam, gangguan geopolitik, hingga ancaman siber.",
+        "Sebagai negara kepulauan dengan pusat beban listrik yang tersebar dan karakter kebutuhan yang berbeda di setiap wilayah, Indonesia memerlukan strategi berlapis. Lapis pertama adalah penguatan jaringan transmisi dan distribusi agar memiliki jalur cadangan serta kemampuan mengisolasi gangguan, terutama untuk kawasan industri, pelabuhan, rumah sakit rujukan, dan fasilitas pemerintahan yang tergolong beban kritikal nasional.",
+        "Lapis kedua menyoroti pasokan energi primer. Pemadaman besar tidak selalu disebabkan kerusakan jaringan, tetapi juga dapat terjadi karena pembangkit kehilangan pasokan bahan bakar akibat cuaca buruk, gangguan pipa gas, atau keterlambatan distribusi bahan bakar ke pulau-pulau kecil. Oleh sebab itu, ketahanan pasokan energi primer perlu dirancang berdasarkan peta kerentanan tiap wilayah, bukan sekadar dihitung sebagai cadangan nasional secara agregat.",
+        "Lapis ketiga adalah penguatan sistem cadangan energi dan daya darurat, yang kini tidak lagi terbatas pada stok bahan bakar konvensional, tetapi juga mencakup baterai penyimpan energi, pembangkit berskala kecil, hingga kemampuan sebuah kawasan untuk memisahkan diri sementara dari jaringan utama saat terjadi gangguan besar melalui konsep pembangkit mikro atau microgrid. Rumah sakit besar, instalasi air minum, dan fasilitas pertahanan perlu memiliki standar minimum ketahanan daya sesuai tingkat kekritisannya masing-masing.",
+        "Ketiga lapis tersebut saling berkaitan dan tidak dapat berdiri sendiri. Jaringan yang kuat tanpa pasokan energi primer yang terjamin akan tetap rentan; pasokan energi yang aman tanpa sistem cadangan yang memadai tidak akan menyelamatkan fasilitas kritikal saat krisis benar-benar terjadi. Karena itu, ketahanan listrik nasional menuntut koordinasi lintas kementerian dan lembaga, bukan hanya menjadi tanggung jawab satu instansi kelistrikan semata.",
+        "Pada akhirnya, paradigma pembangunan kelistrikan perlu bergeser dari sekadar mengejar kapasitas menuju resiliensi, yaitu kemampuan negara untuk tetap berdiri ketika sistem kelistrikan mengalami tekanan besar. Dengan demikian, listrik tidak hanya menjadi persoalan mencukupi kebutuhan pada hari normal, tetapi juga menjadi fondasi kedaulatan bangsa dalam menghadapi keadaan terburuk sekalipun.",
+      ],
+      image: null,
+      source: "Sumber: CNBC Indonesia, 2 Juli 2026 (dengan modifikasi)"
+    },
+    question: "Hubungan logis antara paragraf kedua, ketiga, dan keempat dalam teks tersebut adalah...",
+    options: [
+      "Ketiganya membahas topik yang sama sekali berbeda dan tidak saling berkaitan.",
+      "Paragraf ketiga membantah gagasan yang disampaikan pada paragraf kedua.",
+      "Paragraf keempat merupakan pengulangan gagasan pada paragraf kedua tanpa informasi baru.",
+      "Paragraf kedua dan ketiga membahas dampak ekonomi, sedangkan paragraf keempat membahas kebijakan luar negeri.",
+      "Paragraf kedua, ketiga, dan keempat memaparkan tiga lapis strategi ketahanan listrik secara berurutan, mulai dari jaringan, pasokan energi primer, hingga sistem cadangan.",
+    ],
+    answer: "Paragraf kedua, ketiga, dan keempat memaparkan tiga lapis strategi ketahanan listrik secara berurutan, mulai dari jaringan, pasokan energi primer, hingga sistem cadangan."
+  },
+
+  {
+    id: 53,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ketahanan Listrik sebagai Bagian dari Pertahanan Semesta",
+      paragraphs: [
+        "Listrik dapat diibaratkan sebagai sistem saraf sebuah negara. Ketika listrik menyala, rumah sakit bekerja, pelabuhan beroperasi, pusat data tetap hidup, dan transaksi keuangan dapat berjalan lancar. Namun, ketika listrik padam secara luas dan berkepanjangan, yang terganggu bukan hanya penerangan rumah tangga, melainkan juga kemampuan negara mengendalikan roda perekonomian dan menjaga kedaulatannya. Oleh karena itu, ketahanan listrik semestinya dipandang bukan sekadar persoalan teknis kelistrikan, melainkan bagian dari strategi pertahanan semesta dalam menghadapi cuaca ekstrem, bencana alam, gangguan geopolitik, hingga ancaman siber.",
+        "Sebagai negara kepulauan dengan pusat beban listrik yang tersebar dan karakter kebutuhan yang berbeda di setiap wilayah, Indonesia memerlukan strategi berlapis. Lapis pertama adalah penguatan jaringan transmisi dan distribusi agar memiliki jalur cadangan serta kemampuan mengisolasi gangguan, terutama untuk kawasan industri, pelabuhan, rumah sakit rujukan, dan fasilitas pemerintahan yang tergolong beban kritikal nasional.",
+        "Lapis kedua menyoroti pasokan energi primer. Pemadaman besar tidak selalu disebabkan kerusakan jaringan, tetapi juga dapat terjadi karena pembangkit kehilangan pasokan bahan bakar akibat cuaca buruk, gangguan pipa gas, atau keterlambatan distribusi bahan bakar ke pulau-pulau kecil. Oleh sebab itu, ketahanan pasokan energi primer perlu dirancang berdasarkan peta kerentanan tiap wilayah, bukan sekadar dihitung sebagai cadangan nasional secara agregat.",
+        "Lapis ketiga adalah penguatan sistem cadangan energi dan daya darurat, yang kini tidak lagi terbatas pada stok bahan bakar konvensional, tetapi juga mencakup baterai penyimpan energi, pembangkit berskala kecil, hingga kemampuan sebuah kawasan untuk memisahkan diri sementara dari jaringan utama saat terjadi gangguan besar melalui konsep pembangkit mikro atau microgrid. Rumah sakit besar, instalasi air minum, dan fasilitas pertahanan perlu memiliki standar minimum ketahanan daya sesuai tingkat kekritisannya masing-masing.",
+        "Ketiga lapis tersebut saling berkaitan dan tidak dapat berdiri sendiri. Jaringan yang kuat tanpa pasokan energi primer yang terjamin akan tetap rentan; pasokan energi yang aman tanpa sistem cadangan yang memadai tidak akan menyelamatkan fasilitas kritikal saat krisis benar-benar terjadi. Karena itu, ketahanan listrik nasional menuntut koordinasi lintas kementerian dan lembaga, bukan hanya menjadi tanggung jawab satu instansi kelistrikan semata.",
+        "Pada akhirnya, paradigma pembangunan kelistrikan perlu bergeser dari sekadar mengejar kapasitas menuju resiliensi, yaitu kemampuan negara untuk tetap berdiri ketika sistem kelistrikan mengalami tekanan besar. Dengan demikian, listrik tidak hanya menjadi persoalan mencukupi kebutuhan pada hari normal, tetapi juga menjadi fondasi kedaulatan bangsa dalam menghadapi keadaan terburuk sekalipun.",
+      ],
+      image: null,
+      source: "Sumber: CNBC Indonesia, 2 Juli 2026 (dengan modifikasi)"
+    },
+    question: "Kalimat \"Jaringan yang kuat tanpa pasokan energi primer yang terjamin akan tetap rentan\" pada paragraf kelima berfungsi untuk...",
+    options: [
+      "Memperkenalkan topik baru yang belum dibahas sebelumnya.",
+      "Menyangkal seluruh gagasan yang telah dipaparkan pada paragraf-paragraf sebelumnya.",
+      "Menegaskan keterkaitan antarlapis strategi yang telah dijelaskan pada paragraf-paragraf sebelumnya sehingga pembaca memahami bahwa ketiganya harus berjalan bersama.",
+      "Mengubah topik pembahasan dari ketahanan listrik menjadi ketahanan pangan.",
+      "Menyimpulkan bahwa strategi jaringan lebih penting dibandingkan strategi lainnya.",
+    ],
+    answer: "Menegaskan keterkaitan antarlapis strategi yang telah dijelaskan pada paragraf-paragraf sebelumnya sehingga pembaca memahami bahwa ketiganya harus berjalan bersama."
+  },
+
+  {
+    id: 54,
+    type: "truefalse",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ketahanan Listrik sebagai Bagian dari Pertahanan Semesta",
+      paragraphs: [
+        "Listrik dapat diibaratkan sebagai sistem saraf sebuah negara. Ketika listrik menyala, rumah sakit bekerja, pelabuhan beroperasi, pusat data tetap hidup, dan transaksi keuangan dapat berjalan lancar. Namun, ketika listrik padam secara luas dan berkepanjangan, yang terganggu bukan hanya penerangan rumah tangga, melainkan juga kemampuan negara mengendalikan roda perekonomian dan menjaga kedaulatannya. Oleh karena itu, ketahanan listrik semestinya dipandang bukan sekadar persoalan teknis kelistrikan, melainkan bagian dari strategi pertahanan semesta dalam menghadapi cuaca ekstrem, bencana alam, gangguan geopolitik, hingga ancaman siber.",
+        "Sebagai negara kepulauan dengan pusat beban listrik yang tersebar dan karakter kebutuhan yang berbeda di setiap wilayah, Indonesia memerlukan strategi berlapis. Lapis pertama adalah penguatan jaringan transmisi dan distribusi agar memiliki jalur cadangan serta kemampuan mengisolasi gangguan, terutama untuk kawasan industri, pelabuhan, rumah sakit rujukan, dan fasilitas pemerintahan yang tergolong beban kritikal nasional.",
+        "Lapis kedua menyoroti pasokan energi primer. Pemadaman besar tidak selalu disebabkan kerusakan jaringan, tetapi juga dapat terjadi karena pembangkit kehilangan pasokan bahan bakar akibat cuaca buruk, gangguan pipa gas, atau keterlambatan distribusi bahan bakar ke pulau-pulau kecil. Oleh sebab itu, ketahanan pasokan energi primer perlu dirancang berdasarkan peta kerentanan tiap wilayah, bukan sekadar dihitung sebagai cadangan nasional secara agregat.",
+        "Lapis ketiga adalah penguatan sistem cadangan energi dan daya darurat, yang kini tidak lagi terbatas pada stok bahan bakar konvensional, tetapi juga mencakup baterai penyimpan energi, pembangkit berskala kecil, hingga kemampuan sebuah kawasan untuk memisahkan diri sementara dari jaringan utama saat terjadi gangguan besar melalui konsep pembangkit mikro atau microgrid. Rumah sakit besar, instalasi air minum, dan fasilitas pertahanan perlu memiliki standar minimum ketahanan daya sesuai tingkat kekritisannya masing-masing.",
+        "Ketiga lapis tersebut saling berkaitan dan tidak dapat berdiri sendiri. Jaringan yang kuat tanpa pasokan energi primer yang terjamin akan tetap rentan; pasokan energi yang aman tanpa sistem cadangan yang memadai tidak akan menyelamatkan fasilitas kritikal saat krisis benar-benar terjadi. Karena itu, ketahanan listrik nasional menuntut koordinasi lintas kementerian dan lembaga, bukan hanya menjadi tanggung jawab satu instansi kelistrikan semata.",
+        "Pada akhirnya, paradigma pembangunan kelistrikan perlu bergeser dari sekadar mengejar kapasitas menuju resiliensi, yaitu kemampuan negara untuk tetap berdiri ketika sistem kelistrikan mengalami tekanan besar. Dengan demikian, listrik tidak hanya menjadi persoalan mencukupi kebutuhan pada hari normal, tetapi juga menjadi fondasi kedaulatan bangsa dalam menghadapi keadaan terburuk sekalipun.",
+      ],
+      image: null,
+      source: "Sumber: CNBC Indonesia, 2 Juli 2026 (dengan modifikasi)"
+    },
+    question: "Tentukan Benar (B) atau Salah (S) pada setiap pernyataan berikut mengenai hubungan antarkalimat/antarparagraf dalam teks di atas!",
+    statements: [
+      "Paragraf pertama berfungsi sebagai pengantar yang membangun analogi untuk menjelaskan pentingnya topik yang dibahas pada paragraf-paragraf berikutnya.",
+      "Paragraf keenam merupakan simpulan yang menegaskan pergeseran paradigma dari kapasitas menuju resiliensi.",
+      "Paragraf ketiga menunjukkan hubungan sebab-akibat, yaitu cuaca buruk dan gangguan pipa sebagai penyebab pembangkit kehilangan pasokan bahan bakar.",
+      "Antara paragraf keempat dan kelima tidak terdapat hubungan gagasan karena keduanya membahas topik yang sepenuhnya berlainan.",
+    ],
+    answer: [
+      true,
+      true,
+      true,
+      false,
+    ]
+  },
+
+  {
+    id: 55,
+    type: "multiple",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Ketahanan Listrik sebagai Bagian dari Pertahanan Semesta",
+      paragraphs: [
+        "Listrik dapat diibaratkan sebagai sistem saraf sebuah negara. Ketika listrik menyala, rumah sakit bekerja, pelabuhan beroperasi, pusat data tetap hidup, dan transaksi keuangan dapat berjalan lancar. Namun, ketika listrik padam secara luas dan berkepanjangan, yang terganggu bukan hanya penerangan rumah tangga, melainkan juga kemampuan negara mengendalikan roda perekonomian dan menjaga kedaulatannya. Oleh karena itu, ketahanan listrik semestinya dipandang bukan sekadar persoalan teknis kelistrikan, melainkan bagian dari strategi pertahanan semesta dalam menghadapi cuaca ekstrem, bencana alam, gangguan geopolitik, hingga ancaman siber.",
+        "Sebagai negara kepulauan dengan pusat beban listrik yang tersebar dan karakter kebutuhan yang berbeda di setiap wilayah, Indonesia memerlukan strategi berlapis. Lapis pertama adalah penguatan jaringan transmisi dan distribusi agar memiliki jalur cadangan serta kemampuan mengisolasi gangguan, terutama untuk kawasan industri, pelabuhan, rumah sakit rujukan, dan fasilitas pemerintahan yang tergolong beban kritikal nasional.",
+        "Lapis kedua menyoroti pasokan energi primer. Pemadaman besar tidak selalu disebabkan kerusakan jaringan, tetapi juga dapat terjadi karena pembangkit kehilangan pasokan bahan bakar akibat cuaca buruk, gangguan pipa gas, atau keterlambatan distribusi bahan bakar ke pulau-pulau kecil. Oleh sebab itu, ketahanan pasokan energi primer perlu dirancang berdasarkan peta kerentanan tiap wilayah, bukan sekadar dihitung sebagai cadangan nasional secara agregat.",
+        "Lapis ketiga adalah penguatan sistem cadangan energi dan daya darurat, yang kini tidak lagi terbatas pada stok bahan bakar konvensional, tetapi juga mencakup baterai penyimpan energi, pembangkit berskala kecil, hingga kemampuan sebuah kawasan untuk memisahkan diri sementara dari jaringan utama saat terjadi gangguan besar melalui konsep pembangkit mikro atau microgrid. Rumah sakit besar, instalasi air minum, dan fasilitas pertahanan perlu memiliki standar minimum ketahanan daya sesuai tingkat kekritisannya masing-masing.",
+        "Ketiga lapis tersebut saling berkaitan dan tidak dapat berdiri sendiri. Jaringan yang kuat tanpa pasokan energi primer yang terjamin akan tetap rentan; pasokan energi yang aman tanpa sistem cadangan yang memadai tidak akan menyelamatkan fasilitas kritikal saat krisis benar-benar terjadi. Karena itu, ketahanan listrik nasional menuntut koordinasi lintas kementerian dan lembaga, bukan hanya menjadi tanggung jawab satu instansi kelistrikan semata.",
+        "Pada akhirnya, paradigma pembangunan kelistrikan perlu bergeser dari sekadar mengejar kapasitas menuju resiliensi, yaitu kemampuan negara untuk tetap berdiri ketika sistem kelistrikan mengalami tekanan besar. Dengan demikian, listrik tidak hanya menjadi persoalan mencukupi kebutuhan pada hari normal, tetapi juga menjadi fondasi kedaulatan bangsa dalam menghadapi keadaan terburuk sekalipun.",
+      ],
+      image: null,
+      source: "Sumber: CNBC Indonesia, 2 Juli 2026 (dengan modifikasi)"
+    },
+    question: "Pilih pernyataan yang tepat mengenai hubungan antarkalimat/antarparagraf dalam teks tersebut! (Jawaban lebih dari satu)",
+    options: [
+      "Paragraf kelima berfungsi menyimpulkan sekaligus mengaitkan tiga strategi yang telah dipaparkan pada paragraf-paragraf sebelumnya.",
+      "Paragraf pertama dan paragraf keenam sama-sama menegaskan bahwa ketahanan listrik berkaitan dengan kedaulatan negara, sehingga membentuk kerangka pembuka dan penutup yang koheren.",
+      "Paragraf kedua tidak memiliki keterkaitan sama sekali dengan paragraf ketiga karena keduanya membahas aspek yang sepenuhnya berbeda.",
+      "Kalimat pertama paragraf ketiga berfungsi sebagai penghubung yang mengaitkan topik pasokan energi primer dengan pembahasan jaringan pada paragraf sebelumnya.",
+      "Paragraf keempat memperkenalkan topik yang sama sekali tidak berhubungan dengan pembahasan sebelumnya, yaitu kebijakan pajak energi.",
+    ],
+    answer: [
+      "Paragraf kelima berfungsi menyimpulkan sekaligus mengaitkan tiga strategi yang telah dipaparkan pada paragraf-paragraf sebelumnya.",
+      "Paragraf pertama dan paragraf keenam sama-sama menegaskan bahwa ketahanan listrik berkaitan dengan kedaulatan negara, sehingga membentuk kerangka pembuka dan penutup yang koheren.",
+      "Kalimat pertama paragraf ketiga berfungsi sebagai penghubung yang mengaitkan topik pasokan energi primer dengan pembahasan jaringan pada paragraf sebelumnya.",
+    ]
+  },
+
+  {
+    id: 56,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Lelaki Berkacamata Sebelah",
+      paragraphs: [
+        "Aku bertemu dengannya pertama kali di sebuah kafe kecil di kota yang namanya tak begitu kuingat, saat hujan turun dengan ritme yang terasa terlalu teratur untuk disebut kebetulan. Dia duduk di seberangku, mengenakan kacamata dengan satu lensa gelap yang menutupi salah satu matanya, sementara mata yang lain menatapku dengan tenang.",
+        "\"Aku bisa menawarkan sesuatu yang jarang dimiliki orang,\" katanya, suaranya datar seperti sedang membaca laporan cuaca di radio. \"Kepastian. Dunia tanpa keraguan.\" Aku tertawa kecil, mengira itu hanya basa-basi orang asing yang ingin mencairkan suasana sore yang basah.",
+        "Namun, keesokan harinya, aku memperhatikan sesuatu yang ganjil di kota itu. Orang-orang yang biasanya ramai berdebat di alun-alun kini tampak diam, mengangguk serempak pada setiap pengumuman yang keluar dari pengeras suara. Toko buku yang dulu penuh rak berisi buku-buku pemikiran kini berganti dengan buku-buku panduan hidup instan berjudul serupa satu sama lain.",
+        "Aku menemuinya lagi, kali ini di dekat jembatan tua yang jarang dilalui orang. \"Siapa sebenarnya kau?\" tanyaku. Dia menatapku dengan mata tunggalnya yang tajam. \"Aku hanya datang ketika orang-orang lelah memikul dua sudut pandang sekaligus,\" jawabnya pelan, hampir berbisik.",
+        "Dia menjelaskan bahwa melihat dengan dua mata membuat manusia menanggung kedalaman sekaligus keraguan, dua hal yang menurutnya adalah beban yang melelahkan. Dengan satu mata, katanya, dunia menjadi rata, sederhana, dan jauh lebih mudah untuk diyakini kebenarannya, tanpa perlu repot mempertanyakan apa pun lagi.",
+        "Malam itu aku bermimpi berjalan di sebuah lorong panjang tanpa ujung. Di dinding lorong, layar-layar menampilkan wajah-wajah tenang dan seragam, saling tersenyum tanpa alasan yang jelas. Di ujung lorong, lelaki bermata satu itu berdiri sambil menyodorkan dua benda ke arahku, yaitu sebuah cermin retak di tangan kanannya dan sebuah kacamata serupa miliknya di tangan kiri.",
+        "\"Pilihlah salah satu,\" katanya, sementara di kejauhan aku mendengar detak jam yang kian cepat, seolah waktu untuk memilih hampir habis. Aku menatap kedua benda itu bergantian, tanganku terulur ragu-ragu, dan tepat sebelum jariku menyentuh salah satunya, aku terbangun.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen “Mata yang Tak Berkedip” karya Mulla Shandri (Kompas.id)"
+    },
+    question: "Berdasarkan alur dan konflik yang telah dibangun, prediksi paling logis mengenai makna pilihan antara \"cermin retak\" dan \"kacamata bermata satu\" dalam mimpi tokoh \"aku\" adalah...",
+    options: [
+      "Cermin retak melambangkan kesediaan menghadapi kenyataan yang kompleks dan penuh keraguan, sedangkan kacamata melambangkan penyerahan diri pada kepastian yang menghilangkan kemampuan berpikir kritis.",
+      "Cermin retak melambangkan kekayaan materi, sedangkan kacamata melambangkan kemiskinan.",
+      "Kedua benda sama sekali tidak memiliki makna simbolis dan hanya pelengkap suasana mimpi.",
+      "Cermin retak melambangkan masa lalu tokoh \"aku\", sedangkan kacamata melambangkan masa depan yang akan direngkuhnya.",
+      "Kedua benda menawarkan hal yang identik sehingga pilihan apa pun tidak akan mengubah nasib tokoh \"aku\".",
+    ],
+    answer: "Cermin retak melambangkan kesediaan menghadapi kenyataan yang kompleks dan penuh keraguan, sedangkan kacamata melambangkan penyerahan diri pada kepastian yang menghilangkan kemampuan berpikir kritis."
+  },
+
+  {
+    id: 57,
+    type: "truefalse",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Lelaki Berkacamata Sebelah",
+      paragraphs: [
+        "Aku bertemu dengannya pertama kali di sebuah kafe kecil di kota yang namanya tak begitu kuingat, saat hujan turun dengan ritme yang terasa terlalu teratur untuk disebut kebetulan. Dia duduk di seberangku, mengenakan kacamata dengan satu lensa gelap yang menutupi salah satu matanya, sementara mata yang lain menatapku dengan tenang.",
+        "\"Aku bisa menawarkan sesuatu yang jarang dimiliki orang,\" katanya, suaranya datar seperti sedang membaca laporan cuaca di radio. \"Kepastian. Dunia tanpa keraguan.\" Aku tertawa kecil, mengira itu hanya basa-basi orang asing yang ingin mencairkan suasana sore yang basah.",
+        "Namun, keesokan harinya, aku memperhatikan sesuatu yang ganjil di kota itu. Orang-orang yang biasanya ramai berdebat di alun-alun kini tampak diam, mengangguk serempak pada setiap pengumuman yang keluar dari pengeras suara. Toko buku yang dulu penuh rak berisi buku-buku pemikiran kini berganti dengan buku-buku panduan hidup instan berjudul serupa satu sama lain.",
+        "Aku menemuinya lagi, kali ini di dekat jembatan tua yang jarang dilalui orang. \"Siapa sebenarnya kau?\" tanyaku. Dia menatapku dengan mata tunggalnya yang tajam. \"Aku hanya datang ketika orang-orang lelah memikul dua sudut pandang sekaligus,\" jawabnya pelan, hampir berbisik.",
+        "Dia menjelaskan bahwa melihat dengan dua mata membuat manusia menanggung kedalaman sekaligus keraguan, dua hal yang menurutnya adalah beban yang melelahkan. Dengan satu mata, katanya, dunia menjadi rata, sederhana, dan jauh lebih mudah untuk diyakini kebenarannya, tanpa perlu repot mempertanyakan apa pun lagi.",
+        "Malam itu aku bermimpi berjalan di sebuah lorong panjang tanpa ujung. Di dinding lorong, layar-layar menampilkan wajah-wajah tenang dan seragam, saling tersenyum tanpa alasan yang jelas. Di ujung lorong, lelaki bermata satu itu berdiri sambil menyodorkan dua benda ke arahku, yaitu sebuah cermin retak di tangan kanannya dan sebuah kacamata serupa miliknya di tangan kiri.",
+        "\"Pilihlah salah satu,\" katanya, sementara di kejauhan aku mendengar detak jam yang kian cepat, seolah waktu untuk memilih hampir habis. Aku menatap kedua benda itu bergantian, tanganku terulur ragu-ragu, dan tepat sebelum jariku menyentuh salah satunya, aku terbangun.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen “Mata yang Tak Berkedip” karya Mulla Shandri (Kompas.id)"
+    },
+    question: "Tentukan Benar (B) atau Salah (S) pada setiap prediksi berikut berdasarkan alur dan konflik yang telah dibangun dalam cerita!",
+    statements: [
+      "Berdasarkan konflik yang dibangun, dapat diprediksi bahwa tokoh \"aku\" akan langsung menerima tawaran kepastian tanpa keraguan sedikit pun.",
+      "Berdasarkan perubahan sikap warga kota pada paragraf ketiga, dapat diprediksi bahwa semakin banyak orang akan kehilangan kebiasaan mempertanyakan informasi yang mereka terima.",
+      "Sikap tokoh \"aku\" yang terus mempertanyakan identitas lelaki bermata satu mengindikasikan bahwa ia kemungkinan akan berupaya mempertahankan kemampuannya untuk meragukan dan berpikir kritis.",
+      "Karena cerita berakhir sebelum tokoh \"aku\" memilih, dapat dipastikan secara eksplisit bahwa ia akan memilih kacamata bermata satu.",
+    ],
+    answer: [
+      false,
+      true,
+      true,
+      false,
+    ]
+  },
+
+  {
+    id: 58,
+    type: "multiple",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Lelaki Berkacamata Sebelah",
+      paragraphs: [
+        "Aku bertemu dengannya pertama kali di sebuah kafe kecil di kota yang namanya tak begitu kuingat, saat hujan turun dengan ritme yang terasa terlalu teratur untuk disebut kebetulan. Dia duduk di seberangku, mengenakan kacamata dengan satu lensa gelap yang menutupi salah satu matanya, sementara mata yang lain menatapku dengan tenang.",
+        "\"Aku bisa menawarkan sesuatu yang jarang dimiliki orang,\" katanya, suaranya datar seperti sedang membaca laporan cuaca di radio. \"Kepastian. Dunia tanpa keraguan.\" Aku tertawa kecil, mengira itu hanya basa-basi orang asing yang ingin mencairkan suasana sore yang basah.",
+        "Namun, keesokan harinya, aku memperhatikan sesuatu yang ganjil di kota itu. Orang-orang yang biasanya ramai berdebat di alun-alun kini tampak diam, mengangguk serempak pada setiap pengumuman yang keluar dari pengeras suara. Toko buku yang dulu penuh rak berisi buku-buku pemikiran kini berganti dengan buku-buku panduan hidup instan berjudul serupa satu sama lain.",
+        "Aku menemuinya lagi, kali ini di dekat jembatan tua yang jarang dilalui orang. \"Siapa sebenarnya kau?\" tanyaku. Dia menatapku dengan mata tunggalnya yang tajam. \"Aku hanya datang ketika orang-orang lelah memikul dua sudut pandang sekaligus,\" jawabnya pelan, hampir berbisik.",
+        "Dia menjelaskan bahwa melihat dengan dua mata membuat manusia menanggung kedalaman sekaligus keraguan, dua hal yang menurutnya adalah beban yang melelahkan. Dengan satu mata, katanya, dunia menjadi rata, sederhana, dan jauh lebih mudah untuk diyakini kebenarannya, tanpa perlu repot mempertanyakan apa pun lagi.",
+        "Malam itu aku bermimpi berjalan di sebuah lorong panjang tanpa ujung. Di dinding lorong, layar-layar menampilkan wajah-wajah tenang dan seragam, saling tersenyum tanpa alasan yang jelas. Di ujung lorong, lelaki bermata satu itu berdiri sambil menyodorkan dua benda ke arahku, yaitu sebuah cermin retak di tangan kanannya dan sebuah kacamata serupa miliknya di tangan kiri.",
+        "\"Pilihlah salah satu,\" katanya, sementara di kejauhan aku mendengar detak jam yang kian cepat, seolah waktu untuk memilih hampir habis. Aku menatap kedua benda itu bergantian, tanganku terulur ragu-ragu, dan tepat sebelum jariku menyentuh salah satunya, aku terbangun.",
+      ],
+      image: null,
+      source: "Diadaptasi dari cerpen “Mata yang Tak Berkedip” karya Mulla Shandri (Kompas.id)"
+    },
+    question: "Pilihlah prediksi kelanjutan cerita yang paling logis berdasarkan alur dan konflik yang telah dibangun! (Jawaban lebih dari satu)",
+    options: [
+      "Cerita pasti akan berakhir dengan tokoh \"aku\" memilih kacamata bermata satu karena itulah pilihan yang lebih mudah.",
+      "Tokoh \"aku\" kemungkinan akan terus bergulat dengan dilema antara kenyamanan kepastian dan risiko mempertahankan keraguan kritisnya.",
+      "Kota tempat tokoh \"aku\" tinggal kemungkinan akan semakin banyak diisi oleh orang-orang yang berhenti mempertanyakan kebenaran informasi yang mereka terima.",
+      "Lelaki bermata satu kemungkinan akan terus muncul dalam kehidupan tokoh \"aku\" selama masyarakat masih mencari kepastian instan.",
+      "Tokoh \"aku\" pasti akan berhasil mengalahkan lelaki bermata satu secara fisik pada bagian akhir cerita.",
+    ],
+    answer: [
+      "Tokoh \"aku\" kemungkinan akan terus bergulat dengan dilema antara kenyamanan kepastian dan risiko mempertahankan keraguan kritisnya.",
+      "Kota tempat tokoh \"aku\" tinggal kemungkinan akan semakin banyak diisi oleh orang-orang yang berhenti mempertanyakan kebenaran informasi yang mereka terima.",
+      "Lelaki bermata satu kemungkinan akan terus muncul dalam kehidupan tokoh \"aku\" selama masyarakat masih mencari kepastian instan.",
+    ]
+  },
+
+  {
+    id: 59,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah naskah drama berikut untuk menjawab soal!",
+      title: null,
+      paragraphs: [
+        "Latar: Halte bus dekat gerbang sekolah, Rabu sore, gerimis baru saja reda. Nadira berdiri di bawah halte sambil melihat jam tangannya. Raka datang tergesa-gesa sambil menenteng termos besar dan kotak gorengan.",
+        "NADIRA: Raka! Kok bawa-bawa dagangan gini? Katanya tadi mau ikut les tambahan Bu Wulandari sore ini?",
+        "(Raka menghela napas, meletakkan kotak gorengan di bangku halte.)",
+        "RAKA: Ibu lagi demam, Nad. Jadi aku yang harus jualan gantiin di depan pasar. Kalau nggak, kita nggak ada pemasukan buat besok.",
+        "NADIRA: Tapi ini les persiapan TKA terakhir sebelum ujian, Ka. Kamu udah dua kali absen bulan ini.",
+        "RAKA: Aku tahu. Tapi kalau aku nggak jualan sore ini, adikku nggak bisa bayar uang saku buat besok. Ibu selalu bilang, sekolah itu penting, tapi perut keluarga nggak bisa nunggu.",
+        "(Nadira terdiam sejenak, lalu duduk di sebelah kotak gorengan.)",
+        "NADIRA: Kalau gitu, biar aku bantu jagain lapak sambil kamu ke les. Aku hafal materinya juga, nanti aku kirim rangkuman lewat pesan.",
+        "RAKA: Kamu nggak keberatan?",
+        "NADIRA: Nggak. Lagian, aku juga pernah ngerasain hal serupa waktu ayahku sakit tahun lalu. Waktu itu, guru BK yang bantu carikan aku keringanan biaya sekolah. Jadi giliran aku yang bantu orang lain sekarang.",
+        "(Bu Siti muncul dari kejauhan, berjalan pelan sambil menutup mulut karena batuk.)",
+        "BU SITI: Raka, kamu di sini aja jagain lapak, nggak usah pikirin ibu. Ibu cuma demam biasa.",
+        "RAKA: Enggak, Bu. Ibu istirahat aja di rumah. Nadira mau bantu jagain sebentar, aku tetap ke les kayak biasa.",
+        "(Bu Siti menatap Nadira, lalu tersenyum lemah.)",
+        "BU SITI: Terima kasih ya, Nak. Maaf jadi ngerepotin.",
+        "NADIRA: Nggak apa-apa, Bu. Rabu depan giliran saya yang minta bantuan Raka buat presentasi kelompok, jadi anggap aja ini kompensasi.",
+        "(Raka akhirnya tersenyum, mengangkat tas sekolahnya, lalu berlari kecil menuju gedung les sambil menoleh sekali ke arah Nadira yang mulai merapikan kotak gorengan.)",
       ],
       image: null,
       source: null
     },
-    question: "Manakah pernyataan yang PALING tepat menggambarkan efek emosional dari pengulangan kata “melawan” pada larik terakhir puisi tersebut?",
+    question: "Peristiwa Raka yang menunda kepergiannya ke tempat les demi menjaga dagangan ibunya paling relevan dengan kondisi kehidupan siswa SMA di Indonesia, khususnya terkait ...",
     options: [
-      "Pengulangan tersebut menegaskan semangat dan ajakan bertindak, sehingga kesan puisi menjadi lebih kuat dan menggugah",
-      "Pengulangan tersebut hanya pemborosan kata yang tidak memberi efek apa pun bagi pembaca",
-      "Pengulangan tersebut membuat puisi terasa membosankan untuk dibaca",
-      "Pengulangan tersebut mengubah kesan puisi menjadi puisi yang bernada humor"
+      "Perbedaan gaya belajar setiap siswa dalam menghadapi ujian",
+      "Kurangnya dukungan sekolah terhadap program bimbingan belajar",
+      "Persaingan antarsiswa dalam memperebutkan nilai akademik tertinggi",
+      "Tantangan siswa dari keluarga berpenghasilan terbatas dalam membagi waktu antara sekolah dan kewajiban ekonomi keluarga",
+      "Ketidaksesuaian jadwal lembaga bimbingan belajar dengan kegiatan ekstrakurikuler sekolah",
     ],
-    answer: "Pengulangan tersebut menegaskan semangat dan ajakan bertindak, sehingga kesan puisi menjadi lebih kuat dan menggugah"
+    answer: "Tantangan siswa dari keluarga berpenghasilan terbatas dalam membagi waktu antara sekolah dan kewajiban ekonomi keluarga"
   },
 
-{
-  id: 36,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks eksposisi berikut untuk menjawab Soal 1 sampai Soal 5!",
-    title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [
-      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
-      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
-      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
-      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
-      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
-      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+  {
+    id: 60,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah naskah drama berikut untuk menjawab soal!",
+      title: null,
+      paragraphs: [
+        "Latar: Halte bus dekat gerbang sekolah, Rabu sore, gerimis baru saja reda. Nadira berdiri di bawah halte sambil melihat jam tangannya. Raka datang tergesa-gesa sambil menenteng termos besar dan kotak gorengan.",
+        "NADIRA: Raka! Kok bawa-bawa dagangan gini? Katanya tadi mau ikut les tambahan Bu Wulandari sore ini?",
+        "(Raka menghela napas, meletakkan kotak gorengan di bangku halte.)",
+        "RAKA: Ibu lagi demam, Nad. Jadi aku yang harus jualan gantiin di depan pasar. Kalau nggak, kita nggak ada pemasukan buat besok.",
+        "NADIRA: Tapi ini les persiapan TKA terakhir sebelum ujian, Ka. Kamu udah dua kali absen bulan ini.",
+        "RAKA: Aku tahu. Tapi kalau aku nggak jualan sore ini, adikku nggak bisa bayar uang saku buat besok. Ibu selalu bilang, sekolah itu penting, tapi perut keluarga nggak bisa nunggu.",
+        "(Nadira terdiam sejenak, lalu duduk di sebelah kotak gorengan.)",
+        "NADIRA: Kalau gitu, biar aku bantu jagain lapak sambil kamu ke les. Aku hafal materinya juga, nanti aku kirim rangkuman lewat pesan.",
+        "RAKA: Kamu nggak keberatan?",
+        "NADIRA: Nggak. Lagian, aku juga pernah ngerasain hal serupa waktu ayahku sakit tahun lalu. Waktu itu, guru BK yang bantu carikan aku keringanan biaya sekolah. Jadi giliran aku yang bantu orang lain sekarang.",
+        "(Bu Siti muncul dari kejauhan, berjalan pelan sambil menutup mulut karena batuk.)",
+        "BU SITI: Raka, kamu di sini aja jagain lapak, nggak usah pikirin ibu. Ibu cuma demam biasa.",
+        "RAKA: Enggak, Bu. Ibu istirahat aja di rumah. Nadira mau bantu jagain sebentar, aku tetap ke les kayak biasa.",
+        "(Bu Siti menatap Nadira, lalu tersenyum lemah.)",
+        "BU SITI: Terima kasih ya, Nak. Maaf jadi ngerepotin.",
+        "NADIRA: Nggak apa-apa, Bu. Rabu depan giliran saya yang minta bantuan Raka buat presentasi kelompok, jadi anggap aja ini kompensasi.",
+        "(Raka akhirnya tersenyum, mengangkat tas sekolahnya, lalu berlari kecil menuju gedung les sambil menoleh sekali ke arah Nadira yang mulai merapikan kotak gorengan.)",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Keputusan Nadira untuk menjaga lapak sekaligus membagikan rangkuman materi menunjukkan penyelesaian yang lebih relevan dengan kehidupan sehari-hari karena ...",
+    options: [
+      "Solusi tersebut sepenuhnya menghindarkan Nadira dari risiko akademiknya sendiri",
+      "Solusi tersebut mengutamakan kepentingan akademik Raka semata tanpa mempertimbangkan kebutuhan ekonomi keluarganya",
+      "Solusi tersebut mempertemukan dua kebutuhan yang tampak bertentangan—pendidikan dan ekonomi keluarga—tanpa mengorbankan salah satunya",
+      "Solusi tersebut menunjukkan bahwa persoalan ekonomi keluarga semestinya diutamakan lebih dahulu daripada urusan sekolah",
+      "Solusi tersebut membuktikan bahwa bantuan teman sebaya selalu lebih efektif dibandingkan bantuan pihak sekolah",
     ],
-    image: null,
-    source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
+    answer: "Solusi tersebut mempertemukan dua kebutuhan yang tampak bertentangan—pendidikan dan ekonomi keluarga—tanpa mengorbankan salah satunya"
   },
-  question: 'Dalam teks tersebut, penulis menjelaskan istilah "tipping fee". Berdasarkan konteks kalimat, makna istilah itu adalah ....',
-  options: [
-    "tarif retribusi yang dibebankan kepada warga atas pembuangan sampah ke TPA",
-    "biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah",
-    "insentif fiskal yang diberikan pemerintah pusat kepada investor PLTSa",
-    "pajak yang dikenakan atas hasil listrik yang diproduksi oleh PLTSa"
-  ],
-  answer: "biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah"
-},
 
-{
-  id: 37,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks eksposisi berikut untuk menjawab Soal 1 sampai Soal 5!",
-    title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [
-      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
-      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
-      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
-      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
-      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
-      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+  {
+    id: 61,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah naskah drama berikut untuk menjawab soal!",
+      title: null,
+      paragraphs: [
+        "Latar: Halte bus dekat gerbang sekolah, Rabu sore, gerimis baru saja reda. Nadira berdiri di bawah halte sambil melihat jam tangannya. Raka datang tergesa-gesa sambil menenteng termos besar dan kotak gorengan.",
+        "NADIRA: Raka! Kok bawa-bawa dagangan gini? Katanya tadi mau ikut les tambahan Bu Wulandari sore ini?",
+        "(Raka menghela napas, meletakkan kotak gorengan di bangku halte.)",
+        "RAKA: Ibu lagi demam, Nad. Jadi aku yang harus jualan gantiin di depan pasar. Kalau nggak, kita nggak ada pemasukan buat besok.",
+        "NADIRA: Tapi ini les persiapan TKA terakhir sebelum ujian, Ka. Kamu udah dua kali absen bulan ini.",
+        "RAKA: Aku tahu. Tapi kalau aku nggak jualan sore ini, adikku nggak bisa bayar uang saku buat besok. Ibu selalu bilang, sekolah itu penting, tapi perut keluarga nggak bisa nunggu.",
+        "(Nadira terdiam sejenak, lalu duduk di sebelah kotak gorengan.)",
+        "NADIRA: Kalau gitu, biar aku bantu jagain lapak sambil kamu ke les. Aku hafal materinya juga, nanti aku kirim rangkuman lewat pesan.",
+        "RAKA: Kamu nggak keberatan?",
+        "NADIRA: Nggak. Lagian, aku juga pernah ngerasain hal serupa waktu ayahku sakit tahun lalu. Waktu itu, guru BK yang bantu carikan aku keringanan biaya sekolah. Jadi giliran aku yang bantu orang lain sekarang.",
+        "(Bu Siti muncul dari kejauhan, berjalan pelan sambil menutup mulut karena batuk.)",
+        "BU SITI: Raka, kamu di sini aja jagain lapak, nggak usah pikirin ibu. Ibu cuma demam biasa.",
+        "RAKA: Enggak, Bu. Ibu istirahat aja di rumah. Nadira mau bantu jagain sebentar, aku tetap ke les kayak biasa.",
+        "(Bu Siti menatap Nadira, lalu tersenyum lemah.)",
+        "BU SITI: Terima kasih ya, Nak. Maaf jadi ngerepotin.",
+        "NADIRA: Nggak apa-apa, Bu. Rabu depan giliran saya yang minta bantuan Raka buat presentasi kelompok, jadi anggap aja ini kompensasi.",
+        "(Raka akhirnya tersenyum, mengangkat tas sekolahnya, lalu berlari kecil menuju gedung les sambil menoleh sekali ke arah Nadira yang mulai merapikan kotak gorengan.)",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Perhatikan kutipan berikut!<br><br>“Aku juga pernah ngerasain hal serupa waktu ayahku sakit tahun lalu... giliran aku yang bantu orang lain sekarang,”<br><br>Kalimat Nadira tersebut menunjukkan pola pikir yang mencerminkan fenomena kehidupan sehari-hari, yaitu ...",
+    options: [
+      "Siklus saling membantu (resiprositas sosial) yang tumbuh dari pengalaman kesulitan pribadi",
+      "Kewajiban moral yang dipaksakan oleh norma pertemanan di lingkungan sekolah",
+      "Ketimpangan ekonomi antarkeluarga siswa yang tidak dapat diselesaikan",
+      "Minimnya perhatian sekolah terhadap siswa yang mengalami masalah ekonomi",
+      "Persaingan tersembunyi antarsiswa untuk mendapatkan pengakuan sosial",
     ],
-    image: null,
-    source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
+    answer: "Siklus saling membantu (resiprositas sosial) yang tumbuh dari pengalaman kesulitan pribadi"
   },
-  question: 'Penulis sempat menyebutkan bahwa prinsip ekonomi sirkular dilakukan dengan "mengurangi, menggunakan kembali, mendaur ulang, dan baru kemudian mengolah residu menjadi energi". Berdasarkan konteks kalimat tersebut, kata "residu" paling tepat dimaknai sebagai ....',
-  options: [
-    "seluruh sampah yang dihasilkan oleh rumah tangga setiap hari",
-    "sampah berbahaya yang sama sekali tidak dapat diolah",
-    "sisa sampah yang masih tertinggal setelah proses reduce, reuse, dan recycle dilakukan",
-    "sampah plastik yang sengaja dipisahkan untuk dijual kembali"
-  ],
-  answer: "sisa sampah yang masih tertinggal setelah proses reduce, reuse, dan recycle dilakukan"
-},
 
-{
-  id: 38,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks eksposisi berikut untuk menjawab Soal 1 sampai Soal 5!",
-    title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [
-      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
-      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
-      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
-      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
-      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
-      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+  {
+    id: 62,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah dua teks berikut untuk menjawab soal!",
+      title: null,
+      paragraphs: [
+        "<strong>Percepatan Pembangunan Flyover Taman Pelangi</strong>",
+        "Pemerintah Kota Surabaya menyatakan proses pembebasan lahan untuk pembangunan flyover Taman Pelangi telah rampung sepenuhnya. Sebanyak 29 persil milik warga telah dibayar melalui skema konsinyasi, sehingga seluruh bangunan di kawasan tersebut mulai dirobohkan secara bertahap.",
+        "Proyek flyover ini direncanakan memiliki dua hingga dua setengah lajur dan akan dikerjakan secara multiyears, yaitu pada 2026 dan 2027, dengan nilai anggaran yang diperkirakan mencapai Rp350–400 miliar. Pembangunan fisik akan dilaksanakan oleh Kementerian Pekerjaan Umum setelah proses perencanaan teknis (DED) dan pelelangan rampung.",
+        "Selain untuk mengurai kemacetan, proyek ini juga digadang-gadang mampu mengatasi persoalan banjir di kawasan tersebut melalui pelebaran saluran drainase yang selama ini dinilai kurang optimal. Pemerintah kota meyakini bahwa proyek ini akan menjadi solusi jangka panjang paling efektif untuk mengatasi dua persoalan sekaligus di titik simpul tersebut.",
+        "Sumber: Pemerintah Kota Surabaya, Januari 2026 (dengan penyesuaian)",
+        "<strong>Prioritas Pembangunan Tanggul Laut Raksasa (Giant Sea Wall)</strong>",
+        "Pemerintah pusat memastikan pembangunan tanggul laut raksasa akan dilakukan secara bertahap, dengan prioritas pada kawasan yang mengalami penurunan permukaan tanah paling parah, yaitu Jakarta dan Semarang, termasuk wilayah Kendal serta Demak.",
+        "Proyek ini diperkirakan membutuhkan waktu pembangunan selama 10 hingga 20 tahun mengingat besarnya anggaran yang dibutuhkan serta kompleksitas teknis pengerjaannya. Total panjang tanggul yang direncanakan mencapai sekitar 535 kilometer, dibangun dalam 15 segmen berbeda, dengan segmen Teluk Jakarta dan Semarang menjadi prioritas awal.",
+        "Sejumlah pejabat menilai proyek ini sangat mendesak untuk segera dimulai, mengingat penurunan permukaan tanah di beberapa titik pesisir utara Jawa disebut telah mencapai puluhan sentimeter setiap tahunnya. Namun demikian, keberhasilan proyek berjangka panjang semacam ini pada akhirnya akan sangat bergantung pada konsistensi pembiayaan dari tahun ke tahun, yang belum tentu dapat dijamin sepenuhnya.",
+        "Sumber: CNBC Indonesia, 4 Mei 2026 (dengan penyesuaian)",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Manakah simpulan yang paling akurat mengenai perbandingan kecukupan dan ketepatan informasi antara kedua proyek, berdasarkan data yang tersaji secara eksplisit dalam kedua teks?",
+    options: [
+      "Proyek tanggul laut raksasa dipastikan berhasil dalam waktu dekat karena telah didukung anggaran penuh dari pemerintah pusat",
+      "Teks 1 menyajikan cakupan waktu dan anggaran yang jelas (2026–2027, Rp350–400 miliar), sedangkan Teks 2 baru memberi estimasi durasi (10–20 tahun) tanpa rincian anggaran pasti, sehingga informasi Teks 1 lebih akurat dan terukur dibandingkan Teks 2",
+      "Kedua teks sama-sama memberikan rincian anggaran yang detail dan dapat diverifikasi sepenuhnya",
+      "Proyek tanggul laut raksasa dinilai tidak penting karena tidak memiliki batas waktu pengerjaan yang jelas",
+      "Ketidakjelasan anggaran pada proyek tanggul laut menunjukkan bahwa proyek tersebut tidak akan pernah terlaksana",
     ],
-    image: null,
-    source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
+    answer: "Teks 1 menyajikan cakupan waktu dan anggaran yang jelas (2026–2027, Rp350–400 miliar), sedangkan Teks 2 baru memberi estimasi durasi (10–20 tahun) tanpa rincian anggaran pasti, sehingga informasi Teks 1 lebih akurat dan terukur dibandingkan Teks 2"
   },
-  question: "Penulis menggambarkan fasilitas PLTSa bernama CopenHill di Kopenhagen, Denmark, yang memiliki arena ski di atas atapnya. Pilihan kata dan latar tempat tersebut digunakan penulis untuk menggambarkan bahwa ....",
-  options: [
-    "Denmark adalah negara dengan teknologi pengolahan sampah termahal di dunia",
-    "olahraga ski hanya dapat dilakukan di atas bangunan pengolahan sampah",
-    "fasilitas pengolah sampah dapat dirancang menjadi bangunan yang juga berfungsi sebagai tujuan wisata dan ikon kota",
-    "Kopenhagen tidak memiliki masalah sampah seperti kota-kota di Indonesia"
-  ],
-  answer: "fasilitas pengolah sampah dapat dirancang menjadi bangunan yang juga berfungsi sebagai tujuan wisata dan ikon kota"
-},
 
-{
-  id: 39,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks eksposisi berikut untuk menjawab Soal 1 sampai Soal 5!",
-    title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [
-      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
-      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
-      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
-      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
-      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
-      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+  {
+    id: 63,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah dua teks berikut untuk menjawab soal!",
+      title: null,
+      paragraphs: [
+        "<strong>Percepatan Pembangunan Flyover Taman Pelangi</strong>",
+        "Pemerintah Kota Surabaya menyatakan proses pembebasan lahan untuk pembangunan flyover Taman Pelangi telah rampung sepenuhnya. Sebanyak 29 persil milik warga telah dibayar melalui skema konsinyasi, sehingga seluruh bangunan di kawasan tersebut mulai dirobohkan secara bertahap.",
+        "Proyek flyover ini direncanakan memiliki dua hingga dua setengah lajur dan akan dikerjakan secara multiyears, yaitu pada 2026 dan 2027, dengan nilai anggaran yang diperkirakan mencapai Rp350–400 miliar. Pembangunan fisik akan dilaksanakan oleh Kementerian Pekerjaan Umum setelah proses perencanaan teknis (DED) dan pelelangan rampung.",
+        "Selain untuk mengurai kemacetan, proyek ini juga digadang-gadang mampu mengatasi persoalan banjir di kawasan tersebut melalui pelebaran saluran drainase yang selama ini dinilai kurang optimal. Pemerintah kota meyakini bahwa proyek ini akan menjadi solusi jangka panjang paling efektif untuk mengatasi dua persoalan sekaligus di titik simpul tersebut.",
+        "Sumber: Pemerintah Kota Surabaya, Januari 2026 (dengan penyesuaian)",
+        "<strong>Prioritas Pembangunan Tanggul Laut Raksasa (Giant Sea Wall)</strong>",
+        "Pemerintah pusat memastikan pembangunan tanggul laut raksasa akan dilakukan secara bertahap, dengan prioritas pada kawasan yang mengalami penurunan permukaan tanah paling parah, yaitu Jakarta dan Semarang, termasuk wilayah Kendal serta Demak.",
+        "Proyek ini diperkirakan membutuhkan waktu pembangunan selama 10 hingga 20 tahun mengingat besarnya anggaran yang dibutuhkan serta kompleksitas teknis pengerjaannya. Total panjang tanggul yang direncanakan mencapai sekitar 535 kilometer, dibangun dalam 15 segmen berbeda, dengan segmen Teluk Jakarta dan Semarang menjadi prioritas awal.",
+        "Sejumlah pejabat menilai proyek ini sangat mendesak untuk segera dimulai, mengingat penurunan permukaan tanah di beberapa titik pesisir utara Jawa disebut telah mencapai puluhan sentimeter setiap tahunnya. Namun demikian, keberhasilan proyek berjangka panjang semacam ini pada akhirnya akan sangat bergantung pada konsistensi pembiayaan dari tahun ke tahun, yang belum tentu dapat dijamin sepenuhnya.",
+        "Sumber: CNBC Indonesia, 4 Mei 2026 (dengan penyesuaian)",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Perhatikan pernyataan berikut!<br><br>“Sejumlah pejabat menilai proyek tanggul laut sangat mendesak karena penurunan tanah di pesisir utara Jawa sudah mencapai puluhan sentimeter per tahun.”<br><br>Manakah pemilahan yang tepat antara bagian FAKTA dan bagian OPINI dalam pernyataan tersebut?",
+    options: [
+      "Fakta: \"penurunan tanah mencapai puluhan sentimeter per tahun\"; Opini: \"proyek tanggul laut sangat mendesak\"",
+      "Fakta: \"proyek tanggul laut sangat mendesak\"; Opini: \"penurunan tanah mencapai puluhan sentimeter per tahun\"",
+      "Seluruh pernyataan tergolong fakta karena bersumber dari keterangan pejabat resmi",
+      "Seluruh pernyataan tergolong opini karena disampaikan dalam forum konferensi pers",
+      "Pernyataan tersebut tidak dapat dikategorikan sebagai fakta maupun opini karena bersifat prediksi belaka",
     ],
-    image: null,
-    source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
+    answer: "Fakta: \"penurunan tanah mencapai puluhan sentimeter per tahun\"; Opini: \"proyek tanggul laut sangat mendesak\""
   },
-  question: 'Teks menyandingkan latar kota-kota besar di Jepang yang fasilitas pengolah sampahnya "berdiri menyatu dengan lanskap kota" dengan latar Jakarta, Surabaya, dan Medan yang proyek PLTSa-nya "berulang kali tersendat". Perbandingan latar tersebut digunakan penulis untuk menegaskan bahwa ....',
-  options: [
-    "Jepang menghasilkan sampah jauh lebih banyak daripada kota-kota di Indonesia",
-    "PLTSa di Jepang dibangun lebih dahulu sehingga otomatis lebih canggih daripada PLTSa di Indonesia",
-    "lanskap kota di Jepang jauh lebih luas sehingga lebih mudah dibangun PLTSa",
-    "kendala utama pembangunan PLTSa di Indonesia bukan pada ketersediaan teknologi, melainkan pada tata kelola dan birokrasi"
-  ],
-  answer: "kendala utama pembangunan PLTSa di Indonesia bukan pada ketersediaan teknologi, melainkan pada tata kelola dan birokrasi"
-},
 
-{
-  id: 40,
-  type: "truefalse",
-  stimulus: {
-    instruction: "Bacalah kembali teks 'Mengubah Sampah Menjadi Berkah'!",
-    title: "Mengubah Sampah Menjadi Berkah",
-    paragraphs: [
-      "Setiap hari, kota-kota besar di Indonesia menghasilkan ribuan ton sampah yang terus menggunung di tempat pembuangan akhir. Di balik krisis tersebut, sesungguhnya tersimpan energi yang dapat diubah menjadi listrik. Inilah gagasan dasar Pembangkit Listrik Tenaga Sampah (PLTSa), sebuah solusi yang berupaya mengubah sampah menjadi cahaya yang menggerakkan roda kehidupan kota.",
-      "Filosofi PLTSa sebenarnya sederhana: sesuatu yang kita buang pun bisa memberi nilai apabila dikelola dengan benar. Jepang telah lama membuktikan hal ini. Hampir setiap kota besar di sana memiliki fasilitas pengolah sampah berstandar emisi ketat yang berdiri menyatu dengan lanskap kota. Bahkan di Kopenhagen, Denmark, sebuah PLTSa bernama CopenHill tampil sebagai ikon kota dengan arena ski di atas atapnya, sehingga pabrik sampah itu sekaligus menjadi tujuan wisata dan simbol inovasi perkotaan.",
-      "Kontras dengan kondisi tersebut, di Jakarta, Surabaya, hingga Medan, proyek PLTSa berulang kali tersendat. Penyebabnya bukan karena teknologi yang tidak tersedia, melainkan karena birokrasi yang berbelit dan tarik-menarik kepentingan seputar biaya pengolahan yang dikenal sebagai tipping fee atau biaya yang dibayarkan pemerintah daerah kepada pengelola PLTSa untuk setiap ton sampah yang diolah. Dalam praktiknya, pemerintah daerah sering menilai angka yang diminta investor terlalu tinggi, sementara investor merasa angka yang ditawarkan tidak menutup biaya operasional.",
-      "Padahal, manfaat PLTSa sangat nyata. Volume sampah kota dapat berkurang hingga 90 persen, emisi gas metana ditekan, dan listrik dihasilkan dari proses yang terkendali. Selain itu, lapangan kerja baru tercipta, lahan kota terselamatkan dari gunungan sampah, dan fasilitas modern itu bisa menjadi pusat edukasi lingkungan bagi masyarakat.",
-      "Meski begitu, ada beberapa tantangan yang harus dijawab agar PLTSa benar-benar berhasil diterapkan di Indonesia. Pertama, harmonisasi regulasi, karena kewenangan pengelolaan sampah dan energi saat ini masih terbagi di banyak kementerian dan pemerintah daerah. Landasan hukum sebenarnya sudah ada, yaitu Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah dan Peraturan Presiden Nomor 35 Tahun 2018 tentang Percepatan Pembangunan PLTSa, hanya saja implementasinya masih berjalan lambat. Kedua, penyesuaian teknologi, sebab karakter sampah Indonesia yang berkadar organik tinggi membutuhkan mesin yang dirancang khusus, bukan sekadar menyalin teknologi impor yang sering gagal beroperasi optimal. Ketiga, penerimaan publik, karena selama PLTSa dianggap sebagai pabrik asap beracun, resistensi warga akan terus muncul.",
-      "PLTSa juga sejalan dengan prinsip ekonomi sirkular, yaitu mengurangi (reduce), menggunakan kembali (reuse), mendaur ulang (recycle), dan baru kemudian mengolah residu atau sisa sampah menjadi energi. Tanpa prinsip ini, PLTSa justru bisa menjadi pembenar bagi budaya konsumsi berlebihan. Jika dikelola dengan tata kelola yang transparan dan teknologi yang tepat, sampah yang dahulu dianggap masalah benar-benar dapat berubah menjadi berkah bagi kota dan warganya."
+  {
+    id: 64,
+    type: "truefalse",
+    stimulus: {
+      instruction: "Bacalah dua teks berikut untuk menjawab soal!",
+      title: null,
+      paragraphs: [
+        "<strong>Percepatan Pembangunan Flyover Taman Pelangi</strong>",
+        "Pemerintah Kota Surabaya menyatakan proses pembebasan lahan untuk pembangunan flyover Taman Pelangi telah rampung sepenuhnya. Sebanyak 29 persil milik warga telah dibayar melalui skema konsinyasi, sehingga seluruh bangunan di kawasan tersebut mulai dirobohkan secara bertahap.",
+        "Proyek flyover ini direncanakan memiliki dua hingga dua setengah lajur dan akan dikerjakan secara multiyears, yaitu pada 2026 dan 2027, dengan nilai anggaran yang diperkirakan mencapai Rp350–400 miliar. Pembangunan fisik akan dilaksanakan oleh Kementerian Pekerjaan Umum setelah proses perencanaan teknis (DED) dan pelelangan rampung.",
+        "Selain untuk mengurai kemacetan, proyek ini juga digadang-gadang mampu mengatasi persoalan banjir di kawasan tersebut melalui pelebaran saluran drainase yang selama ini dinilai kurang optimal. Pemerintah kota meyakini bahwa proyek ini akan menjadi solusi jangka panjang paling efektif untuk mengatasi dua persoalan sekaligus di titik simpul tersebut.",
+        "Sumber: Pemerintah Kota Surabaya, Januari 2026 (dengan penyesuaian)",
+        "<strong>Prioritas Pembangunan Tanggul Laut Raksasa (Giant Sea Wall)</strong>",
+        "Pemerintah pusat memastikan pembangunan tanggul laut raksasa akan dilakukan secara bertahap, dengan prioritas pada kawasan yang mengalami penurunan permukaan tanah paling parah, yaitu Jakarta dan Semarang, termasuk wilayah Kendal serta Demak.",
+        "Proyek ini diperkirakan membutuhkan waktu pembangunan selama 10 hingga 20 tahun mengingat besarnya anggaran yang dibutuhkan serta kompleksitas teknis pengerjaannya. Total panjang tanggul yang direncanakan mencapai sekitar 535 kilometer, dibangun dalam 15 segmen berbeda, dengan segmen Teluk Jakarta dan Semarang menjadi prioritas awal.",
+        "Sejumlah pejabat menilai proyek ini sangat mendesak untuk segera dimulai, mengingat penurunan permukaan tanah di beberapa titik pesisir utara Jawa disebut telah mencapai puluhan sentimeter setiap tahunnya. Namun demikian, keberhasilan proyek berjangka panjang semacam ini pada akhirnya akan sangat bergantung pada konsistensi pembiayaan dari tahun ke tahun, yang belum tentu dapat dijamin sepenuhnya.",
+        "Sumber: CNBC Indonesia, 4 Mei 2026 (dengan penyesuaian)",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Bacalah pernyataan berikut, lalu tentukan BENAR atau SALAH berdasarkan kedua teks di atas dengan memberi tanda centang pada kolom yang sesuai!",
+    statements: [
+      "Proyek tanggul laut raksasa direncanakan mencakup panjang sekitar 535 km yang terbagi dalam 15 segmen.",
+      "Pembebasan lahan untuk flyover Taman Pelangi masih dalam proses negosiasi dengan warga dan belum tuntas.",
+      "Pernyataan bahwa keberhasilan proyek tanggul bergantung pada konsistensi pembiayaan tergolong opini, bukan fakta yang telah terbukti.",
+      "Kedua teks menyatakan secara eksplisit bahwa proyek flyover jauh lebih penting daripada proyek tanggul laut.",
     ],
-    image: null,
-    source: "Harian Kompas, 29 Juni 2026 (dengan modifikasi)"
+    answer: [
+      true,
+      false,
+      true,
+      false,
+    ]
   },
-  question: "Tentukan Benar atau Salah berdasarkan informasi eksplisit dalam teks!",
-  statements: [
-    "PLTSa dapat mengurangi volume sampah kota hingga 90 persen.",
-    "Indonesia belum memiliki landasan hukum apa pun yang mengatur pembangunan PLTSa.",
-    "Tipping fee merupakan satu-satunya hambatan teknologi dalam pembangunan PLTSa di Indonesia.",
-    "PLTSa yang dirancang terbuka dan ramah lingkungan dapat membangun rasa kepemilikan warga terhadap fasilitas tersebut."
-  ],
-  answer: [
-    true,
-    false,
-    false,
-    true
-  ]
-},
 
-{
-  id: 41,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Taman Nasional Baluran",
-    paragraphs: [
-      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
-      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
-      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
-      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
-      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
-      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+  {
+    id: 65,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Antara Ijazah dan Ikhtiar",
+      paragraphs: [
+        "Wulan menatap amplop kelulusan yang tergeletak di atas meja belajar reyot peninggalan kakaknya. Nilai ujiannya termasuk lima besar di sekolah, cukup untuk mendaftar jalur prestasi ke universitas negeri incarannya. Namun, alih-alih bahagia, dadanya terasa sesak setiap kali membayangkan biaya pendaftaran, uang kos, dan buku-buku yang harus dibeli setiap semester. Ayahnya hanya seorang penarik becak di pasar tradisional, penghasilannya naik turun mengikuti cuaca dan musim panen warga sekitar.",
+        "Malam itu, ia duduk di teras rumah petak berdinding papan, mendengar suara batuk ayahnya dari dalam kamar. Sejak dua bulan lalu, ayahnya sering mengeluh nyeri di punggung setelah seharian mengayuh becak, tetapi tetap memaksakan diri bekerja demi menutup biaya sekolah adiknya yang masih duduk di bangku SD. Wulan tahu, jika ia memutuskan kuliah, beban itu akan bertambah berat, dan ia tidak yakin dirinya sanggup menanggung rasa bersalah tersebut sepanjang masa perkuliahan nanti.",
+        "Keesokan harinya, Bu Retno, wali kelasnya, memanggil Wulan ke ruang BK. Di meja kerja yang penuh berkas, Bu Retno menyodorkan selembar kertas berisi informasi program beasiswa bidikmisi dan keringanan UKT bagi mahasiswa kurang mampu. \"Ibu tahu kamu ragu, Wulan. Tapi coba dulu, ya. Banyak siswa dari keluarga seperti kamu yang akhirnya bisa kuliah karena berani mendaftar,\" ujar Bu Retno sambil tersenyum meyakinkan. Wulan menerima kertas itu dengan tangan gemetar, antara harap dan takut kecewa jika usahanya berakhir sia-sia.",
+        "Sepulang sekolah, Wulan mampir ke pasar tempat ayahnya biasa mangkal menunggu penumpang. Ia melihat ayahnya sedang duduk di atas becak sambil mengipas-ngipas wajahnya yang basah oleh keringat, matanya terpejam menahan lelah. Wulan mengurungkan niatnya untuk bercerita tentang beasiswa itu, khawatir menambah beban pikiran ayahnya yang sudah cukup berat. Ia justru membantu mendorong becak kosong itu ke tepi jalan, tanpa banyak kata, sambil menyembunyikan amplop beasiswa dalam saku roknya.",
+        "Malam harinya, sang ayah tanpa sengaja menemukan lembaran informasi beasiswa yang terselip di buku pelajaran Wulan. Alih-alih marah, ia justru terdiam lama sebelum akhirnya berkata pelan, \"Bapak memang cuma bisa nariknya becak, Nduk. Tapi bapak nggak mau kamu berhenti bermimpi cuma karena bapak nggak punya apa-apa. Kalau ada jalan buat kamu kuliah, kamu harus coba, biar bapak yang mikirin cara nariknya becak lebih lama tiap hari.\" Kata-kata itu membuat Wulan menangis sekaligus merasa malu karena selama ini justru dialah yang berusaha melindungi ayahnya dari kekhawatiran, padahal sang ayah menyimpan tekad yang jauh lebih besar dari yang ia duga.",
+        "Esok paginya, dengan mata masih sembap, Wulan melangkah ke sekolah membawa berkas pendaftaran beasiswa yang telah ia lengkapi semalam suntuk. Ia belum tahu pasti apakah usahanya akan membuahkan hasil, tetapi untuk pertama kalinya sejak amplop kelulusan itu datang, ia merasa punya alasan untuk berharap, bukan sekadar berandai-andai dalam diam.",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Kutipan \"Ia melihat ayahnya sedang duduk di atas becak sambil mengipas-ngipas wajahnya yang basah oleh keringat, matanya terpejam menahan lelah\" paling tepat digunakan untuk menggambarkan ...",
+    options: [
+      "Watak keras kepala tokoh ayah yang menolak bantuan orang lain",
+      "Latar waktu cerita yang menunjukkan peristiwa terjadi pada malam hari",
+      "Kondisi fisik dan beban kerja tokoh ayah yang memperkuat alasan keraguan Wulan untuk kuliah",
+      "Konflik batin tokoh Wulan terhadap keputusan Bu Retno",
+      "Konflik eksternal tokoh Wulan dengan pihak sekolah terkait syarat pendaftaran beasiswa",
     ],
-    image: null,
-    source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
+    answer: "Kondisi fisik dan beban kerja tokoh ayah yang memperkuat alasan keraguan Wulan untuk kuliah"
   },
-  question: "Berdasarkan data jumlah jenis yang disajikan secara eksplisit dalam teks, urutan kelompok makhluk hidup di Taman Nasional Baluran dari yang memiliki jumlah jenis terbanyak hingga tersedikit adalah ....",
-  options: [
-    "tumbuhan – burung – mamalia",
-    "burung – tumbuhan – mamalia",
-    "mamalia – burung – tumbuhan",
-    "tumbuhan – mamalia – burung"
-  ],
-  answer: "tumbuhan – burung – mamalia"
-},
 
-{
-  id: 42,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Taman Nasional Baluran",
-    paragraphs: [
-      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
-      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
-      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
-      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
-      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
-      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+  {
+    id: 66,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Antara Ijazah dan Ikhtiar",
+      paragraphs: [
+        "Wulan menatap amplop kelulusan yang tergeletak di atas meja belajar reyot peninggalan kakaknya. Nilai ujiannya termasuk lima besar di sekolah, cukup untuk mendaftar jalur prestasi ke universitas negeri incarannya. Namun, alih-alih bahagia, dadanya terasa sesak setiap kali membayangkan biaya pendaftaran, uang kos, dan buku-buku yang harus dibeli setiap semester. Ayahnya hanya seorang penarik becak di pasar tradisional, penghasilannya naik turun mengikuti cuaca dan musim panen warga sekitar.",
+        "Malam itu, ia duduk di teras rumah petak berdinding papan, mendengar suara batuk ayahnya dari dalam kamar. Sejak dua bulan lalu, ayahnya sering mengeluh nyeri di punggung setelah seharian mengayuh becak, tetapi tetap memaksakan diri bekerja demi menutup biaya sekolah adiknya yang masih duduk di bangku SD. Wulan tahu, jika ia memutuskan kuliah, beban itu akan bertambah berat, dan ia tidak yakin dirinya sanggup menanggung rasa bersalah tersebut sepanjang masa perkuliahan nanti.",
+        "Keesokan harinya, Bu Retno, wali kelasnya, memanggil Wulan ke ruang BK. Di meja kerja yang penuh berkas, Bu Retno menyodorkan selembar kertas berisi informasi program beasiswa bidikmisi dan keringanan UKT bagi mahasiswa kurang mampu. \"Ibu tahu kamu ragu, Wulan. Tapi coba dulu, ya. Banyak siswa dari keluarga seperti kamu yang akhirnya bisa kuliah karena berani mendaftar,\" ujar Bu Retno sambil tersenyum meyakinkan. Wulan menerima kertas itu dengan tangan gemetar, antara harap dan takut kecewa jika usahanya berakhir sia-sia.",
+        "Sepulang sekolah, Wulan mampir ke pasar tempat ayahnya biasa mangkal menunggu penumpang. Ia melihat ayahnya sedang duduk di atas becak sambil mengipas-ngipas wajahnya yang basah oleh keringat, matanya terpejam menahan lelah. Wulan mengurungkan niatnya untuk bercerita tentang beasiswa itu, khawatir menambah beban pikiran ayahnya yang sudah cukup berat. Ia justru membantu mendorong becak kosong itu ke tepi jalan, tanpa banyak kata, sambil menyembunyikan amplop beasiswa dalam saku roknya.",
+        "Malam harinya, sang ayah tanpa sengaja menemukan lembaran informasi beasiswa yang terselip di buku pelajaran Wulan. Alih-alih marah, ia justru terdiam lama sebelum akhirnya berkata pelan, \"Bapak memang cuma bisa nariknya becak, Nduk. Tapi bapak nggak mau kamu berhenti bermimpi cuma karena bapak nggak punya apa-apa. Kalau ada jalan buat kamu kuliah, kamu harus coba, biar bapak yang mikirin cara nariknya becak lebih lama tiap hari.\" Kata-kata itu membuat Wulan menangis sekaligus merasa malu karena selama ini justru dialah yang berusaha melindungi ayahnya dari kekhawatiran, padahal sang ayah menyimpan tekad yang jauh lebih besar dari yang ia duga.",
+        "Esok paginya, dengan mata masih sembap, Wulan melangkah ke sekolah membawa berkas pendaftaran beasiswa yang telah ia lengkapi semalam suntuk. Ia belum tahu pasti apakah usahanya akan membuahkan hasil, tetapi untuk pertama kalinya sejak amplop kelulusan itu datang, ia merasa punya alasan untuk berharap, bukan sekadar berandai-andai dalam diam.",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Latar sosial-ekonomi keluarga Wulan beserta dampak psikologisnya terhadap keputusan tokoh paling tepat tergambar secara bersamaan melalui pasangan kutipan ...",
+    options: [
+      "\"Nilai ujiannya termasuk lima besar di sekolah...\" dan \"Ia belum tahu pasti apakah usahanya akan membuahkan hasil.\"",
+      "\"Bu Retno menyodorkan selembar kertas berisi informasi program beasiswa...\" dan \"Ia justru membantu mendorong becak kosong itu ke tepi jalan.\"",
+      "\"Wulan menatap amplop kelulusan yang tergeletak di atas meja belajar reyot...\" dan \"ia merasa punya alasan untuk berharap.\"",
+      "\"Sejak dua bulan lalu, ayahnya sering mengeluh nyeri di punggung...\" dan \"Bu Retno menyodorkan selembar kertas berisi informasi beasiswa.\"",
+      "\"Ayahnya hanya seorang penarik becak di pasar tradisional, penghasilannya naik turun mengikuti cuaca...\" dan \"Wulan tahu, jika ia memutuskan kuliah, beban itu akan bertambah berat...\"",
     ],
-    image: null,
-    source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
+    answer: "\"Ayahnya hanya seorang penarik becak di pasar tradisional, penghasilannya naik turun mengikuti cuaca...\" dan \"Wulan tahu, jika ia memutuskan kuliah, beban itu akan bertambah berat...\""
   },
-  question: "Berikut adalah beberapa jenis tumbuhan yang disebutkan dalam teks. Pasangan tumbuhan yang menurut teks sama-sama mampu tetap terlihat hijau pada kondisi sangat kering, sementara tumbuhan lain di sekitarnya sudah layu dan mengering, adalah ....",
-  options: [
-    "asam dan kemiri",
-    "gadung dan gebang",
-    "kendal dan manting",
-    "widoro bukol dan mimba"
-  ],
-  answer: "widoro bukol dan mimba"
-},
 
-{
-  id: 43,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Taman Nasional Baluran",
-    paragraphs: [
-      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
-      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
-      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
-      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
-      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
-      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+  {
+    id: 67,
+    type: "multiple",
+    stimulus: {
+      instruction: "Bacalah teks berikut untuk menjawab soal!",
+      title: "Antara Ijazah dan Ikhtiar",
+      paragraphs: [
+        "Wulan menatap amplop kelulusan yang tergeletak di atas meja belajar reyot peninggalan kakaknya. Nilai ujiannya termasuk lima besar di sekolah, cukup untuk mendaftar jalur prestasi ke universitas negeri incarannya. Namun, alih-alih bahagia, dadanya terasa sesak setiap kali membayangkan biaya pendaftaran, uang kos, dan buku-buku yang harus dibeli setiap semester. Ayahnya hanya seorang penarik becak di pasar tradisional, penghasilannya naik turun mengikuti cuaca dan musim panen warga sekitar.",
+        "Malam itu, ia duduk di teras rumah petak berdinding papan, mendengar suara batuk ayahnya dari dalam kamar. Sejak dua bulan lalu, ayahnya sering mengeluh nyeri di punggung setelah seharian mengayuh becak, tetapi tetap memaksakan diri bekerja demi menutup biaya sekolah adiknya yang masih duduk di bangku SD. Wulan tahu, jika ia memutuskan kuliah, beban itu akan bertambah berat, dan ia tidak yakin dirinya sanggup menanggung rasa bersalah tersebut sepanjang masa perkuliahan nanti.",
+        "Keesokan harinya, Bu Retno, wali kelasnya, memanggil Wulan ke ruang BK. Di meja kerja yang penuh berkas, Bu Retno menyodorkan selembar kertas berisi informasi program beasiswa bidikmisi dan keringanan UKT bagi mahasiswa kurang mampu. \"Ibu tahu kamu ragu, Wulan. Tapi coba dulu, ya. Banyak siswa dari keluarga seperti kamu yang akhirnya bisa kuliah karena berani mendaftar,\" ujar Bu Retno sambil tersenyum meyakinkan. Wulan menerima kertas itu dengan tangan gemetar, antara harap dan takut kecewa jika usahanya berakhir sia-sia.",
+        "Sepulang sekolah, Wulan mampir ke pasar tempat ayahnya biasa mangkal menunggu penumpang. Ia melihat ayahnya sedang duduk di atas becak sambil mengipas-ngipas wajahnya yang basah oleh keringat, matanya terpejam menahan lelah. Wulan mengurungkan niatnya untuk bercerita tentang beasiswa itu, khawatir menambah beban pikiran ayahnya yang sudah cukup berat. Ia justru membantu mendorong becak kosong itu ke tepi jalan, tanpa banyak kata, sambil menyembunyikan amplop beasiswa dalam saku roknya.",
+        "Malam harinya, sang ayah tanpa sengaja menemukan lembaran informasi beasiswa yang terselip di buku pelajaran Wulan. Alih-alih marah, ia justru terdiam lama sebelum akhirnya berkata pelan, \"Bapak memang cuma bisa nariknya becak, Nduk. Tapi bapak nggak mau kamu berhenti bermimpi cuma karena bapak nggak punya apa-apa. Kalau ada jalan buat kamu kuliah, kamu harus coba, biar bapak yang mikirin cara nariknya becak lebih lama tiap hari.\" Kata-kata itu membuat Wulan menangis sekaligus merasa malu karena selama ini justru dialah yang berusaha melindungi ayahnya dari kekhawatiran, padahal sang ayah menyimpan tekad yang jauh lebih besar dari yang ia duga.",
+        "Esok paginya, dengan mata masih sembap, Wulan melangkah ke sekolah membawa berkas pendaftaran beasiswa yang telah ia lengkapi semalam suntuk. Ia belum tahu pasti apakah usahanya akan membuahkan hasil, tetapi untuk pertama kalinya sejak amplop kelulusan itu datang, ia merasa punya alasan untuk berharap, bukan sekadar berandai-andai dalam diam.",
+      ],
+      image: null,
+      source: null
+    },
+    question: "Pilihlah pernyataan yang tepat mengenai bagian teks yang menggambarkan konflik batin tokoh Wulan (jawaban dapat lebih dari satu)!",
+    options: [
+      "Wulan mengurungkan niat bercerita tentang beasiswa kepada ayahnya karena khawatir menambah beban pikiran ayah",
+      "Wulan merasa bahagia sepenuhnya begitu menerima amplop kelulusan tanpa ada kekhawatiran apa pun",
+      "Wulan menangis sekaligus merasa malu setelah mendengar tekad ayahnya yang ternyata jauh lebih besar dari dugaannya",
+      "Wulan menolak mentah-mentah tawaran beasiswa yang diberikan oleh Bu Retno",
+      "Wulan merasa ragu antara melanjutkan kuliah dan meringankan beban ekonomi keluarga",
     ],
-    image: null,
-    source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
+    answer: [
+      "Wulan mengurungkan niat bercerita tentang beasiswa kepada ayahnya karena khawatir menambah beban pikiran ayah",
+      "Wulan menangis sekaligus merasa malu setelah mendengar tekad ayahnya yang ternyata jauh lebih besar dari dugaannya",
+      "Wulan merasa ragu antara melanjutkan kuliah dan meringankan beban ekonomi keluarga",
+    ]
   },
-  question: "Perhatikan potongan-potongan informasi berikut!\n\n(1) Jenis-jenis satwa mamalia dan burung yang menghuni kawasan\n(2) Lokasi dan status Taman Nasional Baluran sebagai ekosistem hutan kering khas Jawa\n(3) Peran kawasan sebagai sarana konservasi, penelitian, dan wisata alam\n(4) Jenis-jenis vegetasi dan tumbuhan khas yang ditemukan\n\nUrutan yang tepat sesuai dengan struktur teks dan isi teks \"Taman Nasional Baluran\" adalah ....",
-  options: [
-    "(2) – (4) – (1) – (3)",
-    "(4) – (2) – (1) – (3)",
-    "(2) – (1) – (4) – (3)",
-    "(1) – (4) – (2) – (3)"
-  ],
-  answer: "(2) – (4) – (1) – (3)"
-},
 
-{
-  id: 44,
-  type: "multiple",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Taman Nasional Baluran",
-    paragraphs: [
-      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
-      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
-      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
-      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
-      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
-      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+  {
+    id: 68,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah puisi berikut untuk menjawab soal!",
+      title: "Getar yang Menetap di Sela Waktu",
+      paragraphs: [
+        "Kutemukan namamu",
+        "di antara asap kopi yang mengepul pelan",
+        "dari gerobak sudut jalan,",
+        "tempat aku menghitung recehan",
+        "sebelum jam sebelas malam menutup lapak.",
+        "",
+        "Getar itu bukan sekadar dingin",
+        "yang menyusup lewat celah jaket lusuh,",
+        "melainkan sebaris pesan singkat",
+        "yang kau kirim tanpa banyak kata,",
+        "tersimpan di ponsel murah",
+        "yang layarnya sudah retak di ujung.",
+        "",
+        "Aku menyimpan wajahmu",
+        "di lipatan struk pembayaran yang kusut,",
+        "di antara catatan utang pelanggan",
+        "dan sisa uang kembalian",
+        "yang selalu kuhitung dua kali",
+        "sebelum kutitipkan pada malam.",
+        "",
+        "Barangkali cinta memang sederhana:",
+        "sepasang mata yang menunggu di ujung gang,",
+        "payung yang kau sodorkan diam-diam",
+        "saat hujan turun tanpa aba-aba,",
+        "dan langkah kaki yang tetap kembali",
+        "meski jalan pulang begitu jauh dan lelah.",
+      ],
+      image: null,
+      source: "Diadaptasi dari puisi “Pengasihan” karya Arif Billah (bacapetra.co)"
+    },
+    question: "Respons emosional yang paling tepat muncul dari pembaca ketika membaca larik \"tersimpan di ponsel murah yang layarnya sudah retak di ujung\" adalah ...",
+    options: [
+      "Kekaguman terhadap kecanggihan teknologi masa kini",
+      "Kekecewaan terhadap tokoh yang dianggap tidak mampu membeli barang baru",
+      "Ketidakpedulian karena detail tersebut dianggap tidak relevan dengan tema cinta",
+      "Rasa haru sekaligus empati terhadap kesederhanaan hidup tokoh yang tetap menyimpan kenangan meski dalam keterbatasan",
+      "Ketakjuban terhadap kemampuan tokoh mengelola keuangan sehari-hari",
     ],
-    image: null,
-    source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
+    answer: "Rasa haru sekaligus empati terhadap kesederhanaan hidup tokoh yang tetap menyimpan kenangan meski dalam keterbatasan"
   },
-  question: "Teks laporan hasil observasi pada umumnya memiliki struktur definisi umum, deskripsi bagian, dan deskripsi manfaat. Berdasarkan struktur tersebut, pilihlah lebih dari satu jawaban yang benar terkait bagian deskripsi manfaat dari teks \"Taman Nasional Baluran\"!",
-  options: [
-    "Berperan sebagai kawasan konservasi",
-    "Menjadi sarana penelitian ilmiah",
-    "Menjadi sumber bahan bakar nabati bagi masyarakat sekitar",
-    "Berfungsi sebagai tempat penangkaran satwa langka secara komersial",
-    "Menjadi destinasi wisata alam yang memberikan edukasi lingkungan"
-  ],
-  answer: [
-    "Berperan sebagai kawasan konservasi",
-    "Menjadi sarana penelitian ilmiah",
-    "Menjadi destinasi wisata alam yang memberikan edukasi lingkungan"
-  ]
-},
 
-{
-  id: 45,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Taman Nasional Baluran",
-    paragraphs: [
-      "Taman Nasional Baluran terletak di ujung timur Pulau Jawa, tepatnya di Kabupaten Situbondo, Jawa Timur. Kawasan ini merupakan perwakilan ekosistem hutan kering khas Pulau Jawa yang masih terjaga keasliannya hingga sekarang.",
-      "Hutan di taman ini terdiri atas beberapa tipe vegetasi, yaitu savana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa, dan hutan yang selalu hijau sepanjang tahun. Keragaman tipe vegetasi tersebut menjadikan Taman Nasional Baluran memiliki kekayaan flora yang cukup tinggi, dengan jumlah tumbuhan yang tercatat mencapai 444 jenis.",
-      "Di antara ratusan jenis tumbuhan tersebut, terdapat tumbuhan asli yang khas dan menarik, yaitu widoro bukol (Ziziphus rotundifolia), mimba (Azadirachta indica), dan pilang (Acacia leucophloea). Ketiga tumbuhan ini mampu beradaptasi pada kondisi yang sangat kering dan tetap terlihat hijau, sementara tumbuhan lain di sekitarnya sudah layu dan mengering. Selain itu, terdapat pula tumbuhan lain, seperti asam, gadung, kemiri, gebang, api-api, kendal, manting, dan kepuh yang turut menambah keragaman flora di kawasan ini.",
-      "Taman Nasional Baluran juga dihuni oleh sekitar 26 jenis mamalia, di antaranya banteng (Bos javanicus javanicus), kerbau liar, ajag, kijang, rusa, macan tutul, kancil, dan kucing bakau. Banteng merupakan satwa yang menjadi maskot atau ciri khas Taman Nasional Baluran karena populasinya yang masih cukup besar di kawasan savana.",
-      "Selain mamalia, taman nasional ini juga menjadi habitat bagi sekitar 155 jenis burung, beberapa di antaranya termasuk jenis yang cukup langka, seperti layang-layang api, tuwur asia, dan merak hijau.",
-      "Dengan kekayaan flora dan fauna yang dimilikinya, Taman Nasional Baluran berperan penting sebagai kawasan konservasi, sarana penelitian ilmiah, sekaligus destinasi wisata alam yang dapat memberikan edukasi lingkungan bagi masyarakat luas."
+  {
+    id: 69,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah puisi berikut untuk menjawab soal!",
+      title: "Getar yang Menetap di Sela Waktu",
+      paragraphs: [
+        "Kutemukan namamu",
+        "di antara asap kopi yang mengepul pelan",
+        "dari gerobak sudut jalan,",
+        "tempat aku menghitung recehan",
+        "sebelum jam sebelas malam menutup lapak.",
+        "",
+        "Getar itu bukan sekadar dingin",
+        "yang menyusup lewat celah jaket lusuh,",
+        "melainkan sebaris pesan singkat",
+        "yang kau kirim tanpa banyak kata,",
+        "tersimpan di ponsel murah",
+        "yang layarnya sudah retak di ujung.",
+        "",
+        "Aku menyimpan wajahmu",
+        "di lipatan struk pembayaran yang kusut,",
+        "di antara catatan utang pelanggan",
+        "dan sisa uang kembalian",
+        "yang selalu kuhitung dua kali",
+        "sebelum kutitipkan pada malam.",
+        "",
+        "Barangkali cinta memang sederhana:",
+        "sepasang mata yang menunggu di ujung gang,",
+        "payung yang kau sodorkan diam-diam",
+        "saat hujan turun tanpa aba-aba,",
+        "dan langkah kaki yang tetap kembali",
+        "meski jalan pulang begitu jauh dan lelah.",
+      ],
+      image: null,
+      source: "Diadaptasi dari puisi “Pengasihan” karya Arif Billah (bacapetra.co)"
+    },
+    question: "Unsur estetis yang paling menonjol dalam bait terakhir puisi tersebut adalah ...",
+    options: [
+      "Penggunaan rima akhir yang konsisten pada setiap larik",
+      "Personifikasi jalan yang seolah-olah mampu berbicara",
+      "Penggunaan majas hiperbola yang berlebihan untuk menonjolkan kesan dramatis",
+      "Penggunaan sudut pandang orang ketiga yang serba tahu",
+      "Citraan visual dan gerak sederhana (mata menunggu, payung disodorkan, langkah kembali) yang menghadirkan kesan cinta yang tulus dan bersahaja",
     ],
-    image: null,
-    source: "Brain Academy, 1 Juli 2025 (dengan modifikasi)"
+    answer: "Citraan visual dan gerak sederhana (mata menunggu, payung disodorkan, langkah kembali) yang menghadirkan kesan cinta yang tulus dan bersahaja"
   },
-  question: "Kalimat ringkasan yang paling tepat mencakup keseluruhan isi teks \"Taman Nasional Baluran\" adalah ....",
-  options: [
-    "Taman Nasional Baluran adalah kawasan wisata savana terbesar di Pulau Jawa yang hanya dihuni oleh satwa banteng.",
-    "Taman Nasional Baluran adalah kawasan yang hanya digunakan untuk penelitian ilmiah tentang tumbuhan tahan kering.",
-    "Taman Nasional Baluran merupakan ekosistem hutan kering khas Jawa dengan keragaman vegetasi serta ratusan jenis flora dan fauna yang menjadikannya penting untuk konservasi dan wisata alam.",
-    "Taman Nasional Baluran merupakan satu-satunya hutan mangrove di Indonesia yang dilindungi pemerintah."
-  ],
-  answer: "Taman Nasional Baluran merupakan ekosistem hutan kering khas Jawa dengan keragaman vegetasi serta ratusan jenis flora dan fauna yang menjadikannya penting untuk konservasi dan wisata alam."
-},
 
-{
-  id: 46,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Olahraga Yang Tepat bagi Tubuh Masing-masing",
-    paragraphs: [
-      "Olahraga memang menyimpan segudang manfaat bagi kesehatan tubuh, tetapi bukan berarti semua orang boleh memilih jenis olahraga yang sama tanpa pertimbangan. Kekuatan jantung, misalnya, berbeda pada setiap individu, sehingga porsi dan bentuk latihan fisik yang cocok bagi seseorang belum tentu aman bagi orang lain. Itulah sebabnya mengenali kondisi tubuh sendiri menjadi langkah penting sebelum menentukan jenis olahraga yang akan dijalani.",
-      "Sebagai kegiatan yang menyenangkan, olahraga dapat dilakukan siapa saja, mulai dari lari, sepak bola, bulu tangkis, hingga berenang. Selain menyegarkan tubuh, aktivitas ini juga mampu memperbaiki suasana hati karena berfungsi sebagai pelepas ketegangan pikiran. Tidak hanya itu, olahraga yang dilakukan secara rutin turut menjaga metabolisme tubuh sehingga risiko gangguan fungsi otak, seperti menurunnya daya ingat di usia lanjut, dapat ditekan.",
-      "Bagi penderita tekanan darah tinggi, olahraga bahkan sangat dianjurkan. Pembuluh darah yang menyempit akibat hipertensi dapat kembali melebar apabila tubuh rutin bergerak, sehingga aliran darah menjadi lebih lancar. Kesehatan jantung pun turut terjaga selama olahraga dilakukan sesuai kemampuan tubuh masing-masing.",
-      "Sayangnya, tidak sedikit orang yang memaksakan diri berolahraga berat tanpa mengetahui kondisi jantungnya terlebih dahulu. Penderita gangguan jantung yang nekat berlari atau berenang dalam waktu lama, misalnya, berisiko mengalami kelelahan ekstrem, bahkan pingsan mendadak akibat serangan jantung. Kasus semacam ini kerap terjadi karena niat menyehatkan tubuh justru berujung pada kondisi yang lebih buruk.",
-      "Oleh karena itu, sebelum memutuskan jenis dan intensitas olahraga, setiap orang perlu memastikan dahulu kesanggupan tubuhnya. Dengan begitu, olahraga benar-benar mendatangkan manfaat, bukan malah menimbulkan masalah kesehatan yang baru."
+  {
+    id: 70,
+    type: "single",
+    stimulus: {
+      instruction: "Bacalah puisi berikut untuk menjawab soal!",
+      title: "Getar yang Menetap di Sela Waktu",
+      paragraphs: [
+        "Kutemukan namamu",
+        "di antara asap kopi yang mengepul pelan",
+        "dari gerobak sudut jalan,",
+        "tempat aku menghitung recehan",
+        "sebelum jam sebelas malam menutup lapak.",
+        "",
+        "Getar itu bukan sekadar dingin",
+        "yang menyusup lewat celah jaket lusuh,",
+        "melainkan sebaris pesan singkat",
+        "yang kau kirim tanpa banyak kata,",
+        "tersimpan di ponsel murah",
+        "yang layarnya sudah retak di ujung.",
+        "",
+        "Aku menyimpan wajahmu",
+        "di lipatan struk pembayaran yang kusut,",
+        "di antara catatan utang pelanggan",
+        "dan sisa uang kembalian",
+        "yang selalu kuhitung dua kali",
+        "sebelum kutitipkan pada malam.",
+        "",
+        "Barangkali cinta memang sederhana:",
+        "sepasang mata yang menunggu di ujung gang,",
+        "payung yang kau sodorkan diam-diam",
+        "saat hujan turun tanpa aba-aba,",
+        "dan langkah kaki yang tetap kembali",
+        "meski jalan pulang begitu jauh dan lelah.",
+      ],
+      image: null,
+      source: "Diadaptasi dari puisi “Pengasihan” karya Arif Billah (bacapetra.co)"
+    },
+    question: "Simpulan apresiatif yang paling tepat terhadap keseluruhan puisi tersebut adalah ...",
+    options: [
+      "Puisi menonjolkan kemewahan sebagai simbol utama kebahagiaan cinta",
+      "Puisi menyatukan citraan pekerjaan sehari-hari yang sederhana dengan perasaan cinta, sehingga menimbulkan kesan bahwa keintiman emosional dapat tumbuh subur di tengah keterbatasan materi",
+      "Puisi menekankan pesan bahwa cinta hanya bisa dirasakan oleh mereka yang berkecukupan secara ekonomi",
+      "Puisi bertujuan mengkritik sistem ekonomi tanpa menyinggung tema cinta sama sekali",
+      "Puisi menunjukkan bahwa kesederhanaan hidup selalu menjadi penghalang utama bagi hubungan cinta",
     ],
-    image: null,
-    source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
+    answer: "Puisi menyatukan citraan pekerjaan sehari-hari yang sederhana dengan perasaan cinta, sehingga menimbulkan kesan bahwa keintiman emosional dapat tumbuh subur di tengah keterbatasan materi"
   },
-  question: "Simpulan yang paling tepat mengenai ide pokok paragraf tersebut adalah...",
-  options: [
-    "Olahraga hanya boleh dilakukan oleh orang yang jantungnya kuat.",
-    "Setiap orang wajib memeriksakan diri ke dokter sebelum berolahraga.",
-    "Pemilihan jenis olahraga perlu disesuaikan dengan kondisi tubuh masing-masing individu, terutama kekuatan jantung.",
-    "Olahraga tidak memberikan manfaat apa pun bagi tubuh yang lemah."
-  ],
-  answer: "Pemilihan jenis olahraga perlu disesuaikan dengan kondisi tubuh masing-masing individu, terutama kekuatan jantung."
-},
 
-{
-  id: 47,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Olahraga Yang Tepat bagi Tubuh Masing-masing",
-    paragraphs: [
-      "Olahraga memang menyimpan segudang manfaat bagi kesehatan tubuh, tetapi bukan berarti semua orang boleh memilih jenis olahraga yang sama tanpa pertimbangan. Kekuatan jantung, misalnya, berbeda pada setiap individu, sehingga porsi dan bentuk latihan fisik yang cocok bagi seseorang belum tentu aman bagi orang lain. Itulah sebabnya mengenali kondisi tubuh sendiri menjadi langkah penting sebelum menentukan jenis olahraga yang akan dijalani.",
-      "Sebagai kegiatan yang menyenangkan, olahraga dapat dilakukan siapa saja, mulai dari lari, sepak bola, bulu tangkis, hingga berenang. Selain menyegarkan tubuh, aktivitas ini juga mampu memperbaiki suasana hati karena berfungsi sebagai pelepas ketegangan pikiran. Tidak hanya itu, olahraga yang dilakukan secara rutin turut menjaga metabolisme tubuh sehingga risiko gangguan fungsi otak, seperti menurunnya daya ingat di usia lanjut, dapat ditekan.",
-      "Bagi penderita tekanan darah tinggi, olahraga bahkan sangat dianjurkan. Pembuluh darah yang menyempit akibat hipertensi dapat kembali melebar apabila tubuh rutin bergerak, sehingga aliran darah menjadi lebih lancar. Kesehatan jantung pun turut terjaga selama olahraga dilakukan sesuai kemampuan tubuh masing-masing.",
-      "Sayangnya, tidak sedikit orang yang memaksakan diri berolahraga berat tanpa mengetahui kondisi jantungnya terlebih dahulu. Penderita gangguan jantung yang nekat berlari atau berenang dalam waktu lama, misalnya, berisiko mengalami kelelahan ekstrem, bahkan pingsan mendadak akibat serangan jantung. Kasus semacam ini kerap terjadi karena niat menyehatkan tubuh justru berujung pada kondisi yang lebih buruk.",
-      "Oleh karena itu, sebelum memutuskan jenis dan intensitas olahraga, setiap orang perlu memastikan dahulu kesanggupan tubuhnya. Dengan begitu, olahraga benar-benar mendatangkan manfaat, bukan malah menimbulkan masalah kesehatan yang baru."
-    ],
-    image: null,
-    source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
-  },
-  question: "Apabila seluruh isi teks tersebut hendak diringkas menjadi satu kalimat simpulan, pernyataan yang paling tepat mewakili keseluruhan teks adalah...",
-  options: [
-    "Olahraga berat jauh lebih efektif menyehatkan tubuh dibandingkan olahraga ringan.",
-    "Olahraga bermanfaat bagi kesehatan, tetapi jenis dan porsinya harus disesuaikan dengan kondisi tubuh agar tidak menimbulkan risiko.",
-    "Manfaat olahraga hanya dapat dirasakan oleh penderita tekanan darah tinggi.",
-    "Semua orang wajib berolahraga setiap hari tanpa terkecuali agar terhindar dari penyakit jantung."
-  ],
-  answer: "Olahraga bermanfaat bagi kesehatan, tetapi jenis dan porsinya harus disesuaikan dengan kondisi tubuh agar tidak menimbulkan risiko."
-},
-
-{
-  id: 48,
-  type: "truefalse",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Olahraga Yang Tepat bagi Tubuh Masing-masing",
-    paragraphs: [
-      "Olahraga memang menyimpan segudang manfaat bagi kesehatan tubuh, tetapi bukan berarti semua orang boleh memilih jenis olahraga yang sama tanpa pertimbangan. Kekuatan jantung, misalnya, berbeda pada setiap individu, sehingga porsi dan bentuk latihan fisik yang cocok bagi seseorang belum tentu aman bagi orang lain. Itulah sebabnya mengenali kondisi tubuh sendiri menjadi langkah penting sebelum menentukan jenis olahraga yang akan dijalani.",
-      "Sebagai kegiatan yang menyenangkan, olahraga dapat dilakukan siapa saja, mulai dari lari, sepak bola, bulu tangkis, hingga berenang. Selain menyegarkan tubuh, aktivitas ini juga mampu memperbaiki suasana hati karena berfungsi sebagai pelepas ketegangan pikiran. Tidak hanya itu, olahraga yang dilakukan secara rutin turut menjaga metabolisme tubuh sehingga risiko gangguan fungsi otak, seperti menurunnya daya ingat di usia lanjut, dapat ditekan.",
-      "Bagi penderita tekanan darah tinggi, olahraga bahkan sangat dianjurkan. Pembuluh darah yang menyempit akibat hipertensi dapat kembali melebar apabila tubuh rutin bergerak, sehingga aliran darah menjadi lebih lancar. Kesehatan jantung pun turut terjaga selama olahraga dilakukan sesuai kemampuan tubuh masing-masing.",
-      "Sayangnya, tidak sedikit orang yang memaksakan diri berolahraga berat tanpa mengetahui kondisi jantungnya terlebih dahulu. Penderita gangguan jantung yang nekat berlari atau berenang dalam waktu lama, misalnya, berisiko mengalami kelelahan ekstrem, bahkan pingsan mendadak akibat serangan jantung. Kasus semacam ini kerap terjadi karena niat menyehatkan tubuh justru berujung pada kondisi yang lebih buruk.",
-      "Oleh karena itu, sebelum memutuskan jenis dan intensitas olahraga, setiap orang perlu memastikan dahulu kesanggupan tubuhnya. Dengan begitu, olahraga benar-benar mendatangkan manfaat, bukan malah menimbulkan masalah kesehatan yang baru."
-    ],
-    image: null,
-    source: "Modul Pembelajaran Eksposisi Kemendikbud 2020 (dengan modifikasi)"
-  },
-  question: "Tentukan Benar atau Salah setiap pernyataan berikut berdasarkan ide pokok teks \"Olahraga yang Tepat bagi Tubuh Masing-Masing\"!",
-  statements: [
-    "Ide pokok teks secara keseluruhan adalah pentingnya memilih jenis dan porsi olahraga yang sesuai dengan kondisi tubuh.",
-    "Teks menyimpulkan bahwa olahraga berat selalu lebih baik daripada olahraga ringan bagi siapa pun.",
-    "Salah satu gagasan pendukung ide pokok adalah bahwa olahraga dapat membantu memperlancar peredaran darah penderita tekanan darah tinggi.",
-    "Teks menyatakan bahwa siapa pun boleh melakukan olahraga apa saja tanpa perlu mempertimbangkan kondisi jantungnya."
-  ],
-  answer: [
-    true,
-    false,
-    true,
-    false
-  ]
-},
-
-{
-  id: 49,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Pentingnya Penguasaan Bahasa Inggris",
-    paragraphs: [
-      "Di tengah arus globalisasi, bahasa Inggris telah menjadi bahasa pengantar yang dipakai hampir di seluruh penjuru dunia. Kedudukannya sebagai bahasa internasional membuat penguasaannya kian penting, baik untuk keperluan akademik maupun pergaulan lintas negara.",
-      "Data yang pernah dipublikasikan oleh lembaga riset Statista pada tahun 2021 menunjukkan bahwa bahasa Inggris masih menempati posisi teratas sebagai bahasa yang paling banyak digunakan secara global, dengan perkiraan sekitar 1,5 miliar penutur di seluruh dunia. Angka ini menegaskan betapa luasnya jangkauan komunikasi yang dapat dibuka oleh seseorang jika ia menguasai bahasa tersebut.",
-      "Selain mempermudah komunikasi lintas negara, penguasaan bahasa Inggris juga membuka akses terhadap sumber ilmu pengetahuan yang jauh lebih luas. Sebagian besar jurnal, artikel, dan referensi ilmiah dunia diterbitkan dalam bahasa Inggris. Sebagai gambaran, pada tahun 2012 jumlah artikel berbahasa Inggris di Wikipedia sudah mencapai sekitar 4 juta, sementara versi berbahasa Indonesia baru memiliki sekitar 200 ribu artikel. Kesenjangan ini menunjukkan besarnya peluang belajar yang hanya dapat diakses secara maksimal oleh mereka yang memahami bahasa Inggris.",
-      "Di sisi lain, dunia kerja pun kian menuntut kemampuan berbahasa Inggris sebagai salah satu syarat penting. Banyak perusahaan, baik berskala nasional maupun multinasional, mempertimbangkan kecakapan berbahasa asing ini sebagai nilai tambah bagi pelamar kerja, sehingga peluang karier seseorang menjadi lebih terbuka.",
-      "Dengan demikian, dapat disimpulkan bahwa penguasaan bahasa Inggris bukan sekadar pelengkap, melainkan bekal penting yang mendukung seseorang untuk berkomunikasi secara luas, memperoleh ilmu pengetahuan terbaru, dan meraih peluang kerja yang lebih baik di era global ini."
-    ],
-    image: null,
-    source: "Brain Academy, 31 Maret 2026 (dengan modifikasi)"
-  },
-  question: "Manakah kalimat berikut yang merupakan rincian pendukung untuk gagasan bahwa \"bahasa Inggris membuka akses terhadap ilmu pengetahuan yang lebih luas\"?",
-  options: [
-    "Sebagian besar jurnal dan artikel ilmiah dunia diterbitkan dalam bahasa Inggris, terlihat dari jumlah artikel Wikipedia berbahasa Inggris yang jauh lebih banyak daripada berbahasa Indonesia.",
-    "Bahasa Inggris menempati posisi teratas sebagai bahasa yang paling banyak digunakan secara global.",
-    "Banyak perusahaan mempertimbangkan kecakapan bahasa Inggris sebagai nilai tambah bagi pelamar kerja.",
-    "Bahasa Inggris digunakan oleh sekitar 1,5 miliar penutur di seluruh dunia."
-  ],
-  answer: "Sebagian besar jurnal dan artikel ilmiah dunia diterbitkan dalam bahasa Inggris, terlihat dari jumlah artikel Wikipedia berbahasa Inggris yang jauh lebih banyak daripada berbahasa Indonesia."
-},
-
-{
-  id: 50,
-  type: "multiple",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Pentingnya Penguasaan Bahasa Inggris",
-    paragraphs: [
-      "Di tengah arus globalisasi, bahasa Inggris telah menjadi bahasa pengantar yang dipakai hampir di seluruh penjuru dunia. Kedudukannya sebagai bahasa internasional membuat penguasaannya kian penting, baik untuk keperluan akademik maupun pergaulan lintas negara.",
-      "Data yang pernah dipublikasikan oleh lembaga riset Statista pada tahun 2021 menunjukkan bahwa bahasa Inggris masih menempati posisi teratas sebagai bahasa yang paling banyak digunakan secara global, dengan perkiraan sekitar 1,5 miliar penutur di seluruh dunia. Angka ini menegaskan betapa luasnya jangkauan komunikasi yang dapat dibuka oleh seseorang jika ia menguasai bahasa tersebut.",
-      "Selain mempermudah komunikasi lintas negara, penguasaan bahasa Inggris juga membuka akses terhadap sumber ilmu pengetahuan yang jauh lebih luas. Sebagian besar jurnal, artikel, dan referensi ilmiah dunia diterbitkan dalam bahasa Inggris. Sebagai gambaran, pada tahun 2012 jumlah artikel berbahasa Inggris di Wikipedia sudah mencapai sekitar 4 juta, sementara versi berbahasa Indonesia baru memiliki sekitar 200 ribu artikel. Kesenjangan ini menunjukkan besarnya peluang belajar yang hanya dapat diakses secara maksimal oleh mereka yang memahami bahasa Inggris.",
-      "Di sisi lain, dunia kerja pun kian menuntut kemampuan berbahasa Inggris sebagai salah satu syarat penting. Banyak perusahaan, baik berskala nasional maupun multinasional, mempertimbangkan kecakapan berbahasa asing ini sebagai nilai tambah bagi pelamar kerja, sehingga peluang karier seseorang menjadi lebih terbuka.",
-      "Dengan demikian, dapat disimpulkan bahwa penguasaan bahasa Inggris bukan sekadar pelengkap, melainkan bekal penting yang mendukung seseorang untuk berkomunikasi secara luas, memperoleh ilmu pengetahuan terbaru, dan meraih peluang kerja yang lebih baik di era global ini."
-    ],
-    image: null,
-    source: "Brain Academy, 31 Maret 2026 (dengan modifikasi)"
-  },
-  question: "Berdasarkan teks, pilihlah pernyataan yang berupa RINCIAN atau DATA PENDUKUNG (bukan gagasan utama/tesis) tentang pentingnya penguasaan bahasa Inggris!",
-  options: [
-    "Statista mencatat sekitar 1,5 miliar penutur bahasa Inggris di dunia pada tahun 2021.",
-    "Bahasa Inggris adalah bahasa internasional yang penting untuk dikuasai di era global.",
-    "Pada tahun 2012, artikel berbahasa Inggris di Wikipedia mencapai sekitar 4 juta, sedangkan berbahasa Indonesia sekitar 200 ribu.",
-    "Bahasa Inggris menjadi syarat umum di berbagai bidang pekerjaan saat ini."
-  ],
-  answer: [
-    "Statista mencatat sekitar 1,5 miliar penutur bahasa Inggris di dunia pada tahun 2021.",
-    "Pada tahun 2012, artikel berbahasa Inggris di Wikipedia mencapai sekitar 4 juta, sedangkan berbahasa Indonesia sekitar 200 ribu.",
-    "Bahasa Inggris menjadi syarat umum di berbagai bidang pekerjaan saat ini."
-  ]
-},
-
-{
-  id: 51,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Suntiang",
-    paragraphs: [
-      "Setiap kali ada baralek atau pesta pernikahan di kampung, Rangga selalu menjadi orang yang paling sibuk. Di usianya yang baru lima belas tahun, ia adalah satu-satunya tukang suntiang yang tersisa di kampungnya, mewarisi keterampilan merangkai dan memasangkan mahkota pengantin khas Minangkabau itu dari mendiang abaknya. Sejak abak meninggal setahun lalu, Rangga-lah yang meneruskan pekerjaan itu, dibantu amak yang mengajarinya sedikit demi sedikit di sela kesibukan menjahit.",
-      "Penghasilan dari merias suntiang tidak banyak, tetapi cukup untuk menyambung hidup, apalagi setelah amak jatuh sakit dan tidak bisa lagi bekerja seperti dulu. Rangga tahu, kalau ia berhenti, tidak ada lagi yang bisa membiayai obat amak maupun keperluan sekolahnya sendiri.",
-      "Namun, membawa kotak peralatan suntiang melewati warung tempat teman-temannya biasa berkumpul selalu menjadi ujian tersendiri. 'Kerja perempuan tuh, mendandani orang,' begitu ejekan yang paling sering ia dengar. Wajahnya memanas setiap kali harus menahan diri, pura-pura tidak mendengar, sambil mempercepat langkah menuju rumah client.",
-      "Suatu malam, sepulang dari sebuah pesta, Rangga tidak tahan lagi. Ia melempar sebuah foto dirinya sedang memasangkan suntiang ke lantai kamar, kesal dan lelah dengan cemoohan yang tak kunjung berhenti. Dalam hati ia bertanya-tanya, apakah lebih baik ia berhenti saja dan ikut bekerja di bengkel motor seperti teman-teman sebayanya, pekerjaan yang menurutnya lebih 'pantas' bagi anak laki-laki.",
-      "Keesokan harinya, seorang nenek calon pengantin yang akan dirias memanggilnya bicara empat mata. 'Dulu, hanya perempuan tua sepertiku yang bisa memasang suntiang dengan benar. Abakmu belajar susah payah supaya tradisi ini tidak hilang. Sekarang tinggal kau yang bisa,' katanya pelan sambil menepuk pundak Rangga. Kata-kata itu membuat Rangga terdiam lama, memikirkan kembali semua yang telah ia lalui bersama abaknya.",
-      "Sejak hari itu, Rangga tidak lagi menunduk ketika melewati warung. Ia tetap mendengar bisik-bisik ejekan sesekali, tetapi kini langkahnya lebih mantap. Kotak suntiang yang dulu terasa memalukan, perlahan menjadi sesuatu yang ia bawa dengan bangga, sebagai bukti bahwa ia sedang menjaga sesuatu yang lebih besar daripada dirinya sendiri."
-    ],
-    image: null,
-    source: "Adaptasi dari Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015"
-  },
-  question: "Berdasarkan keseluruhan cerita, bagaimana watak tokoh Rangga yang tergambar melalui sikapnya menghadapi ejekan teman-temannya?",
-  options: [
-    "Sosok pemarah yang selalu membalas ejekan teman-temannya dengan kekerasan.",
-    "Sosok yang mudah menyerah dan langsung berhenti bekerja begitu diejek.",
-    "Sosok yang sejak awal cerita tidak pernah peduli sedikit pun pada pandangan orang lain.",
-    "Sosok yang sempat goyah dan malu, tetapi akhirnya bertahan karena rasa tanggung jawab pada keluarga dan warisan keahlian abaknya."
-  ],
-  answer: "Sosok yang sempat goyah dan malu, tetapi akhirnya bertahan karena rasa tanggung jawab pada keluarga dan warisan keahlian abaknya."
-},
-
-{
-  id: 52,
-  type: "multiple",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Suntiang",
-    paragraphs: [
-      "Setiap kali ada baralek atau pesta pernikahan di kampung, Rangga selalu menjadi orang yang paling sibuk. Di usianya yang baru lima belas tahun, ia adalah satu-satunya tukang suntiang yang tersisa di kampungnya, mewarisi keterampilan merangkai dan memasangkan mahkota pengantin khas Minangkabau itu dari mendiang abaknya. Sejak abak meninggal setahun lalu, Rangga-lah yang meneruskan pekerjaan itu, dibantu amak yang mengajarinya sedikit demi sedikit di sela kesibukan menjahit.",
-      "Penghasilan dari merias suntiang tidak banyak, tetapi cukup untuk menyambung hidup, apalagi setelah amak jatuh sakit dan tidak bisa lagi bekerja seperti dulu. Rangga tahu, kalau ia berhenti, tidak ada lagi yang bisa membiayai obat amak maupun keperluan sekolahnya sendiri.",
-      "Namun, membawa kotak peralatan suntiang melewati warung tempat teman-temannya biasa berkumpul selalu menjadi ujian tersendiri. 'Kerja perempuan tuh, mendandani orang,' begitu ejekan yang paling sering ia dengar. Wajahnya memanas setiap kali harus menahan diri, pura-pura tidak mendengar, sambil mempercepat langkah menuju rumah client.",
-      "Suatu malam, sepulang dari sebuah pesta, Rangga tidak tahan lagi. Ia melempar sebuah foto dirinya sedang memasangkan suntiang ke lantai kamar, kesal dan lelah dengan cemoohan yang tak kunjung berhenti. Dalam hati ia bertanya-tanya, apakah lebih baik ia berhenti saja dan ikut bekerja di bengkel motor seperti teman-teman sebayanya, pekerjaan yang menurutnya lebih 'pantas' bagi anak laki-laki.",
-      "Keesokan harinya, seorang nenek calon pengantin yang akan dirias memanggilnya bicara empat mata. 'Dulu, hanya perempuan tua sepertiku yang bisa memasang suntiang dengan benar. Abakmu belajar susah payah supaya tradisi ini tidak hilang. Sekarang tinggal kau yang bisa,' katanya pelan sambil menepuk pundak Rangga. Kata-kata itu membuat Rangga terdiam lama, memikirkan kembali semua yang telah ia lalui bersama abaknya.",
-      "Sejak hari itu, Rangga tidak lagi menunduk ketika melewati warung. Ia tetap mendengar bisik-bisik ejekan sesekali, tetapi kini langkahnya lebih mantap. Kotak suntiang yang dulu terasa memalukan, perlahan menjadi sesuatu yang ia bawa dengan bangga, sebagai bukti bahwa ia sedang menjaga sesuatu yang lebih besar daripada dirinya sendiri."
-    ],
-    image: null,
-    source: "Adaptasi dari Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015"
-  },
-  question: "Pilihlah pernyataan yang sesuai dengan amanat cerpen \"Suntiang\"!",
-  options: [
-    "Pekerjaan tradisional layak dihargai dan dilestarikan, apa pun anggapan orang lain tentang kesesuaiannya dengan gender tertentu.",
-    "Anak-anak sebaiknya berhenti bekerja jika pekerjaannya dianggap tidak sesuai dengan pandangan masyarakat sekitar.",
-    "Ketekunan menjalani warisan keluarga dapat membantu seseorang menemukan makna dan kebanggaan diri.",
-    "Kesulitan ekonomi keluarga sebaiknya diselesaikan dengan cara meninggalkan tradisi budaya yang dianggap kurang menguntungkan."
-  ],
-  answer: [
-    "Pekerjaan tradisional layak dihargai dan dilestarikan, apa pun anggapan orang lain tentang kesesuaiannya dengan gender tertentu.",
-    "Ketekunan menjalani warisan keluarga dapat membantu seseorang menemukan makna dan kebanggaan diri."
-  ]
-},
-
-{
-  id: 53,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Suntiang",
-    paragraphs: [
-      "Setiap kali ada baralek atau pesta pernikahan di kampung, Rangga selalu menjadi orang yang paling sibuk. Di usianya yang baru lima belas tahun, ia adalah satu-satunya tukang suntiang yang tersisa di kampungnya, mewarisi keterampilan merangkai dan memasangkan mahkota pengantin khas Minangkabau itu dari mendiang abaknya. Sejak abak meninggal setahun lalu, Rangga-lah yang meneruskan pekerjaan itu, dibantu amak yang mengajarinya sedikit demi sedikit di sela kesibukan menjahit.",
-      "Penghasilan dari merias suntiang tidak banyak, tetapi cukup untuk menyambung hidup, apalagi setelah amak jatuh sakit dan tidak bisa lagi bekerja seperti dulu. Rangga tahu, kalau ia berhenti, tidak ada lagi yang bisa membiayai obat amak maupun keperluan sekolahnya sendiri.",
-      "Namun, membawa kotak peralatan suntiang melewati warung tempat teman-temannya biasa berkumpul selalu menjadi ujian tersendiri. 'Kerja perempuan tuh, mendandani orang,' begitu ejekan yang paling sering ia dengar. Wajahnya memanas setiap kali harus menahan diri, pura-pura tidak mendengar, sambil mempercepat langkah menuju rumah client.",
-      "Suatu malam, sepulang dari sebuah pesta, Rangga tidak tahan lagi. Ia melempar sebuah foto dirinya sedang memasangkan suntiang ke lantai kamar, kesal dan lelah dengan cemoohan yang tak kunjung berhenti. Dalam hati ia bertanya-tanya, apakah lebih baik ia berhenti saja dan ikut bekerja di bengkel motor seperti teman-teman sebayanya, pekerjaan yang menurutnya lebih 'pantas' bagi anak laki-laki.",
-      "Keesokan harinya, seorang nenek calon pengantin yang akan dirias memanggilnya bicara empat mata. 'Dulu, hanya perempuan tua sepertiku yang bisa memasang suntiang dengan benar. Abakmu belajar susah payah supaya tradisi ini tidak hilang. Sekarang tinggal kau yang bisa,' katanya pelan sambil menepuk pundak Rangga. Kata-kata itu membuat Rangga terdiam lama, memikirkan kembali semua yang telah ia lalui bersama abaknya.",
-      "Sejak hari itu, Rangga tidak lagi menunduk ketika melewati warung. Ia tetap mendengar bisik-bisik ejekan sesekali, tetapi kini langkahnya lebih mantap. Kotak suntiang yang dulu terasa memalukan, perlahan menjadi sesuatu yang ia bawa dengan bangga, sebagai bukti bahwa ia sedang menjaga sesuatu yang lebih besar daripada dirinya sendiri."
-    ],
-    image: null,
-    source: "Adaptasi dari Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015"
-  },
-  question: "Berdasarkan alur dan perubahan sikap Rangga di akhir cerita, peristiwa apa yang paling mungkin terjadi setelahnya?",
-  options: [
-    "Rangga berhenti total menjadi tukang suntiang dan pindah bekerja di bengkel motor.",
-    "Rangga semakin mahir merias suntiang dan mulai berani mengajarkan keterampilan itu kepada anak-anak muda lain di kampungnya.",
-    "Rangga pindah ke kota dan berusaha melupakan tradisi suntiang untuk selamanya.",
-    "Rangga terus merasa malu dan menyembunyikan pekerjaannya dari teman-temannya seumur hidup."
-  ],
-  answer: "Rangga semakin mahir merias suntiang dan mulai berani mengajarkan keterampilan itu kepada anak-anak muda lain di kampungnya."
-},
-
-{
-  id: 54,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Gempa Kembar Guncang Venezuela",
-    paragraphs: [
-      "Venezuela diguncang bencana dahsyat pada Rabu sore, 24 Juni 2026 waktu setempat, ketika dua gempa besar melanda kawasan pesisir utara negara itu hanya berselang sekitar 39 detik. Guncangan pertama tercatat berkekuatan magnitudo 7,2, disusul guncangan kedua yang lebih dahsyat dengan magnitudo 7,5. Fenomena semacam ini oleh Survei Geologi Amerika Serikat (USGS) disebut sebagai gempa kembar atau doublet earthquake.",
-      "Gempa kembar berbeda dari pola gempa pada umumnya, yang biasanya berupa satu gempa utama diikuti gempa-gempa susulan dengan kekuatan jauh lebih kecil. Pada peristiwa doublet, dua gempa besar dengan kekuatan yang hampir setara terjadi di lokasi dan waktu yang sangat berdekatan. Di Venezuela, rangkaian gempa ini dipicu oleh pergeseran pada Sesar Boconó yang membentang sekitar 500 kilometer, akibat pergerakan Lempeng Karibia yang bergeser relatif terhadap Lempeng Amerika Selatan.",
-      "Dua guncangan besar itu menimbulkan kerusakan luas, terutama di ibu kota Caracas dan kawasan pesisir La Guaira yang menjadi wilayah paling parah terdampak. Banyak bangunan dilaporkan runtuh maupun rusak berat. Bandara Internasional Simón Bolívar turut mengalami kerusakan struktural sehingga seluruh penerbangan dibatalkan.",
-      "Menghadapi situasi darurat tersebut, Penjabat Presiden Venezuela menetapkan status darurat nasional dan mengerahkan tim penyelamat. Proses evakuasi semakin berisiko karena ratusan gempa susulan masih terus terjadi.",
-      "Sejumlah negara dan lembaga kemanusiaan internasional mengirimkan bantuan. USGS juga memperingatkan bahwa peluang munculnya gempa susulan berkekuatan besar masih tinggi."
-    ],
-    image: null,
-    source: "Tempo, 1 Juli 2026 (dengan modifikasi)"
-  },
-  question: "Apa penyebab utama proses evakuasi dan pertolongan korban gempa di Venezuela menjadi jauh lebih sulit dan berisiko dibandingkan penanganan gempa pada umumnya?",
-  options: [
-    "Karena gempa hanya terjadi di satu wilayah kecil yang jauh dari kota besar sehingga sulit dijangkau.",
-    "Karena Venezuela sama sekali tidak memiliki tim penyelamat maupun bantuan dari negara lain.",
-    "Karena gempa terjadi pada dini hari sehingga seluruh petugas penyelamat sedang tidak bertugas.",
-    "Karena dua guncangan besar yang datang hampir bersamaan membuat kerusakan menumpuk sekaligus, dan bangunan yang bertahan dari guncangan pertama berisiko ambruk akibat guncangan kedua serta gempa susulan."
-  ],
-  answer: "Karena dua guncangan besar yang datang hampir bersamaan membuat kerusakan menumpuk sekaligus, dan bangunan yang bertahan dari guncangan pertama berisiko ambruk akibat guncangan kedua serta gempa susulan."
-},
-
-{
-  id: 55,
-  type: "multiple",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Gempa Kembar Guncang Venezuela",
-    paragraphs: [
-      "Venezuela diguncang bencana dahsyat pada Rabu sore, 24 Juni 2026 waktu setempat, ketika dua gempa besar melanda kawasan pesisir utara negara itu hanya berselang sekitar 39 detik. Guncangan pertama tercatat berkekuatan magnitudo 7,2, disusul guncangan kedua yang lebih dahsyat dengan magnitudo 7,5. Fenomena semacam ini oleh Survei Geologi Amerika Serikat (USGS) disebut sebagai gempa kembar atau doublet earthquake.",
-      "Gempa kembar berbeda dari pola gempa pada umumnya, yang biasanya berupa satu gempa utama diikuti gempa-gempa susulan dengan kekuatan jauh lebih kecil. Pada peristiwa doublet, dua gempa besar dengan kekuatan yang hampir setara terjadi di lokasi dan waktu yang sangat berdekatan. Di Venezuela, rangkaian gempa ini dipicu oleh pergeseran pada Sesar Boconó yang membentang sekitar 500 kilometer, akibat pergerakan Lempeng Karibia yang bergeser relatif terhadap Lempeng Amerika Selatan.",
-      "Dua guncangan besar itu menimbulkan kerusakan luas, terutama di ibu kota Caracas dan kawasan pesisir La Guaira yang menjadi wilayah paling parah terdampak. Banyak bangunan dilaporkan runtuh maupun rusak berat. Bandara Internasional Simón Bolívar turut mengalami kerusakan struktural sehingga seluruh penerbangan dibatalkan.",
-      "Menghadapi situasi darurat tersebut, Penjabat Presiden Venezuela menetapkan status darurat nasional dan mengerahkan tim penyelamat. Proses evakuasi semakin berisiko karena ratusan gempa susulan masih terus terjadi.",
-      "Sejumlah negara dan lembaga kemanusiaan internasional mengirimkan bantuan. USGS juga memperingatkan bahwa peluang munculnya gempa susulan berkekuatan besar masih tinggi."
-    ],
-    image: null,
-    source: "Tempo, 1 Juli 2026 (dengan modifikasi)"
-  },
-  question: "Pilihlah pernyataan yang sesuai dengan kronologi peristiwa gempa kembar di Venezuela berdasarkan teks berita!",
-  options: [
-    "Gempa pertama berkekuatan magnitudo 7,2 mengguncang lebih dahulu, disusul gempa kedua berkekuatan magnitudo 7,5 sekitar 39 detik kemudian.",
-    "Setelah kedua gempa besar terjadi, ratusan gempa susulan tercatat melanda Venezuela pada hari-hari berikutnya.",
-    "Bandara Internasional Simón Bolívar mengalami kerusakan struktural setelah kedua gempa besar terjadi sehingga seluruh penerbangan dibatalkan.",
-    "Status darurat nasional diumumkan oleh pemerintah sebelum kedua gempa besar tersebut terjadi."
-  ],
-  answer: [
-    "Gempa pertama berkekuatan magnitudo 7,2 mengguncang lebih dahulu, disusul gempa kedua berkekuatan magnitudo 7,5 sekitar 39 detik kemudian.",
-    "Setelah kedua gempa besar terjadi, ratusan gempa susulan tercatat melanda Venezuela pada hari-hari berikutnya.",
-    "Bandara Internasional Simón Bolívar mengalami kerusakan struktural setelah kedua gempa besar terjadi sehingga seluruh penerbangan dibatalkan."
-  ]
-},
-
-{
-  id: 56,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Gempa Kembar Guncang Venezuela",
-    paragraphs: [
-      "Venezuela diguncang bencana dahsyat pada Rabu sore, 24 Juni 2026 waktu setempat, ketika dua gempa besar melanda kawasan pesisir utara negara itu hanya berselang sekitar 39 detik. Guncangan pertama tercatat berkekuatan magnitudo 7,2, disusul guncangan kedua yang lebih dahsyat dengan magnitudo 7,5. Fenomena semacam ini oleh Survei Geologi Amerika Serikat (USGS) disebut sebagai gempa kembar atau doublet earthquake.",
-      "Gempa kembar berbeda dari pola gempa pada umumnya, yang biasanya berupa satu gempa utama diikuti gempa-gempa susulan dengan kekuatan jauh lebih kecil. Pada peristiwa doublet, dua gempa besar dengan kekuatan yang hampir setara terjadi di lokasi dan waktu yang sangat berdekatan. Di Venezuela, rangkaian gempa ini dipicu oleh pergeseran pada Sesar Boconó yang membentang sekitar 500 kilometer, akibat pergerakan Lempeng Karibia yang bergeser relatif terhadap Lempeng Amerika Selatan.",
-      "Dua guncangan besar itu menimbulkan kerusakan luas, terutama di ibu kota Caracas dan kawasan pesisir La Guaira yang menjadi wilayah paling parah terdampak. Banyak bangunan dilaporkan runtuh maupun rusak berat. Bandara Internasional Simón Bolívar turut mengalami kerusakan struktural sehingga seluruh penerbangan dibatalkan.",
-      "Menghadapi situasi darurat tersebut, Penjabat Presiden Venezuela menetapkan status darurat nasional dan mengerahkan tim penyelamat. Proses evakuasi semakin berisiko karena ratusan gempa susulan masih terus terjadi.",
-      "Sejumlah negara dan lembaga kemanusiaan internasional mengirimkan bantuan. USGS juga memperingatkan bahwa peluang munculnya gempa susulan berkekuatan besar masih tinggi."
-    ],
-    image: null,
-    source: "Tempo, 1 Juli 2026 (dengan modifikasi)"
-  },
-  question: "Apa hubungan logis antara paragraf pertama dan paragraf kedua dalam teks berita tersebut?",
-  options: [
-    "Paragraf kedua membantah informasi tentang kekuatan gempa yang disampaikan pada paragraf pertama.",
-    "Paragraf kedua membahas topik yang sepenuhnya berbeda dan tidak berkaitan dengan paragraf pertama.",
-    "Paragraf kedua menjelaskan lebih rinci istilah \"gempa kembar\" yang baru disinggung secara singkat pada paragraf pertama.",
-    "Paragraf kedua mengulang seluruh kalimat pada paragraf pertama tanpa ada informasi tambahan."
-  ],
-  answer: "Paragraf kedua menjelaskan lebih rinci istilah \"gempa kembar\" yang baru disinggung secara singkat pada paragraf pertama."
-},
-
-{
-  id: 57,
-  type: "truefalse",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Gempa Kembar Guncang Venezuela",
-    paragraphs: [
-      "Venezuela diguncang bencana dahsyat pada Rabu sore, 24 Juni 2026 waktu setempat, ketika dua gempa besar melanda kawasan pesisir utara negara itu hanya berselang sekitar 39 detik. Guncangan pertama tercatat berkekuatan magnitudo 7,2, disusul guncangan kedua yang lebih dahsyat dengan magnitudo 7,5. Fenomena semacam ini oleh Survei Geologi Amerika Serikat (USGS) disebut sebagai gempa kembar atau doublet earthquake.",
-      "Gempa kembar berbeda dari pola gempa pada umumnya, yang biasanya berupa satu gempa utama diikuti gempa-gempa susulan dengan kekuatan jauh lebih kecil. Pada peristiwa doublet, dua gempa besar dengan kekuatan yang hampir setara terjadi di lokasi dan waktu yang sangat berdekatan. Di Venezuela, rangkaian gempa ini dipicu oleh pergeseran pada Sesar Boconó yang membentang sekitar 500 kilometer, akibat pergerakan Lempeng Karibia yang bergeser relatif terhadap Lempeng Amerika Selatan.",
-      "Dua guncangan besar itu menimbulkan kerusakan luas, terutama di ibu kota Caracas dan kawasan pesisir La Guaira yang menjadi wilayah paling parah terdampak. Banyak bangunan dilaporkan runtuh maupun rusak berat. Bandara Internasional Simón Bolívar turut mengalami kerusakan struktural sehingga seluruh penerbangan dibatalkan.",
-      "Menghadapi situasi darurat tersebut, Penjabat Presiden Venezuela menetapkan status darurat nasional dan mengerahkan tim penyelamat. Proses evakuasi semakin berisiko karena ratusan gempa susulan masih terus terjadi.",
-      "Sejumlah negara dan lembaga kemanusiaan internasional mengirimkan bantuan. USGS juga memperingatkan bahwa peluang munculnya gempa susulan berkekuatan besar masih tinggi."
-    ],
-    image: null,
-    source: "Tempo, 1 Juli 2026 (dengan modifikasi)"
-  },
-  question: "Tentukan Benar atau Salah setiap pernyataan berikut mengenai hubungan logis antarparagraf dalam teks berita!",
-  statements: [
-    "Paragraf keempat sama sekali tidak berkaitan dengan penanganan darurat yang disinggung pada paragraf sebelumnya.",
-    "Seluruh paragraf dalam teks disusun secara acak tanpa mempertimbangkan urutan logis peristiwa.",
-    "Paragraf ketiga berfungsi memaparkan dampak nyata dari peristiwa gempa yang penyebab geologisnya sudah dijelaskan pada paragraf kedua.",
-    "Paragraf terakhir memperluas pembahasan dengan menambahkan sudut pandang bantuan internasional dan potensi ancaman gempa susulan."
-  ],
-  answer: [
-    false,
-    false,
-    true,
-    true
-  ]
-},
-
-{
-  id: 58,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah puisi berikut untuk menjawab soal!",
-    title: "Layar Abadi",
-    paragraphs: [
-      "Setiap pagi ia menatap cermin kaca ponsel, mencari wajah yang paling pantas dikenang.",
-      "Ribuan potret berbaris rapi dalam galeri, tapi tak satu pun berani mengaku serupa dirinya.",
-      "\"Siapa yang paling mirip aku?\" tanyanya pada barisan foto yang membisu. Semua diam, menunduk malu, seperti tahu jawabannya hanya ilusi.",
-      "Ia pun terus memotret, mengejar wajah yang selalu berubah, berharap layar kecil itu mampu mengunci waktu yang fana.",
-      "Padahal cermin hanya memantulkan, bukan mengabadikan."
-    ],
-    image: null,
-    source: "Adaptasi puisi Fotoku Abadi karya Joko Pinurbo"
-  },
-  question: "Pada larik \"Ribuan potret berbaris rapi dalam galeri, tapi tak satu pun berani mengaku serupa dirinya,\" majas yang digunakan beserta maknanya adalah...",
-  options: [
-    "Metafora, menggambarkan galeri foto sebagai tempat penyimpanan barang berharga.",
-    "Personifikasi; foto-foto seolah memiliki sikap malu-malu karena tak ada satu pun gambar yang benar-benar mewakili keaslian diri tokoh.",
-    "Hiperbola, menyatakan jumlah foto yang benar-benar mencapai ribuan secara harfiah.",
-    "Ironi, menyindir kebiasaan orang yang jarang sekali berfoto."
-  ],
-  answer: "Personifikasi; foto-foto seolah memiliki sikap malu-malu karena tak ada satu pun gambar yang benar-benar mewakili keaslian diri tokoh."
-},
-
-{
-  id: 59,
-  type: "truefalse",
-  stimulus: {
-    instruction: "Bacalah puisi berikut untuk menjawab soal!",
-    title: "Layar Abadi",
-    paragraphs: [
-      "Setiap pagi ia menatap cermin kaca ponsel, mencari wajah yang paling pantas dikenang.",
-      "Ribuan potret berbaris rapi dalam galeri, tapi tak satu pun berani mengaku serupa dirinya.",
-      "\"Siapa yang paling mirip aku?\" tanyanya pada barisan foto yang membisu. Semua diam, menunduk malu, seperti tahu jawabannya hanya ilusi.",
-      "Ia pun terus memotret, mengejar wajah yang selalu berubah, berharap layar kecil itu mampu mengunci waktu yang fana.",
-      "Padahal cermin hanya memantulkan, bukan mengabadikan."
-    ],
-    image: null,
-    source: "Adaptasi puisi Fotoku Abadi karya Joko Pinurbo"
-  },
-  question: "Tentukan Benar atau Salah setiap pernyataan berikut mengenai efek penggunaan bahasa dalam puisi \"Layar Abadi\"!",
-  statements: [
-    "Personifikasi pada foto yang 'menunduk malu' memperkuat kesan bahwa citra diri di media sosial tak pernah benar-benar mewakili diri yang asli.",
-    "Metafora 'mengunci waktu yang fana' menyiratkan keinginan manusia mengabadikan momen, meski sebenarnya hal itu mustahil dilakukan sepenuhnya.",
-    "Penggunaan majas dalam puisi ini bertujuan menjelaskan cara kerja teknis kamera ponsel secara ilmiah.",
-    "Larik terakhir 'cermin hanya memantulkan, bukan mengabadikan' mempertegas gagasan bahwa keabadian melalui foto hanyalah ilusi."
-  ],
-  answer: [
-    true,
-    true,
-    false,
-    true
-  ]
-},
-
-{
-  id: 60,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Denting Gong di Malam Tandak",
-    paragraphs: [
-      "Kampung Pesisir Rendang selalu riuh menjelang akhir musim melaut. Warga menyiapkan panggung sederhana dari bambu di tepi pantai untuk Tandak Mak Dangkong, tarian syukur yang dipimpin oleh Nek Minah, satu-satunya sesepuh yang masih hafal seluruh gerak dan mantra pengiringnya. Bagi warga kampung, tarian itu bukan sekadar hiburan, melainkan cara mereka mengucap terima kasih kepada laut yang telah memberi rezeki sepanjang tahun.",
-      "Ratna, cucu Nek Minah, justru merasa risi setiap kali tarian itu disebut-sebut di sekolah. Teman-temannya sering berbisik bahwa Tandak Mak Dangkong itu 'kuno' dan 'menyeramkan' karena konon penarinya bisa kerasukan roh penunggu pantai. Ratna lebih memilih diam saat topik itu muncul, bahkan pernah berpura-pura tidak mengenal neneknya ketika seorang teman bertanya apakah benar neneknyalah pemimpin tarian tersebut.",
-      "Dua hari sebelum acara digelar, Nek Minah jatuh sakit. Para tetua kampung berkumpul, membahas apakah tarian tahun ini sebaiknya ditiadakan saja. Sebagian anak muda malah menyambut gembira; mereka ingin mengganti acara adat itu dengan panggung musik modern yang dianggap lebih 'kekinian'. Ratna mendengar semua perbincangan itu sambil menunggui neneknya yang terbaring lemah di rumah.",
-      "Malam itu, Nek Minah memegang tangan Ratna dan berkata pelan bahwa ia tidak takut tandaknya berhenti karena sakit, tetapi takut jika generasi muda kampung lupa alasan tarian itu ada. Ratna teringat masa kecilnya, saat ia selalu menonton dari balik kain sarung neneknya, merasa aman dan bangga setiap gerakan itu ditutup dengan sorak syukur seluruh kampung.",
-      "Keesokan harinya, Ratna memutuskan sesuatu yang tidak pernah ia bayangkan sebelumnya: ia meminta neneknya mengajarinya gerakan dasar tandak dalam waktu semalam, agar tarian tetap bisa ditampilkan meski hanya sebagian. Ia berlatih di halaman belakang rumah, berulang kali salah langkah, sementara beberapa temannya yang kebetulan lewat menahan tawa melihatnya.",
-      "Saat malam pertunjukan tiba, Ratna tampil menggantikan sebagian peran neneknya, didampingi para penari senior lain. Gerakannya belum sempurna, tetapi kesungguhannya terlihat jelas. Warga kampung bertepuk tangan haru, dan beberapa teman sekolah yang semula mencibir kini justru merekam video sambil berbisik kagum. Ratna tersenyum kecil; ia baru menyadari bahwa menjaga tradisi keluarganya bukanlah sesuatu yang memalukan, melainkan caranya sendiri untuk pulang kepada akar kampung halamannya."
-    ],
-    image: null,
-    source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
-  },
-  question: "Peristiwa Ratna yang merasa risi terhadap Tandak Mak Dangkong akibat cibiran teman-temannya paling berkaitan dengan pengalaman remaja masa kini dalam hal ...",
-  options: [
-    "dilema mempertahankan jati diri atau tradisi keluarga di tengah tekanan pergaulan teman sebaya",
-    "kesulitan mengatur waktu antara sekolah dan kegiatan tambahan",
-    "persaingan mendapatkan nilai tertinggi di antara teman sekelas",
-    "perbedaan pendapat dengan orang tua soal uang saku"
-  ],
-  answer: "dilema mempertahankan jati diri atau tradisi keluarga di tengah tekanan pergaulan teman sebaya"
-},
-
-{
-  id: 61,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Denting Gong di Malam Tandak",
-    paragraphs: [
-      "Kampung Pesisir Rendang selalu riuh menjelang akhir musim melaut. Warga menyiapkan panggung sederhana dari bambu di tepi pantai untuk Tandak Mak Dangkong, tarian syukur yang dipimpin oleh Nek Minah, satu-satunya sesepuh yang masih hafal seluruh gerak dan mantra pengiringnya. Bagi warga kampung, tarian itu bukan sekadar hiburan, melainkan cara mereka mengucap terima kasih kepada laut yang telah memberi rezeki sepanjang tahun.",
-      "Ratna, cucu Nek Minah, justru merasa risi setiap kali tarian itu disebut-sebut di sekolah. Teman-temannya sering berbisik bahwa Tandak Mak Dangkong itu 'kuno' dan 'menyeramkan' karena konon penarinya bisa kerasukan roh penunggu pantai. Ratna lebih memilih diam saat topik itu muncul, bahkan pernah berpura-pura tidak mengenal neneknya ketika seorang teman bertanya apakah benar neneknyalah pemimpin tarian tersebut.",
-      "Dua hari sebelum acara digelar, Nek Minah jatuh sakit. Para tetua kampung berkumpul, membahas apakah tarian tahun ini sebaiknya ditiadakan saja. Sebagian anak muda malah menyambut gembira; mereka ingin mengganti acara adat itu dengan panggung musik modern yang dianggap lebih 'kekinian'. Ratna mendengar semua perbincangan itu sambil menunggui neneknya yang terbaring lemah di rumah.",
-      "Malam itu, Nek Minah memegang tangan Ratna dan berkata pelan bahwa ia tidak takut tandaknya berhenti karena sakit, tetapi takut jika generasi muda kampung lupa alasan tarian itu ada. Ratna teringat masa kecilnya, saat ia selalu menonton dari balik kain sarung neneknya, merasa aman dan bangga setiap gerakan itu ditutup dengan sorak syukur seluruh kampung.",
-      "Keesokan harinya, Ratna memutuskan sesuatu yang tidak pernah ia bayangkan sebelumnya: ia meminta neneknya mengajarinya gerakan dasar tandak dalam waktu semalam, agar tarian tetap bisa ditampilkan meski hanya sebagian. Ia berlatih di halaman belakang rumah, berulang kali salah langkah, sementara beberapa temannya yang kebetulan lewat menahan tawa melihatnya.",
-      "Saat malam pertunjukan tiba, Ratna tampil menggantikan sebagian peran neneknya, didampingi para penari senior lain. Gerakannya belum sempurna, tetapi kesungguhannya terlihat jelas. Warga kampung bertepuk tangan haru, dan beberapa teman sekolah yang semula mencibir kini justru merekam video sambil berbisik kagum. Ratna tersenyum kecil; ia baru menyadari bahwa menjaga tradisi keluarganya bukanlah sesuatu yang memalukan, melainkan caranya sendiri untuk pulang kepada akar kampung halamannya."
-    ],
-    image: null,
-    source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
-  },
-  question: "Nilai kehidupan yang dapat dipetik dari keputusan akhir Ratna untuk tetap menandak bersama warga kampung paling relevan diterapkan siswa SMP ketika menghadapi situasi ...",
-  options: [
-    "mengikuti tren di media sosial agar tidak dianggap ketinggalan zaman",
-    "mengabaikan pendapat orang yang lebih tua demi kebebasan pribadi",
-    "menghindari kegiatan sekolah yang dianggap membosankan",
-    "tetap menghargai kebiasaan atau tradisi keluarga meskipun sempat dianggap kuno oleh teman-teman"
-  ],
-  answer: "tetap menghargai kebiasaan atau tradisi keluarga meskipun sempat dianggap kuno oleh teman-teman"
-},
-
-{
-  id: 62,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Denting Gong di Malam Tandak",
-    paragraphs: [
-      "Kampung Pesisir Rendang selalu riuh menjelang akhir musim melaut. Warga menyiapkan panggung sederhana dari bambu di tepi pantai untuk Tandak Mak Dangkong, tarian syukur yang dipimpin oleh Nek Minah, satu-satunya sesepuh yang masih hafal seluruh gerak dan mantra pengiringnya. Bagi warga kampung, tarian itu bukan sekadar hiburan, melainkan cara mereka mengucap terima kasih kepada laut yang telah memberi rezeki sepanjang tahun.",
-      "Ratna, cucu Nek Minah, justru merasa risi setiap kali tarian itu disebut-sebut di sekolah. Teman-temannya sering berbisik bahwa Tandak Mak Dangkong itu 'kuno' dan 'menyeramkan' karena konon penarinya bisa kerasukan roh penunggu pantai. Ratna lebih memilih diam saat topik itu muncul, bahkan pernah berpura-pura tidak mengenal neneknya ketika seorang teman bertanya apakah benar neneknyalah pemimpin tarian tersebut.",
-      "Dua hari sebelum acara digelar, Nek Minah jatuh sakit. Para tetua kampung berkumpul, membahas apakah tarian tahun ini sebaiknya ditiadakan saja. Sebagian anak muda malah menyambut gembira; mereka ingin mengganti acara adat itu dengan panggung musik modern yang dianggap lebih 'kekinian'. Ratna mendengar semua perbincangan itu sambil menunggui neneknya yang terbaring lemah di rumah.",
-      "Malam itu, Nek Minah memegang tangan Ratna dan berkata pelan bahwa ia tidak takut tandaknya berhenti karena sakit, tetapi takut jika generasi muda kampung lupa alasan tarian itu ada. Ratna teringat masa kecilnya, saat ia selalu menonton dari balik kain sarung neneknya, merasa aman dan bangga setiap gerakan itu ditutup dengan sorak syukur seluruh kampung.",
-      "Keesokan harinya, Ratna memutuskan sesuatu yang tidak pernah ia bayangkan sebelumnya: ia meminta neneknya mengajarinya gerakan dasar tandak dalam waktu semalam, agar tarian tetap bisa ditampilkan meski hanya sebagian. Ia berlatih di halaman belakang rumah, berulang kali salah langkah, sementara beberapa temannya yang kebetulan lewat menahan tawa melihatnya.",
-      "Saat malam pertunjukan tiba, Ratna tampil menggantikan sebagian peran neneknya, didampingi para penari senior lain. Gerakannya belum sempurna, tetapi kesungguhannya terlihat jelas. Warga kampung bertepuk tangan haru, dan beberapa teman sekolah yang semula mencibir kini justru merekam video sambil berbisik kagum. Ratna tersenyum kecil; ia baru menyadari bahwa menjaga tradisi keluarganya bukanlah sesuatu yang memalukan, melainkan caranya sendiri untuk pulang kepada akar kampung halamannya."
-    ],
-    image: null,
-    source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
-  },
-  question: "Berdasarkan rangkaian peristiwa dalam cerita, konflik utama yang dialami tokoh Ratna adalah ...",
-  options: [
-    "konflik batin antara rasa malu terhadap ejekan teman dan tanggung jawabnya menjaga tradisi keluarga",
-    "konflik dengan neneknya karena dipaksa belajar menari dalam waktu singkat",
-    "konflik dengan warga kampung yang menolak kehadirannya sebagai penari pengganti",
-    "konflik fisik melawan sosok roh penunggu pantai yang disebut-sebut warga"
-  ],
-  answer: "konflik batin antara rasa malu terhadap ejekan teman dan tanggung jawabnya menjaga tradisi keluarga"
-},
-
-{
-  id: 63,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Denting Gong di Malam Tandak",
-    paragraphs: [
-      "Kampung Pesisir Rendang selalu riuh menjelang akhir musim melaut. Warga menyiapkan panggung sederhana dari bambu di tepi pantai untuk Tandak Mak Dangkong, tarian syukur yang dipimpin oleh Nek Minah, satu-satunya sesepuh yang masih hafal seluruh gerak dan mantra pengiringnya. Bagi warga kampung, tarian itu bukan sekadar hiburan, melainkan cara mereka mengucap terima kasih kepada laut yang telah memberi rezeki sepanjang tahun.",
-      "Ratna, cucu Nek Minah, justru merasa risi setiap kali tarian itu disebut-sebut di sekolah. Teman-temannya sering berbisik bahwa Tandak Mak Dangkong itu 'kuno' dan 'menyeramkan' karena konon penarinya bisa kerasukan roh penunggu pantai. Ratna lebih memilih diam saat topik itu muncul, bahkan pernah berpura-pura tidak mengenal neneknya ketika seorang teman bertanya apakah benar neneknyalah pemimpin tarian tersebut.",
-      "Dua hari sebelum acara digelar, Nek Minah jatuh sakit. Para tetua kampung berkumpul, membahas apakah tarian tahun ini sebaiknya ditiadakan saja. Sebagian anak muda malah menyambut gembira; mereka ingin mengganti acara adat itu dengan panggung musik modern yang dianggap lebih 'kekinian'. Ratna mendengar semua perbincangan itu sambil menunggui neneknya yang terbaring lemah di rumah.",
-      "Malam itu, Nek Minah memegang tangan Ratna dan berkata pelan bahwa ia tidak takut tandaknya berhenti karena sakit, tetapi takut jika generasi muda kampung lupa alasan tarian itu ada. Ratna teringat masa kecilnya, saat ia selalu menonton dari balik kain sarung neneknya, merasa aman dan bangga setiap gerakan itu ditutup dengan sorak syukur seluruh kampung.",
-      "Keesokan harinya, Ratna memutuskan sesuatu yang tidak pernah ia bayangkan sebelumnya: ia meminta neneknya mengajarinya gerakan dasar tandak dalam waktu semalam, agar tarian tetap bisa ditampilkan meski hanya sebagian. Ia berlatih di halaman belakang rumah, berulang kali salah langkah, sementara beberapa temannya yang kebetulan lewat menahan tawa melihatnya.",
-      "Saat malam pertunjukan tiba, Ratna tampil menggantikan sebagian peran neneknya, didampingi para penari senior lain. Gerakannya belum sempurna, tetapi kesungguhannya terlihat jelas. Warga kampung bertepuk tangan haru, dan beberapa teman sekolah yang semula mencibir kini justru merekam video sambil berbisik kagum. Ratna tersenyum kecil; ia baru menyadari bahwa menjaga tradisi keluarganya bukanlah sesuatu yang memalukan, melainkan caranya sendiri untuk pulang kepada akar kampung halamannya."
-    ],
-    image: null,
-    source: "Kumpulan Cerpen Pemenang LMCR Kemendikbud 2015 (dengan modifikasi)"
-  },
-  question: "Bagian akhir cerpen tersebut dapat dinilai tepat dari segi struktur karena ...",
-  options: [
-    "menghadirkan tokoh baru yang menyelesaikan masalah Ratna secara tiba-tiba",
-    "menutup cerita dengan latar waktu dan tempat yang berbeda dari bagian awal",
-    "menyelesaikan konflik batin yang telah dibangun sejak awal cerita secara logis, yaitu Ratna akhirnya memilih menjaga tradisi",
-    "menambahkan konflik baru yang belum pernah disinggung sebelumnya"
-  ],
-  answer: "menyelesaikan konflik batin yang telah dibangun sejak awal cerita secara logis, yaitu Ratna akhirnya memilih menjaga tradisi"
-},
-
-{
-  id: 64,
-  type: "multiple",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Pantai Tanjung Tani & Pesona Parangtritis",
-    paragraphs: [
-      "<b>Teks 1</b>",
-      "Pantai Tanjung Tani terletak di pesisir barat Pulau Bangka, di sebuah kawasan yang belum banyak tersentuh gemerlap wisata modern. Untuk mencapainya, pengunjung harus menyusuri jalan desa yang teduh oleh pohon kelapa sebelum akhirnya disambut hamparan pasir putih yang lembut.",
-      "Ciri khas utama pantai ini adalah ombaknya yang tenang dan landai, membuatnya aman untuk anak-anak berenang di dekat bibir pantai. Pada pagi hari, nelayan tradisional masih terlihat menambatkan perahu mereka, sementara di ujung pantai terdapat gugusan pohon bakau kecil yang menjadi rumah bagi burung-burung pesisir.",
-      "Fasilitas di Pantai Tanjung Tani masih sederhana; hanya ada beberapa warung makan kecil dan area lapang untuk piknik keluarga. Belum ada penginapan besar di sekitarnya, sehingga suasana pantai ini masih terasa sepi dan asri, cocok bagi wisatawan yang mencari ketenangan jauh dari keramaian.",
-      "<b>Teks 2</b>",
-      "Pantai Parangtritis berada di Kabupaten Bantul, di kawasan pesisir selatan Pulau Jawa yang sejak lama dikenal lewat legenda Nyi Roro Kidul. Banyak wisatawan datang bukan hanya untuk menikmati pantai, tetapi juga untuk merasakan suasana mistis yang melekat pada cerita rakyat tersebut.",
-      "Ombak di Parangtritis terkenal besar dan memiliki arus bawah yang kuat, sehingga papan peringatan dipasang di sepanjang pantai untuk mengimbau pengunjung agar tidak berenang terlalu jauh dari bibir pantai. Selain itu, ada pantangan turun-temurun bagi pengunjung untuk tidak mengenakan pakaian berwarna hijau saat berada di kawasan ini.",
-      "Selain ombaknya, daya tarik lain Parangtritis adalah hamparan gumuk pasir yang bisa dijelajahi dengan menyewa ATV atau bendi, serta panorama matahari terbenam yang memukau dari perbukitan Parangndog di dekatnya. Karena daya tariknya yang beragam, pantai ini selalu ramai dikunjungi wisatawan, terutama pada akhir pekan dan musim liburan."
-    ],
-    image: null,
-    source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
-  },
-  question: "Berdasarkan kedua teks deskripsi tersebut, pilihlah pernyataan yang TEPAT!",
-  options: [
-    "Pantai Tanjung Tani lebih cocok untuk berenang anak-anak karena ombaknya tenang dan landai.",
-    "Parangtritis dikenal memiliki mitos yang memengaruhi pantangan warna pakaian bagi pengunjung.",
-    "Kedua pantai sama-sama digambarkan ramai dikunjungi wisatawan setiap akhir pekan.",
-    "Parangtritis memiliki arus berbahaya sehingga pengunjung diimbau tidak berenang terlalu jauh.",
-    "Pantai Tanjung Tani terletak di kawasan pegunungan, jauh dari laut."
-  ],
-  answer: [
-    "Pantai Tanjung Tani lebih cocok untuk berenang anak-anak karena ombaknya tenang dan landai.",
-    "Parangtritis dikenal memiliki mitos yang memengaruhi pantangan warna pakaian bagi pengunjung.",
-    "Parangtritis memiliki arus berbahaya sehingga pengunjung diimbau tidak berenang terlalu jauh."
-  ]
-},
-
-{
-  id: 65,
-  type: "truefalse",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Pantai Tanjung Tani & Pesona Parangtritis",
-    paragraphs: [
-      "<b>Teks 1</b>",
-      "Pantai Tanjung Tani terletak di pesisir barat Pulau Bangka, di sebuah kawasan yang belum banyak tersentuh gemerlap wisata modern. Untuk mencapainya, pengunjung harus menyusuri jalan desa yang teduh oleh pohon kelapa sebelum akhirnya disambut hamparan pasir putih yang lembut.",
-      "Ciri khas utama pantai ini adalah ombaknya yang tenang dan landai, membuatnya aman untuk anak-anak berenang di dekat bibir pantai. Pada pagi hari, nelayan tradisional masih terlihat menambatkan perahu mereka, sementara di ujung pantai terdapat gugusan pohon bakau kecil yang menjadi rumah bagi burung-burung pesisir.",
-      "Fasilitas di Pantai Tanjung Tani masih sederhana; hanya ada beberapa warung makan kecil dan area lapang untuk piknik keluarga. Belum ada penginapan besar di sekitarnya, sehingga suasana pantai ini masih terasa sepi dan asri, cocok bagi wisatawan yang mencari ketenangan jauh dari keramaian.",
-      "<b>Teks 2</b>",
-      "Pantai Parangtritis berada di Kabupaten Bantul, di kawasan pesisir selatan Pulau Jawa yang sejak lama dikenal lewat legenda Nyi Roro Kidul. Banyak wisatawan datang bukan hanya untuk menikmati pantai, tetapi juga untuk merasakan suasana mistis yang melekat pada cerita rakyat tersebut.",
-      "Ombak di Parangtritis terkenal besar dan memiliki arus bawah yang kuat, sehingga papan peringatan dipasang di sepanjang pantai untuk mengimbau pengunjung agar tidak berenang terlalu jauh dari bibir pantai. Selain itu, ada pantangan turun-temurun bagi pengunjung untuk tidak mengenakan pakaian berwarna hijau saat berada di kawasan ini.",
-      "Selain ombaknya, daya tarik lain Parangtritis adalah hamparan gumuk pasir yang bisa dijelajahi dengan menyewa ATV atau bendi, serta panorama matahari terbenam yang memukau dari perbukitan Parangndog di dekatnya. Karena daya tariknya yang beragam, pantai ini selalu ramai dikunjungi wisatawan, terutama pada akhir pekan dan musim liburan."
-    ],
-    image: null,
-    source: "Brain Academy, 9 Juli 2025 (dengan modifikasi)"
-  },
-  question: "Tentukan Benar atau Salah berdasarkan perbandingan kedua teks!",
-  statements: [
-    "Kedua teks sama-sama menekankan pentingnya kehati-hatian pengunjung saat berenang.",
-    "Parangtritis memiliki daya tarik legenda budaya yang tidak disebutkan dalam teks Pantai Tanjung Tani.",
-    "Fasilitas wisata Pantai Tanjung Tani digambarkan lebih lengkap dan modern dibandingkan Parangtritis.",
-    "Kedua pantai dalam teks berada di pulau yang sama."
-  ],
-  answer: [
-    false,
-    true,
-    false,
-    false
-  ]
-},
-
-{
-  id: 66,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Piket Kebersihan Kelas",
-    paragraphs: [
-      "Setiap pagi, siswa yang mendapat jadwal piket datang lebih awal untuk membersihkan kelas. Mereka menyapu lantai kelas dengan sapu, mengelap papan tulis, dan merapikan meja-kursi yang berantakan tidak rapi. Setelah itu, mereka membuang sampah pada tempatnya di tempat sampah supaya kelas terlihat bersih dan nyaman untuk kegiatan belajar pada hari itu. Wali kelas sering memuji kelompok piket yang bekerja cepat, meskipun kadang ada siswa piket yang datang terlambat sehingga pekerjaan jadi tertunda."
-    ],
-    image: null,
-    source: null
-  },
-  question: "Kalimat dalam paragraf tersebut yang menggunakan pilihan kata paling tidak efektif (boros/berlebihan) terdapat pada bagian ...",
-  options: [
-    "\"Mereka menyapu lantai kelas dengan sapu\"",
-    "\"merapikan meja-kursi yang berantakan tidak rapi\"",
-    "\"Wali kelas sering memuji kelompok piket yang bekerja cepat\"",
-    "\"ada siswa piket yang datang terlambat\""
-  ],
-  answer: "\"merapikan meja-kursi yang berantakan tidak rapi\""
-},
-
-{
-  id: 67,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah teks berikut untuk menjawab soal!",
-    title: "Piket Kebersihan Kelas",
-    paragraphs: [
-      "Setiap pagi, siswa yang mendapat jadwal piket datang lebih awal untuk membersihkan kelas. Mereka menyapu lantai kelas dengan sapu, mengelap papan tulis, dan merapikan meja-kursi yang berantakan tidak rapi. Setelah itu, mereka membuang sampah pada tempatnya di tempat sampah supaya kelas terlihat bersih dan nyaman untuk kegiatan belajar pada hari itu. Wali kelas sering memuji kelompok piket yang bekerja cepat, meskipun kadang ada siswa piket yang datang terlambat sehingga pekerjaan jadi tertunda."
-    ],
-    image: null,
-    source: null
-  },
-  question: "Perbaikan paling tepat untuk kalimat \"mereka membuang sampah pada tempatnya di tempat sampah\" agar lebih efektif adalah ...",
-  options: [
-    "mereka membuang sampah pada tempatnya",
-    "mereka membuang sampah pada tempat sampahnya di tempat sampah",
-    "sampah dibuang oleh mereka pada tempat pembuangan sampah yang telah disediakan",
-    "mereka pergi membuang-buang sampah ke tempat sampah yang ada"
-  ],
-  answer: "mereka membuang sampah pada tempatnya"
-},
-
-{
-  id: 68,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah puisi berikut untuk menjawab soal!",
-    title: "Jam Dinding yang Tak Kunjung Tidur",
-    paragraphs: [
-      "Pukul dua belas lewat sedikit,",
-      "kamar ini sunyi, hanya detik jam berbisik.",
-      "Aku menatap langit-langit yang diam,",
-      "sementara pikiran berlarian entah ke mana.",
-      "Kudengar suara kulkas mendengung pelan,",
-      "seperti dahulu suara Ibu menyeduh teh hangat,",
-      "sebelum tidur, sebelum cerita-cerita kecil",
-      "mengantar mataku terpejam tanpa beban.",
-      "Kini teh itu dingin di atas meja,",
-      "tak ada lagi yang menemani begadang panjang,",
-      "hanya bayang lampu jalan menembus tirai,",
-      "dan rindu yang diam-diam menua di dada.",
-      "Tapi kutahu pagi akan datang jua,",
-      "membawa cahaya menembus jendela kamar,",
-      "dan aku, meski sendiri di tengah malam ini,",
-      "percaya esok akan sedikit lebih terang."
-    ],
-    image: null,
-    source: null
-  },
-  question: "Suasana batin yang paling dominan dirasakan tokoh \"Aku\" dalam puisi tersebut adalah ...",
-  options: [
-    "marah dan kecewa karena tidak bisa tidur",
-    "takut karena suasana malam yang mencekam",
-    "kesepian dan rindu yang perlahan diselingi secercah harapan",
-    "bahagia mengenang masa kecil bersama Ibu"
-  ],
-  answer: "kesepian dan rindu yang perlahan diselingi secercah harapan"
-},
-
-{
-  id: 69,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah puisi berikut untuk menjawab soal!",
-    title: "Jam Dinding yang Tak Kunjung Tidur",
-    paragraphs: [
-      "Pukul dua belas lewat sedikit,",
-      "kamar ini sunyi, hanya detik jam berbisik.",
-      "Aku menatap langit-langit yang diam,",
-      "sementara pikiran berlarian entah ke mana.",
-      "Kudengar suara kulkas mendengung pelan,",
-      "seperti dahulu suara Ibu menyeduh teh hangat,",
-      "sebelum tidur, sebelum cerita-cerita kecil",
-      "mengantar mataku terpejam tanpa beban.",
-      "Kini teh itu dingin di atas meja,",
-      "tak ada lagi yang menemani begadang panjang,",
-      "hanya bayang lampu jalan menembus tirai,",
-      "dan rindu yang diam-diam menua di dada.",
-      "Tapi kutahu pagi akan datang jua,",
-      "membawa cahaya menembus jendela kamar,",
-      "dan aku, meski sendiri di tengah malam ini,",
-      "percaya esok akan sedikit lebih terang."
-    ],
-    image: null,
-    source: null
-  },
-  question: "Baris \"hanya bayang lampu jalan menembus tirai, dan rindu yang diam-diam menua di dada\" dapat membangkitkan respons emosional pembaca karena ...",
-  options: [
-    "menggunakan kata-kata ilmiah yang sulit dipahami",
-    "menceritakan kejadian yang penuh aksi dan menegangkan",
-    "menghadirkan citraan malam yang sunyi dan perasaan rindu yang mendalam, sehingga mudah dikaitkan dengan pengalaman pribadi pembaca yang pernah merindukan seseorang",
-    "menjelaskan secara rinci data tentang cuaca malam hari"
-  ],
-  answer: "menghadirkan citraan malam yang sunyi dan perasaan rindu yang mendalam, sehingga mudah dikaitkan dengan pengalaman pribadi pembaca yang pernah merindukan seseorang"
-},
-
-{
-  id: 70,
-  type: "single",
-  stimulus: {
-    instruction: "Bacalah puisi berikut untuk menjawab soal!",
-    title: "Jam Dinding yang Tak Kunjung Tidur",
-    paragraphs: [
-      "Pukul dua belas lewat sedikit,",
-      "kamar ini sunyi, hanya detik jam berbisik.",
-      "Aku menatap langit-langit yang diam,",
-      "sementara pikiran berlarian entah ke mana.",
-      "Kudengar suara kulkas mendengung pelan,",
-      "seperti dahulu suara Ibu menyeduh teh hangat,",
-      "sebelum tidur, sebelum cerita-cerita kecil",
-      "mengantar mataku terpejam tanpa beban.",
-      "Kini teh itu dingin di atas meja,",
-      "tak ada lagi yang menemani begadang panjang,",
-      "hanya bayang lampu jalan menembus tirai,",
-      "dan rindu yang diam-diam menua di dada.",
-      "Tapi kutahu pagi akan datang jua,",
-      "membawa cahaya menembus jendela kamar,",
-      "dan aku, meski sendiri di tengah malam ini,",
-      "percaya esok akan sedikit lebih terang."
-    ],
-    image: null,
-    source: null
-  },
-  question: "Sikap yang paling tepat ditunjukkan seorang pembaca remaja ketika membaca puisi tersebut adalah ...",
-  options: [
-    "mengabaikan puisi karena dianggap terlalu sedih dan tidak penting untuk dibaca",
-    "menertawakan tokoh \"Aku\" karena dianggap berlebihan hanya karena tidak bisa tidur",
-    "menganggap puisi tersebut hanya membahas jam dinding dan tidak memiliki makna lain",
-    "ikut merasakan (berempati terhadap) kesepian tokoh \"Aku\", sambil menangkap pesan bahwa harapan tetap ada meski sedang merindukan seseorang"
-  ],
-  answer: "ikut merasakan (berempati terhadap) kesepian tokoh \"Aku\", sambil menangkap pesan bahwa harapan tetap ada meski sedang merindukan seseorang"
-}
 ];

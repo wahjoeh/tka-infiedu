@@ -29,22 +29,28 @@
         ← Kembali
       </button>
     </div>
+    <FullTestPasswordDialog :visible="showPasswordDialog" @close="showPasswordDialog = false" @unlocked="openFullTest" />
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import FullTestPasswordDialog from '../../components/FullTestPasswordDialog.vue'
 import '../../styles/smp.css'
 
 const router = useRouter()
+const showPasswordDialog = ref(false)
 
 const goToPractice = () => {
   router.push('/sd/practice')
 }
 
 const goToTest = () => {
-  router.push('/sd/test')
+  showPasswordDialog.value = true
 }
+
+const openFullTest = () => { sessionStorage.setItem('sdCombinedFullTestUnlocked', 'true'); router.push('/sd/test') }
 
 const goBack = () => {
   router.push('/')

@@ -9,7 +9,7 @@
       <h1 class="page-title">Menyiapkan Paket Soal</h1>
 
       <p class="page-subtitle">
-        Sistem sedang memilih Paket 1 atau Paket 2 untuk Anda.
+        Menyiapkan 1 paket latihan berisi 20 soal untuk Anda.
       </p>
     </div>
   </div>
@@ -23,7 +23,6 @@ import '../../../styles/smp-indo.css'
 const router = useRouter()
 
 onMounted(() => {
-  const randomPackage = Math.random() < 0.5 ? 1 : 2
-  router.replace(`/smp/practice/indo/test?package=${randomPackage}`)
+  router.replace('/smp/practice/indo/test?')
 })
 </script>

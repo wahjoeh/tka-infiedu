@@ -29,22 +29,28 @@
         ← Kembali
       </button>
     </div>
+    <FullTestPasswordDialog :visible="showPasswordDialog" @close="showPasswordDialog = false" @unlocked="openFullTest" />
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import FullTestPasswordDialog from '../../components/FullTestPasswordDialog.vue'
 import '../../styles/sma.css'
 
 const router = useRouter()
+const showPasswordDialog = ref(false)
 
 const goToPractice = () => {
   router.push('/sma/practice')
 }
 
 const goToTest = () => {
-  router.push('/sma/test')
+  showPasswordDialog.value = true
 }
+
+const openFullTest = () => { sessionStorage.setItem('smaCombinedFullTestUnlocked', 'true'); router.push('/sma/test') }
 
 const goBack = () => {
   router.push('/')

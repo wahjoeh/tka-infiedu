@@ -234,6 +234,15 @@ body{
   background:#eff6ff;
 }
 
+/* Opsi jawaban berupa gambar (mis. diagram Venn, grafik, hasil transformasi) */
+.option-image{
+  max-width:100%;
+  width:220px;
+  height:auto;
+  border-radius:8px;
+  display:block;
+}
+
 .navigation{
   display:flex;
   justify-content:space-between;

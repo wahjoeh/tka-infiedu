@@ -6,7 +6,7 @@
       <div class="header-title">
         <img src="/logo.png" alt="InfiEdu" class="brand-logo" />
         <h2>TKA SMP InfiEdu</h2>
-        <p>TKA SMP - Bahasa Indonesia</p>
+        <p>TKA SMP - Bahasa Indonesia (Paket {{ selectedPackage }})</p>
       </div>
 
       <div class="header-right">
@@ -572,42 +572,54 @@ const route = useRoute()
 const router = useRouter()
 
 const type = route.query.type
-const selectedPackage = Number(route.query.package)
 
-let questions = []
-
-if (selectedPackage === 1 || selectedPackage === 2) {
-  const startId = selectedPackage === 1 ? 1 : 36
-  const endId = selectedPackage === 1 ? 35 : 70
-
-  // Nomor soal tetap berurutan sesuai paket yang diterima siswa.
-  questions = fulltestQuestions
-    .filter((question) => question.id >= startId && question.id <= endId)
-    .map((q, index) => ({
-      ...q,
-      displayId: index + 1,
-      originalId: q.id
-    }))
-} else {
-  switch (type) {
-
-  case 'fulltest':
-  questions = fulltestQuestions.map((q, index) => ({
-    ...q,
-    displayId: index + 1,
-    originalId: q.id
-  }))
-  break
-
-  default:
-  questions = fulltestQuestions.map((q, index) => ({
-    ...q,
-    displayId: index + 1,
-    originalId: q.id
-  }))
-
-  }
+// =========================
+// PAKET SOAL (RANDOM PACKAGE)
+// =========================
+// Total soal saat ini: 70 (id 1-70), dibagi jadi 4 paket @ 20 soal.
+// Karena 70 tidak habis dibagi 20, paket ke-4 melengkapi 10 soal
+// sisanya (id 61-70) dengan meminjam 10 soal dari paket 1 (id 1-10).
+const QUESTION_PACKAGES = {
+  1: Array.from({ length: 20 }, (_, i) => i + 1),   // id 1-20
+  2: Array.from({ length: 20 }, (_, i) => i + 21),  // id 21-40
+  3: Array.from({ length: 20 }, (_, i) => i + 41),  // id 41-60
+  4: [
+    ...Array.from({ length: 10 }, (_, i) => i + 61), // id 61-70
+    ...Array.from({ length: 10 }, (_, i) => i + 1)   // pinjam id 1-10
+  ]
 }
+
+const getRandomPackageNumber = () => {
+  const packageNumbers = Object.keys(QUESTION_PACKAGES).map(Number)
+  const randomIndex = Math.floor(Math.random() * packageNumbers.length)
+  return packageNumbers[randomIndex]
+}
+
+// Paket bisa dipaksa lewat query (?package=2), misalnya untuk keperluan
+// testing/preview. Kalau tidak ada atau tidak valid, siswa dapat paket acak.
+const requestedPackage = Number(route.query.package)
+const isTrial = route.query.mode === 'trial'
+
+const selectedPackage = isTrial
+  ? 'Trial'
+  : QUESTION_PACKAGES[requestedPackage]
+  ? requestedPackage
+  : getRandomPackageNumber()
+
+const packageIds = isTrial
+  ? [...fulltestQuestions].sort(() => Math.random() - 0.5).slice(0, 10).map((question) => question.id)
+  : QUESTION_PACKAGES[selectedPackage]
+
+// Nomor soal ditampilkan berurutan 1..20 sesuai urutan di dalam paket,
+// bukan berdasarkan id asli di bank soal.
+let questions = packageIds
+  .map((id) => fulltestQuestions.find((question) => question.id === id))
+  .filter(Boolean)
+  .map((q, index) => ({
+    ...q,
+    displayId: index + 1,
+    originalId: q.id
+  }))
 
 const currentQuestion = ref(0)
 const showSidebar = ref(false)
@@ -640,7 +652,7 @@ questions.forEach((q, index) => {
 
 })
 
-const timeLeft = ref(90 * 60)
+const timeLeft = ref(35 * 60)
 
 let timerInterval = null
 

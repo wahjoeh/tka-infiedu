@@ -6,7 +6,7 @@
       <div class="header-title">
         <img src="/logo.png" alt="InfiEdu" class="brand-logo" />
         <h2>TKA SMA InfiEdu</h2>
-        <p>TKA SMA - Bahasa Indonesia</p>
+        <p>TKA SMA - Bahasa Indonesia (Paket {{ selectedPackage }})</p>
       </div>
 
       <div class="header-right">
@@ -571,47 +571,93 @@ import fulltestQuestions from '../../../data/sma/indo/fulltest'
 const route = useRoute()
 const router = useRouter()
 
-const type = route.query.type
-
 // =========================
-// FUNGSI RANDOM - MENGAMBIL 30 SOAL
+// PAKET SOAL (RANDOM PACKAGE)
 // =========================
+// Bank soal berisi 70 soal, terdiri atas 2 set (id 1-35 dan 36-70),
+// masing-masing set berisi 3 topik: Pemahaman Tekstual (9),
+// Pemahaman Inferensial (14), dan Evaluasi & Apresiasi (12).
+// Totalnya per topik lintas kedua set: Tekstual 18, Inferensial 28,
+// Evaluasi & Apresiasi 24.
+//
+// Dibagi jadi 4 paket @ 20 soal, dengan komposisi topik yang SAMA di
+// setiap paket: 5 Tekstual + 8 Inferensial + 7 Evaluasi & Apresiasi
+// (proporsional dari rasio 18:28:24). Karena target per topik lebih
+// besar dari jatah rata-rata tiap paket (18/4=4.5, 28/4=7, 24/4=6),
+// sebagian soal terpaksa dipakai lagi di lebih dari satu paket -
+// pengambilannya memakai indeks berputar (modulo) per topik supaya
+// soal yang dipakai ulang tersebar merata, bukan selalu dari paket
+// yang sama.
+const TOPIC_POOLS = {
+  tekstual: [
+    ...Array.from({ length: 9 }, (_, i) => i + 1),   // id 1-9
+    ...Array.from({ length: 9 }, (_, i) => i + 36)   // id 36-44
+  ],
+  inferensial: [
+    ...Array.from({ length: 14 }, (_, i) => i + 10), // id 10-23
+    ...Array.from({ length: 14 }, (_, i) => i + 45)  // id 45-58
+  ],
+  evaluasi: [
+    ...Array.from({ length: 12 }, (_, i) => i + 24), // id 24-35
+    ...Array.from({ length: 12 }, (_, i) => i + 59)  // id 59-70
+  ]
+}
 
-function getRandomQuestions(allQuestions, count = 30) {
-  // Buat salinan array agar tidak mengubah array asli
-  const shuffled = [...allQuestions]
-  
-  // Fisher-Yates shuffle algorithm
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-  }
-  
-  // Ambil sebanyak 'count' soal pertama dari hasil shuffle
-  const selected = shuffled.slice(0, count)
-  
-  // Simpan ID asli untuk referensi dan beri displayId baru (1-30)
-  return selected.map((q, index) => ({
+const PACKAGE_COUNT = 4
+const TOPIC_TARGET_PER_PACKAGE = {
+  tekstual: 5,
+  inferensial: 8,
+  evaluasi: 7
+} // 5 + 8 + 7 = 20 soal/paket
+
+function buildPackages() {
+  const packages = Array.from({ length: PACKAGE_COUNT }, () => [])
+
+  Object.entries(TOPIC_POOLS).forEach(([topic, pool]) => {
+    const perPackage = TOPIC_TARGET_PER_PACKAGE[topic]
+
+    for (let pkg = 0; pkg < PACKAGE_COUNT; pkg++) {
+      for (let i = 0; i < perPackage; i++) {
+        const poolIndex = (pkg * perPackage + i) % pool.length
+        packages[pkg].push(pool[poolIndex])
+      }
+    }
+  })
+
+  return packages
+}
+
+const QUESTION_PACKAGES = buildPackages() // index 0-3 => paket 1-4
+
+const getRandomPackageIndex = () =>
+  Math.floor(Math.random() * QUESTION_PACKAGES.length)
+
+// Paket bisa dipaksa lewat query (?package=2), misalnya untuk keperluan
+// testing/preview. Kalau tidak ada atau tidak valid, siswa dapat paket acak.
+const requestedPackageIndex = Number(route.query.package) - 1
+const isTrial = route.query.mode === 'trial'
+
+const selectedPackageIndex =
+  Number.isInteger(requestedPackageIndex) && QUESTION_PACKAGES[requestedPackageIndex]
+    ? requestedPackageIndex
+    : getRandomPackageIndex()
+
+const selectedPackage = isTrial ? 'Trial' : selectedPackageIndex + 1
+
+const packageIds = isTrial
+  ? [...fulltestQuestions].sort(() => Math.random() - 0.5).slice(0, 10).map((question) => question.id)
+  : QUESTION_PACKAGES[selectedPackageIndex]
+
+// Nomor soal ditampilkan berurutan 1..20 sesuai urutan di dalam paket,
+// bukan berdasarkan id asli di bank soal.
+let questions = packageIds
+  .map((id) => fulltestQuestions.find((question) => question.id === id))
+  .filter(Boolean)
+  .map((q, index) => ({
     ...q,
     displayId: index + 1,
     originalId: q.id
   }))
-}
-
-let questions = []
-
-switch (type) {
-
-  case 'fulltest':
-    // Ambil 30 soal random dari bank soal
-    questions = getRandomQuestions(fulltestQuestions, 30)
-    break
-
-  default:
-    // Default juga ambil 30 soal random
-    questions = getRandomQuestions(fulltestQuestions, 30)
-
-}
 
 const currentQuestion = ref(0)
 const showSidebar = ref(false)
@@ -644,7 +690,7 @@ questions.forEach((q, index) => {
 
 })
 
-const timeLeft = ref(90 * 60)
+const timeLeft = ref(25 * 60)
 
 let timerInterval = null
 

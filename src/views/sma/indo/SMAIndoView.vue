@@ -9,39 +9,12 @@
       <h1 class="page-title">Latihan Bahasa Indonesia</h1>
 
       <p class="page-subtitle">
-        Pilih aspek materi berdasarkan kisi-kisi TKA SMA 2026
+        Pilih mode untuk memulai latihan atau simulasi
       </p>
 
       <div class="package-grid">
-        <button class="package-card" @click="goToTest('idepokok')">
-          <h3>Ide Pokok & Simpulan</h3>
-          <p>
-            Menentukan inti paragraf dan simpulan tersurat maupun tersirat.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('evaluasi')">
-          <h3>Evaluasi Kualitas Informasi</h3>
-          <p>
-            Membedakan fakta dan opini serta mengevaluasi data dan informasi.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('kebahasaan')">
-          <h3>Kebahasaan & Struktur</h3>
-          <p>
-            Ejaan, tanda baca, kalimat efektif, dan susunan paragraf.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('sastra')">
-          <h3>Literasi Sastra</h3>
-          <p>
-            Watak tokoh, latar, konflik, dan pesan moral.
-          </p>
-        </button>
-
-        <button class="package-card full-test" @click="goToTest('fulltest')">
+        <button class="package-card" @click="goToTrial"><h3>Trial</h3><p>Kerjakan 10 soal Bahasa Indonesia untuk mencoba kemampuanmu.</p></button>
+        <button class="package-card full-test" @click="showPasswordDialog = true">
           <h3>Full Test Simulation</h3>
           <p>
             Simulasi lengkap seluruh materi Bahasa Indonesia TKA SMA.
@@ -53,18 +26,23 @@
         ← Kembali
       </button>
     </div>
+    <div v-if="showPasswordDialog" class="full-test-password-overlay" @click.self="closePasswordDialog"><form class="full-test-password-dialog" @submit.prevent="openFullTest"><h2>Full Test Simulation</h2><p>Masukkan password untuk memulai simulasi.</p><input v-model="password" type="password" placeholder="Password" autofocus /><p v-if="passwordError" class="password-error">Password tidak sesuai.</p><div class="full-test-password-actions"><button type="button" class="full-test-password-cancel" @click="closePasswordDialog">Batal</button><button type="submit" class="full-test-password-submit">Masuk</button></div></form></div>
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import '../../../styles/sma-indo.css'
+import '../../../styles/password-modal.css'
 
 const router = useRouter()
+const password = ref(''); const passwordError = ref(false); const showPasswordDialog = ref(false)
+const FULL_TEST_PASSWORD = 'asd'
 
-const goToTest = (type) => {
-  router.push(`/sma/practice/indo/test?type=${type}`)
-}
+const goToTrial = () => router.push('/sma/practice/indo/test?mode=trial')
+const openFullTest = () => { if (password.value !== FULL_TEST_PASSWORD) { passwordError.value = true; return }; sessionStorage.setItem('smaIndoFullTestUnlocked', 'true'); router.push('/sma/practice/indo/test?mode=fulltest') }
+const closePasswordDialog = () => { showPasswordDialog.value = false; password.value = ''; passwordError.value = false }
 
 const goBack = () => {
   router.push('/sma/practice')

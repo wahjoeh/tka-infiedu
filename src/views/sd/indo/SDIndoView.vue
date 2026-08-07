@@ -1,44 +1,25 @@
 <template>
-  <div class="indo-container">
+  <div class="math-container">
     <div class="top-banner">
       <h2>TKA InfiEdu</h2>
-      <p>TKA SD - Bahasa Indonesia</p>
+      <p>TKA SD - Matematika</p>
     </div>
 
-    <div class="indo-card">
-      <h1 class="page-title">Latihan Bahasa Indonesia</h1>
+    <div class="math-card">
+      <h1 class="page-title">Latihan Matematika</h1>
 
       <p class="page-subtitle">
-        Pilih aspek materi berdasarkan kisi-kisi TKA SD 2026
+        Pilih mode untuk memulai latihan atau simulasi
       </p>
 
       <div class="package-grid">
-        <button class="package-card" @click="goToTest('idepokok')">
-          <h3>Pemahaman Tekstual</h3>
-          <p>
-            Memahami informasi yang dikemukakan secara eksplisit, mengelompokkan, menyusun ulang, dan menyajikan kembali informasi secara eksplisit dari teks..
-          </p>
+        <button class="package-card" @click="goToTrial">
+          <h3>Trial</h3>
+          <p>Kerjakan 10 soal Matematika untuk mencoba kemampuanmu.</p>
         </button>
-
-        <button class="package-card" @click="goToTest('evaluasi')">
-          <h3>Pemahaman inferensial</h3>
-          <p>
-            Menarik kesimpulan berdasarkan informasi yang tersirat dalam teks.
-          </p>
-        </button>
-
-        <button class="package-card" @click="goToTest('kebahasaan')">
-          <h3>Evaluasi dan Apresiasi</h3>
-          <p>
-            Membuat penilaian terhadap ide, menanggapi teks secara emosional dan estetis dengan mempertimbangkan dampaknya terhadap perasaan, imajinasi, serta penggunaan bahasa oleh penulis.
-          </p>
-        </button>
-
-        <button class="package-card full-test" @click="goToTest('fulltest')">
-          <h3>Simulasi Tes</h3>
-          <p>
-            Simulasi lengkap seluruh materi Bahasa Indonesia TKA SD.
-          </p>
+        <button class="package-card full-test" @click="showPasswordDialog = true">
+          <h3>Full Test Simulation</h3>
+          <p>Simulasi lengkap Matematika. Membutuhkan password untuk masuk.</p>
         </button>
       </div>
 
@@ -46,18 +27,39 @@
         ← Kembali
       </button>
     </div>
+    <div v-if="showPasswordDialog" class="full-test-password-overlay" @click.self="closePasswordDialog">
+      <form class="full-test-password-dialog" @submit.prevent="openFullTest">
+        <h2>Full Test Simulation</h2><p>Masukkan password untuk memulai simulasi.</p>
+        <input v-model="password" type="password" placeholder="Password" autofocus />
+        <p v-if="passwordError" class="password-error">Password tidak sesuai.</p>
+        <div class="full-test-password-actions">
+          <button type="button" class="full-test-password-cancel" @click="closePasswordDialog">Batal</button>
+          <button type="submit" class="full-test-password-submit">Masuk</button>
+        </div>
+      </form>
+    </div>
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import '../../../styles/sd-indo.css'
+import '../../../styles/sd-math.css'
+import '../../../styles/password-modal.css'
 
 const router = useRouter()
+const password = ref('')
+const passwordError = ref(false)
+const showPasswordDialog = ref(false)
+const FULL_TEST_PASSWORD = 'asd'
 
-const goToTest = (type) => {
-  router.push(`/sd/practice/indo/test?type=${type}`)
+const goToTrial = () => router.push('/sd/practice/indo/test?mode=trial')
+const openFullTest = () => {
+  if (password.value !== FULL_TEST_PASSWORD) { passwordError.value = true; return }
+  sessionStorage.setItem('sdIndoFullTestUnlocked', 'true')
+  router.push('/sd/practice/indo/test?mode=fulltest')
 }
+const closePasswordDialog = () => { showPasswordDialog.value = false; password.value = ''; passwordError.value = false }
 
 const goBack = () => {
   router.push('/sd/practice')

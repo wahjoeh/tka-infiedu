@@ -588,9 +588,9 @@ export default [
   },
   {
     "id": 23,
-    "type": "Amatilah poster berikut untuk menjawab soal!",
+    "type": "single",
     "stimulus": {
-      "instruction": null,
+      "instruction": "Amatilah poster berikut untuk menjawab soal!",
       "title": null,
       "paragraphs": null,
       "image": "/images/sd/indo/soal22.jpg",

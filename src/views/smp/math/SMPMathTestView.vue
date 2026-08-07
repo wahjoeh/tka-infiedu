@@ -1,12 +1,12 @@
 <template>
-  <div class="test-container smp-math-test exam-math-theme">
+  <div class="test-container sma-math-test exam-math-theme">
 
     <header class="test-header">
 
       <div class="header-title">
         <img src="/logo.png" alt="InfiEdu" class="brand-logo" />
-        <h2>TKA SMP InfiEdu</h2>
-        <p>TKA SMP - Matematika</p>
+        <h2>TKA SMA InfiEdu</h2>
+        <p>TKA SMA - Matematika (Paket {{ selectedPackage }})</p>
       </div>
 
       <div class="header-right">
@@ -567,94 +567,92 @@ import {
   useRouter
 } from 'vue-router'
 
-import '../../../styles/smp-math-test.css'
+import '../../../styles/sma-math-test.css'
 
-import fulltestQuestions from '../../../data/smp/math/fulltest'
+import fulltestQuestions from '../../../data/sma/math/fulltest'
 
 const route = useRoute()
 const router = useRouter()
 
-const type = route.query.type
-const selectedPackage = Number(route.query.package)
-
 // =========================
-// FUNGSI RANDOM - MENGAMBIL 30 SOAL
+// PAKET SOAL (RANDOM PACKAGE)
 // =========================
+// Bank soal berisi 54 soal, terbagi 5 topik: Bilangan (7), Aljabar (16),
+// Geometri (15), Trigonometri (7), Data dan Peluang (9).
+//
+// Dibagi jadi 4 paket @ 15 soal, dengan komposisi topik yang SAMA di
+// setiap paket: 2 Bilangan + 4 Aljabar + 4 Geometri + 2 Trigonometri +
+// 3 Peluang (proporsional dari rasio 7:16:15:7:9, dibulatkan supaya
+// totalnya tetap 15). Karena target per topik lebih besar dari jatah
+// rata-rata tiap paket untuk sebagian topik (mis. Peluang: 9/4=2.25
+// tapi target 3), sebagian soal terpaksa dipakai lagi di lebih dari
+// satu paket - pengambilannya memakai indeks berputar (modulo) per
+// topik supaya soal yang dipakai ulang tersebar merata.
+const TOPIC_POOLS = {
+  bilangan: Array.from({ length: 7 }, (_, i) => `bilangan-${i + 1}`),
+  aljabar: Array.from({ length: 16 }, (_, i) => `aljabar-${i + 1}`),
+  geometri: Array.from({ length: 15 }, (_, i) => `geometri-${i + 1}`),
+  trigonometri: Array.from({ length: 7 }, (_, i) => `trigonometri-${i + 1}`),
+  peluang: Array.from({ length: 9 }, (_, i) => `peluang-${i + 1}`)
+}
 
-function getRandomQuestions(allQuestions, count = 30) {
-  // Buat salinan array agar tidak mengubah array asli
-  const shuffled = [...allQuestions]
-  
-  // Fisher-Yates shuffle algorithm
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-  }
-  
-  // Ambil sebanyak 'count' soal pertama dari hasil shuffle
-  const selected = shuffled.slice(0, count)
-  
-  // Simpan ID asli untuk referensi dan beri displayId baru (1-30)
-  return selected.map((q, index) => ({
+const PACKAGE_COUNT = 4
+const TOPIC_TARGET_PER_PACKAGE = {
+  bilangan: 2,
+  aljabar: 4,
+  geometri: 4,
+  trigonometri: 2,
+  peluang: 3
+} // 2 + 4 + 4 + 2 + 3 = 15 soal/paket
+
+function buildPackages() {
+  const packages = Array.from({ length: PACKAGE_COUNT }, () => [])
+
+  Object.entries(TOPIC_POOLS).forEach(([topic, pool]) => {
+    const perPackage = TOPIC_TARGET_PER_PACKAGE[topic]
+
+    for (let pkg = 0; pkg < PACKAGE_COUNT; pkg++) {
+      for (let i = 0; i < perPackage; i++) {
+        const poolIndex = (pkg * perPackage + i) % pool.length
+        packages[pkg].push(pool[poolIndex])
+      }
+    }
+  })
+
+  return packages
+}
+
+const QUESTION_PACKAGES = buildPackages() // index 0-3 => paket 1-4
+
+const getRandomPackageIndex = () =>
+  Math.floor(Math.random() * QUESTION_PACKAGES.length)
+
+// Paket bisa dipaksa lewat query (?package=2), misalnya untuk keperluan
+// testing/preview. Kalau tidak ada atau tidak valid, siswa dapat paket acak.
+const requestedPackageIndex = Number(route.query.package) - 1
+const isTrial = route.query.mode === 'trial'
+
+const selectedPackageIndex =
+  Number.isInteger(requestedPackageIndex) && QUESTION_PACKAGES[requestedPackageIndex]
+    ? requestedPackageIndex
+    : getRandomPackageIndex()
+
+const selectedPackage = isTrial ? 'Trial' : selectedPackageIndex + 1
+
+const packageIds = isTrial
+  ? [...fulltestQuestions].sort(() => Math.random() - 0.5).slice(0, 10).map((question) => question.id)
+  : QUESTION_PACKAGES[selectedPackageIndex]
+
+// Nomor soal ditampilkan berurutan 1..15 sesuai urutan di dalam paket,
+// bukan berdasarkan id asli di bank soal.
+let questions = packageIds
+  .map((id) => fulltestQuestions.find((question) => question.id === id))
+  .filter(Boolean)
+  .map((q, index) => ({
     ...q,
     displayId: index + 1,
     originalId: q.id
   }))
-}
-
-let questions = []
-
-if (selectedPackage === 1 || selectedPackage === 2) {
-  /*
-   * Kedua paket memuat tiap materi secara seimbang (8/7 soal per materi)
-   * dan komposisi tipe jawaban yang hampir identik. Filter dilakukan pada
-   * urutan bank asli, sehingga urutan soal di dalam paket tidak diacak.
-   */
-  const packageOneTargets = {
-    aljabar: { multiple: 2, single: 6 },
-    bilangan: { multiple: 1, single: 4, truefalse: 2 },
-    geometri: { multiple: 1, single: 5, truefalse: 2 },
-    peluang: { multiple: 2, single: 4, truefalse: 1 }
-  }
-  const usedTargets = {}
-
-  const packageOneQuestions = fulltestQuestions.filter((question) => {
-    const topic = question.id.split('-')[0]
-    const target = packageOneTargets[topic]?.[question.type] || 0
-    const targetKey = `${topic}-${question.type}`
-    const used = usedTargets[targetKey] || 0
-
-    if (used >= target) return false
-
-    usedTargets[targetKey] = used + 1
-    return true
-  })
-
-  const selectedQuestions = selectedPackage === 1
-    ? packageOneQuestions
-    : fulltestQuestions.filter((question) => !packageOneQuestions.includes(question))
-
-  // Paket ditentukan oleh sistem, tetapi nomor soal di dalamnya tetap berurutan.
-  questions = selectedQuestions
-    .map((q, index) => ({
-      ...q,
-      displayId: index + 1,
-      originalId: q.id
-    }))
-} else {
-  switch (type) {
-
-  case 'fulltest':
-    // Ambil 30 soal random dari bank soal
-    questions = getRandomQuestions(fulltestQuestions, 30)
-    break
-
-  default:
-    // Default juga ambil 30 soal random
-    questions = getRandomQuestions(fulltestQuestions, 30)
-
-  }
-}
 
 const currentQuestion = ref(0)
 const showSidebar = ref(false)
@@ -907,7 +905,7 @@ const submitTest = () => {
   })
 
   sessionStorage.setItem(
-    'smpMathResult',
+    'smaMathResult',
     JSON.stringify(resultData)
   )
 

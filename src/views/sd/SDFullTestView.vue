@@ -449,25 +449,64 @@ import mathBank from '../../data/sd/math/fulltest'
 const router = useRouter()
 
 // =========================
-// FUNGSI RANDOM - MENGAMBIL N SOAL
+// PAKET SOAL - BAHASA INDONESIA (3 paket @ 20 soal)
 // =========================
-
-function getRandomQuestions(allQuestions, count = 30) {
-  const shuffled = [...allQuestions]
-
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-  }
-
-  const selected = shuffled.slice(0, count)
-
-  return selected.map((q, index) => ({
-    ...q,
-    displayId: index + 1,
-    originalId: q.id
-  }))
+// Bank Bahasa Indonesia SD berisi 50 soal (id 1-50). Karena 50 tidak
+// habis dibagi 20, paket 3 melengkapi 10 soal sisa (id 41-50) dengan
+// meminjam 10 soal dari paket 1 (id 1-10). Sama seperti di
+// SDIndoTestView.vue.
+const INDO_PACKAGES = {
+  1: Array.from({ length: 20 }, (_, i) => i + 1),   // id 1-20
+  2: Array.from({ length: 20 }, (_, i) => i + 21),  // id 21-40
+  3: [
+    ...Array.from({ length: 10 }, (_, i) => i + 41), // id 41-50
+    ...Array.from({ length: 10 }, (_, i) => i + 1)   // pinjam id 1-10
+  ]
 }
+
+function pickQuestionsById(bank, ids) {
+  return ids
+    .map((id) => bank.find((question) => question.id === id))
+    .filter(Boolean)
+    .map((q, index) => ({
+      ...q,
+      displayId: index + 1,
+      originalId: q.id
+    }))
+}
+
+// =========================
+// PAKET SOAL - MATEMATIKA (4 paket @ 15 soal)
+// =========================
+// Bank Matematika SD berisi 60 soal, tersusun dalam 3 blok topik @ 20
+// soal: Bilangan (id 1-20), Geometri dan Pengukuran (id 21-40), dan
+// Pengolahan Data (id 41-60). Tiap topik dibagi rata jadi 4 kelompok
+// @ 5 soal, lalu tiap paket mengambil 1 kelompok dari tiap topik
+// (5+5+5=15 soal/paket). Sama seperti di SDMathTestView.vue.
+const MATH_TOPIC_RANGES = {
+  bilangan: { start: 1 },
+  geometri: { start: 21 },
+  data: { start: 41 }
+}
+const MATH_PACKAGE_COUNT = 4
+const MATH_QUESTIONS_PER_TOPIC_PER_PACKAGE = 5 // 20 soal/topik ÷ 4 paket
+
+function buildMathPackages() {
+  const packages = Array.from({ length: MATH_PACKAGE_COUNT }, () => [])
+
+  Object.values(MATH_TOPIC_RANGES).forEach(({ start }) => {
+    for (let pkg = 0; pkg < MATH_PACKAGE_COUNT; pkg++) {
+      for (let i = 0; i < MATH_QUESTIONS_PER_TOPIC_PER_PACKAGE; i++) {
+        const id = start + pkg * MATH_QUESTIONS_PER_TOPIC_PER_PACKAGE + i
+        packages[pkg].push(id)
+      }
+    }
+  })
+
+  return packages
+}
+
+const MATH_PACKAGES = buildMathPackages() // index 0-3 => paket 1-4
 
 function buildInitialAnswers(questions) {
   const initial = {}
@@ -491,70 +530,29 @@ function buildInitialAnswers(questions) {
   return initial
 }
 
-// 90 menit per sesi, sama seperti durasi tes per mapel yang sudah ada
-const SESSION_DURATION = 90 * 60
-const indoPackage = Math.random() < 0.5 ? 1 : 2
-const mathPackage = Math.random() < 0.5 ? 1 : 2
+// 35 menit per sesi
+const SESSION_DURATION = 35 * 60
 
-function withDisplayIds(questions) {
-  return questions.map((q, index) => ({
-    ...q,
-    displayId: index + 1,
-    originalId: q.id
-  }))
-}
+// Tiap kali laman dibuka, siswa dapat kombinasi paket Indo & Matematika
+// yang dipilih acak dan independen satu sama lain (mis. Indo dapat
+// paket 1 sementara Matematika dapat paket 2, atau kombinasi lainnya).
+const indoPackageNumber = Math.floor(Math.random() * 3) + 1 // 1-3
+const mathPackageIndex = Math.floor(Math.random() * MATH_PACKAGES.length) // 0-3
+const mathPackageNumber = mathPackageIndex + 1
 
-function getIndoPackage(packageNumber) {
-  // Bank Bahasa Indonesia SD berisi 50 soal. Agar kedua paket memuat 30 soal,
-  // Paket 1 memakai nomor 1–30 dan Paket 2 memakai nomor 21–50.
-  const startId = packageNumber === 1 ? 1 : 21
-  const endId = packageNumber === 1 ? 30 : 50
-
-  return withDisplayIds(
-    indoBank.filter((question) => question.id >= startId && question.id <= endId)
-  )
-}
-
-function getMathPackage(packageNumber) {
-  // Kedua paket memiliki komposisi tipe soal yang seimbang.
-  const packageOneTypeTargets = {
-    single: 14,
-    short: 7,
-    truefalse: 4,
-    multiple: 5
-  }
-  const usedTargets = {}
-
-  const packageOneQuestions = mathBank.filter((question) => {
-    const target = packageOneTypeTargets[question.type] || 0
-    const used = usedTargets[question.type] || 0
-
-    if (used >= target) return false
-
-    usedTargets[question.type] = used + 1
-    return true
-  })
-
-  const selectedQuestions = packageNumber === 1
-    ? packageOneQuestions
-    : mathBank.filter((question) => !packageOneQuestions.includes(question))
-
-  return withDisplayIds(selectedQuestions)
-}
-
-const indoQuestions = getIndoPackage(indoPackage)
-const mathQuestions = getMathPackage(mathPackage)
+const indoQuestions = pickQuestionsById(indoBank, INDO_PACKAGES[indoPackageNumber])
+const mathQuestions = pickQuestionsById(mathBank, MATH_PACKAGES[mathPackageIndex])
 
 const sessions = reactive({
   indo: {
-    label: `Bahasa Indonesia — Paket ${indoPackage}`,
+    label: `Bahasa Indonesia — Paket ${indoPackageNumber}`,
     questions: indoQuestions,
     answers: buildInitialAnswers(indoQuestions),
     flagged: {},
     timeLeft: SESSION_DURATION
   },
   math: {
-    label: `Matematika — Paket ${mathPackage}`,
+    label: `Matematika — Paket ${mathPackageNumber}`,
     questions: mathQuestions,
     answers: buildInitialAnswers(mathQuestions),
     flagged: {},

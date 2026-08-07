@@ -7,7 +7,7 @@
       </div>
 
       <div class="banner-right">
-        <h4>Bahasa Indonesia</h4>
+        <h4>{{ subjectName }}</h4>
         <p>Reviu Hasil Simulasi</p>
       </div>
     </div>
@@ -19,7 +19,7 @@
         <h1 class="result-title">Reviu Hasil Simulasi</h1>
 
         <div class="result-subtitle">
-          Bahasa Indonesia - TKA
+          {{ subjectName }} - TKA
         </div>
       </div>
 
@@ -73,14 +73,25 @@
 
 <script setup>
 import '../styles/result.css'
-import { useRouter } from 'vue-router'
-import { ref, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { computed, ref, onMounted } from 'vue'
 
 const router = useRouter()
+const route = useRoute()
 const results = ref([])
 
+const subject = computed(() => route.query.subject || 'indo')
+
+const subjectName = computed(() => (
+  subject.value === 'english' ? 'Bahasa Inggris' : 'Bahasa Indonesia'
+))
+
+const resultStorageKey = computed(() => (
+  subject.value === 'english' ? 'englishResult' : 'indoResult'
+))
+
 onMounted(() => {
-  const savedResult = sessionStorage.getItem('indoResult')
+  const savedResult = sessionStorage.getItem(resultStorageKey.value)
 
   if (savedResult) {
     results.value = JSON.parse(savedResult)
@@ -88,6 +99,11 @@ onMounted(() => {
 })
 
 const goBack = () => {
+  if (subject.value === 'english') {
+    router.push(`/${route.query.level || 'sma'}/practice/english`)
+    return
+  }
+
   router.push('/sd/practice/indo')
 }
 

@@ -1,179 +1,111 @@
-import geometriBalok from '/images/smp/math/geometri-balok.jpg'
-import geometriSegitigaBC from '/images/smp/math/geometri-segitiga-bc.jpg'
-import geometriGarisPQ from '/images/smp/math/geometri-garis-pq.jpg'
-import geometriSudutA from '/images/smp/math/geometri-sudut-a.jpg'
-import geometriSegitigaABC from '/images/smp/math/geometri-segitiga-abc.jpg'
-import dataDiagramHobi from '/images/smp/math/data-diagram-hobi.jpg'
+import sistemPertidaksamaanDaerah from '/images/sma/math/sistem-pertidaksamaan-daerah-arsir.png'
+import daerahPenyelesaianLima from '/images/sma/math/daerah-penyelesaian-lima-wilayah.png'
+import buketBungaDiagram from '/images/sma/math/buket-bunga-diagram.png'
+import fungsiFGrafik from '/images/sma/math/fungsi-f-grafik.png'
+import garisSudutBerpotongan from '/images/sma/math/garis-sudut-berpotongan.png'
+import bangunRuangGabungan from '/images/sma/math/bangun-ruang-gabungan.png'
+import tamanTrapesium4Daerah from '/images/sma/math/taman-trapesium-4-daerah.png'
+import segitigaAbcTitikB from '/images/sma/math/segitiga-abc-titik-b.png'
+import segitigaAbcVektor from '/images/sma/math/segitiga-abc-vektor.png'
+import trigonometriSegitigaSiku from '/images/sma/math/trigonometri-segitiga-siku.png'
+import sudutKoordinatKartesius from '/images/sma/math/sudut-koordinat-kartesius.png'
+import histogramNilaiMatematika from '/images/sma/math/histogram-nilai-matematika.png'
+import barisanSiswaUpacara from '/images/sma/math/barisan-siswa-upacara.jpeg'
+import kapalRumahSakitApung from '/images/sma/math/kapal-rumah-sakit-apung.jpeg'
+import PakAgung from '/images/sma/math/pakagung.png'
+import Rika from '/images/sma/math/rika.png'
 
-const tabelResep = `
-<table class="data-table">
-  <thead>
-    <tr><th>Makanan</th><th>Telur (butir)</th><th>Terigu (gram)</th><th>Gula (gram)</th><th>Porsi</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Bolu Kukus</td><td>6</td><td>200</td><td>300</td><td>12</td></tr>
-    <tr><td>Kue Pisang</td><td>2</td><td>100</td><td>180</td><td>8</td></tr>
-    <tr><td>Kue Cokelat</td><td>3</td><td>150</td><td>240</td><td>10</td></tr>
-  </tbody>
-</table>
-`.trim()
 
-const tabelMediaSosial = `
-<table class="data-table">
-  <thead>
-    <tr><th>Media Sosial</th><th>2024</th><th>2025</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Youtube</td><td>88%</td><td>94%</td></tr>
-    <tr><td>Instagram</td><td>84%</td><td>88%</td></tr>
-    <tr><td>Facebook</td><td>82%</td><td>87%</td></tr>
-    <tr><td>Whatsapp</td><td>75%</td><td>78%</td></tr>
-    <tr><td>TikTok</td><td>25%</td><td>39%</td></tr>
-  </tbody>
-</table>
-`.trim()
+// Gambar per-opsi (setiap opsi jawaban memuat gambarnya sendiri)
+import vennOpsiA from '/images/sma/math/venn-opsi-a.png'
+import vennOpsiB from '/images/sma/math/venn-opsi-b.png'
+import vennOpsiC from '/images/sma/math/venn-opsi-c.png'
+import vennOpsiD from '/images/sma/math/venn-opsi-d.png'
+import vennOpsiE from '/images/sma/math/venn-opsi-e.png'
 
-const tabelUsiaKlub = `
-<table class="data-table">
-  <thead>
-    <tr><th>Usia</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Frekuensi</td><td>4</td><td>5</td><td>8</td><td>6</td><td>7</td></tr>
-  </tbody>
-</table>
-`.trim()
+import inversGrafikOpsiA from '/images/sma/math/invers-grafik-opsi-a.png'
+import inversGrafikOpsiB from '/images/sma/math/invers-grafik-opsi-b.png'
+import inversGrafikOpsiC from '/images/sma/math/invers-grafik-opsi-c.png'
+import inversGrafikOpsiD from '/images/sma/math/invers-grafik-opsi-d.png'
+import inversGrafikOpsiE from '/images/sma/math/invers-grafik-opsi-e.png'
+
+import titikBOpsiA from '/images/sma/math/titik-b-opsi-a.png'
+import titikBOpsiB from '/images/sma/math/titik-b-opsi-b.png'
+import titikBOpsiC from '/images/sma/math/titik-b-opsi-c.png'
+import titikBOpsiD from '/images/sma/math/titik-b-opsi-d.png'
+import titikBOpsiE from '/images/sma/math/titik-b-opsi-e.png'
+
+import segitigaAbcOpsiA from '/images/sma/math/segitiga-abc-opsi-a.png'
+import segitigaAbcOpsiB from '/images/sma/math/segitiga-abc-opsi-b.png'
+import segitigaAbcOpsiC from '/images/sma/math/segitiga-abc-opsi-c.png'
+import segitigaAbcOpsiD from '/images/sma/math/segitiga-abc-opsi-d.png'
+import segitigaAbcOpsiE from '/images/sma/math/segitiga-abc-opsi-e.png'
+
+// Bungkus setiap gambar opsi dalam tag <img>, supaya bisa dirender lewat
+// v-html di dalam <span> pada label opsi (lihat SMAMathTestView.vue).
+const optionImage = (src, label) =>
+  `<img src="${src}" alt="${label}" class="option-image" />`
 
 // =====================================================================
-// ALJABAR
+// TABEL BANTUAN (dipakai lebih dari satu soal)
 // =====================================================================
-const aljabar = [
-  {
-    id: 'aljabar-1',
-    category: 'Aljabar',
-    type: 'multiple',
-    question: 'Diketahui persamaan x^2 - 5x + 6 = 0. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Akar-akar persamaan x = 2 dan x = 3',
-      'Akar-akar persamaan x = 2 dan x = -3',
-      'Jumlah akar adalah 5',
-      'Jumlah akar adalah -1'
-    ],
-    answer: ['Akar-akar persamaan x = 2 dan x = 3', 'Jumlah akar adalah 5']
-  },
-  {
-    id: 'aljabar-2',
-    category: 'Aljabar',
-    type: 'multiple',
-    question: 'Jika x = 4 dan y = 3, maka pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: ['x + y = 7', '-x + y = -1', '2x - 2y = -2', '2x - 3y = 1'],
-    answer: ['x + y = 7', '-x + y = -1']
-  },
-  {
-    id: 'aljabar-3',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Bentuk sederhana dari (2x^2 - 3x + 5) - (x^2 - 2x - 4) adalah...',
-    options: ['x^2 - x + 9', 'x^2 - x - 9', 'x^2 - 5x + 1', '3x^2 - 5x + 1'],
-    answer: 'x^2 - x + 9'
-  },
-  {
-    id: 'aljabar-4',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Diketahui suatu deret aritmatika memiliki U_1 = 6 dan b = 3. Jumlah 10 suku pertama adalah...',
-    options: ['110', '137', '195', '390'],
-    answer: '195'
-  },
-  {
-    id: 'aljabar-5',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Jika suatu deret aritmatika memiliki U_1 = 7 dan b = 4, maka 4 suku pertamanya adalah...',
-    options: ['4, 7, 10, 13', '4, 8, 12, 16', '7, 9, 11, 13', '7, 11, 15, 19'],
-    answer: '7, 11, 15, 19'
-  },
-  {
-    id: 'aljabar-6',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Persamaan garis yang melalui (1, -5) dan (-2, 4) adalah...',
-    options: ['y = 3x + 2', 'y = 3x - 2', 'y = -3x + 2', 'y = -3x - 2'],
-    answer: 'y = -3x - 2'
-  },
-  {
-    id: 'aljabar-7',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Persamaan garis yang melalui (2, -7) dan tegak lurus terhadap 4x - 3y + 8 = 0 adalah...',
-    options: ['3x + 4y = -22', '-3x - 4y = 21', '4x + 3y = 28', '4x - 3y = -33'],
-    answer: '3x + 4y = -22'
-  },
-  {
-    id: 'aljabar-8',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Kemiringan garis lurus yang melalui (2, 4) dan (-4, 10) adalah...',
-    options: ['-1/2', '-1', '1', '2'],
-    answer: '-1'
-  },
-  {
-    id: 'aljabar-9',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Hasil dari 0,25 + 3/5 + 3/20 adalah...',
-    options: ['0,9', '1', '1,25', '2'],
-    answer: '1'
-  },
-  {
-    id: 'aljabar-10',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Hasil dari √144 + √225 - √100 adalah...',
-    options: ['17', '24', '27', '34'],
-    answer: '17'
-  },
-  {
-    id: 'aljabar-11',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Hasil dari 2^5 × 2^3 : 2^4 adalah...',
-    options: ['4', '8', '16', '32'],
-    answer: '16'
-  },
-  {
-    id: 'aljabar-12',
-    category: 'Aljabar',
-    type: 'multiple',
-    question: 'Persamaan 2x - 6 < 8 adalah... (Jawaban lebih dari satu)',
-    options: ['x < 7', 'x > 7', '2x < 14', '2x > 14'],
-    answer: ['x < 7', '2x < 14']
-  },
-  {
-    id: 'aljabar-13',
-    category: 'Aljabar',
-    type: 'multiple',
-    question: 'Akar-akar dari persamaan x^2 - 3x - 10 = 0 adalah... (Jawaban lebih dari satu)',
-    options: ['x = 2', 'x = -2', 'x = 5', 'x = -5'],
-    answer: ['x = -2', 'x = 5']
-  },
-  {
-    id: 'aljabar-14',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Diberikan fungsi f(x) = 2x + 2. Nilai untuk f(-4) adalah...',
-    options: ['6', '10', '-6', '-10'],
-    answer: '-6'
-  },
-  {
-    id: 'aljabar-15',
-    category: 'Aljabar',
-    type: 'single',
-    question: 'Diberikan fungsi f(x) = -3x + 4. Nilai untuk f(3) adalah...',
-    options: ['5', '13', '-5', '-13'],
-    answer: '-5'
-  }
-]
+const tabelKursusRika = `
+<table class="data-table">
+  <thead>
+    <tr><th>Nama</th><th>Nilai Rapor</th><th>Uang yang Dimiliki</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Andre</td><td>90</td><td>Rp885.000</td></tr>
+    <tr><td>Brian</td><td>92</td><td>Rp786.000</td></tr>
+    <tr><td>Cesa</td><td>89</td><td>Rp980.000</td></tr>
+    <tr><td>Dani</td><td>85</td><td>Rp787.000</td></tr>
+  </tbody>
+</table>
+`.trim()
+
+const tabelHasilPanen = `
+<table class="data-table">
+  <thead>
+    <tr><th>Tahun</th><th>Kelompok A</th><th>Kelompok B</th><th>Kelompok C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2018</td><td>52</td><td>48</td><td>50</td></tr>
+    <tr><td>2019</td><td>55</td><td>50</td><td>52</td></tr>
+    <tr><td>2020</td><td>58</td><td>54</td><td>56</td></tr>
+    <tr><td>2021</td><td>60</td><td>58</td><td>60</td></tr>
+    <tr><td>2022</td><td>62</td><td>60</td><td>58</td></tr>
+    <tr><td>2023</td><td>65</td><td>60</td><td>61</td></tr>
+    <tr><td>2024</td><td>64</td><td>62</td><td>65</td></tr>
+    <tr><td>2025</td><td>68</td><td>64</td><td>70</td></tr>
+  </tbody>
+</table>
+`.trim()
+
+const tabelBeratBadan = `
+<table class="data-table">
+  <thead>
+    <tr><th>Berat Badan (kg)</th><th>Frekuensi</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>40 - 45</td><td>5</td></tr>
+    <tr><td>46 - 51</td><td>6</td></tr>
+    <tr><td>52 - 57</td><td>10</td></tr>
+    <tr><td>58 - 63</td><td>12</td></tr>
+    <tr><td>64 - 69</td><td>7</td></tr>
+  </tbody>
+</table>
+`.trim()
+
+const tabelPenontonFutsal = `
+<table class="data-table">
+  <thead>
+    <tr><th>Hari</th><th>Senin</th><th>Selasa</th><th>Rabu</th><th>Kamis</th><th>Jumat</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Jumlah Penonton</td><td>80</td><td>m</td><td>100</td><td>n</td><td>120</td></tr>
+  </tbody>
+</table>
+`.trim()
 
 // =====================================================================
 // BILANGAN
@@ -183,336 +115,578 @@ const bilangan = [
     id: 'bilangan-1',
     category: 'Bilangan',
     type: 'single',
-    question: 'Hasil dari (3^2 × 2^3 - 3^2 × 2) / 3^2 + 6^2 adalah...',
-    options: ['36', '42', '48', '54'],
-    answer: '42'
+    stimulus: {
+      instruction: 'Diberikan tiga himpunan berikut:<br> A = {x | 2 < x ≤ 5, x ∈ bilangan asli}<br> B = {x | x < 10, x ∈ bilangan prima}<br> C = {x | x^2 < 30, x ∈ bilangan bulat}'
+    },
+    question: 'Berdasarkan himpunan-himpunan tersebut, hasil dari (C - A) ∩ B adalah...',
+    options: [
+      '{-5, -4, -3, -2, -1, 0, 1, 2, 3, 5, 7}',
+      '{2}',
+      '{1, 2, 3, 4, 5}',
+      '{2, 3}',
+      '{-5, -4, -3, -2, -1, 0, 1, 3, 5, 7}'
+    ],
+    answer: '{2}'
   },
   {
     id: 'bilangan-2',
     category: 'Bilangan',
     type: 'single',
-    question: 'Sebuah bilangan jika dibagi 9, maka sisanya 5, jika dibagi 6, maka sisanya...',
-    options: ['2', '3', '4', '5'],
-    answer: '2'
+    stimulus: {
+      instruction: 'Diberikan tiga himpunan berikut:<br> A = {x | 2 < x ≤ 5, x ∈ bilangan asli}<br> B = {x | x < 10, x ∈ bilangan prima}<br> C = {x | x^2 < 30, x ∈ bilangan bulat}<br>dengan semesta S merupakan bilangan bulat.'
+    },
+    question: 'Diagram Venn yang tepat menggambarkan himpunan A, B, C tersebut adalah...',
+    options: [
+      optionImage(vennOpsiA, 'Opsi A'),
+      optionImage(vennOpsiB, 'Opsi B'),
+      optionImage(vennOpsiC, 'Opsi C'),
+      optionImage(vennOpsiD, 'Opsi D'),
+      optionImage(vennOpsiE, 'Opsi E')
+    ],
+    answer: optionImage(vennOpsiA, 'Opsi A')
   },
   {
     id: 'bilangan-3',
     category: 'Bilangan',
-    type: 'truefalse',
-    question: 'Harga beras merah Rp20.000,00/kg, sementara harga kacang hijau adalah Rp10.000,00/kg. Jika Ibu memiliki uang Rp120.000,00, maka tentukan pernyataan di bawah ini yang benar dan salah!',
-    statements: [
-      'Jika Ibu membeli 4 kg beras merah dan 2 kg kacang hijau, maka uang Ibu masih Rp20.000,00.',
-      'Jika Ibu membeli 5 kg beras merah dan 2 kg kacang hijau maka Ibu masih bisa membayar parkir Rp5.000,00.',
-      'Jika Ibu membeli 8 kg beras merah dan 2 kg kacang hijau maka uang Ibu tidak bersisa.'
-    ],
-    answer: [false, true, true]
+    type: 'single',
+    question: 'Bentuk sederhana dari (32^{4/5} × 3^{2/3}) / (9^{5/6} × 16^{6/2}) adalah...',
+    options: ['12', '16', '1/12', '1/2', '1'],
+    answer: '1/12'
   },
   {
     id: 'bilangan-4',
     category: 'Bilangan',
-    type: 'single',
-    question: 'Hasil penjumlahan semua bilangan prima antara 20 sampai 40 adalah...',
-    options: ['83', '120', '141', '159'],
-    answer: '120'
-  },
-  {
-    id: 'bilangan-5',
-    category: 'Bilangan',
-    type: 'single',
-    question: 'Hari Pahlawan jatuh pada hari Senin. Maka, hari Natal jatuh pada hari...',
-    options: ['Rabu', 'Kamis', 'Jumat', 'Sabtu'],
-    answer: 'Kamis'
-  },
-  {
-    id: 'bilangan-6',
-    category: 'Bilangan',
-    type: 'multiple',
-    question: 'Bus jalur A berhenti setiap 30 menit sekali. Bus jalur B berhenti tiap 45 menit sekali. Jika kedua bus tersebut berhenti pada pukul 09.00, maka pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Pada pukul 10.30 Bus A dan Bus B sama-sama berhenti',
-      'Pada pukul 10.45 Bus A dan Bus B sama-sama berhenti',
-      'Pada pukul 11.00 Bus A dan Bus B sama-sama berhenti',
-      'Pada pukul 12.00 Bus A dan Bus B sama-sama berhenti'
-    ],
-    answer: [
-      'Pada pukul 10.30 Bus A dan Bus B sama-sama berhenti',
-      'Pada pukul 12.00 Bus A dan Bus B sama-sama berhenti'
-    ]
-  },
-  {
-    id: 'bilangan-7',
-    category: 'Bilangan',
     type: 'truefalse',
-    question: 'Segulung pita dengan panjang 24 meter dipotong menjadi 3 bagian, misalkan bagian A, B, dan C dengan perbandingan 2:3:5. Tentukan pernyataan di bawah ini yang benar dan salah!',
+    question: 'Operasi biner # didefinisikan sebagai a # b = ((a + b)^2 - 2ab - 2b^2) / (a - b). Jika x # 2 = 7, tentukan Benar atau Salah pada setiap pernyataan berikut!',
     statements: [
-      'Bagian A sepanjang 4,8 meter',
-      'Bagian B sepanjang 6 meter',
-      'Bagian C sepanjang 12 meter'
+      'x merupakan bilangan ganjil',
+      'x # 5 = 11',
+      'x adalah salah satu faktor prima dari 35'
     ],
     answer: [true, false, true]
   },
   {
-    id: 'bilangan-8',
+    id: 'bilangan-5',
     category: 'Bilangan',
     type: 'truefalse',
-    question: 'Seorang pedagang membeli 10 kg beras dengan harga Rp15.000,00/kg dan 20 kg tepung dengan harga Rp10.000,00/kg. Pedagang mengambil keuntungan dengan menaikkan harga 20% dari harga beli. Tentukan pernyataan di bawah ini yang benar dan salah!',
+    question: 'Misalkan p adalah hasil dari operasi 3/(√5 - √2) - √5 + 4^{3/4}. Pilih pernyataan berikut yang bernilai benar!',
     statements: [
-      'Harga jual beras adalah Rp17.500,00/kg',
-      'Keuntungan total penjualan tepung adalah Rp40.000,00',
-      'Total penjualan tepung dan beras adalah Rp420.000,00'
+      'Nilai dari p^2 = 18',
+      'Bentuk sederhana dari p adalah 3√2',
+      'p adalah bilangan genap',
+      'p adalah bilangan prima',
+      'p bukanlah bilangan rasional'
     ],
-    answer: [false, true, true]
+    answer: [true, true, false, false, true]
   },
   {
-    id: 'bilangan-9',
-    category: 'Bilangan',
-    type: 'truefalse',
-    question: 'Umur Roni 1/7 kali umur ayah. Umur kakek saat ini adalah 2,25 kali umur ayah. Jika umur ayah saat ini adalah 18 tahun, maka tentukan pernyataan di bawah ini yang benar dan salah!',
-    statements: [
-      'Umur Roni 7 tahun',
-      'Umur kakek 63 tahun',
-      'Umur Roni 2 tahun lagi adalah 1/5 umur ayah'
-    ],
-    answer: [false, true, true]
-  },
-  {
-    id: 'bilangan-10',
-    category: 'Bilangan',
-    type: 'multiple',
-    stimulus: { paragraphs: [tabelResep] },
-    question: 'Berdasarkan data pada tabel, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Rasio kebutuhan terigu untuk bolu kukus dan kue cokelat adalah 4:2',
-      'Rasio kebutuhan gula untuk kue pisang dan kue cokelat adalah 3:4',
-      'Jika ingin membuat 3 porsi bolu kukus, maka diperlukan gula sebanyak 75 gram',
-      'Jika ingin membuat 16 porsi kue pisang, maka diperlukan 4 butir telur'
-    ],
-    answer: [
-      'Rasio kebutuhan terigu untuk bolu kukus dan kue cokelat adalah 4:2',
-      'Rasio kebutuhan gula untuk kue pisang dan kue cokelat adalah 3:4',
-      'Jika ingin membuat 3 porsi bolu kukus, maka diperlukan gula sebanyak 75 gram'
-    ]
-  },
-  {
-    id: 'bilangan-11',
-    category: 'Bilangan',
-    type: 'truefalse',
-    stimulus: { paragraphs: [tabelResep] },
-    question: 'Berdasarkan tabel pada soal sebelumnya, tentukan pernyataan di bawah ini yang benar dan salah!',
-    statements: [
-      'Jika memiliki 10 butir telur, maka cukup untuk membuat 24 porsi bolu kukus',
-      'Jika memiliki 150 gram gula, maka cukup untuk membuat 24 porsi bolu kukus',
-      'Jika memiliki 50 gram terigu, maka cukup untuk membuat 4 porsi kue pisang'
-    ],
-    answer: [false, true, true]
-  },
-  {
-    id: 'bilangan-12',
-    category: 'Bilangan',
-    type: 'single',
-    question: 'Sebuah mikroba memiliki ukuran diameter 2^{-3} mm. Jika dalam bentuk desimal adalah ... mm',
-    options: ['0,8', '0,4', '0,25', '0,125'],
-    answer: '0,125'
-  },
-  {
-    id: 'bilangan-13',
-    category: 'Bilangan',
-    type: 'single',
-    question: 'Bilangan 4/(√7 + √5) dapat disederhanakan menjadi...',
-    options: ['2√7 + 2√5', '2√7 - 2√5', '4√7 + 4√5', '4√7 - 4√5'],
-    answer: '2√7 - 2√5'
-  },
-  {
-    id: 'bilangan-14',
+    id: 'bilangan-6',
     category: 'Bilangan',
     type: 'single',
     stimulus: {
-      instruction: 'Untuk menjawab soal nomor 14-15, cermatilah data yang tersaji berikut ini!',
-      paragraphs: [
-        'Pengguna media sosial di Indonesia tahun 2024 adalah sebanyak 180 juta, lalu meningkat pada tahun 2025 menjadi 200 juta pengguna. Adapun media sosial yang diakses, yaitu Youtube, Whatsapp, Instagram, Facebook, dan TikTok, seperti pada tabel berikut.',
-        tabelMediaSosial
-      ]
+      instruction: 'Misalkan 2ab8 adalah sebuah bilangan asli (dengan a dan b masing-masing sebuah digit) dengan ciri-ciri berikut:<br>• habis dibagi 4<br>• jika dibulatkan ke ribuan terdekat menjadi 3000<br>• a dan b adalah bilangan prima '
     },
-    question: 'Perubahan jumlah pengguna Whatsapp dari tahun 2024 ke tahun 2025 adalah...',
-    options: ['25 juta pengguna', '40 juta pengguna', '151 juta pengguna', '176 juta pengguna'],
-    answer: '25 juta pengguna'
+    question: 'Berapakah nilai a + b yang mungkin?',
+    options: ['4', '5', '9', '10', '11'],
+    answer: '9'
   },
   {
-    id: 'bilangan-15',
+    id: 'bilangan-7',
     category: 'Bilangan',
     type: 'single',
-    stimulus: {
-      instruction: 'Untuk menjawab soal nomor 14-15, cermatilah data yang tersaji berikut ini!',
-      paragraphs: [
-        'Pengguna media sosial di Indonesia tahun 2024 adalah sebanyak 180 juta, lalu meningkat pada tahun 2025 menjadi 200 juta pengguna. Adapun media sosial yang diakses, yaitu Youtube, Whatsapp, Instagram, Facebook, dan TikTok, seperti pada tabel berikut.',
-        tabelMediaSosial
-      ]
-    },
-    question: 'Perbandingan jumlah pengguna TikTok dengan pengguna Facebook di tahun 2024 adalah...',
-    options: ['1:2', '1:3', '1:4', '2:3'],
-    answer: '1:3'
+    question: 'Hasil dari 20 + (1/4 - 1/12) × 0,6 adalah...',
+    options: ['20,2', '20,3', '22,2', '21,3', '21,2'],
+    answer: '20,2'
   }
 ]
 
 // =====================================================================
-// GEOMETRI DAN PENGUKURAN
+// ALJABAR
+// =====================================================================
+const aljabar = [
+  {
+    id: 'aljabar-1',
+    category: 'Aljabar',
+    type: 'single',
+    question: 'Seorang peneliti memodelkan peningkatan suhu akibat pemanasan global dengan fungsi linear y = 0,02x - 39,9, dengan x mewakili tahun dan y mewakili peningkatan suhu (°C) pada tahun tersebut. Jika suhu rata-rata global pada tahun 2010 adalah 14,63°C, berapakah perkiraan suhu bumi pada tahun 2020?',
+    options: ['15,11°C', '15,12°C', '15,13°C', '15,14°C', '15,15°C'],
+    answer: '15,13°C'
+  },
+  {
+    id: 'aljabar-2',
+    category: 'Aljabar',
+    type: 'single',
+    question: 'Seorang peneliti memodelkan peningkatan suhu akibat pemanasan global dengan fungsi linear y = 0,02x - 39,9, dengan x mewakili tahun dan y mewakili peningkatan suhu (°C) pada tahun tersebut. Pada tahun berapakah peningkatan suhu diperkirakan mencapai 0,6°C?',
+    options: ['Tahun 2021', 'Tahun 2022', 'Tahun 2050', 'Tahun 2025', 'Tahun 2019'],
+    answer: 'Tahun 2025'
+  },
+  {
+    id: 'aljabar-3',
+    category: 'Aljabar',
+    type: 'truefalse',
+    stimulus: {
+      instruction: 'Tempat Les Bimbelku memberikan potongan biaya kursus kepada 50 pendaftar pertama. Biaya kursus setelah potongan pertama dinyatakan oleh fungsi dibawah,<br>Rika adalah seorang pendaftar ke-50 dengan rata-rata nilai rapot 93 membayar kursus tersebut sebesar Rp637.500. setelah itu datang empat siswa lainnya yang juga akan mengikuti kursus dengan informasi berikut',
+      image: Rika, 
+      paragraphs: [tabelKursusRika]
+    },
+    question: 'Tentukan Benar atau Salah pada setiap pernyataan berikut!',
+    statements: [
+      'Biaya kursus sebelum ada potongan biaya adalah sebesar Rp1.000.000',
+      'Rika memperoleh total diskon sebesar 35%'
+    ],
+    answer: [true, false]
+  },
+  {
+    id: 'aljabar-4',
+    category: 'Aljabar',
+    type: 'single',
+    stimulus: {
+      instruction: 'Tempat Les Bimbelku memberikan potongan biaya kursus kepada 50 pendaftar pertama. Biaya kursus setelah potongan pertama dinyatakan oleh fungsi dibawah,<br>Rika adalah seorang pendaftar ke-50 dengan rata-rata nilai rapot 93 membayar kursus tersebut sebesar Rp637.500. setelah itu datang empat siswa lainnya yang juga akan mengikuti kursus dengan informasi berikut',
+      image: Rika, 
+      paragraphs: [tabelKursusRika]
+    },
+    question: 'Dengan uang yang dimiliki, siapakah siswa yang pasti dapat mengikuti kursus?',
+    options: ['Cesa', 'Andre dan Cesa', 'Andre, Brian, Cesa', 'Andre, Brian, Cesa, Dani', 'Tidak ada yang dapat mengikuti kursus'],
+    answer: 'Andre, Brian, Cesa'
+  },
+  {
+    id: 'aljabar-5',
+    category: 'Aljabar',
+    type: 'truefalse',
+    question: 'Sebuah gedung pertunjukan memiliki jumlah kursi pada setiap baris yang membentuk barisan aritmetika. Baris pertama terdiri atas 20 kursi. Setiap baris berikutnya memiliki 4 kursi lebih banyak daripada baris sebelumnya. Pilih pernyataan berikut yang bernilai benar!',
+    statements: [
+      'Jumlah kursi pada baris ke-5 adalah 36',
+      'Jumlah kursi pada baris ke-8 adalah 45',
+      'Jumlah kursi pada baris ke-10 adalah 56',
+      'Selisih jumlah kursi antara baris ke-12 dan baris ke-7 adalah 20',
+      'Total kursi dari baris pertama hingga baris ketiga adalah 70 kursi'
+    ],
+    answer: [true, false, true, true, false]
+  },
+  {
+    id: 'aljabar-6',
+    category: 'Aljabar',
+    type: 'single',
+    stimulus: {
+      instruction: 'Seorang pasien mengonsumsi obat tertentu. Setelah diminum, kadar zat aktif obat dalam tubuh pada hari pertama adalah 80 mg. Setiap hari tubuh menguraikan 30% zat aktif yang masih tersisa.<br>Dokter memberikan ketentuan:<br>• Obat masih bekerja efektif jika kadar zat aktif minimal 20 mg<br>• Pasien diperbolehkan mengonsumsi dosis berikutnya jika kadar zat aktif kurang dari 35 mg. ',
+    },
+    question: 'Pada hari keberapa obat masih bekerja efektif, tetapi pasien sudah diperbolehkan mengonsumsi dosis berikutnya?',
+    options: ['Hari ke-2', 'Hari ke-3', 'Hari ke-4', 'Hari ke-5', 'Hari ke-6'],
+    answer: 'Hari ke-4'
+  },
+  {
+    id: 'aljabar-7',
+    category: 'Aljabar',
+    type: 'single',
+    question: 'Seorang peneliti melakukan pengamatan terhadap bakteri tertentu. Setiap 1/2 hari bakteri membelah diri menjadi dua. Pada awal pengamatan terdapat 2 bakteri. Jika setiap 2 hari 1/4 dari jumlah bakteri mati, banyak bakteri setelah lima hari adalah...',
+    options: ['120 bakteri', '188 bakteri', '288 bakteri', '128 bakteri', '192 bakteri'],
+    answer: '288 bakteri'
+  },
+  {
+    id: 'aljabar-8',
+    category: 'Aljabar',
+    type: 'single',
+    question: 'Dalam sebuah pertunjukan pentas seni, panitia menata kursi penonton menjadi 12 baris di depan panggung. Jumlah kursi pada setiap baris semakin ke belakang semakin banyak dengan selisih yang tetap. Ketika acara dimulai, semua kursi telah terisi. Diketahui jumlah penonton pada baris keempat adalah 16 orang dan pada baris kesepuluh adalah 28 orang. Berapakah jumlah seluruh penonton yang hadir pada pertunjukan tersebut?',
+    options: ['240', '245', '250', '251', '252'],
+    answer: '252'
+  },
+  {
+    id: 'aljabar-9',
+    category: 'Aljabar',
+    type: 'single',
+    stimulus: {
+      instruction: 'Daerah yang diarsir pada gambar merupakan himpunan penyelesaian dari suatu sistem pertidaksamaan.',
+      image: sistemPertidaksamaanDaerah
+    },
+    question: 'Daerah yang diarsir pada gambar merupakan himpunan penyelesaian dari sistem pertidaksamaan...',
+    options: [
+      '3x + 4y ≤ 0 ; x - 2y ≤ -2 ; x ≥ 0',
+      '4x + 3y ≤ 12 ; -2x + y ≥ -2 ; x ≥ 0',
+      '4x + 3y ≤ 12 ; -2x + y ≥ -2 ; y ≥ 0',
+      '4x + 3y ≤ 12 ; -2x + y ≤ -2 ; x ≥ 0',
+      '4x + 3y ≤ 12 ; x - 2y ≥ -2 ; x ≥ 0'
+    ],
+    answer: '4x + 3y ≤ 12 ; -2x + y ≥ -2 ; x ≥ 0'
+  },
+  {
+    id: 'aljabar-10',
+    category: 'Aljabar',
+    type: 'single',
+    stimulus: {
+      instruction: 'Perhatikan beberapa daerah I, II, III, IV, dan V berikut ini.',
+      image: daerahPenyelesaianLima
+    },
+    question: 'Penyelesaian dari sistem pertidaksamaan y ≥ 2x ; y - 4x ≤ 1 ; 3x + 4y ≥ 12 ditunjukkan oleh daerah...',
+    options: ['I', 'II', 'III', 'IV', 'V'],
+    answer: 'II'
+  },
+  {
+    id: 'aljabar-11',
+    category: 'Aljabar',
+    type: 'truefalse',
+    stimulus: {
+      instruction: 'Bu Ratri adalah seorang perangkai bunga yang menyusun berbagai jenis buket bunga dari bunga mawar, lili, dan anyelir. Harga buket ditentukan dari total harga bunga yang digunakan. Tiga jenis buket yang biasa ia siapkan beserta komposisi dan harganya ditunjukkan pada gambar berikut.',
+      image: buketBungaDiagram
+    },
+    question: 'Tentukan Benar atau Salah pada setiap pernyataan berikut!',
+    statements: [
+      'Harga setangkai bunga mawar adalah Rp16.000',
+      'Jika membeli buket dengan variasi 2 tangkai bunga lili dan 1 tangkai bunga anyelir, maka total harganya adalah Rp35.000',
+      'Harga setangkai bunga lili lebih murah dari harga bunga mawar'
+    ],
+    answer: [true, false, true]
+  },
+  {
+    id: 'aljabar-12',
+    category: 'Aljabar',
+    type: 'single',
+    question: 'Diketahui fungsi f(x) = x^2 + x + 1 dan g(x) = 2x - 3. Fungsi komposisi (f ° g)(x) adalah...',
+    options: ['4x^2 - 10x + 7', '4x^2 - 10x + 5', '4x^2 - 9x + 7', '2x^2 - 2x - 1', '2x^2 + 2x - 1'],
+    answer: '4x^2 - 10x + 7'
+  },
+  {
+    id: 'aljabar-13',
+    category: 'Aljabar',
+    type: 'single',
+    question: 'Domain dari fungsi z(x) = √(2x - 8) / (x - 1) adalah...',
+    options: [
+      '{x | x ≥ 4, x ≠ 1, x ∈ ℝ}',
+      '{x | x ≥ 4, x ≠ -1, x ∈ ℝ}',
+      '{x | x ≥ 1, x ≠ 4, x ∈ ℝ}',
+      '{x | x ≥ -4, x ≠ 1, x ∈ ℝ}',
+      '{x | x ≥ -4, x ≠ -1, x ∈ ℝ}'
+    ],
+    answer: '{x | x ≥ 4, x ≠ 1, x ∈ ℝ}'
+  },
+  {
+    id: 'aljabar-14',
+    category: 'Aljabar',
+    type: 'truefalse',
+    question: 'Sebuah pabrik roti melakukan dua tahap produksi: mengolah tepung menjadi adonan, lalu mengolah adonan menjadi roti siap jual. Banyak adonan yang dihasilkan dari x kg tepung mengikuti fungsi f(x) = (1/2)x + 10, sedangkan banyak roti yang dihasilkan dari y adonan mengikuti fungsi g(y) = 2y - 8. Pilih pernyataan berikut yang bernilai benar!',
+    statements: [
+      'Jika tersedia 10 kg tepung, banyak roti yang dihasilkan adalah 22 roti',
+      '5 adonan roti bisa dibuat 2 roti',
+      'Jika satu roti mendapatkan keuntungan Rp10.000, dan saat ini terdapat 8 kg tepung, maka penjual mendapatkan keuntungan sebesar Rp180.000',
+      'Fungsi banyak roti terhadap banyak tepung adalah r(x) = x + 12',
+      'Fungsi banyak roti terhadap banyak tepung adalah r(x) = x - 12'
+    ],
+    answer: [true, true, false, true, false]
+  },
+  {
+    id: 'aljabar-15',
+    category: 'Aljabar',
+    type: 'single',
+    question: 'Diketahui f(x) = (9x + 18)/(x + 3) ; x ≠ -2 dan f^{-1} adalah invers dari f(x). Jika f^{-1}(10) = a dan f^{-1}(b) = 0, berapakah nilai dari a + b?',
+    options: ['6', '12', '-6', '0', '18'],
+    answer: '-6'
+  },
+  {
+    id: 'aljabar-16',
+    category: 'Aljabar',
+    type: 'single',
+    stimulus: {
+      instruction: 'Diberikan sebuah fungsi f dengan grafik seperti berikut.',
+      image: fungsiFGrafik
+    },
+    question: 'Grafik berikut yang menunjukkan invers dari fungsi f adalah...',
+    options: [
+      optionImage(inversGrafikOpsiA, 'Opsi A'),
+      optionImage(inversGrafikOpsiB, 'Opsi B'),
+      optionImage(inversGrafikOpsiC, 'Opsi C'),
+      optionImage(inversGrafikOpsiD, 'Opsi D'),
+      optionImage(inversGrafikOpsiE, 'Opsi E')
+    ],
+    answer: optionImage(inversGrafikOpsiD, 'Opsi D')
+  }
+]
+
+// =====================================================================
+// GEOMETRI
 // =====================================================================
 const geometri = [
   {
     id: 'geometri-1',
-    category: 'Geometri dan Pengukuran',
-    type: 'single',
-    question: 'Sebuah tabung dan kerucut memiliki panjang rusuk dan tinggi yang sama, yaitu 7 cm dan 14 cm. Perbandingan volume tabung dan kerucut adalah...',
-    options: ['1 : 3', '1 : 7', '3 : 1', '7 : 1'],
-    answer: '1 : 3'
+    category: 'Geometri',
+    type: 'truefalse',
+    stimulus: { image: garisSudutBerpotongan },
+    question: 'Berdasarkan gambar tersebut, tentukan Benar atau Salah setiap pasangan sudut berikut sebagai pasangan sudut berpasangan linear!',
+    statements: [
+      '∠A dan ∠F',
+      '∠F dan ∠B',
+      '∠A dan ∠C',
+      '∠F dan ∠E',
+      '∠E dan ∠D'
+    ],
+    answer: [false, true, false, true, true]
   },
   {
     id: 'geometri-2',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'single',
-    question: 'Sebuah tabung dan bola memiliki panjang rusuk yang sama, yaitu 10 cm. Tabung memiliki tinggi 20 cm. Perbandingan luas permukaan tabung dan bola adalah...',
-    options: ['2 : 3', '3 : 2', '3 : 4', '4 : 3'],
-    answer: '2 : 3'
+    stimulus: { image: garisSudutBerpotongan },
+    question: 'Jika m∠F = (2x - 20)° dan m∠C = (x + 10)°, berapakah besar ∠E?',
+    options: ['140°', '150°', '120°', '115°', '100°'],
+    answer: '140°'
   },
   {
     id: 'geometri-3',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'truefalse',
-    stimulus: { image: geometriBalok },
-    question: 'Jika balok memiliki panjang AB = 8 cm, BC = 6 cm, AE = 24 cm, maka tentukan pernyataan di bawah ini yang benar dan salah!',
+    stimulus: { image: bangunRuangGabungan },
+    question: 'Perhatikan ruas garis AB pada balok ABCD.EFGH. Pilih semua pernyataan yang benar!',
     statements: [
-      'Diagonal ruang CE adalah 25 cm',
-      'Volume balok adalah 1.152 cm^3',
-      'Luas permukaan balok adalah 768 cm^2'
+      'AB sejajar dengan EF',
+      'AB sejajar dengan HE',
+      'AB berpotongan dengan AE',
+      'AB bersilangan dengan FG',
+      'AB bersilangan dengan CD'
     ],
-    answer: [false, true, true]
+    answer: [true, false, true, true, false]
   },
   {
     id: 'geometri-4',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'single',
-    question: 'Bak mandi berbentuk kubus berukuran 50 cm terisi air. Jika air terpakai 20% dari volume total, maka sisa air dalam bak mandi adalah...',
-    options: ['20 liter', '25 liter', '100 liter', '125 liter'],
-    answer: '100 liter'
+    stimulus: {
+      instruction: 'Perhatikan pernyataan berikut:<br>(1) Jika dua ruas garis sejajar, maka keduanya tidak pernah berpotongan.<br>(2) Jika dua ruas garis tidak berpotongan, maka keduanya pasti sejajar.<br>(3) Dua ruas garis yang bersilangan tidak terletak pada bidang yang sama.<br>(4) Dua ruas garis yang berpotongan pasti terletak pada bidang yang sama.<br>(5) Dua ruas garis yang sejajar pasti terletak pada bidang yang sama. ',
+    },
+    question: 'Banyak pernyataan yang bernilai benar adalah...',
+    options: ['0', '1', '2', '3', '4'],
+    answer: '4'
   },
   {
     id: 'geometri-5',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'single',
-    question: 'Kubus memiliki luas permukaan 600 cm^2. Volume kubus tersebut adalah...',
-    options: ['100 cm^3', '216 cm^3', '1000 cm^3', '2160 cm^3'],
-    answer: '1000 cm^3'
+    stimulus: {
+      instruction: 'Sebuah taman berbentuk trapesium akan dibagi menjadi 4 daerah dengan ukuran tampak seperti pada denah berikut (skala 1:30). Pada denah, panjang KL = 32 cm, KN = 16 cm, dan OP = 18 cm. Trapesium KLMN dan NMPO dibuat sebangun.',
+      image: tamanTrapesium4Daerah
+    },
+    question: 'Jika pada sisi ON akan dipasang banner bertuliskan "TAMAN BUNGA", berapakah panjang maksimum banner yang dapat dibuat?',
+    options: ['3 m', '3,1 m', '3,3 m', '3,5 m', '3,6 m'],
+    answer: '3,6 m'
   },
   {
     id: 'geometri-6',
-    category: 'Geometri dan Pengukuran',
-    type: 'truefalse',
-    question: 'Diketahui persegi panjang memiliki panjang 3√5 cm dan lebar 2√5 cm. Tentukan pernyataan di bawah ini yang benar dan salah!',
-    statements: [
-      'Keliling persegi panjang adalah 10√5 cm',
-      'Luas persegi panjang adalah 30 cm^2',
-      'Luas persegi panjang lebih besar daripada 35 cm^2'
+    category: 'Geometri',
+    type: 'single',
+    stimulus: {
+      instruction: 'Sebuah taman berbentuk trapesium akan dibagi menjadi 4 daerah dengan ukuran tampak seperti pada denah berikut (skala 1:30). Pada denah, panjang KL = 32 cm, KN = 16 cm, dan OP = 18 cm. Trapesium KLMN dan NMPO dibuat sebangun.',
+      image: tamanTrapesium4Daerah
+    },
+    question: 'Jika sekeliling taman diberi pagar, berapakah panjang pagar yang dapat dibuat?',
+    options: [
+      '(117 + 21√5)/5 m',
+      '(117 + 20√5)/5 m',
+      '(117 + 21√6)/5 m',
+      '(117 + 22√5)/5 m',
+      '(117 + 21√7)/5 m'
     ],
-    answer: [true, true, false]
+    answer: '(117 + 21√5)/5 m'
   },
   {
     id: 'geometri-7',
-    category: 'Geometri dan Pengukuran',
-    type: 'multiple',
-    question: 'Limas segi empat memiliki panjang sisi alas 12 cm dan tinggi 10 cm. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Volume limas adalah 10√5 cm^3',
-      'Volume limas adalah 384 cm^3',
-      'Luas permukaan limas adalah 384 cm^2',
-      'Luas permukaan limas adalah 480 cm^2'
+    category: 'Geometri',
+    type: 'truefalse',
+    stimulus: {
+      instruction: 'Sebuah taman berbentuk trapesium dibagi menjadi 4 daerah seperti pada denah berikut (skala 1:30). Pada denah, panjang KL = 32 cm, KN = 16 cm, dan OP = 18 cm; trapesium KLMN dan NMPO sebangun. Setiap daerah ditanami jenis bunga berbeda: KRQN bunga mawar merah, NQPO bunga mawar putih, PQM bunga sepatu, dan RLMQ bunga lili.',
+      image: tamanTrapesium4Daerah
+    },
+    question: 'Tentukan pernyataan berikut yang bernilai benar!',
+    statements: [
+      'Luas daerah bunga mawar merah pada denah adalah 288 cm^2',
+      'Luas daerah bunga mawar putih pada denah adalah 216 cm^2',
+      'Luas daerah bunga sepatu pada denah adalah 30 cm^2',
+      'Luas daerah bunga lili pada denah adalah 160 cm^2',
+      'Luas daerah bunga mawar merah dua kali luas daerah bunga lili'
     ],
-    answer: ['Volume limas adalah 10√5 cm^3', 'Volume limas adalah 384 cm^3']
+    answer: [true, true, false, true, false]
   },
   {
     id: 'geometri-8',
-    category: 'Geometri dan Pengukuran',
-    type: 'truefalse',
-    stimulus: { image: geometriSegitigaBC },
-    question: 'Tentukan pernyataan di bawah ini yang benar dan salah!',
-    statements: [
-      'Panjang BC adalah 19 km',
-      'Panjang BD adalah 63 km',
-      'Panjang CD adalah 44 km'
-    ],
-    answer: [false, false, false]
+    category: 'Geometri',
+    type: 'single',
+    question: 'Sebuah gudang berbentuk kubus dengan panjang rusuk 6 m. Titik-titik sudut gudang diberi nama ABCD.EFGH. Sebuah sensor suhu dipasang tepat di titik tengah rusuk EH dan diberi nama P. Sebuah kabel penghubung dipasang menghubungkan titik tengah rusuk BF dan titik tengah rusuk CG, masing-masing diberi nama Q dan R.<br>Untuk mengetahui jangkauan sensor terhadap kabel tersebut, teknisi perlu menghitung jarak terpendek dari sensor P ke kabel QR. Berapakah jarak tersebut?',
+    options: ['3√7 m', '3√6 m', '3√5 m', '3√3 m', '2√3 m'],
+    answer: '3√5 m'
   },
   {
     id: 'geometri-9',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'single',
-    question: 'Persegi panjang memiliki panjang diagonal 25 cm dan panjang 24 cm. Lebar persegi panjang tersebut adalah...',
-    options: ['7', '10', '15', '16'],
-    answer: '7'
+    question: 'Jika luas bidang diagonal sebuah kubus adalah 49√2 cm^2, volume kubus tersebut adalah...',
+    options: ['340 cm^3', '343 cm^3', '216 cm^3', '512 cm^3', '125 cm^3'],
+    answer: '343 cm^3'
   },
   {
     id: 'geometri-10',
-    category: 'Geometri dan Pengukuran',
-    type: 'single',
-    question: 'Sebuah belah ketupat memiliki sisi 13 cm dan salah satu diagonalnya 10 cm. Maka, panjang diagonal lainnya adalah...',
-    options: ['10', '13', '23', '24'],
-    answer: '24'
+    category: 'Geometri',
+    type: 'truefalse',
+    stimulus: {
+      instruction: 'Pak Agung memiliki usaha dibidang pembuatan taman. Suatu hari pak Agung diminta untuk membuat sebuah taman kota. Sebelum membangun taman tersebut, pak Agung membuat rancangan taman seperti pada gambar berikut.',
+      image: PakAgung
+    },
+    question: 'Pak Agung berencana membuat pagar hias di sekeliling taman tersebut. Berdasarkan hal tersebut, tentukan pernyataan berikut benar atau salah!',
+    statements: [
+      'Total panjang pagar hias yang mengelilingi taman tersebut adalah 80 m',
+      'Selisih luas taman dan luas tempat parkir adalah 25 m^2',
+      'Jika biaya perawatan dari taman tersebut adalah Rp25.000 per meter persegi, maka biaya total perawatan taman tersebut adalah Rp4.850.000'
+    ],
+    answer: [false, false, true]
   },
   {
     id: 'geometri-11',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'single',
-    stimulus: { image: geometriGarisPQ },
-    question: 'Garis PQ mengalami ... terhadap sumbu (0,0)',
-    options: ['Translasi', 'Refleksi', 'Rotasi', 'Dilatasi'],
-    answer: 'Refleksi'
+    stimulus: {
+      instruction: 'Rumah sakit apung adalah fasilitas pelayanan medis bergerak yang beroperasi menggunakan kapal untuk menjangkau masyarakat di wilayah kepulauan, pesisir, dan daerah terpencil. Gambar berikut merupakan ilustrasi rute sekali perjalanan rumah sakit apung ke beberapa pulau.',
+      image: kapalRumahSakitApung
+    },
+    question: 'Berdasarkan peta rute rumah sakit apung tersebut, jarak tempuh total Rumah Sakit Apung dalam sekali perjalanan adalah...',
+    options: ['80 km', '81 km', '83 km', '84 km', '85 km'],
+    answer: '84 km'
   },
   {
     id: 'geometri-12',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'single',
-    stimulus: { image: geometriSudutA },
-    question: 'Besar sudut A adalah...',
-    options: ['45', '90', '130', '180'],
-    answer: '130'
+  stimulus: {
+    instruction: "(1) Perbandingan tinggi terhadap jari-jari 3:2<br>(2) Luas selimut tabung adalah 108π cm²"
+  },
+    question: 'Sebuah tabung memiliki volume 324π cm^3. Apakah luas permukaan tabung kurang dari 300π cm^2? Putuskan apakah pernyataan (1) dan (2) cukup untuk menjawab pertanyaan tersebut.',
+    options: [
+      'Pernyataan (1) SAJA cukup, tetapi (2) SAJA tidak cukup.',
+      'Pernyataan (2) SAJA cukup, tetapi (1) SAJA tidak cukup.',
+      'DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.',
+      'Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.',
+      'Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan.'
+    ],
+    answer: 'Pernyataan (1) SAJA cukup, tetapi (2) SAJA tidak cukup.'
   },
   {
     id: 'geometri-13',
-    category: 'Geometri dan Pengukuran',
+    category: 'Geometri',
     type: 'single',
-    stimulus: { image: geometriSegitigaABC },
-    question: 'Diketahui ∠ABC = 90°, panjang AB = 4 cm, dan BC = 3 cm. Panjang AC adalah...',
-    options: ['3 cm', '4 cm', '5 cm', '6 cm'],
-    answer: '5 cm'
+    stimulus: {
+      instruction: 'Titik B ditranslasikan oleh vektor (2, -3) kemudian dicerminkan terhadap sumbu-y sehingga menghasilkan bayangan B\' seperti pada gambar berikut.',
+      image: segitigaAbcTitikB
+    },
+    question: 'Gambar titik B\' yang sesuai adalah...',
+    options: [
+      optionImage(titikBOpsiA, 'Opsi A'),
+      optionImage(titikBOpsiB, 'Opsi B'),
+      optionImage(titikBOpsiC, 'Opsi C'),
+      optionImage(titikBOpsiD, 'Opsi D'),
+      optionImage(titikBOpsiE, 'Opsi E')
+    ],
+    answer: optionImage(titikBOpsiE, 'Opsi E')
   },
   {
     id: 'geometri-14',
-    category: 'Geometri dan Pengukuran',
-    type: 'multiple',
-    question: 'Sebuah balok memiliki panjang 12 cm, lebar setengah dari panjang, dan tinggi 8 cm. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Volume balok adalah 432 cm^3',
-      'Volume balok adalah 576 cm^3',
-      'Sisi lebar tidak lebih besar daripada tingginya',
-      'Luas permukaan balok adalah 432 cm^2'
+    category: 'Geometri',
+    type: 'truefalse',
+    question: 'Persamaan peta garis x - 2y = 4 dirotasikan dengan pusat O(0,0) sebesar 90° berlawanan arah jarum jam, kemudian dilanjutkan dengan pencerminan terhadap garis y = x. Identifikasi Benar atau Salah pernyataan berikut!',
+    statements: [
+      'Bayangan garis tersebut memotong sumbu x di titik (4,0)',
+      'Bayangan garis dan peta garis saling berpotongan di titik (0,4)',
+      'Bayangan garis dan peta garis saling sejajar'
     ],
-    answer: [
-      'Volume balok adalah 576 cm^3',
-      'Sisi lebar tidak lebih besar daripada tingginya',
-      'Luas permukaan balok adalah 432 cm^2'
-    ]
+    answer: [true, false, false]
   },
   {
     id: 'geometri-15',
-    category: 'Geometri dan Pengukuran',
-    type: 'multiple',
-    question: 'Sebuah tabung memiliki diameter 28 cm dan tinggi 10 cm. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
+    category: 'Geometri',
+    type: 'single',
+    stimulus: {
+      instruction: 'Sebuah segitiga ABC digeser searah dengan vektor (-9, 0) kemudian dicerminkan terhadap sumbu-x, seperti pada gambar berikut.',
+      image: segitigaAbcVektor
+    },
+    question: 'Bayangan segitiga ABC yang tepat ditunjukkan oleh gambar...',
     options: [
-      'Volume tabung adalah 6.160 cm^3',
-      'Volume tabung adalah 24.640 cm^3',
-      'Luas permukaan tabung adalah 2.112 cm^2',
-      'Luas permukaan tabung adalah 6.688 cm^2'
+      optionImage(segitigaAbcOpsiA, 'Opsi A'),
+      optionImage(segitigaAbcOpsiB, 'Opsi B'),
+      optionImage(segitigaAbcOpsiC, 'Opsi C'),
+      optionImage(segitigaAbcOpsiD, 'Opsi D'),
+      optionImage(segitigaAbcOpsiE, 'Opsi E')
     ],
-    answer: ['Volume tabung adalah 6.160 cm^3', 'Luas permukaan tabung adalah 2.112 cm^2']
+    answer: optionImage(segitigaAbcOpsiA, 'Opsi A')
+  }
+]
+
+// =====================================================================
+// TRIGONOMETRI
+// =====================================================================
+const trigonometri = [
+  {
+    id: 'trigonometri-1',
+    category: 'Trigonometri',
+    type: 'truefalse',
+    stimulus: { image: trigonometriSegitigaSiku },
+    question: 'Jika AB = 34, CD = 24, AB = BD, dan sin α = 15/17, tentukan Benar atau Salah pernyataan-pernyataan berikut!',
+    statements: [
+      'sin β = 0,6',
+      'cos β = 3/5',
+      'cos α + cos β = 108/85'
+    ],
+    answer: [true, false, true]
+  },
+  {
+    id: 'trigonometri-2',
+    category: 'Trigonometri',
+    type: 'single',
+    question: 'Diketahui cos β = a/(3b), nilai dari cot β = ...',
+    options: [
+      'a / √(9b^2 + a^2)',
+      'b / √(9b^2 - a^2)',
+      'a / √b',
+      '(a / (9b^2 - a^2)) √(9b^2 - a^2)',
+      '(a / (9b^2 - a^2)) √(9a^2 - b^2)'
+    ],
+    answer: '(a / (9b^2 - a^2)) √(9b^2 - a^2)'
+  },
+  {
+    id: 'trigonometri-3',
+    category: 'Trigonometri',
+    type: 'single',
+    question: 'Ekspresi berikut yang ekivalen dengan (sin x + cos x)^2 / cos x adalah...',
+    options: ['sec x + 2 sin x', 'sec x + (1/2) sin x', '2 sec x + sin x', 'cosec x + 2 sin x', 'cosec x + 2 cos x'],
+    answer: 'sec x + 2 sin x'
+  },
+  {
+    id: 'trigonometri-4',
+    category: 'Trigonometri',
+    type: 'single',
+    stimulus: {
+      instruction: 'Perhatikan sudut yang terbentuk pada koordinat kartesius berikut.',
+      image: sudutKoordinatKartesius
+    },
+    question: 'Perhatikan pernyataan-pernyataan berikut:<br>(1) Cosinus dari sudut tersebut bernilai positif.<br>(2) Sinus dari sudut tersebut bernilai negatif.<br>(3) Cosinus dari sudut tersebut nilainya sama dengan cos 330°.<br>(4) Sinus dari sudut tersebut nilainya sama dengan sin 60°.<br>(5) Jika sudut tersebut diputar 60° berlawanan arah jarum jam, maka akan memberikan nilai cosinus yang berbeda. Banyak pernyataan yang bernilai SALAH adalah...',
+    options: ['0', '1', '2', '3', '4'],
+    answer: '2'
+  },
+  {
+    id: 'trigonometri-5',
+    category: 'Trigonometri',
+    type: 'single',
+    question: 'Nilai dari cos 300° + cos 150° + cot 45° adalah...',
+    options: ['1/2', '1/√3', '1', '(3 - √3)/2', '(3 + √3)/2'],
+    answer: '(3 - √3)/2'
+  },
+  {
+    id: 'trigonometri-6',
+    category: 'Trigonometri',
+    type: 'single',
+    question: 'Jika cot θ = -3/2 (0° ≤ θ ≤ 180°), maka nilai dari (5 sin θ + 6 cos θ)/(2 cos θ - 3 sin θ) adalah...',
+    options: ['2/3', '1/3', '1', '4/3', '5/3'],
+    answer: '2/3'
+  },
+  {
+    id: 'trigonometri-7',
+    category: 'Trigonometri',
+    type: 'single',
+    question: 'Dalam segitiga siku-siku PQR, panjang PR adalah x satuan dan besar ∠PRQ = α. Tinggi t dari segitiga di atas (garis tinggi dari titik sudut siku-siku ke sisi PR) dapat dinyatakan sebagai...',
+    options: ['x sin^2 α cos α', 'x^2 sin α cos^2 α', 'x sin α', 'x sin α cos α', 'x cos α'],
+    answer: 'x sin α cos α'
   }
 ]
 
@@ -523,167 +697,119 @@ const peluang = [
   {
     id: 'peluang-1',
     category: 'Data dan Peluang',
-    type: 'single',
-    question: 'Tim basket terdiri atas 5 siswa dengan berat badan rata-rata 43 kg. Selisih berat anggota yang terbesar dan terkecil adalah 15 kg. Tim ini terdiri dari satu orang paling berat dan 4 orang lainnya sama beratnya. Berat badan anggota yang terbesar adalah...',
-    options: ['40', '43', '55', '58'],
-    answer: '55'
+    type: 'truefalse',
+    stimulus: {
+      instruction: 'Tabel berikut menunjukkan hasil panen tiga kelompok tani selama beberapa tahun.',
+      paragraphs: [tabelHasilPanen]
+    },
+    question: 'Pilih pernyataan yang benar berikut ini!',
+    statements: [
+      'Kelompok A mengalami tepat satu kali penurunan hasil panen.',
+      'Kelompok B mengalami dua kali hasil panen yang tetap.',
+      'Kelompok C selalu mengalami kenaikan hasil panen.',
+      'Pada tahun 2022 hasil panen seluruh kelompok meningkat dibanding tahun sebelumnya.',
+      'Tahun 2025 merupakan tahun dengan hasil panen tertinggi untuk ketiga kelompok.'
+    ],
+    answer: [true, true, false, false, true]
   },
   {
     id: 'peluang-2',
     category: 'Data dan Peluang',
-    type: 'truefalse',
-    stimulus: { image: dataDiagramHobi },
-    question: 'Sebanyak 360 anak dijadikan sampel dalam penelitian ini. Tentukan pernyataan di bawah ini yang benar dan salah!',
-    statements: [
-      'Banyak siswa yang memilih bermain bersama teman adalah 80 anak dan merupakan jumlah sampel terbanyak',
-      'Tidak lebih dari 15% yang memilih olahraga sebagai kegiatan sepulang sekolah',
-      'Membaca menempati peringkat terakhir sebagai kegiatan yang diminati sepulang sekolah'
-    ],
-    answer: [true, false, false]
+    type: 'single',
+    stimulus: {
+      instruction: 'Tabel berikut merupakan data berat badan 40 siswa.',
+      paragraphs: [tabelBeratBadan]
+    },
+    question: 'Rata-rata berat badan 40 siswa tersebut adalah...',
+    options: ['43', '56', '52', '60', '50'],
+    answer: '56'
   },
   {
     id: 'peluang-3',
     category: 'Data dan Peluang',
     type: 'single',
-    question: 'Nilai rata-rata sumatif 8 siswa di kelas A adalah 72. Sementara nilai rata-rata 12 siswa di kelas B adalah 80. Nilai rata-rata kelas A dan B adalah...',
-    options: ['76,8', '77,5', '78', '79,2'],
-    answer: '76,8'
+    stimulus: {
+      instruction: 'Perhatikan histogram data nilai matematika siswa berikut.',
+      image: histogramNilaiMatematika
+    },
+    question: 'Nilai matematika terbanyak (modus) yang diperoleh siswa adalah...',
+    options: ['70,00', '71,38', '73,83', '78,83', '75,00'],
+    answer: '73,83'
   },
   {
     id: 'peluang-4',
     category: 'Data dan Peluang',
-    type: 'single',
-    question: 'Disajikan data berikut: 12, 8, 9, 15, 16, 17, 13, 10. Nilai mean dari data tersebut adalah...',
-    options: ['11,5', '12,5', '13,5', '14,5'],
-    answer: '12,5'
+    type: 'truefalse',
+    stimulus: {
+      instruction: 'Perhatikan data jumlah penonton pertandingan futsal antarkelas selama lima hari berikut. Diketahui bahwa rata-rata jumlah penonton per hari adalah 100 orang, jumlah penonton setiap hari berada antara 70 dan 130 orang, dan median data tersebut adalah 100.',
+      paragraphs: [tabelPenontonFutsal]
+    },
+    question: 'Tentukan Benar atau Salah setiap pernyataan berikut.',
+    statements: [
+      'Jumlah penonton pada hari Selasa pasti lebih sedikit daripada hari Jumat.',
+      'Jumlah penonton pada hari Kamis mungkin tepat 100 orang.',
+      'Jumlah penonton pada hari Selasa dan Kamis mungkin sama banyak.'
+    ],
+    answer: [false, true, true]
   },
   {
     id: 'peluang-5',
     category: 'Data dan Peluang',
-    type: 'truefalse',
-    stimulus: { paragraphs: [tabelUsiaKlub] },
-    question: 'Data usia anggota klub basket remaja disajikan dalam tabel berikut. Tentukan pernyataan di bawah ini yang benar dan salah!',
-    statements: [
-      'Banyak siswa yang memilih bermain bersama teman adalah 80 anak dan merupakan jumlah sampel terbanyak',
-      'Tidak lebih dari 15% yang memilih olahraga sebagai kegiatan sepulang sekolah',
-      'Membaca menempati peringkat terakhir sebagai kegiatan yang diminati sepulang sekolah'
-    ],
-    answer: [false, true, false]
+    type: 'single',
+    question: 'Misal lima buah bilangan bulat diurutkan dari yang terkecil hingga terbesar, a ≤ b ≤ c ≤ d ≤ e. Jika rata-ratanya adalah 40, mediannya adalah 41, dan modus tunggalnya 42, nilai terkecil yang mungkin dari kelima bilangan tersebut adalah...',
+    options: ['33', '34', '35', '36', '37'],
+    answer: '35'
   },
   {
     id: 'peluang-6',
     category: 'Data dan Peluang',
     type: 'single',
-    stimulus: { paragraphs: [tabelUsiaKlub] },
-    question: 'Berdasarkan data tabel usia anggota klub, usia rata-rata anggota klub adalah...',
-    options: ['14,71', '15,23', '15,50', '16,13'],
-    answer: '15,23'
+    question: 'Sebuah platform pembelajaran daring menyediakan kode kelas yang terdiri atas 4 karakter. Karakter pertama harus berupa salah satu huruf vokal, dua karakter berikutnya berupa angka yang berbeda, dan karakter terakhir berupa salah satu huruf konsonan dari himpunan {B, C, D, F, G}. Banyak kode kelas yang dapat dibuat adalah...',
+    options: ['9000', '1025', '1125', '1200', '2250'],
+    answer: '2250'
   },
   {
     id: 'peluang-7',
     category: 'Data dan Peluang',
     type: 'single',
-    question: 'Dua buah dadu dilempar bersamaan. Peluang muncul angka kembar adalah...',
-    options: ['1/6', '1/9', '5/36', '7/36'],
-    answer: '1/6'
+    stimulus: {
+      instruction: 'Delapan siswa akan berbaris untuk mengikuti upacara. Dua di antaranya, Andi dan Budi, berdampingan (berurutan depan-belakang).',
+      image: barisanSiswaUpacara
+    },
+    question: 'Banyak susunan yang mungkin adalah...',
+    options: ['1.440', '2.880', '5.040', '7.200', '10.080'],
+    answer: '10.080'
   },
   {
     id: 'peluang-8',
     category: 'Data dan Peluang',
     type: 'single',
-    question: 'Peluang muncul angka berjumlah 5 pada pelemparan dua dadu adalah...',
-    options: ['1/6', '1/9', '5/36', '7/36'],
-    answer: '1/9'
+    question: 'Sebuah kantong berisi 5 jeruk, 6 stroberi, dan 7 apel. Jika satu buah diambil secara acak dalam 42 percobaan, berapa kali diperkirakan buah stroberi yang akan terambil?',
+    options: ['14', '17', '20', '10', '11'],
+    answer: '14'
   },
   {
     id: 'peluang-9',
     category: 'Data dan Peluang',
-    type: 'multiple',
-    question: 'Dalam sebuah wadah terdapat 10 bola yang diberi tulisan angka 1 sampai 10. Bola diambil tanpa pengembalian. Pada pengambilan pertama dan kedua muncul angka genap. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Peluang muncul angka genap pada pengambilan ketiga adalah 3/8',
-      'Peluang muncul angka genap pada pengambilan ketiga adalah 5/8',
-      'Peluang muncul angka ganjil pada pengambilan ketiga adalah 3/8',
-      'Peluang muncul angka ganjil pada pengambilan ketiga adalah 5/8'
-    ],
-    answer: [
-      'Peluang muncul angka genap pada pengambilan ketiga adalah 3/8',
-      'Peluang muncul angka ganjil pada pengambilan ketiga adalah 5/8'
-    ]
-  },
-  {
-    id: 'peluang-10',
-    category: 'Data dan Peluang',
     type: 'single',
-    question: 'Terdapat 5 bola merah, 6 bola ungu, dan 4 bola oranye dalam sebuah toples. Peluang terambilnya bola merah adalah...',
-    options: ['1/3', '1/5', '2/5', '4/15'],
-    answer: '1/3'
-  },
-  {
-    id: 'peluang-11',
-    category: 'Data dan Peluang',
-    type: 'multiple',
-    question: 'Nilai kuis 8 siswa adalah 80, 67, 50, 60, 55, 65, 70, 60. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Nilai modus adalah 60',
-      'Nilai median adalah 62,5',
-      'Nilai mean adalah 64,5',
-      'Nilai rata-rata tidak lebih dari 65'
-    ],
-    answer: ['Nilai modus adalah 60', 'Nilai median adalah 62,5', 'Nilai mean adalah 64,5']
-  },
-  {
-    id: 'peluang-12',
-    category: 'Data dan Peluang',
-    type: 'multiple',
-    question: 'Bangun datar dengan koordinat A(1,1), B(3,1), C(3,3), D(1,3) ditranslasikan 3 satuan ke kiri dan 2 satuan ke atas. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      "Titik A'(-2, 3)",
-      "Titik B'(0, -3)",
-      "Titik C'(0, 5)",
-      "Titik D'(-2, 5)"
-    ],
-    answer: ["Titik A'(-2, 3)", "Titik C'(0, 5)", "Titik D'(-2, 5)"]
-  },
-  {
-    id: 'peluang-13',
-    category: 'Data dan Peluang',
-    type: 'single',
-    question: 'Dalam suatu wadah terdapat 6 kelereng biru, 4 kelereng hijau, 5 kelereng merah, dan 5 kelereng kuning. Peluang terambil kelereng biru adalah...',
-    options: ['1/4', '1/5', '3/10', '6/10'],
-    answer: '3/10'
-  },
-  {
-    id: 'peluang-14',
-    category: 'Data dan Peluang',
-    type: 'single',
-    question: 'Perbandingan permen Amad, Roni, dan Nida 5:3:2. Sedangkan jumlah permen Amad dan Roni 64. Jumlah permen 3 orang tersebut adalah...',
-    options: ['72', '80', '88', '96'],
-    answer: '80'
-  },
-  {
-    id: 'peluang-15',
-    category: 'Data dan Peluang',
-    type: 'multiple',
-    question: 'Diketahui nilai sumatif siswa kelas 9 adalah 90, 95, 70, 75, 85, 80, 85. Maka, pernyataan di bawah ini yang benar adalah... (Jawaban lebih dari satu)',
-    options: [
-      'Nilai Mean adalah 82',
-      'Nilai Modus adalah 85',
-      'Nilai Median adalah 86',
-      'Nilai Modus dan Median sama besar'
-    ],
-    answer: ['Nilai Modus adalah 85', 'Nilai Modus dan Median sama besar']
+    stimulus: {
+      instruction: 'Sebuah toko memberikan hadiah kepada pelanggan melalui undian. Dalam sebuah kotak terdapat 20 kupon, terdiri atas:<br>• 8 kupon hadiah alat tulis<br>• 7 kupon hadiah buku<br>• 5 kupon hadiah voucher.'
+    },
+    question: 'Seorang pelanggan mengambil dua kupon secara acak tanpa pengembalian. Peluang pelanggan memperoleh setidaknya satu voucher adalah...',
+    options: ['15/38', '17/38', '19/38', '21/38', '23/38'],
+    answer: '17/38'
   }
 ]
 
 export const questionsByCategory = {
-  aljabar,
   bilangan,
+  aljabar,
   geometri,
+  trigonometri,
   peluang
 }
 
-// Gabungan seluruh 60 soal, urut sesuai dokumen sumber
-const fulltestQuestions = [...aljabar, ...bilangan, ...geometri, ...peluang]
+// Gabungan seluruh 54 soal, urut sesuai dokumen sumber (Naskah Soal TO TKA Matematika SMA InfiEdu)
+const fulltestQuestions = [...bilangan, ...aljabar, ...geometri, ...trigonometri, ...peluang]
 
 export default fulltestQuestions
