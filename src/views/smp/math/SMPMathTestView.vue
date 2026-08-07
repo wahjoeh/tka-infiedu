@@ -1,12 +1,12 @@
 <template>
-  <div class="test-container sma-math-test exam-math-theme">
+  <div class="test-container smp-math-test exam-math-theme">
 
     <header class="test-header">
 
       <div class="header-title">
         <img src="/logo.png" alt="InfiEdu" class="brand-logo" />
-        <h2>TKA SMA InfiEdu</h2>
-        <p>TKA SMA - Matematika (Paket {{ selectedPackage }})</p>
+        <h2>TKA SMP InfiEdu</h2>
+        <p>TKA SMP - Matematika (Paket {{ selectedPackage }})</p>
       </div>
 
       <div class="header-right">
@@ -567,9 +567,9 @@ import {
   useRouter
 } from 'vue-router'
 
-import '../../../styles/sma-math-test.css'
+import '../../../styles/smp-math-test.css'
 
-import fulltestQuestions from '../../../data/sma/math/fulltest'
+import fulltestQuestions from '../../../data/smp/math/fulltest'
 
 const route = useRoute()
 const router = useRouter()
@@ -577,12 +577,12 @@ const router = useRouter()
 // =========================
 // PAKET SOAL (RANDOM PACKAGE)
 // =========================
-// Bank soal berisi 54 soal, terbagi 5 topik: Bilangan (7), Aljabar (16),
-// Geometri (15), Trigonometri (7), Data dan Peluang (9).
+// Bank soal SMP terbagi 4 topik: Bilangan (7), Aljabar (16),
+// Geometri (15), serta Data dan Peluang (9).
 //
 // Dibagi jadi 4 paket @ 15 soal, dengan komposisi topik yang SAMA di
-// setiap paket: 2 Bilangan + 4 Aljabar + 4 Geometri + 2 Trigonometri +
-// 3 Peluang (proporsional dari rasio 7:16:15:7:9, dibulatkan supaya
+// setiap paket: 2 Bilangan + 4 Aljabar + 5 Geometri + 4 Peluang
+// (proporsional dari rasio 7:16:15:9, dibulatkan supaya
 // totalnya tetap 15). Karena target per topik lebih besar dari jatah
 // rata-rata tiap paket untuk sebagian topik (mis. Peluang: 9/4=2.25
 // tapi target 3), sebagian soal terpaksa dipakai lagi di lebih dari
@@ -592,7 +592,6 @@ const TOPIC_POOLS = {
   bilangan: Array.from({ length: 7 }, (_, i) => `bilangan-${i + 1}`),
   aljabar: Array.from({ length: 16 }, (_, i) => `aljabar-${i + 1}`),
   geometri: Array.from({ length: 15 }, (_, i) => `geometri-${i + 1}`),
-  trigonometri: Array.from({ length: 7 }, (_, i) => `trigonometri-${i + 1}`),
   peluang: Array.from({ length: 9 }, (_, i) => `peluang-${i + 1}`)
 }
 
@@ -600,10 +599,9 @@ const PACKAGE_COUNT = 4
 const TOPIC_TARGET_PER_PACKAGE = {
   bilangan: 2,
   aljabar: 4,
-  geometri: 4,
-  trigonometri: 2,
-  peluang: 3
-} // 2 + 4 + 4 + 2 + 3 = 15 soal/paket
+  geometri: 5,
+  peluang: 4
+} // 2 + 4 + 5 + 4 = 15 soal/paket
 
 function buildPackages() {
   const packages = Array.from({ length: PACKAGE_COUNT }, () => [])
@@ -905,7 +903,7 @@ const submitTest = () => {
   })
 
   sessionStorage.setItem(
-    'smaMathResult',
+    'smpMathResult',
     JSON.stringify(resultData)
   )
 

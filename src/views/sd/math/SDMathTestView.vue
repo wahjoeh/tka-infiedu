@@ -669,7 +669,7 @@ questions.forEach((q, index) => {
 
 })
 
-const timeLeft = ref(90 * 60)
+const timeLeft = ref(35 * 60)
 
 let timerInterval = null
 
