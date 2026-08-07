@@ -811,6 +811,61 @@ const formatFraction = (text) => {
   )
 }
 
+// =========================
+// PENCOCOKAN JAWABAN ISIAN PENDEK (LEBIH FLEKSIBEL)
+// =========================
+// Siswa SD sering menulis jawaban dengan variasi kecil yang seharusnya
+// tetap dianggap benar, misalnya:
+// - "3kg" vs "3 kg" (spasi antara angka dan satuan)
+// - "81cm2" vs "81 cm²" (superscript vs angka biasa)
+// - "Rp8000" vs "Rp8.000,00" vs "8000" (format ribuan/desimal)
+// - spasi ganda, spasi di awal/akhir, atau beda kapitalisasi
+//
+// Dicoba dari yang paling ketat ke paling longgar - begitu salah satu
+// level cocok, jawaban dianggap benar. q.answer boleh berupa satu
+// string, atau array berisi beberapa varian jawaban yang diterima.
+function normalizeShortAnswer(value) {
+  return value
+    .toString()
+    .trim()
+    .toLowerCase()
+    .replace(/²/g, '2')
+    .replace(/³/g, '3')
+    .replace(/\s+/g, ' ')
+}
+
+function shortAnswersMatch(userAnswer, correctAnswer) {
+  if (userAnswer === null || userAnswer === undefined) return false
+
+  const normalizedUser = normalizeShortAnswer(userAnswer)
+  if (normalizedUser.length === 0) return false
+
+  const acceptedAnswers = Array.isArray(correctAnswer) ? correctAnswer : [correctAnswer]
+
+  return acceptedAnswers.some((candidate) => {
+    if (candidate === null || candidate === undefined) return false
+
+    const normalizedCandidate = normalizeShortAnswer(candidate)
+
+    // Level 1: sama persis setelah rapikan spasi & kapitalisasi
+    if (normalizedUser === normalizedCandidate) return true
+
+    // Level 2: sama setelah semua spasi dihapus (mis. "3kg" vs "3 kg")
+    const noSpaceUser = normalizedUser.replace(/\s+/g, '')
+    const noSpaceCandidate = normalizedCandidate.replace(/\s+/g, '')
+
+    if (noSpaceUser === noSpaceCandidate) return true
+
+    // Level 3: sama setelah tanda baca umum (titik, koma) ikut dihapus,
+    // supaya beda format ribuan/desimal ("Rp8.000,00" vs "Rp8000")
+    // tetap bisa cocok
+    const bareUser = noSpaceUser.replace(/[.,]/g, '')
+    const bareCandidate = noSpaceCandidate.replace(/[.,]/g, '')
+
+    return bareUser === bareCandidate
+  })
+}
+
 const submitTest = () => {
 
   const resultData = questions.map((q, index) => {
@@ -860,10 +915,9 @@ const submitTest = () => {
 
     else if (q.type === 'short') {
 
-      // Untuk jawaban pendek, kita bandingkan dengan case-insensitive
-      // dan trim spasi
-      correct = answers.value[index]?.trim().toLowerCase() === 
-                q.answer?.trim().toLowerCase()
+      // Pencocokan fleksibel: abaikan beda spasi, kapitalisasi,
+      // superscript, dan format ribuan/desimal.
+      correct = shortAnswersMatch(answers.value[index], q.answer)
 
     }
 
@@ -879,7 +933,7 @@ const submitTest = () => {
 
       userAnswer: answers.value[index],
 
-      correctAnswer: q.answer,
+      correctAnswer: q.type === 'short' && Array.isArray(q.answer) ? q.answer[0] : q.answer,
 
       correct
 
