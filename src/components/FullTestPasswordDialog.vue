@@ -21,7 +21,7 @@ const props = defineProps({ visible: Boolean })
 const emit = defineEmits(['close', 'unlocked'])
 const password = ref('')
 const hasError = ref(false)
-const FULL_TEST_PASSWORD = 'inf'
+const FULL_TEST_PASSWORD = 'infiedu'
 
 watch(() => props.visible, (isVisible) => {
   if (isVisible) { password.value = ''; hasError.value = false }
