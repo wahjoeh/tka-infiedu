@@ -37,21 +37,21 @@
       <div class="session-progress">
         <span
           class="session-dot"
-          :class="{ active: session === 'math', done: session === 'indo' || session === 'english' }"
+          :class="{ active: session === 'indo', done: session === 'english' || session === 'math' }"
         >
-          1. Matematika
+          1. Bahasa Indonesia
         </span>
         <span
           class="session-dot"
-          :class="{ active: session === 'indo', done: session === 'english' }"
+          :class="{ active: session === 'english', done: session === 'math' }"
         >
-          2. Bahasa Indonesia
+          2. Bahasa Inggris
         </span>
         <span
           class="session-dot"
-          :class="{ active: session === 'english' }"
+          :class="{ active: session === 'math' }"
         >
-          3. Bahasa Inggris
+          3. Matematika
         </span>
       </div>
 
@@ -503,10 +503,10 @@
         @click="handlePrimaryAction"
       >
         {{
-          session === 'math'
-            ? 'Selesai Sesi Matematika →'
-            : session === 'indo'
-              ? 'Selesai Sesi Indonesia →'
+          session === 'indo'
+            ? 'Selesai Sesi Bahasa Indonesia →'
+            : session === 'english'
+              ? 'Selesai Sesi Bahasa Inggris →'
               : 'Selesai & Lihat Hasil'
         }}
       </button>
@@ -566,12 +566,12 @@ const INDO_TOPIC_POOLS = {
 const INDO_TOPIC_TARGET = { tekstual: 5, inferensial: 8, evaluasi: 7 } // 20/paket
 
 // =========================
-// PAKET SOAL - MATEMATIKA (4 paket @ 15 soal)
+// PAKET SOAL - MATEMATIKA (4 paket @ 20 soal)
 // =========================
 // Bank Matematika SMA berisi 54 soal, 5 topik: Bilangan (7), Aljabar
 // (16), Geometri (15), Trigonometri (7), Peluang (9). Dibagi jadi 4
-// paket @ 15 soal dengan komposisi topik yang SAMA di tiap paket:
-// 2 Bilangan + 4 Aljabar + 4 Geometri + 2 Trigonometri + 3 Peluang.
+// paket @ 20 soal dengan komposisi topik yang SAMA di tiap paket:
+// 3 Bilangan + 6 Aljabar + 5 Geometri + 3 Trigonometri + 3 Peluang.
 // Sama seperti di SMAMathTestView.vue.
 const MATH_TOPIC_POOLS = {
   bilangan: Array.from({ length: 7 }, (_, i) => `bilangan-${i + 1}`),
@@ -581,12 +581,12 @@ const MATH_TOPIC_POOLS = {
   peluang: Array.from({ length: 9 }, (_, i) => `peluang-${i + 1}`)
 }
 const MATH_TOPIC_TARGET = {
-  bilangan: 2,
-  aljabar: 4,
-  geometri: 4,
-  trigonometri: 2,
+  bilangan: 3,
+  aljabar: 6,
+  geometri: 5,
+  trigonometri: 3,
   peluang: 3
-} // 15/paket
+} // 20/paket
 
 // =========================
 // PAKET SOAL - BAHASA INGGRIS (3 paket @ 20 soal)
@@ -698,8 +698,10 @@ function buildInitialAnswers(questions) {
   return initial
 }
 
-// 25 menit per sesi
+// Bahasa Indonesia dan Bahasa Inggris masing-masing 25 menit, sedangkan
+// Matematika mendapat 40 menit untuk 20 soal.
 const SESSION_DURATION = 25 * 60
+const MATH_SESSION_DURATION = 40 * 60
 
 // Tiap kali laman dibuka, tiap mapel dapat nomor paket acak yang
 // independen satu sama lain (mis. Matematika paket 1, Indo paket 2,
@@ -759,7 +761,7 @@ const sessions = reactive({
     questions: mathQuestions,
     answers: buildInitialAnswers(mathQuestions),
     flagged: {},
-    timeLeft: SESSION_DURATION
+    timeLeft: MATH_SESSION_DURATION
   },
   english: {
     label: englishLabel,
@@ -770,7 +772,7 @@ const sessions = reactive({
   }
 })
 
-const session = ref('math') // 'math' | 'indo' | 'english'
+const session = ref('indo') // 'indo' | 'english' | 'math'
 const currentQuestion = ref(0)
 const showSidebar = ref(false)
 
@@ -990,12 +992,12 @@ function startTimer() {
     } else {
       clearInterval(timerInterval)
 
-      if (session.value === 'math') {
-        alert('Waktu sesi Matematika habis! Lanjut ke sesi Bahasa Indonesia.')
-        goToSession('indo')
-      } else if (session.value === 'indo') {
+      if (session.value === 'indo') {
         alert('Waktu sesi Bahasa Indonesia habis! Lanjut ke sesi Bahasa Inggris.')
         goToSession('english')
+      } else if (session.value === 'english') {
+        alert('Waktu sesi Bahasa Inggris habis! Lanjut ke sesi Matematika.')
+        goToSession('math')
       } else {
         alert('Waktu habis!')
         finishFullTest()
@@ -1032,15 +1034,7 @@ function finishFullTest() {
 }
 
 const handlePrimaryAction = () => {
-  if (session.value === 'math') {
-    const confirmed = window.confirm(
-      'Yakin ingin menyelesaikan sesi Matematika dan lanjut ke sesi Bahasa Indonesia? Kamu tidak bisa kembali ke sesi ini lagi.'
-    )
-
-    if (!confirmed) return
-
-    goToSession('indo')
-  } else if (session.value === 'indo') {
+  if (session.value === 'indo') {
     const confirmed = window.confirm(
       'Yakin ingin menyelesaikan sesi Bahasa Indonesia dan lanjut ke sesi Bahasa Inggris? Kamu tidak bisa kembali ke sesi ini lagi.'
     )
@@ -1048,6 +1042,14 @@ const handlePrimaryAction = () => {
     if (!confirmed) return
 
     goToSession('english')
+  } else if (session.value === 'english') {
+    const confirmed = window.confirm(
+      'Yakin ingin menyelesaikan sesi Bahasa Inggris dan lanjut ke sesi Matematika? Kamu tidak bisa kembali ke sesi ini lagi.'
+    )
+
+    if (!confirmed) return
+
+    goToSession('math')
   } else {
     const confirmed = window.confirm(
       'Yakin ingin menyelesaikan Tes Simulasi SMA dan melihat hasil akhir?'
