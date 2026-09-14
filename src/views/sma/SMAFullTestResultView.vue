@@ -8,7 +8,7 @@
 
       <div class="banner-right">
         <h4>Simulasi Lengkap</h4>
-        <p>Matematika + Bahasa Indonesia + Bahasa Inggris</p>
+        <p>Bahasa Indonesia + Bahasa Inggris + Matematika</p>
       </div>
     </div>
 
@@ -28,13 +28,6 @@
 
       <div class="score-summary">
         <div class="score-card">
-          <h3>Matematika</h3>
-          <p class="score-number">
-            {{ result.math.correctCount }} / {{ result.math.total }}
-          </p>
-        </div>
-
-        <div class="score-card">
           <h3>Bahasa Indonesia</h3>
           <p class="score-number">
             {{ result.indo.correctCount }} / {{ result.indo.total }}
@@ -47,10 +40,17 @@
             {{ result.english.correctCount }} / {{ result.english.total }}
           </p>
         </div>
+
+        <div class="score-card">
+          <h3>Matematika</h3>
+          <p class="score-number">
+            {{ result.math.correctCount }} / {{ result.math.total }}
+          </p>
+        </div>
       </div>
 
       <div
-        v-for="section in [result.math, result.indo, result.english]"
+        v-for="section in [result.indo, result.english, result.math]"
         :key="section.label"
         class="subject-section"
       >
