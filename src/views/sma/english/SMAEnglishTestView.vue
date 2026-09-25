@@ -810,7 +810,7 @@ questions.forEach((q, index) => {
 // Durasi disesuaikan untuk 20 soal per paket (sebelumnya 90 menit
 // untuk 30 soal acak). Materi berbasis bacaan sehingga waktu per soal
 // dibuat lebih longgar dibanding SMP/SD. Ubah sesuai kebutuhan.
-const timeLeft = ref(60 * 60)
+const timeLeft = ref(25 * 60)
 
 let timerInterval = null
 

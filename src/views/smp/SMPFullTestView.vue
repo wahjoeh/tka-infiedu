@@ -37,15 +37,27 @@
       <div class="session-progress">
         <span
           class="session-dot"
-          :class="{ active: session === 'indo', done: session === 'math' }"
+          :class="{ active: session === 'indo', done: sessionOrder.indexOf(session) > 0 }"
         >
           1. Bahasa Indonesia
         </span>
         <span
           class="session-dot"
-          :class="{ active: session === 'math' }"
+          :class="{ active: session === 'english', done: sessionOrder.indexOf(session) > 1 }"
         >
-          2. Matematika
+          2. Bahasa Inggris
+        </span>
+        <span
+          class="session-dot"
+          :class="{ active: session === 'math', done: session === 'ipas' }"
+        >
+          3. Matematika
+        </span>
+        <span
+          class="session-dot"
+          :class="{ active: session === 'ipas' }"
+        >
+          4. IPA
         </span>
       </div>
 
@@ -417,7 +429,7 @@
         class="submit-btn sidebar-submit-btn"
         @click="handlePrimaryAction"
       >
-        {{ session === 'indo' ? 'Selesai Sesi Indonesia →' : 'Selesai & Lihat Hasil' }}
+        {{ session === 'ipas' ? 'Selesai & Lihat Hasil' : `Selesai Sesi ${sessionOrder[sessionOrder.indexOf(session)] === 'indo' ? 'Indonesia' : sessionOrder[sessionOrder.indexOf(session)] === 'english' ? 'Bahasa Inggris' : 'Matematika'} →` }}
       </button>
     </div>
 
@@ -444,7 +456,9 @@ import { useRouter } from 'vue-router'
 import '../../styles/smp-fulltest-test.css'
 
 import indoBank from '../../data/smp/indo/fulltest'
+import englishBank from '../../data/smp/english/fulltest'
 import mathBank from '../../data/smp/math/fulltest'
+import ipasBank, { questionsByCategory as ipasPackagesByCategory } from '../../data/smp/ipas/fulltest.js'
 
 const router = useRouter()
 
@@ -524,18 +538,44 @@ function buildInitialAnswers(questions) {
   return initial
 }
 
-// 35 menit per sesi
-const SESSION_DURATION = 35 * 60
+const SESSION_DURATIONS = {
+  indo: 20 * 60,
+  english: 20 * 60,
+  math: 25 * 60,
+  ipas: 25 * 60
+}
 
-// Tiap kali laman dibuka, siswa dapat kombinasi paket Indo & Matematika
-// yang dipilih acak dan independen satu sama lain (mis. Indo dapat
-// paket 1 sementara Matematika dapat paket 2, atau kombinasi lainnya).
+// Tiap bagian mendapat paket acak secara independen.
 const indoPackageNumber = Math.floor(Math.random() * 4) + 1 // 1-4
+const englishPackages = (() => {
+  const quotas = { easy: [12, 11, 11, 11], medium: [10, 12, 12, 12], hard: [3, 2, 2, 2] }
+  const packages = Array.from({ length: 4 }, () => [])
+  Object.entries(quotas).forEach(([difficulty, counts]) => {
+    const questions = englishBank.filter(question => question.difficulty === difficulty)
+    let offset = 0
+    counts.forEach((count, index) => {
+      packages[index].push(...questions.slice(offset, offset + count))
+      offset += count
+    })
+  })
+  return packages.map(questionPackage => questionPackage.sort((a, b) => a.id - b.id))
+})()
+const englishPackageIndex = Math.floor(Math.random() * englishPackages.length)
+const englishPackageNumber = englishPackageIndex + 1
 const mathPackageIndex = Math.floor(Math.random() * MATH_PACKAGES.length) // 0-3
 const mathPackageNumber = mathPackageIndex + 1
+const ipasPackageIndex = Math.floor(Math.random() * Object.keys(ipasPackagesByCategory).length)
+const ipasPackage = Object.values(ipasPackagesByCategory)[ipasPackageIndex]
+const ipasPackageNumber = ipasPackageIndex + 1
 
 const indoQuestions = pickQuestionsById(indoBank, INDO_PACKAGES[indoPackageNumber])
+const englishQuestions = englishPackages[englishPackageIndex].map((q, index) => ({
+  ...q, displayId: index + 1, originalId: q.id
+}))
 const mathQuestions = pickQuestionsById(mathBank, MATH_PACKAGES[mathPackageIndex])
+const ipasQuestions = ipasPackage.map((q, index) => ({
+  ...q, displayId: index + 1, originalId: q.id
+}))
 
 const sessions = reactive({
   indo: {
@@ -543,18 +583,33 @@ const sessions = reactive({
     questions: indoQuestions,
     answers: buildInitialAnswers(indoQuestions),
     flagged: {},
-    timeLeft: SESSION_DURATION
+    timeLeft: SESSION_DURATIONS.indo
+  },
+  english: {
+    label: `Bahasa Inggris (Paket ${englishPackageNumber})`,
+    questions: englishQuestions,
+    answers: buildInitialAnswers(englishQuestions),
+    flagged: {},
+    timeLeft: SESSION_DURATIONS.english
   },
   math: {
     label: `Matematika (Paket ${mathPackageNumber})`,
     questions: mathQuestions,
     answers: buildInitialAnswers(mathQuestions),
     flagged: {},
-    timeLeft: SESSION_DURATION
+    timeLeft: SESSION_DURATIONS.math
+  },
+  ipas: {
+    label: `IPA (Paket ${ipasPackageNumber})`,
+    questions: ipasQuestions,
+    answers: buildInitialAnswers(ipasQuestions),
+    flagged: {},
+    timeLeft: SESSION_DURATIONS.ipas
   }
 })
 
-const session = ref('indo') // 'indo' | 'math'
+const sessionOrder = ['indo', 'english', 'math', 'ipas']
+const session = ref(sessionOrder[0])
 const currentQuestion = ref(0)
 const showSidebar = ref(false)
 
@@ -633,7 +688,12 @@ const isAnswered = (index) => {
 const formatFraction = (text) => {
   if (!text) return ''
 
-  return text.replace(
+  const withExponents = text.replace(
+    /\^\{?(-?\d+)\}?/g,
+    '<sup class="math-exponent">$1</sup>'
+  )
+
+  return withExponents.replace(
     /(\d+)\s*\/\s*(\d+)/g,
     (_, top, bottom) => `<span class="fraction">
       <span class="top">${top}</span>
@@ -762,19 +822,24 @@ function startTimer() {
     } else {
       clearInterval(timerInterval)
 
-      if (session.value === 'indo') {
-        alert('Waktu sesi Bahasa Indonesia habis! Lanjut ke sesi Matematika.')
-        goToMathSession()
+      if (session.value !== 'ipas') {
+        alert(`Waktu sesi ${active.value.label} habis! Lanjut ke sesi berikutnya.`)
+        goToNextSession()
       } else {
-        alert('Waktu habis!')
+        alert('Waktu sesi IPA habis!')
         finishFullTest()
       }
     }
   }, 1000)
 }
 
-function goToMathSession() {
-  session.value = 'math'
+function goToNextSession() {
+  const nextIndex = sessionOrder.indexOf(session.value) + 1
+  if (nextIndex >= sessionOrder.length) {
+    finishFullTest()
+    return
+  }
+  session.value = sessionOrder[nextIndex]
   currentQuestion.value = 0
   showSidebar.value = false
   startTimer()
@@ -784,13 +849,17 @@ function finishFullTest() {
   clearInterval(timerInterval)
 
   const indoResult = scoreSession('indo')
+  const englishResult = scoreSession('english')
   const mathResult = scoreSession('math')
+  const ipasResult = scoreSession('ipas')
 
   const payload = {
     indo: indoResult,
+    english: englishResult,
     math: mathResult,
-    totalCorrect: indoResult.correctCount + mathResult.correctCount,
-    totalQuestions: indoResult.total + mathResult.total
+    ipas: ipasResult,
+    totalCorrect: indoResult.correctCount + englishResult.correctCount + mathResult.correctCount + ipasResult.correctCount,
+    totalQuestions: indoResult.total + englishResult.total + mathResult.total + ipasResult.total
   }
 
   sessionStorage.setItem('smpFullTestResult', JSON.stringify(payload))
@@ -799,14 +868,16 @@ function finishFullTest() {
 }
 
 const handlePrimaryAction = () => {
-  if (session.value === 'indo') {
+  if (session.value !== 'ipas') {
+    const nextSession = sessionOrder[sessionOrder.indexOf(session.value) + 1]
+    const nextLabel = sessions[nextSession].label.split(' (')[0]
     const confirmed = window.confirm(
-      'Yakin ingin menyelesaikan sesi Bahasa Indonesia dan lanjut ke sesi Matematika? Kamu tidak bisa kembali ke sesi ini lagi.'
+      `Yakin ingin menyelesaikan sesi ${active.value.label.split(' (')[0]} dan lanjut ke sesi ${nextLabel}? Kamu tidak bisa kembali ke sesi ini lagi.`
     )
 
     if (!confirmed) return
 
-    goToMathSession()
+    goToNextSession()
   } else {
     const confirmed = window.confirm(
       'Yakin ingin menyelesaikan Tes Simulasi SMP dan melihat hasil akhir?'

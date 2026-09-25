@@ -577,50 +577,32 @@ const router = useRouter()
 // =========================
 // PAKET SOAL (RANDOM PACKAGE)
 // =========================
-// Bank soal SMP terbagi 4 topik: Bilangan (7), Aljabar (16),
-// Geometri (15), serta Data dan Peluang (9).
+// Bank soal berisi 60 soal, 15 soal per topik (aljabar, bilangan,
+// geometri, peluang). Dibagi jadi 4 paket @ 15 soal.
 //
-// Dibagi jadi 4 paket @ 15 soal, dengan komposisi topik yang SAMA di
-// setiap paket: 2 Bilangan + 4 Aljabar + 5 Geometri + 4 Peluang
-// (proporsional dari rasio 7:16:15:9, dibulatkan supaya
-// totalnya tetap 15). Karena target per topik lebih besar dari jatah
-// rata-rata tiap paket untuk sebagian topik (mis. Peluang: 9/4=2.25
-// tapi target 3), sebagian soal terpaksa dipakai lagi di lebih dari
-// satu paket - pengambilannya memakai indeks berputar (modulo) per
-// topik supaya soal yang dipakai ulang tersebar merata.
-const TOPIC_POOLS = {
-  bilangan: Array.from({ length: 7 }, (_, i) => `bilangan-${i + 1}`),
-  aljabar: Array.from({ length: 16 }, (_, i) => `aljabar-${i + 1}`),
-  geometri: Array.from({ length: 15 }, (_, i) => `geometri-${i + 1}`),
-  peluang: Array.from({ length: 9 }, (_, i) => `peluang-${i + 1}`)
-}
-
+// Tiap topik dibagi rata ke 4 paket dengan offset berbeda per topik,
+// supaya "sisa" pembagian (15 soal / 4 paket = 3 sisa 3) tidak selalu
+// jatuh ke paket yang sama. Hasilnya tiap paket tetap dapat 15 soal
+// (4 dari tiga topik + 3 dari satu topik), dan tetap ada soal dari
+// keempat topik di setiap paket.
+const TOPICS = ['aljabar', 'bilangan', 'geometri', 'peluang']
+const QUESTIONS_PER_TOPIC = 15
 const PACKAGE_COUNT = 4
-const TOPIC_TARGET_PER_PACKAGE = {
-  bilangan: 2,
-  aljabar: 4,
-  geometri: 5,
-  peluang: 4
-} // 2 + 4 + 5 + 4 = 15 soal/paket
 
 function buildPackages() {
   const packages = Array.from({ length: PACKAGE_COUNT }, () => [])
 
-  Object.entries(TOPIC_POOLS).forEach(([topic, pool]) => {
-    const perPackage = TOPIC_TARGET_PER_PACKAGE[topic]
-
-    for (let pkg = 0; pkg < PACKAGE_COUNT; pkg++) {
-      for (let i = 0; i < perPackage; i++) {
-        const poolIndex = (pkg * perPackage + i) % pool.length
-        packages[pkg].push(pool[poolIndex])
-      }
+  TOPICS.forEach((topic, topicIndex) => {
+    for (let i = 0; i < QUESTIONS_PER_TOPIC; i++) {
+      const packageIndex = (i + topicIndex) % PACKAGE_COUNT
+      packages[packageIndex].push(`${topic}-${i + 1}`)
     }
   })
 
   return packages
 }
 
-const QUESTION_PACKAGES = buildPackages() // index 0-3 => paket 1-4
+const QUESTION_PACKAGES = buildPackages()
 
 const getRandomPackageIndex = () =>
   Math.floor(Math.random() * QUESTION_PACKAGES.length)
@@ -628,18 +610,15 @@ const getRandomPackageIndex = () =>
 // Paket bisa dipaksa lewat query (?package=2), misalnya untuk keperluan
 // testing/preview. Kalau tidak ada atau tidak valid, siswa dapat paket acak.
 const requestedPackageIndex = Number(route.query.package) - 1
-const isTrial = route.query.mode === 'trial'
 
 const selectedPackageIndex =
   Number.isInteger(requestedPackageIndex) && QUESTION_PACKAGES[requestedPackageIndex]
     ? requestedPackageIndex
     : getRandomPackageIndex()
 
-const selectedPackage = isTrial ? 'Trial' : selectedPackageIndex + 1
+const selectedPackage = selectedPackageIndex + 1 // nomor paket 1-based, buat ditampilkan
 
-const packageIds = isTrial
-  ? [...fulltestQuestions].sort(() => Math.random() - 0.5).slice(0, 10).map((question) => question.id)
-  : QUESTION_PACKAGES[selectedPackageIndex]
+const packageIds = QUESTION_PACKAGES[selectedPackageIndex]
 
 // Nomor soal ditampilkan berurutan 1..15 sesuai urutan di dalam paket,
 // bukan berdasarkan id asli di bank soal.
@@ -683,7 +662,7 @@ questions.forEach((q, index) => {
 
 })
 
-const timeLeft = ref(90 * 60)
+const timeLeft = ref(25 * 60)
 
 let timerInterval = null
 

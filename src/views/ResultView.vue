@@ -7,7 +7,7 @@
       </div>
 
       <div class="banner-right">
-        <h4>{{ subjectName }}</h4>
+          <h4>{{ subjectName }}</h4>
         <p>Reviu Hasil Simulasi</p>
       </div>
     </div>
@@ -45,13 +45,13 @@
                   empty: item.userAnswer === 'Tidak dijawab'
                 }"
               >
-                {{ item.userAnswer }}
+                {{ formatAnswer(item.userAnswer) }}
               </div>
             </td>
 
             <td>
               <div class="key-box">
-                {{ item.correctAnswer }}
+                {{ formatAnswer(item.correctAnswer) }}
               </div>
             </td>
           </tr>
@@ -83,12 +83,42 @@ const results = ref([])
 const subject = computed(() => route.query.subject || 'indo')
 
 const subjectName = computed(() => (
-  subject.value === 'english' ? 'Bahasa Inggris' : 'Bahasa Indonesia'
+  subject.value === 'english'
+    ? 'Bahasa Inggris'
+    : subject.value === 'ipas' || subject.value === 'science'
+      ? 'IPA'
+    : subject.value === 'biologi'
+      ? 'Biologi'
+    : subject.value === 'sosiologi'
+      ? 'Sosiologi'
+      : 'Bahasa Indonesia'
 ))
 
 const resultStorageKey = computed(() => (
-  subject.value === 'english' ? 'englishResult' : 'indoResult'
+  subject.value === 'english'
+    ? 'englishResult'
+    : subject.value === 'ipas'
+      ? 'smpIpaResult'
+    : subject.value === 'science'
+      ? 'scienceResult'
+    : subject.value === 'biologi'
+      ? 'smaBiologiResult'
+    : subject.value === 'sosiologi'
+      ? 'smaSosiologiResult'
+      : 'indoResult'
 ))
+
+const formatAnswer = (answer) => {
+  if (answer === undefined || answer === null || answer === '') {
+    return 'Tidak dijawab'
+  }
+
+  if (Array.isArray(answer)) {
+    return answer.length ? answer.join(', ') : 'Tidak dijawab'
+  }
+
+  return String(answer)
+}
 
 onMounted(() => {
   const savedResult = sessionStorage.getItem(resultStorageKey.value)
@@ -101,6 +131,21 @@ onMounted(() => {
 const goBack = () => {
   if (subject.value === 'english') {
     router.push(`/${route.query.level || 'sma'}/practice/english`)
+    return
+  }
+
+  if (subject.value === 'ipas' || subject.value === 'science') {
+    router.push('/smp/practice/ipas')
+    return
+  }
+
+  if (subject.value === 'sosiologi') {
+    router.push('/sma/practice/sosiologi')
+    return
+  }
+
+  if (subject.value === 'biologi') {
+    router.push('/sma/practice/biologi')
     return
   }
 

@@ -580,10 +580,10 @@ const router = useRouter()
 // Bank soal berisi 54 soal, terbagi 5 topik: Bilangan (7), Aljabar (16),
 // Geometri (15), Trigonometri (7), Data dan Peluang (9).
 //
-// Dibagi jadi 4 paket @ 20 soal, dengan komposisi topik yang SAMA di
-// setiap paket: 3 Bilangan + 6 Aljabar + 5 Geometri + 3 Trigonometri +
+// Dibagi jadi 4 paket @ 15 soal, dengan komposisi topik yang SAMA di
+// setiap paket: 2 Bilangan + 4 Aljabar + 4 Geometri + 2 Trigonometri +
 // 3 Peluang (proporsional dari rasio 7:16:15:7:9, dibulatkan supaya
-// totalnya tetap 20). Karena target per topik lebih besar dari jatah
+// totalnya tetap 15). Karena target per topik lebih besar dari jatah
 // rata-rata tiap paket untuk sebagian topik (mis. Peluang: 9/4=2.25
 // tapi target 3), sebagian soal terpaksa dipakai lagi di lebih dari
 // satu paket - pengambilannya memakai indeks berputar (modulo) per
@@ -598,12 +598,12 @@ const TOPIC_POOLS = {
 
 const PACKAGE_COUNT = 4
 const TOPIC_TARGET_PER_PACKAGE = {
-  bilangan: 3,
-  aljabar: 6,
-  geometri: 5,
-  trigonometri: 3,
+  bilangan: 2,
+  aljabar: 4,
+  geometri: 4,
+  trigonometri: 2,
   peluang: 3
-} // 3 + 6 + 5 + 3 + 3 = 20 soal/paket
+} // 2 + 4 + 4 + 2 + 3 = 15 soal/paket
 
 function buildPackages() {
   const packages = Array.from({ length: PACKAGE_COUNT }, () => [])
@@ -685,7 +685,7 @@ questions.forEach((q, index) => {
 
 })
 
-const timeLeft = ref(40 * 60)
+const timeLeft = ref(25 * 60)
 
 let timerInterval = null
 

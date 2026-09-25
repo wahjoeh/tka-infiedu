@@ -22,12 +22,12 @@
           <h3>Bahasa Indonesia</h3>
         </button>
 
-        <button class="subject-card disabled-card" disabled>
+        <button class="subject-card" @click="goToEnglish">
           <div class="subject-icon">🌍</div>
           <h3>Bahasa Inggris</h3>
         </button>
 
-        <button class="subject-card disabled-card" disabled>
+        <button class="subject-card" @click="goToIPAS">
           <div class="subject-icon">🧪</div>
           <h3>IPA</h3>
         </button>
@@ -58,8 +58,8 @@ const goToEnglish = () => {
   router.push('/smp/practice/english')
 }
 
-const goToScience = () => {
-  router.push('/smp/practice/science')
+const goToIPAS = () => {
+  router.push('/smp/practice/ipas')
 }
 
 const goBack = () => {

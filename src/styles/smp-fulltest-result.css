@@ -2,6 +2,12 @@
    SCORE SUMMARY (FULLTEST SD)
 ========================= */
 
+.math-exponent{
+  font-size:.72em;
+  line-height:0;
+  vertical-align:super;
+}
+
 .score-summary{
   display:flex;
   gap:20px;

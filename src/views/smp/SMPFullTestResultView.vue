@@ -8,7 +8,7 @@
 
       <div class="banner-right">
         <h4>Simulasi Lengkap</h4>
-        <p>Bahasa Indonesia + Matematika</p>
+        <p>Bahasa Indonesia + Bahasa Inggris + Matematika + IPA</p>
       </div>
     </div>
 
@@ -27,23 +27,14 @@
       </div>
 
       <div class="score-summary">
-        <div class="score-card">
-          <h3>Bahasa Indonesia</h3>
-          <p class="score-number">
-            {{ result.indo.correctCount }} / {{ result.indo.total }}
-          </p>
-        </div>
-
-        <div class="score-card">
-          <h3>Matematika</h3>
-          <p class="score-number">
-            {{ result.math.correctCount }} / {{ result.math.total }}
-          </p>
+        <div v-for="section in sections" :key="section.label" class="score-card">
+          <h3>{{ section.label.split(' (')[0] }}</h3>
+          <p class="score-number">{{ section.correctCount }} / {{ section.total }}</p>
         </div>
       </div>
 
       <div
-        v-for="section in [result.indo, result.math]"
+        v-for="section in sections"
         :key="section.label"
         class="subject-section"
       >
@@ -71,13 +62,13 @@
                     empty: item.userAnswer === 'Tidak dijawab'
                   }"
                 >
-                  {{ item.userAnswer }}
+                  <span v-html="formatReviewAnswer(item.userAnswer)"></span>
                 </div>
               </td>
 
               <td>
                 <div class="key-box">
-                  {{ item.correctAnswer }}
+                  <span v-html="formatReviewAnswer(item.correctAnswer)"></span>
                 </div>
               </td>
             </tr>
@@ -115,10 +106,24 @@
 import '../../styles/result.css'
 import '../../styles/smp-fulltest-result.css'
 import { useRouter } from 'vue-router'
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 
 const router = useRouter()
 const result = ref(null)
+const sections = computed(() => result.value
+  ? [result.value.indo, result.value.english, result.value.math, result.value.ipas].filter(Boolean)
+  : [])
+
+const formatReviewAnswer = (answer) => {
+  const escaped = String(answer ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+
+  return escaped.replace(/\^\{?(-?\d+)\}?/g, '<sup class="math-exponent">$1</sup>')
+}
 
 onMounted(() => {
   const saved = sessionStorage.getItem('smpFullTestResult')

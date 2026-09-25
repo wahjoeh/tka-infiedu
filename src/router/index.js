@@ -28,7 +28,9 @@ import SMPIndoPackageView from '../views/smp/indo/SMPIndoPackageView.vue'
 import SMPMathView from '../views/smp/math/SMPMathView.vue'
 import SMPIndoView from '../views/smp/indo/SMPIndoView.vue'
 import SMPEnglishView from '../views/smp/english/SMPEnglishView.vue'
-import SMPScienceView from '../views/smp/science/SMPScienceView.vue'
+import SMPIPASView from '../views/smp/ipas/SMAIPASView.vue'
+import SMPEnglishTestView from '../views/smp/english/SMPEnglishTestView.vue'
+import SMPIPASTestView from '../views/smp/ipas/SMAIPASTestView.vue'
 
 // SMP Math Test
 import SMPMathTestView from '../views/smp/math/SMPMathTestView.vue'
@@ -48,6 +50,18 @@ import SMAMathView from '../views/sma/math/SMAMathView.vue'
 import SMAIndoView from '../views/sma/indo/SMAIndoView.vue'
 import SMAEnglishView from '../views/sma/english/SMAEnglishView.vue'
 import SMAScienceView from '../views/sma/science/SMAScienceView.vue'
+import SMASosiologiView from '../views/sma/sosiologi/SMASosiologiView.vue'
+import SMASosiologiPackageView from '../views/sma/sosiologi/SMASosiologiPackageView.vue'
+import SMASosiologiTestView from '../views/sma/sosiologi/SMASosiologiTestView.vue'
+import SMAEkonomiView from '../views/sma/ekonomi/SMAEkonomiView.vue'
+import SMAEkonomiPackageView from '../views/sma/ekonomi/SMAEkonomiPackageView.vue'
+import SMAEkonomiTestView from '../views/sma/ekonomi/SMAEkonomiTestView.vue'
+import SMABiologiView from '../views/sma/biologi/SMABiologiView.vue'
+import SMABiologiPackageView from '../views/sma/biologi/SMABiologiPackageView.vue'
+import SMABiologiTestView from '../views/sma/biologi/SMABiologiTestView.vue'
+import SMAFisikaView from '../views/sma/fisika/SMAFisikaView.vue'
+import SMAFisikaPackageView from '../views/sma/fisika/SMAFisikaPackageView.vue'
+import SMAFisikaTestView from '../views/sma/fisika/SMAFisikaTestView.vue'
 
 // SMA Math Test
 import SMAMathTestView from '../views/sma/math/SMAMathTestView.vue'
@@ -133,9 +147,27 @@ const routes = [
     component: SMPEnglishView
   },
   {
+    path: '/smp/practice/ipas',
+    name: 'smp-ipas',
+    component: SMPIPASView
+  },
+  {
     path: '/smp/practice/science',
-    name: 'smp-science',
-    component: SMPScienceView
+    redirect: '/smp/practice/ipas'
+  },
+  {
+    path: '/smp/practice/english/test',
+    name: 'smp-english-test',
+    component: SMPEnglishTestView
+  },
+  {
+    path: '/smp/practice/ipas/test',
+    name: 'smp-ipas-test',
+    component: SMPIPASTestView
+  },
+  {
+    path: '/smp/practice/science/test',
+    redirect: '/smp/practice/ipas/test'
   },
 
     // SMP Full Test (gabungan Bahasa Indonesia + Matematika)
@@ -202,6 +234,66 @@ const routes = [
     name: 'sma-science',
     component: SMAScienceView
   },
+  {
+    path: '/sma/practice/sosiologi',
+    name: 'sma-sosiologi',
+    component: SMASosiologiView
+  },
+  {
+    path: '/sma/practice/sosiologi/packages',
+    name: 'sma-sosiologi-packages',
+    component: SMASosiologiPackageView
+  },
+  {
+    path: '/sma/practice/sosiologi/test',
+    name: 'sma-sosiologi-test',
+    component: SMASosiologiTestView
+  },
+  {
+    path: '/sma/practice/ekonomi',
+    name: 'sma-ekonomi',
+    component: SMAEkonomiView
+  },
+  {
+    path: '/sma/practice/ekonomi/packages',
+    name: 'sma-ekonomi-packages',
+    component: SMAEkonomiPackageView
+  },
+  {
+    path: '/sma/practice/ekonomi/test',
+    name: 'sma-ekonomi-test',
+    component: SMAEkonomiTestView
+  },
+  {
+    path: '/sma/practice/biologi',
+    name: 'sma-biologi',
+    component: SMABiologiView
+  },
+  {
+    path: '/sma/practice/biologi/packages',
+    name: 'sma-biologi-packages',
+    component: SMABiologiPackageView
+  },
+  {
+    path: '/sma/practice/biologi/test',
+    name: 'sma-biologi-test',
+    component: SMABiologiTestView
+  },
+  {
+    path: '/sma/practice/fisika',
+    name: 'sma-fisika',
+    component: SMAFisikaView
+  },
+  {
+    path: '/sma/practice/fisika/packages',
+    name: 'sma-fisika-packages',
+    component: SMAFisikaPackageView
+  },
+  {
+    path: '/sma/practice/fisika/test',
+    name: 'sma-fisika-test',
+    component: SMAFisikaTestView
+  },
 
   //PackageView
   {
@@ -261,8 +353,12 @@ router.beforeEach((to) => {
     '/sd/practice/math/test': { key: 'sdMathFullTestUnlocked', fallback: '/sd/practice/math' },
     '/smp/practice/indo/test': { key: 'smpIndoFullTestUnlocked', fallback: '/smp/practice/indo' },
     '/smp/practice/math/test': { key: 'smpMathFullTestUnlocked', fallback: '/smp/practice/math' },
+    '/smp/practice/english/test': { key: 'smpEnglishFullTestUnlocked', fallback: '/smp/practice/english' },
+    '/smp/practice/ipas/test': { key: 'smpIPASFullTestUnlocked', fallback: '/smp/practice/ipas' },
     '/sma/practice/indo/test': { key: 'smaIndoFullTestUnlocked', fallback: '/sma/practice/indo' },
     '/sma/practice/math/test': { key: 'smaMathFullTestUnlocked', fallback: '/sma/practice/math' },
+    '/sma/practice/ekonomi/test': { key: 'smaEkonomiFullTestUnlocked', fallback: '/sma/practice/ekonomi' },
+    '/sma/practice/fisika/test': { key: 'smaFisikaFullTestUnlocked', fallback: '/sma/practice/fisika' },
     '/sma/practice/english/test': { key: 'smaEnglishFullTestUnlocked', fallback: '/sma/practice/english' }
   }
   const protectedCombinedTest = protectedCombinedFullTests[to.path]

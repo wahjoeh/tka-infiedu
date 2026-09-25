@@ -154,6 +154,18 @@ body{
   line-height:1.7;
 }
 
+.math-exponent{
+  font-size:.72em;
+  line-height:0;
+  vertical-align:super;
+}
+
+.reading-paragraph ol.statement-list,
+.question-right ol.statement-list{
+  padding-inline-start:3.25em;
+  text-indent:0;
+}
+
 .options{
   display:flex;
   flex-direction:column;

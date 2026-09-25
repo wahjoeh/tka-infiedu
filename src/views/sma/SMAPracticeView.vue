@@ -27,9 +27,24 @@
           <h3>Bahasa Inggris</h3>
         </button>
 
-        <button class="subject-card disabled-card" disabled>
-          <div class="subject-icon">🧪</div>
-          <h3>IPA</h3>
+        <button class="subject-card" @click="goToSosiologi">
+          <div class="subject-icon">👥</div>
+          <h3>Sosiologi</h3>
+        </button>
+
+        <button class="subject-card" @click="goToEkonomi">
+          <div class="subject-icon">📈</div>
+          <h3>Ekonomi</h3>
+        </button>
+
+        <button class="subject-card" @click="goToBiologi">
+          <div class="subject-icon">🧬</div>
+          <h3>Biologi</h3>
+        </button>
+
+        <button class="subject-card" @click="goToFisika">
+          <div class="subject-icon">⚛️</div>
+          <h3>Fisika</h3>
         </button>
       </div>
 
@@ -58,8 +73,20 @@ const goToEnglish = () => {
   router.push('/sma/practice/english')
 }
 
-const goToScience = () => {
-  router.push('/sma/practice/science')
+const goToSosiologi = () => {
+  router.push('/sma/practice/sosiologi')
+}
+
+const goToEkonomi = () => {
+  router.push('/sma/practice/ekonomi')
+}
+
+const goToBiologi = () => {
+  router.push('/sma/practice/biologi')
+}
+
+const goToFisika = () => {
+  router.push('/sma/practice/fisika')
 }
 
 const goBack = () => {
