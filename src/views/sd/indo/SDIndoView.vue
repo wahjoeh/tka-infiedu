@@ -51,7 +51,7 @@ const router = useRouter()
 const password = ref('')
 const passwordError = ref(false)
 const showPasswordDialog = ref(false)
-const FULL_TEST_PASSWORD = 'asd'
+const FULL_TEST_PASSWORD = 'infiedu'
 
 const goToTrial = () => router.push('/sd/practice/indo/test?mode=trial')
 const openFullTest = () => {

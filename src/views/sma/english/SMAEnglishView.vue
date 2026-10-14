@@ -38,7 +38,7 @@ import '../../../styles/password-modal.css'
 
 const router = useRouter()
 const password = ref(''); const passwordError = ref(false); const showPasswordDialog = ref(false)
-const FULL_TEST_PASSWORD = 'asd'
+const FULL_TEST_PASSWORD = 'infiedu'
 
 const goToTrial = () => router.push('/sma/practice/english/test?mode=trial')
 const openFullTest = () => { if (password.value !== FULL_TEST_PASSWORD) { passwordError.value = true; return }; sessionStorage.setItem('smaEnglishFullTestUnlocked', 'true'); router.push('/sma/practice/english/test?mode=fulltest') }

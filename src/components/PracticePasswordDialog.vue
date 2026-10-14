@@ -18,7 +18,7 @@ import { ref, watch } from 'vue'
 import '../styles/password-modal.css'
 
 // Ubah nilai ini untuk mengganti password seluruh pemakaian komponen.
-const PRACTICE_PASSWORD = 'asd'
+const PRACTICE_PASSWORD = 'infiedu'
 
 const props = defineProps({ visible: Boolean })
 const emit = defineEmits(['close', 'unlocked'])

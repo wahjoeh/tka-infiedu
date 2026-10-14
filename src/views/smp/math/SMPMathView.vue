@@ -38,7 +38,7 @@ import '../../../styles/password-modal.css'
 
 const router = useRouter()
 const password = ref(''); const passwordError = ref(false); const showPasswordDialog = ref(false)
-const FULL_TEST_PASSWORD = 'asd'
+const FULL_TEST_PASSWORD = 'infiedu'
 
 const goToTrial = () => router.push('/smp/practice/math/test?mode=trial')
 const openFullTest = () => { if (password.value !== FULL_TEST_PASSWORD) { passwordError.value = true; return }; sessionStorage.setItem('smpMathFullTestUnlocked', 'true'); router.push('/smp/practice/math/test?mode=fulltest') }
