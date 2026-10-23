@@ -87,6 +87,8 @@ const subjectName = computed(() => (
     ? 'Ekonomi'
     : subject.value === 'english'
     ? 'Bahasa Inggris'
+    : subject.value === 'fisika'
+      ? 'Fisika'
     : subject.value === 'ipas' || subject.value === 'science'
       ? 'IPA'
     : subject.value === 'biologi'
@@ -107,6 +109,8 @@ const resultStorageKey = computed(() => (
       ? 'scienceResult'
     : subject.value === 'biologi'
       ? 'smaBiologiResult'
+    : subject.value === 'fisika'
+      ? 'smaFisikaResult'
     : subject.value === 'sosiologi'
       ? 'smaSosiologiResult'
       : 'indoResult'
@@ -155,6 +159,11 @@ const goBack = () => {
 
   if (subject.value === 'biologi') {
     router.push('/sma/practice/biologi')
+    return
+  }
+
+  if (subject.value === 'fisika') {
+    router.push('/sma/practice/fisika')
     return
   }
 

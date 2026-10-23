@@ -876,7 +876,7 @@ const submitTest = () => {
     JSON.stringify(resultData)
   )
 
-  router.push('/result')
+  router.push('/result?subject=fisika')
 
 }
 

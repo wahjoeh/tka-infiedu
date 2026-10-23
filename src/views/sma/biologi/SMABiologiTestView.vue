@@ -858,11 +858,11 @@ const submitTest = () => {
   })
 
   sessionStorage.setItem(
-    'smaMathResult',
+    'smaBiologiResult',
     JSON.stringify(resultData)
   )
 
-  router.push('/result')
+  router.push('/result?subject=biologi')
 
 }
 
