@@ -83,7 +83,9 @@ const results = ref([])
 const subject = computed(() => route.query.subject || 'indo')
 
 const subjectName = computed(() => (
-  subject.value === 'english'
+  subject.value === 'ekonomi'
+    ? 'Ekonomi'
+    : subject.value === 'english'
     ? 'Bahasa Inggris'
     : subject.value === 'ipas' || subject.value === 'science'
       ? 'IPA'
@@ -95,7 +97,9 @@ const subjectName = computed(() => (
 ))
 
 const resultStorageKey = computed(() => (
-  subject.value === 'english'
+  subject.value === 'ekonomi'
+    ? 'smaEkonomiResult'
+    : subject.value === 'english'
     ? 'englishResult'
     : subject.value === 'ipas'
       ? 'smpIpaResult'
@@ -129,6 +133,11 @@ onMounted(() => {
 })
 
 const goBack = () => {
+  if (subject.value === 'ekonomi') {
+    router.push('/sma/practice/ekonomi')
+    return
+  }
+
   if (subject.value === 'english') {
     router.push(`/${route.query.level || 'sma'}/practice/english`)
     return
